@@ -3,9 +3,9 @@
 
 /* image d'en-tête sur page d'accueil */
 .ds-fw-header {
-  min-height: 10vh;
-  height: 10vh;
-  background-position: left 8%;
+  min-height: 50vh;
+  height: 50vh;
+  background-position: left 29%;
 }
 
 /* horaire des messes à l'horizontal
