@@ -1,0 +1,627 @@
+/*
+ Theme Name:     Sanctuaire du Sacré-Coeur de Beauvoir
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/* Les couleurs
+
+rouge      : #BF0404
+bleu foncé : #1B3E59
+gris pale  : #D7DADB
+gris foncé : #4A4A4A
+vert-bleu  : #008B83
+jaune pale : #FFE9A3
+
+bleu pale de Divi-Den Falkor : #1f5dea (bouton) et #0080ff (titre)
+bleu foncé de Divi-Den Falkor : #1f2532
+
+*/
+
+/* header pour versions mobile, tablette et petit écran
+------------------------------------------------------------------------ */
+@import "mobile-default-header.css";
+
+/* recherche pour versions mobile, tablette et petit écran
+------------------------------------------------------------------------ */
+@import "mobile-search.css";
+
+/* menu pour versions mobile, tablette et petit écran
+------------------------------------------------------------------------ */
+/* @import "mobile-style-gradient-back.css"; */
+@import "mobile-style-image-back.css";
+/* @import "mobile-test.css"; */
+
+/* contenu de la page d'accueil
+------------------------------------------------------------------------ */
+@import "style-home.css";
+
+/* footer
+------------------------------------------------------------------------ */
+@import "style-footer.css";
+
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+/* largeur du formulaire de recherche */
+#main-header .et_search_form_container {
+  width: 50% !important;
+}
+
+/* grosseur du input de recherche */
+#main-header .et-search-field {
+  font-size: 20px !important;
+}
+
+/* boutons */
+#horaires-section-desktop .my-buttons,
+#horaires-section-desktop .my-buttons:hover {
+  padding: 10px 30px !important;
+}
+#horaires-section-desktop .my-buttons:hover,
+#horaires-section-desktop-test .my-buttons:hover,
+#horaires-section-mobile .my-buttons:hover,
+#horaires-section-mobile-test .my-buttons:hover {
+  opacity: .7;
+}
+
+/* cache section vide apparaissant sous footer */
+footer#main-footer > #my-footer + .et_pb_section {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Break point pour version grand écran
+---------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1366px) {
+
+  /* effet hover
+  ------------------------------------------*/
+
+  #et-info-email:hover,
+  #et-secondary-menu > ul > li > a:hover,
+  #top-menu-nav > ul > li > a:hover,
+  .et-social-icons a:hover {
+    /* opacity: 1; */
+  }
+
+  #et-secondary-menu > ul > li > a:hover {
+    /* color: #ffe9a3; */
+    /* transition: all .3s ease-in-out; */
+  }
+
+  /* Menu principal et Logo
+  ------------------------------------------*/
+
+  /* espace autour du logo */
+  img#logo {
+    padding: 1em;
+  }
+
+  /* pointeur du curseur sur menu comportant un sous-menu */
+  .no-url-link > a:hover {
+    cursor: pointer;
+  }
+
+  /* flèches indiquant un sous-menu */
+  #et-secondary-nav .menu-item-has-children > a:first-child::after,
+  #top-menu .menu-item-has-children > a:first-child::after {
+  	/* content: "\35"; */
+  }
+  #et-secondary-nav .menu-item-has-children:hover > a:first-child::after,
+  #top-menu .menu-item-has-children:hover > a:first-child::after {
+  	/* content: "\33"; */
+  }
+  #et-secondary-nav .sub-menu .menu-item-has-children > a:first-child::after,
+  #top-menu .sub-menu .menu-item-has-children > a:first-child::after {
+  	content: "\35";
+  }
+
+  /* espace entre les menus et la loupe */
+  #top-menu li:last-of-type {
+    /* margin-right: 60px; */
+  }
+
+  /* repositionne la loupe */
+  .et_header_style_centered #et_search_icon::before {
+    padding: 0.5em;
+    top: -24px;
+  }
+
+  /* Jumping header Fix */
+  /* https://divi.space/divi-tutorials/fixing-the-jumping-header-issue-in-divi/ */
+  #page-container { padding-top: 211px !important; }
+  #main-header { top: 40px !important; }
+
+  /* espace au-dessus du champ de recherche */
+  .et_header_style_centered .et-search-form input,
+  .et_header_style_centered span.et_close_search_field {
+    top: 65%;
+  }
+
+  /* espace sous menu principal */
+  #main-header #top-menu > li > a {
+    padding-bottom: 24px;
+  }
+
+  /* menu en majuscule */
+  header#main-header nav#top-menu-nav {
+    text-transform: uppercase;
+  }
+
+  /* Menu secondaire
+  ------------------------------------------*/
+
+  /* hauteur de la barre du menu en haut */
+  #top-header .container {
+    line-height: 19px;
+    /* height: 40px; */
+  }
+
+  /* grosseur de police du menu en haut */
+  ul#et-secondary-nav.menu a {
+    font-size: 14px;
+  }
+
+  /* espace au-dessus menu secondaire */
+  #et-secondary-nav {
+    margin-top: -5px;
+  }
+
+  /* ensemble des médias sociaux */
+  #top-header .et-social-icons {
+    float: right !important;
+  }
+
+  /* liens médias-sociaux (ajoutés manuellement) */
+  ul#et-secondary-nav .my-social-links > a {
+    font-size: 24px;
+    padding-bottom: 0;
+    position: relative;
+    top: 6px;
+  }
+
+  /* liens médias-sociaux (par défaut) */
+  #top-header .et-social-icon a::before,
+  #top-header .et-social-icon a {
+    font-size: 24px !important;
+    padding-bottom: 0 !important;
+    top: 3px;
+  }
+
+  /* espace entre médias-sociaux et langages */
+  ul#et-secondary-nav.menu li:last-child {
+    /* margin-right: 7vw; */
+  }
+
+  /* espace à gauche des langages */
+  ul#et-secondary-nav.menu li:nth-child(4) {
+    margin-right: 7vw;
+  }
+
+  /* Menu fixe
+  ------------------------------------------*/
+
+  /* espace sous menu principal */
+  #main-header.et-fixed-header #top-menu > li > a {
+    margin-bottom: 16px;
+  }
+
+  /* durée de transition lorsqu'on passe de non fixe à fixe */
+  #main-header,
+  #top-header {
+  	transition: 0.3s linear;
+  	-moz-transition: 0.3s linear;
+  	-webkit-transition: 0.3s linear;
+  }
+
+  /* cache le top header */
+  #top-header.et-fixed-header {
+  	top: -40px !important;
+  }
+   /* repositionne le main-header */
+  #main-header.et-fixed-header {
+  	top: 0 !important;
+  }
+
+  /* espace autour du logo dans menu fixe */
+  .et-fixed-header #logo {
+    padding: 0.5em;
+  }
+
+  /* annule effet transition du logo */
+  .et-fixed-header #logo {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    transition: none !important;
+  }
+
+  /* partie logo se place à gauche */
+  .et_header_style_centered #main-header.et-fixed-header .et_menu_container .logo_container {
+    float: left;
+    width: 25%;
+    height: 90px;
+    transition-delay: -0.5s;
+  }
+
+  /* partie navigation se place à droite */
+  .et_header_style_centered #main-header.et-fixed-header #et-top-navigation {
+    width: 75%;
+    float: right;
+    line-height: 90px;
+  }
+
+  /* annule effet transition de la partie navigation */
+  .et_fixed_nav #et-top-navigation {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    transition: none !important;
+  }
+
+  /* repositionne le champ de recherche (espace au-dessus) */
+  .et_header_style_centered .et-fixed-header .et-search-form input,
+  .et_header_style_centered .et-fixed-header span.et_close_search_field,
+  .et_header_style_centered .et-fixed-header .et-search-form {
+    top: 0;
+  }
+
+  /* repositionne vers la droite le champ de recherche */
+  .et_fullwidth_nav #main-header.et-fixed-header .et_search_form_container {
+    left: 50vh;
+  }
+
+  /* Jumping search Fix when pass from non fixed to fixed header and vice-versa */
+  .et_fullwidth_nav #main-header.et-fixed-header .container.et_pb_search_visible,
+  .et_fullwidth_nav #main-header.et-fixed-header .container.et_pb_is_animating {
+    height: 90px !important;
+  }
+
+  /* Jumping search Fix when pass from fixed to non fixed header */
+  .et_fullwidth_nav #main-header .container.et_pb_search_visible,
+  .et_fullwidth_nav #main-header .container.et_pb_is_animating {
+    height: 172px !important;
+  }
+
+  /* repositionne la loupe */
+  .et_header_style_centered .et-fixed-header #et_search_icon::before {
+    top: -22px;
+  }
+
+  /* Sous-menu du menu principal
+  ------------------------------------------*/
+
+  #top-menu li:nth-child(1) ul,
+  #top-menu li:nth-child(1) li a,
+  #top-menu li:nth-child(1) li ul {
+    width: 260px;
+  }
+
+  #top-menu li:nth-child(2) ul,
+  #top-menu li:nth-child(2) li a,
+  #top-menu li:nth-child(2) li ul {
+    width: 320px;
+  }
+
+  #top-menu li:nth-child(3) ul,
+  #top-menu li:nth-child(3) li a,
+  #top-menu li:nth-child(3) li ul {
+    width: 320px;
+  }
+
+  #top-menu li:nth-child(4) ul,
+  #top-menu li:nth-child(4) li a,
+  #top-menu li:nth-child(4) li ul {
+    width: 260px;
+  }
+
+  #top-menu li ul {
+    padding: 0;
+    border-top: 0px;
+  }
+
+  #top-menu li li {
+    padding: 0;
+    margin: 0;
+  }
+
+  #top-menu li li a {
+    font-size: 15px;
+    margin: 0;
+    transition: all .2s ease-in-out;
+    text-transform: none;
+    /* border-top: 1px solid #D7DADB; */
+  }
+
+  #top-menu li li a:hover {
+    color: white;
+    background-color: #1b3e59;
+    opacity: 1 !important;
+  }
+
+  /* drop down menu - level 2 */
+  #top-menu li li ul {
+    padding: 0;
+    top: 0px;
+  }
+
+}
+
+/* Break point pour versions mobile, tablette et petit écran
+---------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1365px) {
+
+  /* cache menu secondaire et la navigation du menu principal */
+  #top-header,
+  #top-menu-nav {
+    display: none !important;
+  }
+
+  /* Jumping header Fix */
+  #page-container { padding-top: 90px !important; }
+  #main-header { top: 0px !important; }
+
+  /* fixe hauteur et padding du header */
+  #main-header,
+  #main-header .logo_container {
+    height: 90px !important;
+    padding: 0 !important;
+  }
+
+  /* rend le header non fixe */
+  #main-header {
+    position: fixed !important;
+  }
+
+  /* rend clickable le hamburger */
+  .mobile_nav.closed .mobile_menu_bar {
+    z-index: 3;
+  }
+
+  /* dimensionne le logo */
+  #logo {
+      max-height: 70px !important;
+  }
+
+  /* positionne la loupe et le hamburger */
+  #et-top-navigation {
+    top: 8px;
+  }
+
+  /* assure que le hamburger apparaisse sur petits écrans */
+  #et_mobile_nav_menu {
+    display: block !important;
+  }
+
+  /* annule les transitions du logo */
+  #main-header .logo_container {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    transition: none !important;
+  }
+
+  /* redimentionne le hamburger */
+  .mobile_nav.closed .mobile_menu_bar::before {
+    color: #1B3E59 !important;
+    font-size: 56px !important;
+  }
+
+  /* positionne le hamburger */
+  #et_mobile_nav_menu {
+    position: relative;
+    top: 5px;
+    right: -10px;
+  }
+
+  /* redimentionne la loupe */
+  #et_search_icon:before {
+    font-size: 36px !important;
+  }
+
+  /* positionne la loupe */
+  #et_top_search {
+    top: 14px;
+    left: -44px;
+  }
+
+  /* espace au-dessus du input et x de recherche */
+  #main-header .et-search-form input,
+  #main-header span.et_close_search_field {
+    top: 20px !important;
+  }
+
+  /* largeur et position du formulaire de recherche */
+  #main-header .et_search_form_container {
+    width: 40% !important;
+    left: 160px;
+  }
+
+  /* positionne x de recherche */
+  #main-header .et_close_search_field::after {
+    margin-left: 8px;
+  }
+
+  /* le x du menu lorsque ouvert */
+  .mobile_nav.opened .mobile_menu_bar:before {
+    color: #1B3E59 !important;
+    border: none;
+    font-size: 56px;
+  }
+
+  /* annule uppercase des sous-menus */
+  .et_mobile_menu li.menu-item-has-children li a {
+    text-transform: none !important;
+  }
+
+  /* largeur et position du menu */
+  .et_mobile_menu > li {
+    width: 70%;
+    margin: 0 auto 0 10%;
+  }
+
+  .et_primary_nav_dropdown_animation_slide #et-top-navigation ul li:hover > ul,
+  .et_secondary_nav_dropdown_animation_slide #et-secondary-nav li:hover > ul {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+  }
+
+}
+
+/* Break point pour version petit écran - ajustements pour l'en-tête fixe
+---------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+
+  /* redimentionne l'en-tête fixe */
+  .et_fullwidth_nav #main-header .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /* redimentionne le logo dans l'en-tête fixe */
+  #main-header.et-fixed-header #logo {
+    max-width: 98%  !important;
+  }
+
+  /* redimentionne l'espace pour le logo dans l'en-tête fixe */
+  #main-header.et-fixed-header .logo_container {
+    width: 21% !important;
+  }
+
+  /* redimentionne l'espace pour le menu dans l'en-tête fixe */
+  #main-header.et-fixed-header #et-top-navigation {
+    width: 79% !important;
+  }
+
+  /* donne la pleine largeur de l'écran à l'en-tête */
+  .container.clearfix.et_menu_container {
+    /* width: 100% !important; */
+  }
+
+}
+
+/* Break point pour version petit écran - ajustements mineurs
+---------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 981px) and (max-width: 1365px) {
+
+  /* enlève padding gauche et droite du container de menu */
+  #main-header .container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    /* width: 80% !important; */
+  }
+
+  /* repositionne le hamburger */
+  #et_mobile_nav_menu {
+    top: 7px;
+    right: -49px;
+  }
+
+  /* repositionne la loupe */
+  #et_top_search {
+    top: 11px;
+    left: -80px;
+  }
+
+  /* repositionne le input de recherche */
+  .et_fullwidth_nav .et-search-form {
+    right: 0px;
+    top: 0px !important;
+  }
+
+  /* refixe la largeur du container de input et x de recherche */
+  .et_search_outer .et_search_form_container {
+    width: 80% !important;
+  }
+
+}
+
+/* Break point pour version mobile portrait
+---------------------------------------------------------------------------------------------- */
+
+@media all and (max-width: 479px) {
+
+  /* largeur du menu */
+  .container.clearfix.et_menu_container {
+    width: 98% !important;
+  }
+
+  /* redimentionne le logo */
+  #main-header .logo_container {
+    max-width: 74% !important;
+  }
+  #main-header #logo {
+    max-width: 98% !important;
+  }
+
+  /* redimentionne le hamburger */
+  .mobile_nav.closed .mobile_menu_bar::before {
+    font-size: 48px !important;
+  }
+
+  /* redimentionne le x du menu lorsque ouvert */
+  .mobile_nav.opened .mobile_menu_bar:before {
+    font-size: 48px;
+  }
+
+  /* redimentionne la loupe */
+  #et_search_icon:before {
+    font-size: 30px !important;
+  }
+
+  /* repositionne le hamburger */
+  #et_mobile_nav_menu {
+    top: 10px !important;
+  }
+
+  /* repositionne la loupe */
+  #et_top_search {
+    top: 18px !important;
+    left: -12px !important;
+  }
+
+}
+
+/* Break point pour version mobile - ajustements recherche dans l'en-tête
+---------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+  /* largeur du formulaire de recherche */
+  #main-header .et_search_form_container {
+    width: 80% !important;
+    left: 0px;
+  }
+
+  /* adjuste horizontalement le input de recherche */
+  .et-search-form input {
+     /* left: 0px !important; */
+  }
+
+  /* background blanc derrière formulaire de recherche - non activé */
+  #main-header .et_search_outer {
+    background-color: white;
+    z-index: -99999;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+  }
+
+  /* background blanc derrière formulaire de recherche - activé */
+  #main-header .et_pb_menu_hidden + .et_search_outer {
+    opacity: 1;
+    z-index: 99999;
+  }
+
+}

@@ -1,0 +1,41 @@
+
+
+/* Break point pour version grand écran
+---------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1366px) {
+
+
+}
+
+/* Break point pour versions mobile, tablette et petit écran
+---------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1365px) {
+
+
+}
+
+/* Break point pour version mobile portrait
+---------------------------------------------------------------------------------------------- */
+
+@media all and (max-width: 479px) {
+
+
+}
+
+/* Break point pour versions mobile landscape et tablette
+---------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 980px) {
+
+
+}
+
+/* Break point pour versions tablette et petit écran
+---------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 981px) and (max-width: 1365px) {
+
+
+}
