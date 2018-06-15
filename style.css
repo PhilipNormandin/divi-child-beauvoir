@@ -27,12 +27,6 @@ bleu foncé de Divi-Den Falkor : #1f2532
 
 */
 
-.ds-fw-header {
-  min-height: 50vh;
-  height: 50vh;
-  background-position: left 29%;
-}
-
 /* header pour versions mobile, tablette et petit écran
 ------------------------------------------------------------------------ */
 @import "mobile-default-header.css";
