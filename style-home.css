@@ -8,6 +8,12 @@
   background-position: left 29%;
 }
 
+#evenements-accueil-section h2 {
+  /* font-size: 32px; */
+  /* text-align: center; */
+  /* text-transform: uppercase; */
+}
+
 /* horaire des messes à l'horizontal
 ----------------------------------------------------------- */
 
@@ -18,7 +24,7 @@
 
 #horaires-section-desktop-test .et_pb_column_1 {
   max-width: 600px;
-  min-width: 460px;
+  min-width: 440px;
   width: 40%;
   margin-right: 0;
 }
@@ -93,10 +99,10 @@
     transform-origin: 52% 59%;
 }
 
-/* Break point pour écrans de 1090px et moins
+/* Break point pour écrans de 1060px et moins
 ---------------------------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 1090px) {
+@media only screen and (max-width: 1060px) {
 
   /* affiche section horaire version mobile */
   #horaires-section-mobile {
@@ -113,12 +119,17 @@
     width: 96% !important;
   }
 
+  #evenements-accueil-section h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
 }
 
-/* Break point pour écrans de plus de 1090px
+/* Break point pour écrans de plus de 1060px
 ---------------------------------------------------------------------------------------------- */
 
-@media only screen and (min-width: 1091px) {
+@media only screen and (min-width: 1061px) {
 
   /* section horaire version desktop s'affiche par défaut dans cette largeur */
   /* section horaire version mobile se cache par défaut dans cette largeur */

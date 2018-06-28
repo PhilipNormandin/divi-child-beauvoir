@@ -16,9 +16,9 @@
 /* Les couleurs
 
 rouge      : #BF0404
-bleu foncé : #1B3E59
+bleu foncé : #1B3E59 #1f4766 http://www.0to255.com/1B3E59
 gris pale  : #D7DADB
-gris foncé : #4A4A4A
+gris foncé : #4A4A4A #525252 http://www.0to255.com/4a4a4a
 vert-bleu  : #008B83
 jaune pale : #FFE9A3
 
@@ -37,9 +37,7 @@ bleu foncé de Divi-Den Falkor : #1f2532
 
 /* menu pour versions mobile, tablette et petit écran
 ------------------------------------------------------------------------ */
-/* @import "mobile-style-gradient-back.css"; */
 @import "mobile-style-image-back.css";
-/* @import "mobile-test.css"; */
 
 /* contenu de la page d'accueil
 ------------------------------------------------------------------------ */
@@ -48,6 +46,10 @@ bleu foncé de Divi-Den Falkor : #1f2532
 /* footer
 ------------------------------------------------------------------------ */
 @import "style-footer.css";
+
+/* retirer le sidebar de certaines pages
+------------------------------------------------------------------------ */
+@import "event-single-page.css";
 
 /* Propriétés globales
 ------------------------------------------------------------------------ */
@@ -78,6 +80,18 @@ bleu foncé de Divi-Den Falkor : #1f2532
 footer#main-footer > #my-footer + .et_pb_section {
   margin: 0 !important;
   padding: 0 !important;
+}
+
+/* test le plugin smart cropping */
+img.wpsmartcrop-image {
+  /* display: block !important; */
+  /* width: 100% !important; */
+  /* height: 30vh !important; */
+}
+
+
+.et-cart-info {
+  display:none;
 }
 
 /* Break point pour version grand écran
@@ -303,25 +317,25 @@ footer#main-footer > #my-footer + .et_pb_section {
   #top-menu li:nth-child(1) ul,
   #top-menu li:nth-child(1) li a,
   #top-menu li:nth-child(1) li ul {
-    width: 260px;
+    /* width: 300px; */
   }
 
   #top-menu li:nth-child(2) ul,
   #top-menu li:nth-child(2) li a,
   #top-menu li:nth-child(2) li ul {
-    width: 320px;
+    /* width: 300px; */
   }
 
   #top-menu li:nth-child(3) ul,
   #top-menu li:nth-child(3) li a,
   #top-menu li:nth-child(3) li ul {
-    width: 320px;
+    /* width: 300px; */
   }
 
   #top-menu li:nth-child(4) ul,
   #top-menu li:nth-child(4) li a,
   #top-menu li:nth-child(4) li ul {
-    width: 260px;
+    /* width: 300px; */
   }
 
   #top-menu li ul {
@@ -344,7 +358,7 @@ footer#main-footer > #my-footer + .et_pb_section {
 
   #top-menu li li a:hover {
     color: white;
-    background-color: #1b3e59;
+    background-color: #1f4766;
     opacity: 1 !important;
   }
 
@@ -412,7 +426,7 @@ footer#main-footer > #my-footer + .et_pb_section {
 
   /* redimentionne le hamburger */
   .mobile_nav.closed .mobile_menu_bar::before {
-    color: #1B3E59 !important;
+    color: #1f4766 !important;
     font-size: 56px !important;
   }
 
@@ -453,7 +467,7 @@ footer#main-footer > #my-footer + .et_pb_section {
 
   /* le x du menu lorsque ouvert */
   .mobile_nav.opened .mobile_menu_bar:before {
-    color: #1B3E59 !important;
+    color: #1f4766 !important;
     border: none;
     font-size: 56px;
   }
