@@ -294,12 +294,8 @@ img.wpsmartcrop-image {
   @media only screen and (min-width: 1530px) {
 
     /* repositionne à droite le logo dans menu fixe */
-    .et-fixed-header .logo_container {
-      display: flex;
-    }
-    .et-fixed-header a {
-      display: flex;
-      justify-content: flex-end;
+    .et-fixed-header a #logo{
+      float: right;
     }
   }
 
