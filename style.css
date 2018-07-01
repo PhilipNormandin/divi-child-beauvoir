@@ -95,6 +95,10 @@ img.wpsmartcrop-image {
   /* height: 30vh !important; */
 }
 
+/* pour tester */
+#top-header {
+  background-color: red !important;
+}
 
 .et-cart-info {
   display:none;
