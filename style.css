@@ -254,6 +254,7 @@ img.wpsmartcrop-image {
   #top-header.et-fixed-header {
   	top: -40px !important;
   }
+
    /* repositionne le main-header */
   #main-header.et-fixed-header {
   	top: 0 !important;
@@ -284,6 +285,18 @@ img.wpsmartcrop-image {
     width: 75%;
     float: right;
     line-height: 90px;
+  }
+
+  @media only screen and (min-width: 1530px) {
+
+    /* repositionne à droite le logo dans menu fixe */
+    .et-fixed-header .logo_container {
+      display: flex;
+    }
+    .et-fixed-header a {
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 
   /* annule effet transition de la partie navigation */
