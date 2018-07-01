@@ -27,6 +27,12 @@ bleu foncé de Divi-Den Falkor : #1f2532
 
 */
 
+/* les feuilles CSS de Falkor
+------------------------------------------------------------------------ */
+@import "falkor-footers.css";
+@import "falkor-blogs.css";
+@import "falkor-blurb.css";
+
 /* header pour versions mobile, tablette et petit écran
 ------------------------------------------------------------------------ */
 @import "mobile-default-header.css";
@@ -49,7 +55,7 @@ bleu foncé de Divi-Den Falkor : #1f2532
 
 /* retirer le sidebar de certaines pages
 ------------------------------------------------------------------------ */
-@import "event-single-page.css";
+/* @import "event-single-page.css"; */
 
 /* Propriétés globales
 ------------------------------------------------------------------------ */
@@ -218,9 +224,14 @@ img.wpsmartcrop-image {
     /* margin-right: 7vw; */
   }
 
-  /* espace à gauche des langages */
+  /* espace à droite de NOUS JOINDRE */
   ul#et-secondary-nav.menu li:nth-child(4) {
-    margin-right: 7vw;
+    margin-right: 0;
+  }
+
+  /* espace à gauche des langages */
+  ul#et-secondary-nav.menu li:nth-child(5) {
+    margin-left: 7vw;
   }
 
   /* Menu fixe

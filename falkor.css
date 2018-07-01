@@ -1,0 +1,1133 @@
+/* === Falkor Master CSS Changer File === */
+
+
+/* =============== General CSS =============== */
+
+
+/* === Background Color for Animated Lines === */
+
+body .et_pb_section .lines .line {
+    background-color: #0080ff !important;
+}
+
+.et_pb_section .blue_lines:before,
+.et_pb_section .blue_lines:after,
+.blurb_7_f .hover_line,
+.header_5_f .et_pb_slider .et_pb_slide .et_pb_slide_description h2,
+.header_5_f .et_pb_slider .et_pb_slide .et_pb_slide_description:before,
+.blue_line_before .et_pb_team_member_description:before,
+#page-container .lines_ba a,
+#page-container .lines_ba a:before,
+#page-container .lines_ba a:after,
+#page-container .lines_ba h2:before,
+#page-container .lines_ba h2:after{
+    border-color: #0080ff !important;
+}
+
+
+/* = Blue Links, white hover = */
+
+#page-container .blue_links a{
+    color: #0080ff !important;
+}
+
+#page-container .blue_links a:hover{
+    color: #fff !important;
+}
+
+
+/* = White Links, Blue hover = */
+
+#page-container .white_links a{
+    color: #fff !important;
+}
+
+#page-container .white_links a:hover{
+    color: #0080ff !important;
+}
+
+
+/* === Dark blue Link === */
+
+#page-container .dark_blue_links a{
+    color: #07215e !important;
+}
+
+#page-container .dark_blue_links a:hover{
+    color: #0080ff !important;
+}
+
+
+
+
+
+/* =============== Blog Modules =============== */
+
+
+/* === Right Left Blog Slider === */
+
+
+/* = Columns = */
+
+.falkor_blog .et_pb_slider .et_pb_slide.et-pb-active-slide:before {
+    color: #07215e;
+}
+
+.falkor_blog .et_pb_slider .et_pb_slide:hover:before {
+    color: #0080ff;
+}
+
+.falkor_blog .et_pb_slider .et_pb_slide:before {
+    content: "0" counter(section);
+    color: #ebebeb;
+}
+
+.falkor_blog .et_pb_slider .et_pb_slide .published {
+    font-size: 18px !important;
+}
+
+.falkor_blog .et_pb_slider .et_pb_slide.et-pb-moved-slide *,
+.falkor_blog .et_pb_slider .et_pb_slide.et-pb-active-slide * {
+    opacity: 1 !important;
+}
+
+
+/* = Slider Arrows = */
+
+.blog_slider .et-pb-slider-arrows a:hover {
+    opacity: 0.5 !important;
+}
+
+.blog_slider .et-pb-slider-arrows a {
+    opacity: 1 !important;
+    color: #0080ff !important;
+}
+
+.blog_slider .et-pb-slider-arrows a.et-pb-arrow-prev:before {
+    content: '#' !important;
+}
+
+.blog_slider .et-pb-slider-arrows a.et-pb-arrow-next:before {
+    content: '$' !important;
+}
+
+
+/* === Label Reveal Blog === */
+
+.falkor_blog_page_content article.et_pb_post a.entry-featured-image-url:after {
+    background-color: #fff;
+}
+
+.falkor_blog_page_content article.et_pb_post a.entry-featured-image-url:before {
+    content: 'Read More';
+    color: #fff;
+    opacity: 0;
+    font-size: 20px;
+
+}
+
+.falkor_blog_page_content article.et_pb_post:hover a.entry-featured-image-url:before {
+    opacity: 1;
+}
+
+.falkor_blog_page_content article.et_pb_post a.entry-featured-image-url {
+    background-color: #1f2532;
+    border: 0 solid #f2f2f2;
+}
+
+
+/* = Hover = */
+
+.falkor_blog_page_content article.et_pb_post .post-meta:before {
+    background-color: #fff;
+}
+
+.falkor_blog_page_content article.et_pb_post:hover .post-meta {
+    color: #000 !important;
+}
+
+.falkor_blog_page_content article.et_pb_post:hover a.entry-featured-image-url img {
+    opacity: 0.5;
+}
+
+
+/* === Square Reveal Blog === */
+
+.falkor_blog_3 article:before {
+    background-color: #fff;
+}
+
+.falkor_blog_3 article:hover:before {
+    opacity: 0.6 !important;
+    background-color: #07215e;
+}
+
+#page-container .falkor_blog_3 article:hover .post-content a,
+#page-container .falkor_blog_3 article:hover *{
+    color: #fff !important;
+}
+
+#page-container .falkor_blog_3 article .post-content a.more-link:hover {
+    opacity: 0.5;
+}
+
+#page-container .falkor_blog_3 article .post-content a {
+    color: #0080ff !important;
+    font-size: 16px;
+}
+
+.falkor_blog_3 article:after {
+    border-top: 4px solid #0080ff;
+}
+
+
+/* === Shutter Blog === */
+
+#page-container .falkor_blog_4 article .post-meta {
+    background-color: rgba(255, 255, 255, 1);
+    color: #1f2532 !important;
+}
+
+.falkor_blog_4 article {
+    background-color: #1f2532;
+}
+
+.falkor_blog_4 article .post-content:before {
+    background-color: #fff;
+}
+
+#page-container .falkor_blog_4 article .more-link {
+    color: #0080ff !important;
+}
+
+.falkor_blog_4 article:after {
+    border-top: 4px solid #0080ff;
+}
+
+.falkor_blog_4 article:hover .entry-featured-image-url img {
+    opacity: 0.5 !important;
+}
+
+#page-container .falkor_blog_4 article:hover .post-content p,
+#page-container .falkor_blog_4 article:hover .post-content a {
+    color: #fff !important;
+}
+
+
+
+
+
+/* =============== Blurb Modules =============== */
+
+/* === Square Blurb Module === */
+
+/* = Hover = */
+
+.blurb_2_f.view_port .et_pb_column:hover .et_pb_divider:before,
+.blurb_2_f.view_port .et_pb_column:hover .et_pb_text:before {
+    border-color: #0080ff;
+}
+
+.blurb_2_f.view_port .et_pb_column:hover .et_pb_text:after {
+    border-color: #0080ff;
+}
+
+
+/* === Compact Blurb Module === */
+
+.blurb_4_f .et_pb_column .et_pb_button:before,
+.blurb_4_f .et_pb_column .et_pb_button:after {
+    font-weight: 700 !important;
+    opacity: 1 !important;
+    font-family: ETmodules !important;
+    content: '$';
+    font-size: 16px !important;
+    line-height: 110% !important;
+}
+
+
+.blurb_4_f .et_pb_blurb h4:before {
+    background-color: #0080ff;
+}
+
+.blurb_4_f .et_pb_blurb h4:after {
+    background-color: #efeff2;
+}
+
+
+/* === Uppity Blurb Module === */
+
+.blurb_5_f .et_pb_blurb .et_pb_blurb_container {
+    background-color: #f9f9fa !important;
+}
+
+
+/* = Hover = */
+
+.blurb_5_f .et_pb_blurb .et_pb_blurb_container a {
+    color: #0080ff;
+    font-size: 18px !important;
+    font-weight: 700;
+}
+
+
+/* === Grow Blurb Module === */
+
+/* = Hovers = */
+
+.blurb_7_f .et_pb_column:hover .hover_line {
+    opacity: 1;
+}
+
+
+/* === Neat Blurb Module === */
+
+.blurb_8_f .et_pb_column .et_pb_blurb_container:before {
+    background-color: #fff;
+}
+
+
+/* = Hover = */
+
+.blurb_8_f .et_pb_column .et_pb_blurb:hover * {
+    color: #fff !important;
+}
+
+
+/* === Label Blurb Module === */
+
+/* = Image = */
+
+.blurb_9_f .et_pb_column .et_pb_main_blurb_image:before {
+    background-color: #000;
+    opacity: 0.1;
+}
+
+
+/* = Image on hover = */
+
+.blurb_9_f .et_pb_column .et_pb_blurb:hover .et_pb_main_blurb_image:before {
+    opacity: 0;
+}
+
+
+/* = Text = */
+
+.blurb_9_f .et_pb_blurb .et_pb_blurb_container .et_pb_blurb_description {
+    background-color: #fff;
+}
+
+
+/* === Whisper Blurb Module === */
+
+.blurb_11_f .et_pb_blurb .et_pb_blurb_container:before {
+    content: "U";
+    font-family: ETmodules !important;
+    font-size: 21px;
+}
+
+.blurb_11_f .et_pb_blurb .et_pb_main_blurb_image:before {
+    background-color: #333;
+}
+
+
+
+/* === Transform Blurb Module === */
+
+/* = Image = */
+
+.blurb_12_f .et_pb_row:last-child .et_pb_blurb .et_pb_main_blurb_image:before {
+    background: #000;
+}
+
+
+/* = Close button = */
+
+.close_button:before,
+.close_button:after {
+    background: #fff;
+}
+
+
+/* = Blurbs = */
+
+body.et-fb .blurb_12_f .et_pb_row:nth-child(3) .et_pb_blurb,
+.blurb_12_f .et_pb_row:last-child .et_pb_blurb {
+    background: #252525;
+}
+
+
+/* === Safe Blurb Module === */
+
+.blurb_14_f .et_pb_column_1_3:hover {
+    border-color: #efeff2;
+}
+
+
+/* = Cardinal Blurb Module = */
+
+.blurb_16_f .et_pb_blurb .et_pb_blurb_description a {
+    color: #fff !important;
+}
+
+
+/* === Left Line Blurb Module === */
+
+.blurb_17_f .et_pb_column .et_pb_blurb_container:after {
+    background-color: #efeff2;
+}
+
+.blurb_17_f .et_pb_column .et_pb_blurb_container:before {
+    background-color: #fff;
+}
+
+
+/* = Hover = */
+
+.blurb_17_f .et_pb_column .et_pb_blurb:hover h2,
+.blurb_17_f .et_pb_column .et_pb_blurb:hover h2 a {
+    font-weight: 600 !important;
+    letter-spacing: 0.2px;
+}
+
+.blurb_17_f .et_pb_column .et_pb_blurb:hover * {
+    color: #fff !important;
+}
+
+
+/* === Four Step Blurb Module === */
+
+.blurb_19_f .et_pb_column .et_pb_blurb_container:before {
+    background-color: #fff;
+    box-shadow: inset 0 0 0 1px #efeff2;
+}
+
+
+/* = Hover = */
+
+.blurb_19_f .et_pb_column .et_pb_blurb:hover .et_pb_blurb_description,
+.blurb_19_f .et_pb_column .et_pb_blurb:hover h2,
+.blurb_19_f .et_pb_column .et_pb_blurb:hover h2 a {
+    color: #fff !important;
+}
+
+.blurb_19_f .et_pb_blurb .et_pb_button_module_wrapper .et_pb_button:after {
+    font-weight: 700;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+
+/* === Drawer Blurb Module === */
+
+.blurb_20_f .et_pb_column .et_pb_blurb_container:before {
+    background-color: #1f2532;
+}
+
+.blurb_20_f .et_pb_column .et_pb_blurb_container {
+    background-color: #fff;
+    box-shadow: inset 0 0 0 1px #efeff2;
+}
+
+.blurb_20_f .et_pb_column .et_pb_blurb h2:after {
+    background-color: #efeff2;
+}
+
+
+/* === Bullseye Blurb Module === */
+
+.blurb_21_f .et_pb_column_1_3 .et_pb_main_blurb_image:before {
+    content: '$';
+    font-family: ETmodules !important;
+    line-height: 100% !important;
+    color: #fff !important;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+
+/* = Hover = */
+
+
+.blurb_21_f .et_pb_column_1_3:hover .et_pb_main_blurb_image {
+    background-color: #0080ff !important;
+}
+
+#page-container .blurb_21_f .et_pb_column_1_3:hover a.et_pb_button {
+    border-color: #0080ff !important;
+}
+
+
+/* === Game Of Blurb Module === */
+
+.blurb_22_f .et_pb_blurb h4:before {
+    background-color: #0080ff;
+}
+
+.blurb_22_f .et_pb_blurb h4:after {
+    background-color: #efeff2;
+}
+
+
+/* === Lightning Blurb Module === */
+.blurb_23_f .et_pb_blurb .et_pb_blurb_description:before {
+    background-color: #efeff2;
+}
+
+
+/* === Rubber Blurb Module === */
+
+.blurb_24_f .et_pb_column .et_pb_blurb_container:before {
+    background-color: #fff;
+}
+
+
+/* = Hover = */
+.blurb_24_f .et_pb_column .et_pb_blurb:hover * {
+    color: #fff !important;
+}
+
+
+
+
+
+/* =============== Call To Action Modules =============== */
+
+
+/* === Pencil Call To Action === */
+
+.contact_1_falkor .et_pb_column .et_pb_contact_form p:after{
+    background-color: #0080ff;
+}
+
+.contact_1_falkor .et_pb_contact_form p:not([data-type=checkbox]):not([data-type="radio"]) label {
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+    line-height: 100%;
+    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+}
+
+
+.et_pb_contact_form_container .et-pb-contact-message{
+    color: #fff;
+}
+
+
+/* === Minimal Call To Action === */
+
+#page-container .contact_2_falkor .et_pb_column .et_pb_text a:hover {
+    opacity: 0.5;
+}
+
+.contact_2_falkor .et_pb_column .et_pb_contact_form p:after{
+    background-color: #0080ff;
+}
+
+.contact_2_falkor .et_pb_contact_form p:not([data-type=checkbox]):not([data-type="radio"]) label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+}
+
+
+
+
+
+/* =============== Content Modules =============== */
+
+
+/* === Side By Side Content === */
+
+.content_1_f blockquote {
+    border-color: #fff !important;
+    border-width: 1px !important;
+}
+
+/* === Key Dates Content === */
+
+/* = List Style = */
+
+.content_2_f ul li strong:after {
+    border: 1px solid #0080ff;
+    border-radius: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 0 10px #fff;
+}
+
+.content_2_f ul:before {
+    background-color: #efeff2;
+}
+
+
+/* === History Content === */
+
+.content_7_f .et_pb_tabs ul.et_pb_tabs_controls li a:hover,
+.content_7_f .et_pb_tabs ul.et_pb_tabs_controls li.et_pb_tab_active a {
+    color: #0080ff !important;
+}
+
+
+/* === Big Data Content === */
+
+.content_16_f .et_pb_tabs ul.et_pb_tabs_controls li a:hover,
+.content_16_f .et_pb_tabs ul.et_pb_tabs_controls li.et_pb_tab_active a {
+    color: #0080ff !important;
+}
+
+
+
+
+
+/* =============== Footer Modules =============== */
+
+
+/* === Timeless Footer Module === */
+
+.footer_1_f .five-columns .et_pb_promo:not(:last-child) a:before {
+    content: "E";
+    font-family: ETmodules !important;
+}
+
+
+/* === Compact Footer Module === */
+
+/* = Links = */
+
+.footer_2_f .five-columns .et_pb_promo:not(:last-child) a:before {
+    content: "E";
+    font-family: ETmodules !important;
+}
+
+
+/* === Down Below Footer Module === */
+
+.footer_3_f .et_pb_column_1_4 .et_pb_number_counter:before {
+    font-family: ETmodules !important;
+    font-size: 26px;
+}
+
+.footer_3_f .et_pb_column_1_4:first-child .et_pb_number_counter:before {
+    content: "î‚“";
+}
+
+.footer_3_f .et_pb_column_1_4:nth-child(2) .et_pb_number_counter:before {
+    content: "î‚”";
+}
+
+.footer_3_f .et_pb_column_1_4:nth-child(3) .et_pb_number_counter:before {
+    content: "îƒ‹";
+}
+
+.footer_3_f .et_pb_column_1_4:nth-child(4) .et_pb_number_counter:before {
+    content: "î‚›";
+}
+
+
+/* === Zen Footer Module === */
+
+.footer_4_f .et_pb_blurb .et_pb_main_blurb_image .et_pb_image_wrap {
+    border: 2px solid #fff;
+}
+
+
+/* === Rich Footer Module === */
+
+/* = Blog = */
+
+.footer_5_f .et_pb_posts .post-meta .published:before {
+    content: "î€£";
+    font-family: ETmodules;
+}
+
+.footer_5_f .et_pb_posts article{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+
+/* === Made With Love Footer Module === */
+
+.footer_6_f .et_pb_social_icon a:before,
+.footer_6_f .et_pb_column a {
+    color: #757575 !important;
+}
+
+.footer_6_f .et_pb_column .et_pb_newsletter_description h2 {
+    font-weight: 600 !important;
+}
+
+
+/* = Animate = */
+
+.footer_6_f .et_pb_newsletter p label {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer_6_f .et_pb_newsletter .filled input,
+.footer_6_f .et_pb_newsletter input:focus {
+    color: #757575 !important;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: inset 0 0 1px #9b9b9b;
+}
+
+.footer_6_f .et_pb_newsletter p:not(.filled):not(.focus) input{
+    color: transparent !important;
+}
+
+
+
+
+
+/* =============== Header Modules =============== */
+
+
+/* === Embrace Header Module === */
+
+.header_3_f .et_pb_promo_description h2:before {
+    opacity: 1;
+    background-color: #0d80ff;
+}
+
+
+/* === Reserved Header Module === */
+
+/* = Button Hover = */
+
+.header_4_f .et_pb_promo a.et_pb_promo_button:before {
+    background-color: #fff !important;
+}
+
+
+/* === Accent Header Module === */
+
+.header_5_f .et_pb_slider .et_pb_slide .et_pb_slide_description strong:before {
+    background-color: #0d80ff;
+}
+
+.header_5_f .et_pb_slider .et_pb_slide .et_pb_slide_description strong,
+.header_5_f .et_pb_slider .et_pb_slide .et_pb_slide_description p {
+    font-weight: 300 !important;
+    font-size: 16px;
+}
+
+
+/* === Slider Arrows === */
+
+.header_5_f .et_pb_slider .et-pb-slider-arrows a:hover {
+    color: #fff !important;
+}
+
+.header_5_f .et_pb_slider .et-pb-slider-arrows a.et-pb-arrow-prev:before {
+    content: "#";
+}
+
+.header_5_f .et_pb_slider .et-pb-slider-arrows a.et-pb-arrow-next:before {
+    content: "$";
+}
+
+
+/* === Framed Header Module === */
+
+/* = Button Hover = */
+
+.header_7_f a.et_pb_button:after {
+    background: #fff;
+    opacity: 1!important;
+}
+
+.header_7_f a.et_pb_button:before {
+    background: #fff;
+    opacity: 1!important;
+}
+
+
+
+
+
+/* =============== Home Pages =============== */
+
+
+/* === Home 1 === */
+
+.blurb_20_f.blurb_home_20_f .et_pb_column .et_pb_blurb h2:after {
+    background-color: #cc0000 !important;
+}
+
+.content_7_f.content_home_7_f .et_pb_tabs ul.et_pb_tabs_controls li a:hover,
+.content_7_f.content_home_7_f .et_pb_tabs ul.et_pb_tabs_controls li.et_pb_tab_active a {
+    color: #000 !important;
+}
+
+.blurb_21_f.blurb_home_21_f .et_pb_column_1_3:hover .et_pb_main_blurb_image {
+    background-color: #cc0000 !important;
+}
+
+#page-container .blurb_21_f.blurb_home_21_f .et_pb_column_1_3:hover a.et_pb_button {
+    border-color: #cc0000 !important;
+}
+
+.falkor-testimonial6.falkor-home-testimonial6 .et_pb_slider .et-pb-slider-arrows a:hover:before {
+    color: #cc0000 !important;
+}
+
+#page-container .falkor_blog_3.falkor_home_blog_3 article .post-content a {
+    color: #cc0000 !important;
+}
+
+.falkor_blog_3.falkor_home_blog_3 article:after {
+    border-top: 4px solid #cc0000;
+}
+
+.falkor_blog_3.falkor_home_blog_3 article:hover:before {
+    opacity: 0.2 !important;
+    background-color: #cc0000;
+}
+
+.blurb_20_f.blurb_home_20_f .et_pb_column_1_3 .et_pb_blurb h2 a,
+.blurb_20_f.blurb_home_20_f .et_pb_column_1_3 .et_pb_blurb h2{
+    font-weight: 400 !important;
+}
+
+
+/* === Home 2 === */
+
+.header_3_f.header_home2_3_f .et_pb_promo_description h2:before {
+    background-color: #ffb103;
+}
+
+.falkor-pt2.falkor-home-pt2 .et_pb_pricing .et_pb_pricing_table:before {
+    background-color: #ffb103;
+}
+
+#page-container .falkor-pt2.falkor-home-pt2 .et_pb_pricing .et_pb_pricing_table:hover .et_pb_button_wrapper a.et_pb_pricing_table_button {
+    color: #ffb103 !important;
+    background-color: #fff !important;
+    border-color: #ffb103 !important;
+}
+
+.content_18_f.content_home_18_f .et_pb_blurb h4 a {
+    font-weight: 500 !important;
+}
+
+.person_2_f.person_home_2_f .et_pb_team_member .et_pb_team_member_description .et_pb_member_position:after {
+    border-color: #ffb103;
+}
+
+#page-container .footer_home2_4_f.white_links a:hover {
+    color: #ffb103 !important;
+}
+
+.footer_home2_4_f .et_pb_social_media_follow li a:hover.icon::before {
+    color: #ffb103 !important;
+}
+
+
+/* === Home 3 === */
+
+.header_3_f.header_home_3_f .et_pb_promo_description h2:before {
+    background-color: #00c7fe;
+}
+
+.falkor_slider.falkor_home_slider .et_pb_slider .et-pb-slider-arrows:not(.slide_arrows) a {
+    color: #00c7fe !important;
+}
+
+#page-container .falkor_slider.falkor_home_slider .et-pb-controllers a,
+#page-container .falkor_slider.falkor_home_slider .et-pb-controllers a:before,
+#page-container .falkor_slider.falkor_home_slider .et-pb-controllers a:after {
+    border-color: #00c7fe !important;
+}
+
+.contact_1_falkor.contact_home_1_falkor .et_pb_column .et_pb_contact_form p:after {
+    background-color: #00c7fe;
+}
+
+
+/* === Home 4 === */
+
+.blurb_8_f.blurb_home4_8_f .et_pb_column .et_pb_blurb_container h2 a,
+.blurb_8_f.blurb_home4_8_f .et_pb_column .et_pb_blurb_container h2{
+    font-weight: 400 !important;
+}
+
+
+.blurb_8_f.blurb_home4_8_f .et_pb_blurb .et_pb_blurb_container .et_pb_blurb_description h3:after {
+    border-top: 4px solid;
+    border-color: #ff0055 !important;
+}
+
+.blurb_8_f.blurb_home4_8_f.view_port .et_pb_blurb .et_pb_blurb_container .et_pb_blurb_description h3 {
+    font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    color: #1f2532;
+    line-height: 150%;
+}
+
+.falkor_slider.falkor_home4_slider .et_pb_slider .et-pb-slider-arrows.slide_arrows a {
+    color: #ff0055 !important;
+}
+
+.falkor_slider.falkor_home4_slider .et_pb_slider .et-pb-slider-arrows:not(.slide_arrows) a {
+    color: #ff0055 !important;
+}
+
+#page-container .falkor_slider.falkor_home4_slider .et-pb-controllers a,
+#page-container .falkor_slider.falkor_home4_slider .et-pb-controllers a:before,
+#page-container .falkor_slider.falkor_home4_slider .et-pb-controllers a:after {
+    border-color: #ff0055 !important;
+}
+
+.contact_2_falkor.contact_home_2_falkor .et_pb_column .et_pb_contact_form p:after {
+    background-color: #ff0055 !important;
+}
+
+.person_3_f.person_home_3_f .et_pb_team_member .et_pb_team_member_description:before {
+    border-color: #ff0055 !important;
+}
+
+#page-container .footer_home_4_f.white_links a:hover {
+    color: #ff0055 !important;
+}
+
+.footer_home_4_f .et_pb_social_media_follow li a:hover.icon::before {
+    color: #ff0055 !important;
+}
+
+.falkor_slider.falkor_content_slider_2 .et_pb_slider .et-pb-slider-arrows.slide_arrows a {
+    color: #0080ff !important;
+}
+
+
+/* === Home 5 === */
+
+.blurb_22_f.blurb_home5_22_f .et_pb_blurb h4:before {
+    background-color: #4fed00 !important;
+}
+
+#page-container .falkor_blog_4.falkor_home_blog_4 article .more-link {
+    color: #4fed00 !important;
+}
+
+.contact_2_falkor.contact_home5_2_falkor .et_pb_column .et_pb_contact_form p:after {
+    background-color: #4fed00 !important;
+}
+
+.contact_2_falkor.contact_home5_2_falkor .et_pb_contact_form p:not([data-type=checkbox]):not([data-type="radio"]) label {
+    color: #757575;
+    font-size: 16px;
+    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+}
+
+
+
+
+
+/* =============== Inside Pages =============== */
+
+/* === Content Page === */
+
+#page-container .content_5_f.content_contentpage_5_f .blue_lines:before {
+    border-color: #efeff2 !important;
+}
+
+#page-container .header_5_f.header_content_5_f .et-pb-slider-arrows a {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.footer_4_f.footer_content_4_f .et_pb_blurb .et_pb_main_blurb_image .et_pb_image_wrap {
+    border: 2px solid #ececec;
+}
+
+
+/* = Dark Links = */
+
+#page-container .dark_links a {
+    color: #757575 !important;
+}
+
+#page-container .dark_links a:hover {
+    color: #0080ff !important;
+}
+
+
+/* = Social Icons Color = */
+.et_pb_social_media_follow li a:hover.icon::before {
+    color: #0080ff !important;
+}
+
+.et_pb_social_media_follow li a.icon::before {
+    color: #757575;
+}
+
+.footer_4_f .et_pb_social_media_follow li a:hover.icon::before,
+.footer_5_f .et_pb_social_media_follow li a:hover.icon::before,
+.footer_1_f .et_pb_social_media_follow li a:hover.icon::before {
+    color: #0080ff !important;
+}
+
+.footer_4_f .et_pb_social_media_follow li a.icon::before,
+.footer_5_f .et_pb_social_media_follow li a.icon::before,
+.footer_1_f .et_pb_social_media_follow li a.icon::before {
+    color: #fff;
+}
+
+
+
+
+
+/* =============== Person Modules =============== */
+
+
+/* === Shutter Person Module === */
+
+.person_2_f .et_pb_team_member .et_pb_team_member_description .et_pb_member_position:after {
+    border-top: 4px solid #0080ff;
+}
+
+.person_3_f .et_pb_team_member:hover .et_pb_team_member_image {
+    transform: translate(0, -40px);
+}
+
+.person_3_f .et_pb_team_member .et_pb_team_member_description:before {
+    border-left: 4px solid;
+}
+
+/* === Twin Stripe Person Module === */
+
+.person_4_f .et_pb_team_member:hover .et_pb_team_member_description h4,
+.person_4_f .et_pb_team_member:hover .et_pb_team_member_description p.et_pb_member_position {
+    color: #ffffff !important;
+}
+
+
+
+
+
+/* =============== Pricing Tables Modules =============== */
+
+
+/* === Instant Pricing Table Module === */
+
+.falkor-pt2 .et_pb_pricing .et_pb_pricing_table:before {
+    background-color: #0080ff;
+}
+
+#page-container .falkor-pt2 .et_pb_pricing .et_pb_pricing_table:hover .et_pb_button_wrapper a.et_pb_pricing_table_button {
+    color: #fff !important;
+    background-color: #1f2532 !important;
+    border-color: #1f2532 !important;
+}
+
+.falkor-pt2 .et_pb_pricing .et_pb_pricing_table:hover h2.et_pb_pricing_title,
+.falkor-pt2 .et_pb_pricing .et_pb_pricing_table:hover span.et_pb_best_value,
+.falkor-pt2 .et_pb_pricing .et_pb_pricing_table:hover span.et_pb_frequency,
+.falkor-pt2 .et_pb_pricing .et_pb_pricing_table:hover span.et_pb_sum,
+.falkor-pt2 .et_pb_pricing .et_pb_pricing_table:hover .et_pb_pricing li span {
+    color: #fff !important;
+}
+
+.falkor-pt2 .et_pb_et_price:after {
+    background-color: rgb(239, 239, 242);
+}
+
+
+/* === Underline Pricing Table Module === */
+
+.falkor-pt3 .et_pb_pricing .et_pb_pricing_table {
+    border: 1px solid #efeff2 !important;
+}
+
+
+/* = Hover = */
+
+.falkor-pt3 .et_pb_pricing .et_pb_pricing_table:after {
+    background-color: #0080ff;
+}
+
+#page-container .falkor-pt3 .et_pb_pricing .et_pb_pricing_table:hover .et_pb_button_wrapper a.et_pb_pricing_table_button {
+    color: #fff !important;
+    background-color: #0080ff !important;
+    border-color: #0080ff !important;
+}
+
+
+
+
+
+/* =============== Slider Modules =============== */
+
+/* === Dex Slider Module === */
+
+.falkor_slider .et-pb-controllers a {
+    background-color: transparent !important;
+    font-size: 16px;
+    color: #1f2532;
+    font-weight: 700;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif !important;
+}
+
+.falkor_slider .et-pb-controllers a.et-pb-active-control {
+    font-size: 89px !important;
+}
+
+
+/* === Cal Slider Module === */
+
+/* = Arrows = */
+
+.falkor_slider .et_pb_slider .et-pb-slider-arrows:not(.slide_arrows) a.et-pb-arrow-prev:before {
+    content: "#";
+}
+
+.falkor_slider .et_pb_slider .et-pb-slider-arrows:not(.slide_arrows) a.et-pb-arrow-next:before {
+    content: "$";
+}
+
+#page-container .falkor_slider .et_pb_slider .et-pb-slider-arrows:not(.slide_arrows) a:hover {
+    opacity: 0.5;
+}
+
+.et_mobile_device .falkor_slider_1 .et_pb_slider:hover .et-pb-slider-arrows a {
+    opacity: 1 !important;
+}
+
+.et_mobile_device .falkor_slider_1 .et_pb_slider .et-pb-slider-arrows a {
+    opacity: 0 !important;
+}
+
+.falkor_slider .et_pb_slider .et-pb-slider-arrows:not(.slide_arrows) a {
+    font-weight: 700 !important;
+    color: #0080ff !important;
+    font-size: 70px;
+}
+
+
+
+
+
+/* =============== Testimonial Modules =============== */
+
+/* === Hero Testimonial Module === */
+
+.falkor-testimonial6 .et_pb_slider .et-pb-slider-arrows a:hover:before {
+    color: #3b9dff !important;
+}
+
+.falkor-testimonial6 .et_pb_slider .et-pb-slider-arrows a:before {
+    color: #d8d8d8 !important;
+    font-size: 37px;
+    font-weight: 100 !important;
+}
+
+.falkor-testimonial6 .et_pb_slider .et-pb-slider-arrows a.et-pb-arrow-prev:before {
+    content: "#" !important;
+}
+
+.falkor-testimonial6 .et_pb_slider .et-pb-slider-arrows a.et-pb-arrow-next:before {
+    content: "$" !important;
+}

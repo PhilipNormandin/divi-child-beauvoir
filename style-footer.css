@@ -20,6 +20,25 @@
     margin-right: 0 !important;
 }
 
+#my-footer .et_bloom_form_header  {
+  padding: 0;
+}
+
+/* positionner et styler le formulaire d'abonnement */
+#my-footer .et_bloom_optin  {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+#my-footer .et_bloom_form_content {
+  padding: 10px 0px !important;
+}
+#my-footer .et_bloom_form_content .et_bloom_button_text  {
+  text-transform: uppercase;
+  /* letter-spacing: 0.75px; */
+  font-size: 14px;
+  font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif !important;
+}
+
 /* Break point pour version grand écran
 ---------------------------------------------------------------------------------------------- */
 

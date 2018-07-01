@@ -21,17 +21,6 @@ body.single-class #sidebar {
 /* redimentionne l'image
 --------------------------------------------------------------- */
 
-.wcs-timetable__container {
-  padding-top: 0 !important;
-  padding-bottom: 10px !important;
-}
-
-ul.wcs-timetable__list,
-ul.wcs-timetable__list li {
-  padding-bottom: 0 !important;
-  padding-left: 0 !important;
-}
-
 .et_post_meta_wrapper:first-child {
   max-width: 1175px;
   max-height: 430px;
