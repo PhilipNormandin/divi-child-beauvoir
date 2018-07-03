@@ -7,13 +7,7 @@
   padding: 10px 51px !important;
 }
 
-/* repositionne bouton NOUS JOINDRE */
-#my-footer #contact-column .et_pb_button_module_wrapper  {
-  margin-top: 40px;
-  text-align: left;
-}
-
-/* positionne les médias sociaux */
+/* positionner les médias sociaux */
 #my-footer #my-social-icons .et_pb_promo_description {
   display: flex;
   flex-direction: column;
@@ -22,13 +16,15 @@
   display: flex;
   flex-wrap: wrap;
 }
+#my-footer #liens-row #my-social-icons li:last-child {
+    margin-right: 0 !important;
+}
 
-/* enlève zone sans texte au-dessus du formulaire d'abonnement */
 #my-footer .et_bloom_form_header  {
   padding: 0;
 }
 
-/* positionne et style le formulaire d'abonnement */
+/* positionner et styler le formulaire d'abonnement */
 #my-footer .et_bloom_optin  {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
@@ -38,42 +34,39 @@
 }
 #my-footer .et_bloom_form_content .et_bloom_button_text  {
   text-transform: uppercase;
-  letter-spacing: 0.75px;
+  /* letter-spacing: 0.75px; */
   font-size: 14px;
   font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif !important;
 }
 
-/* ajuste padding au-dessus et en-dessous du formulaire */
-#my-footer #bulletin-column .et_bloom_form_content  {
-  padding-top: 6px !important;
-  padding-bottom: 6px !important;
+/* cache un paragraphe vide au-dessus du formulaire */
+#my-footer #bulletin-column h2 + p {
+  display: none;
 }
 
 /* crée une grille pour les liens utiles */
-#useful-links-column .et_pb_promo_description {
+#liens-utiles-colonne .et_pb_promo_description {
   display: grid;
 }
 
 /* Break point pour grands écrans
 ---------------------------------------------------------------------------------------------- */
 
-@media only screen and (min-width: 981px) {
+@media only screen and (min-width: 1366px) {
 
   /* largeur de la colonne services */
-  #my-footer #services-column {
-    width: 24% !important;
-    margin-right: 2% !important;
+  #my-footer #services-colonne {
+    width: 22% !important;
   }
 
   /* largeur de la grille (liens utiles) */
-  #my-footer #useful-links-column {
-    width: 40% !important;
-    margin-right: 2% !important;
+  #my-footer #liens-utiles-colonne {
+    width: 38% !important;
   }
 
-  /* largeur de la colonne services */
-  #my-footer #bulletin-column {
-    width: 32% !important;
+  /* largeur de la colonne des médias sociaux */
+  #my-footer #my-social-icons {
+    width: 176.25px !important;
   }
 
   /* positionne les icônes */
@@ -86,45 +79,19 @@
 
 }
 
-/* Break point pour écrans entre 768px et 980px - services, liens utiles et formulaire d'abonnement
----------------------------------------------------------------------------------------------- */
-
-@media only screen and (min-width: 768px) and (max-width: 980px) {
-
-  #my-footer #services-column {
-    width: 34% !important;
-    margin-right: 2%;
-  }
-
-  #my-footer #useful-links-column {
-    width: 64% !important;
-    margin-right: 0;
-  }
-
-  #my-footer #bulletin-column {
-    width: 60% !important;
-  }
-
-}
-
-/* Break point pour écrans de 768px et plus - liens utiles et suivez-nous
+/* Break point pour écrans de 768px et plus
 ---------------------------------------------------------------------------------------------- */
 
 @media only screen and (min-width: 768px) {
 
   /* transforme la grille liens utiles en 2 colonnes */
-  #useful-links-column .et_pb_promo_description {
+  #liens-utiles-colonne .et_pb_promo_description {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto repeat(3, 1fr);
     grid-auto-flow: column;
   }
-  #useful-links-column .et_pb_promo_description h2 {
+  #liens-utiles-colonne .et_pb_promo_description h2 {
     grid-column: 1 / 3;
-  }
-
-  /* largeur de la colonne des médias sociaux */
-  #my-footer #my-social-icons {
-    width: 176.25px !important;
   }
 
 }
@@ -135,9 +102,8 @@
 @media all and (max-width: 767px) {
 
   /* centre chaque colonne */
-  #my-footer #services-column,
-  #my-footer #useful-links-column,
-  #my-footer #bulletin-column,
+  #my-footer #services-colonne,
+  #my-footer #liens-utiles-colonne,
   #my-footer #my-social-icons {
     width: 100% !important;
     margin-right: 0 !important;
@@ -154,25 +120,29 @@
 
 }
 
-/* Break point pour écrans de moins de 840px - coordonnées, nous joindre et suivez-nous
+/* Break point pour écrans de moins de 840px - coordonnées
 ---------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 839px) {
 
-  #my-footer #address-column {
-    /* width: 100% !important; */
-    /* margin-right: 0 !important; */
-    /* text-align: center !important; */
+  #my-footer #contact-row .et_pb_column {
+    width: 100% !important;
+    margin-right: 0 !important;
+    float: none;
   }
 
-  #my-footer #contact-column .et_pb_button_module_wrapper {
+  #my-footer #contact-row .et_pb_promo_description,
+  #my-footer #contact-row .et_pb_button_module_wrapper {
     text-align: center;
+  }
+
+  #my-footer #contact-row .et_pb_button_module_wrapper {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
 
   #my-footer #contact-row .et-last-child {
-    /* margin-bottom: 0 !important; */
+    margin-bottom: 0 !important;
   }
 
 }
@@ -183,54 +153,76 @@
 @media only screen and (min-width: 840px) and (max-width: 980px) {
 
   #my-footer #contact-row .et_pb_column {
-    /* margin-bottom: 0 !important; */
+    margin-bottom: 0 !important;
   }
 
   #my-footer #contact-row .et_pb_promo_description {
-    /* padding-bottom: 0 !important; */
+    padding-bottom: 0 !important;
   }
 
   #my-footer #my-social-icons .et_pb_promo_description {
-    /* padding-bottom: 0 !important; */
+    padding-bottom: 0 !important;
+  }
+
+  #my-footer #bulletin-column {
+    width: 34% !important;
   }
 
   #my-footer #contact-column {
-    /* width: 30% !important; */
+    width: 30% !important;
   }
 
 }
 
+/* Break point pour écrans entre 768px et 1060px - liens
+---------------------------------------------------------------------------------------------- */
 
+@media only screen and (min-width: 768px) and (max-width: 1060px) {
 
-/*------------------------------------------------------------------------------------------------------------------------------*/
+  #my-footer #services-colonne {
+    width: 32% !important;
+    margin-right: 2%;
+  }
+
+  #my-footer #liens-utiles-colonne {
+    width: 60% !important;
+  }
+
+  #my-footer #my-social-icons {
+    width: 32% !important;
+    /* margin-right: 2% !important; */
+    float: left !important;
+  }
+
+}
+
 /* Break point pour écrans entre 1061px et 1365px - liens
 ---------------------------------------------------------------------------------------------- */
 
 @media only screen and (min-width: 1061px) and (max-width: 1365px) {
 
-  #my-footer #services-column {
-    /* width: 23% !important; */
+  #my-footer #services-colonne {
+    width: 23% !important;
   }
 
-  #my-footer #useful-links-column {
-    /* width: 46% !important; */
+  #my-footer #liens-utiles-colonne {
+    width: 46% !important;
   }
 
   /* les social icos s'alignent bien avec un minimum de 4 */
   #my-footer #my-social-icons {
-    /* width: 176.25px !important; */
+    width: 176.25px !important;
   }
 
   #my-footer #my-social-icons {
-    /* width: 177px !important; */
+    width: 177px !important;
   }
 
-  #my-footer #links-row .et_pb_promo_description {
-    /* padding-bottom: 0 !important; */
+  #my-footer #liens-row .et_pb_promo_description {
+    padding-bottom: 0 !important;
   }
 
 }
-/*------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Break point pour petits écrans - ajustements mineurs
 ---------------------------------------------------------------------------------------------- */

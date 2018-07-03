@@ -15,7 +15,7 @@ if ( 'on' == et_get_option( 'divi_back_to_top', 'false' ) ) : ?>
 if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
 			<footer id="main-footer">
-				<?php echo do_shortcode('[et_pb_section global_module="224704"][/et_pb_section]'); ?>
+				<?php echo do_shortcode('[et_pb_section global_module="224751"][/et_pb_section]'); ?>
 				<?php get_sidebar( 'footer' ); ?>
 
 

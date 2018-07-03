@@ -297,6 +297,9 @@ img.wpsmartcrop-image {
     .et-fixed-header a #logo{
       float: right;
     }
+    .et_search_outer .et_search_form_container .et-search-form {
+      /* float: none; */
+    }
   }
 
   /* annule effet transition de la partie navigation */
@@ -315,7 +318,7 @@ img.wpsmartcrop-image {
 
   /* repositionne vers la droite le champ de recherche */
   .et_fullwidth_nav #main-header.et-fixed-header .et_search_form_container {
-    left: 50vh;
+    left: 30vh;
   }
 
   /* Jumping search Fix when pass from non fixed to fixed header and vice-versa */
