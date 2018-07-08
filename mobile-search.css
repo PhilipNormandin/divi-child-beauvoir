@@ -14,10 +14,9 @@
     /* align search icon for Centered header */
     .et_header_style_centered #et_search_icon:before {
         font-family: "icomoon" !important;
-        content: "\e900";
-        margin: 3px;
-        top: 4px;
-        left: -15px;
+        content: "\e901";
+        top: 6px;
+        left: -3px;
         font-size: 32px !important;
     }
     /* align search icon for Centered Inline Logo header*/
