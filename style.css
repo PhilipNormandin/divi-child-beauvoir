@@ -53,6 +53,10 @@ bleu foncé de Divi-Den Falkor : #1f2532
 ------------------------------------------------------------------------ */
 @import "style-footer.css";
 
+/* page événements
+------------------------------------------------------------------------ */
+@import "style-events.css";
+
 /* retirer le sidebar de certaines pages
 ------------------------------------------------------------------------ */
 /* @import "event-single-page.css"; */
@@ -223,11 +227,6 @@ img.wpsmartcrop-image {
     top: 3px;
   }
 
-  /* espace entre médias-sociaux et langages */
-  ul#et-secondary-nav.menu li:last-child {
-    /* margin-right: 7vw; */
-  }
-
   /* espace à droite de NOUS JOINDRE */
   ul#et-secondary-nav.menu li:nth-child(4) {
     margin-right: 0;
@@ -249,9 +248,9 @@ img.wpsmartcrop-image {
   /* durée de transition lorsqu'on passe de non fixe à fixe */
   #main-header,
   #top-header {
-  	transition: 0.3s linear;
-  	-moz-transition: 0.3s linear;
-  	-webkit-transition: 0.3s linear;
+  	transition: 0.2s ease;
+  	-moz-transition: 0.2s ease;
+  	-webkit-transition: 0.2s ease;
   }
 
   /* cache le top header */
@@ -297,9 +296,7 @@ img.wpsmartcrop-image {
     .et-fixed-header a #logo{
       float: right;
     }
-    .et_search_outer .et_search_form_container .et-search-form {
-      /* float: none; */
-    }
+
   }
 
   /* annule effet transition de la partie navigation */
