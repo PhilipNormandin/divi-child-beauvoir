@@ -125,7 +125,7 @@
   }
 
   #my-footer #address-column .et_pb_promo_description p:last-child {
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
   }
 
 }

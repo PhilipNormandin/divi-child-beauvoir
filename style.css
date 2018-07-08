@@ -416,7 +416,7 @@ img.wpsmartcrop-image {
     padding: 0 !important;
   }
 
-  /* rend le header non fixe */
+  /* rend le header fixe */
   #main-header {
     position: fixed !important;
   }
@@ -486,7 +486,10 @@ img.wpsmartcrop-image {
 
   /* positionne x de recherche */
   #main-header .et_close_search_field::after {
-    margin-left: 8px;
+    font-size: 42px !important;
+    position: relative !important;
+    top: -7px !important;
+    left: -7px !important;
   }
 
   /* le x du menu lorsque ouvert */
@@ -652,15 +655,15 @@ img.wpsmartcrop-image {
   /* background blanc derrière formulaire de recherche - non activé */
   #main-header .et_search_outer {
     background-color: white;
-    z-index: -99999;
+    z-index: -999;
     opacity: 0;
-    transition: all .7s ease-in-out;
+    transition: all .9s ease-in-out;
   }
 
   /* background blanc derrière formulaire de recherche - activé */
   #main-header .et_pb_menu_hidden + .et_search_outer {
     opacity: 1;
-    z-index: 99999;
+    z-index: 9999;
   }
 
 }
