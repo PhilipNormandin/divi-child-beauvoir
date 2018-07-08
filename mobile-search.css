@@ -13,7 +13,7 @@
     }
     /* align search icon for Centered header */
     .et_header_style_centered #et_search_icon:before {
-        font-family: "icomooon" !important;
+        font-family: "icomoon" !important;
         content: "\e900";
         margin: 3px;
         top: 4px;
