@@ -621,6 +621,7 @@ img.wpsmartcrop-image {
   /* redimentionne le x du menu lorsque ouvert */
   .mobile_nav.opened .mobile_menu_bar:before {
     font-size: 48px;
+    top: -2px;
   }
 
   /* redimentionne la loupe */
