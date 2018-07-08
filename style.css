@@ -61,6 +61,11 @@ bleu foncé de Divi-Den Falkor : #1f2532
 ------------------------------------------------------------------------ */
 /* @import "event-single-page.css"; */
 
+@font-face {
+ font-family: "icomooon";
+ src: url("fonts/icomoon.woff");
+}
+
 /* Propriétés globales
 ------------------------------------------------------------------------ */
 
@@ -488,8 +493,8 @@ img.wpsmartcrop-image {
   #main-header .et_close_search_field::after {
     font-size: 42px !important;
     position: relative !important;
-    top: -7px !important;
-    left: -7px !important;
+    top: -6px !important;
+    left: -6px !important;
   }
 
   /* le x du menu lorsque ouvert */
