@@ -13,7 +13,7 @@
     }
     /* align search icon for Centered header */
     .et_header_style_centered #et_search_icon:before {
-        padding: 3px;
+        margin: 3px;
         top: 4px;
         left: -6px;
     }
