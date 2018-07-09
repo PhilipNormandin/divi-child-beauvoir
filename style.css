@@ -658,18 +658,16 @@ img.wpsmartcrop-image {
      /* left: 0px !important; */
   }
 
-  /* background blanc derrière formulaire de recherche - non activé */
-  #main-header .et_search_outer {
-    background-color: white;
-    z-index: -999;
+  /* efface logo lorsque formulaire de recherche activé */
+  #main-header .et_pb_menu_hidden #logo {
     opacity: 0;
-    transition: all .9s ease-in-out;
+    transition: opacity .9s ease;
   }
 
-  /* background blanc derrière formulaire de recherche - activé */
-  #main-header .et_pb_menu_hidden + .et_search_outer {
+  /* affiche logo lorsque formulaire de recherche non activé */
+  #main-header .et_pb_menu_visible #logo {
     opacity: 1;
-    z-index: 9999;
+    transition: opacity .9s ease;
   }
 
 }
