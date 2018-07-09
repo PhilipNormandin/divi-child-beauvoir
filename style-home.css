@@ -255,8 +255,8 @@ ul.wcs-timetable__list li {
 
   .ds-fw-header {
     /* min-height: calc(60vh - 90px); */
-    /* height: calc(60vh - 90px); */
-    height: 300px;
+    height: calc(100vh - 90px);
+    /* height: 280px; */
     background-position: 45% 29%;
     background-size: 230%;
   }
