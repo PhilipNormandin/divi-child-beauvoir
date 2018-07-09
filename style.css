@@ -661,13 +661,13 @@ img.wpsmartcrop-image {
   /* efface logo lorsque formulaire de recherche activé */
   #main-header .et_pb_menu_hidden #logo {
     opacity: 0;
-    transition: opacity 1.4s ease-out;
+    transition: opacity 1s ease-out;
   }
 
   /* affiche logo lorsque formulaire de recherche non activé */
   #main-header .et_pb_menu_visible #logo {
     opacity: 1;
-    transition: opacity 1.4s ease-in;
+    transition: opacity 1s ease-in;
   }
 
 }
