@@ -255,10 +255,10 @@ ul.wcs-timetable__list li {
 
   .ds-fw-header {
     /* min-height: calc(60vh - 90px); */
-    height: calc(100vh - 90px);
-    /* height: 280px; */
-    background-position: 45% 29%;
-    background-size: 230%;
+    /* height: calc(100vh - 90px); */
+    height: 280px;
+    background-position: 40% 34%;
+    background-size: 290%;
   }
 
 }
@@ -269,9 +269,10 @@ ul.wcs-timetable__list li {
 @media only screen and (min-width: 480px) and (max-width: 980px) {
 
   .ds-fw-header {
-    min-height: calc(60vh - 90px);
-    height: calc(60vh - 90px);
-    background-position: 65% 27%;
+    /* min-height: calc(60vh - 90px); */
+    /* height: calc(60vh - 90px); */
+    height: 280px;
+    background-position: 64% 32%;
     background-size: 160%;
   }
 
@@ -291,9 +292,10 @@ ul.wcs-timetable__list li {
 @media only screen and (min-width: 981px) and (max-width: 1365px) {
 
   .ds-fw-header {
-    min-height: calc(60vh - 90px);
-    height: calc(60vh - 90px);
-    background-position: 65% 27%;
+    /* min-height: calc(60vh - 90px); */
+    /* height: calc(60vh - 90px); */
+    height: 280px;
+    background-position: center 31%;
     background-size: 100%;
   }
 
