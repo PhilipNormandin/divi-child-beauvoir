@@ -464,9 +464,14 @@ img.wpsmartcrop-image {
     transition: none !important;
   }
 
+  /* couleur hamburger et loupe */
+  .mobile_nav.closed .mobile_menu_bar::before,
+  #et_search_icon::before {
+    color: #0080ff !important;
+  }
+
   /* redimentionne le hamburger */
   .mobile_nav.closed .mobile_menu_bar::before {
-    color: #1f4766 !important;
     font-size: 56px !important;
   }
 
