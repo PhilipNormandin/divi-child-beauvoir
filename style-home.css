@@ -276,6 +276,14 @@ ul.wcs-timetable__list li {
 
 }
 
+@media only screen and (max-width: 980px) {
+
+  #articles-accueil-section .et_pb_module.et_pb_text {
+    margin-bottom: 30px !important;
+  }
+
+}
+
 /* Break point pour versions tablette et petit écran
 ---------------------------------------------------------------------------------------------- */
 
