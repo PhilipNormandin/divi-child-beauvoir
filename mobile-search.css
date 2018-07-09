@@ -17,7 +17,6 @@
         content: "\e901";
         top: 6px;
         left: -3px;
-        font-size: 32px !important;
     }
     /* align search icon for Centered Inline Logo header*/
     .et_header_style_split #et_search_icon:before {
