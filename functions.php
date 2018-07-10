@@ -4,6 +4,8 @@ function my_theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
+define( 'GITHUB_UPDATER_OVERRIDE_DOT_ORG', true );
+
 // set_post_thumbnail_size( 1175, 522, true );
 
 // add_image_size( 'event-featured-image', '1175', '522', [ "center", "center" ] );
