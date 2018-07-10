@@ -487,11 +487,6 @@ img.wpsmartcrop-image {
   #et_search_icon:before {
     font-size: 38px !important;
   }
-  @media only screen and (max-width: 479px) {
-    #et_search_icon:before {
-      font-size: 32px !important;
-    }
-  }
 
   /* positionne la loupe */
   #et_top_search {
@@ -647,7 +642,7 @@ img.wpsmartcrop-image {
 
   /* redimentionne la loupe */
   #et_search_icon:before {
-    font-size: 30px !important;
+    font-size: 32px !important;
   }
 
   /* repositionne le hamburger */
