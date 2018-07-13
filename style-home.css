@@ -3,9 +3,10 @@
 
 /* image d'en-tête sur page d'accueil */
 .ds-fw-header {
-  min-height: 50vh;
-  height: 50vh;
-  background-position: left 29%;
+  /* min-height: 45vh; */
+  /* height: 45vh; */
+  min-height: calc(100vh - 306px);
+  background-position: left 34%;
 }
 
 #evenements-accueil-section h2 {
@@ -257,7 +258,7 @@ ul.wcs-timetable__list li {
     /* min-height: calc(60vh - 90px); */
     /* height: calc(100vh - 90px); */
     height: 280px;
-    background-position: 40% 34%;
+    background-position: 40% 30%;
     background-size: 290%;
   }
 
@@ -272,7 +273,7 @@ ul.wcs-timetable__list li {
     /* min-height: calc(60vh - 90px); */
     /* height: calc(60vh - 90px); */
     height: 280px;
-    background-position: 64% 32%;
+    background-position: 64% 30%;
     background-size: 160%;
   }
 
@@ -297,6 +298,18 @@ ul.wcs-timetable__list li {
     height: 280px;
     background-position: center 31%;
     background-size: 100%;
+  }
+
+}
+
+/* Break point pour versions mobile et tablette - ajustements mineurs
+---------------------------------------------------------------------------------------------- */
+
+@media all and (max-width: 980px) {
+
+  /* largeur section événements à venir */
+  #evenements-accueil-section .et_pb_row {
+    width: 90% !important;
   }
 
 }

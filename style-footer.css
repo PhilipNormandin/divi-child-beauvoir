@@ -7,6 +7,16 @@
   padding: 10px 51px !important;
 }
 
+/* couleurs du bouton NOUS JOINDRE */
+#my-footer #contact-btn {
+  background-color: #06c !important;
+  border-color: #06c !important;
+}
+#my-footer #contact-btn:hover {
+  background-color: rgba(0,102,204,0.7) !important;
+  border-color: rgba(0,102,204,0.7) !important;
+}
+
 /* positionne les médias sociaux */
 #my-footer #my-social-icons .et_pb_promo_description {
   display: flex;

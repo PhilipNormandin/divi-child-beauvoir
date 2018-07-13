@@ -25,6 +25,8 @@ jaune pale : #FFE9A3
 bleu pale de Divi-Den Falkor : #1f5dea (bouton) et #0080ff (titre)
 bleu foncé de Divi-Den Falkor : #1f2532
 
+nouveau bleu pale pour bouton : #06c
+nouveau rouge pour calendrier : #BD322C
 */
 
 /* les feuilles CSS de Falkor
@@ -123,6 +125,13 @@ img.wpsmartcrop-image {
   /* height: 30vh !important; */
 }
 
+/* ajuste menu secondaire */
+#top-header .container {
+  width: 90% !important;
+  max-width: 1375px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
 
 /* Break point pour version grand écran
 ---------------------------------------------------------------------------------------------- */
@@ -250,7 +259,7 @@ img.wpsmartcrop-image {
 
   /* espace à gauche des langages */
   ul#et-secondary-nav.menu li:nth-child(5) {
-    margin-left: 7vw;
+    margin-left: 4vw;
   }
 
   /* Menu fixe
@@ -684,6 +693,101 @@ img.wpsmartcrop-image {
   #main-header .et_pb_menu_visible #logo {
     opacity: 1;
     transition: opacity .4s ease .7s;
+  }
+
+}
+
+/* Rêgles et Break points pour header de page
+---------------------------------------------------------------------------------------------- */
+
+#header-page-section h2 {
+  padding-bottom: 5px !important;
+}
+
+@media only screen and (min-width: 1366px) {
+
+  #header-page-section .et_pb_fullwidth_header_container h2 {
+    font-size: 58px !important;
+  }
+
+}
+
+@media only screen and (max-width: 1365px) {
+
+  #header-page-section .et_pb_fullwidth_header_container  {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1365px) {
+
+  #header-page-section .et_pb_fullwidth_header_container h2 {
+    font-size: 48px !important;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+
+  #header-page-section .et_pb_fullwidth_header_container h2 {
+    font-size: 38px !important;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  #header-page-section .et_pb_fullwidth_header_container h2 {
+    font-size: 28px !important;
+  }
+
+  #header-page-section .et_pb_fullwidth_header {
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+  }
+
+  #header-page-section .header-content {
+    margin: 10px 0 !important;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  #header-page-section .et_pb_fullwidth_header {
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+  }
+
+}
+
+/* Rêgles et Break points pour page en construction
+---------------------------------------------------------------------------------------------- */
+
+#page-under-construction-section .et_pb_text   {
+  margin-bottom: 10px !important;
+}
+
+@media only screen and (max-width: 767px) {
+
+  #page-under-construction-section .et_pb_image  {
+    max-width: 80% !important;
+  }
+
+  #page-under-construction-section .et_pb_image img {
+    max-width: 274px !important;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+
+  #page-under-construction-section .et_pb_image  {
+    max-width: 80% !important;
+  }
+
+  #page-under-construction-section .et_pb_image img {
+    max-width: 274px !important;
   }
 
 }

@@ -3,7 +3,7 @@
 
 /* ajuste la padding autour du calendrier */
 #events-calendar-row .et_pb_tab {
-  padding: 50px 0 0 0 !important;
+  padding: 49px 0 0 0 !important;
 }
 #events-calendar-row {
   padding-top: 0 !important;
@@ -15,13 +15,23 @@
   display: none;
 }
 
-/* onglet par défaut */
+/* couleurs de fond et contour onglet par défaut */
 #events-calendar-row .et_pb_tabs_controls li {
-  color: #1f4766 !important;
-  border: 2px solid #1f4766;
-}/* onglet par défaut */
+  background-color: #dadada !important;
+  border: 2px solid #d2d2d2;
+}
+/* couleur de police onglet par défaut */
 #events-calendar-row .et_pb_tabs_controls li a {
-  color: #1f4766 !important;
+  color: #666 !important;
+}
+
+/* couleur de police onglet sélectionné */
+#events-calendar-row .et_pb_tabs_controls .et_pb_tab_active a {
+  color: #666 !important;
+}
+/* couleur de fond onglet sélectionné */
+#events-calendar-row .et_pb_tabs_controls .et_pb_tab_active {
+  background-color: white !important;
 }
 
 /* arrondie et ajuste border de chaque côté */
@@ -32,15 +42,6 @@
 #events-calendar-row .et_pb_tabs_controls li:last-child {
   border-radius: 0 4px 4px 0;
   border-left-width: 1px;
-}
-
-/* couleur de police onglet sélectionné */
-#events-calendar-row .et_pb_tabs_controls .et_pb_tab_active a {
-  color: white !important;
-}
-/* couleur de fond onglet sélectionné */
-#events-calendar-row .et_pb_tabs_controls .et_pb_tab_active {
-  background-color: #1f4766;
 }
 
 /* position du libellé et onglets */
@@ -65,7 +66,7 @@
   .et_pb_tabs_controls {
     width: 100%;
     display: flex !important;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .et_pb_tabs_controls li {
     display: table !important;
@@ -77,6 +78,25 @@
     text-align: center;
     padding: 4px 0 4px !important;
   }
+  #events-calendar-row .et_pb_tabs::before {
+    font-size: 24px;
+    margin-right: 0;
+    text-align: center;
+  }
+    #events-calendar-row .et_pb_tabs_controls li {
+      min-height: auto !important;
+      height: auto !important;
+    }
+}
+@media all and (max-width: 980px) {
+  #events-calendar-section {
+    padding-top: 40px !important;
+  }
+  /* ajuste la padding autour du calendrier */
+  #events-calendar-row .et_pb_tab {
+    padding: 40px 0 0 0 !important;
+  }
+
 }
 
 /* corrige opacité du triangle pointant vers l'événement */
