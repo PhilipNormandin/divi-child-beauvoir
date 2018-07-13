@@ -3,9 +3,9 @@
 
 /* image d'en-tête sur page d'accueil */
 .ds-fw-header {
-  /* min-height: 45vh; */
-  /* height: 45vh; */
-  min-height: calc(100vh - 306px);
+  min-height: 45vh;
+  height: 45vh;
+  /* min-height: calc(100vh - 306px); */
   background-position: left 34%;
 }
 
