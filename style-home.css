@@ -5,7 +5,7 @@
 .ds-fw-header {
   /* min-height: 45vh; */
   /* height: 45vh; */
-  min-height: calc(100vh - 306px);
+  min-height: calc(100vh - 606px);
   background-position: left 34%;
 }
 
