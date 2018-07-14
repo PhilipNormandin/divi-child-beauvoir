@@ -4,7 +4,15 @@ function my_theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
-define( 'GITHUB_UPDATER_OVERRIDE_DOT_ORG', true );
+// define( 'GITHUB_UPDATER_OVERRIDE_DOT_ORG', true );
+
+// function falkorscripts_enqueue() {
+    // wp_enqueue_script( 'falkor-scripts-1', get_stylesheet_directory_uri() . '/js/falkor_divi.js' );
+    // wp_enqueue_script( 'falkor-scripts-2', get_stylesheet_directory_uri() . '/js/jquery.fancybox.js' );
+    // wp_enqueue_script( 'falkor-scripts-3', get_stylesheet_directory_uri() . '/js/jquery.fancybox.pack.js' );
+// }
+// add_action( 'wp_enqueue_scripts', 'falkorscripts_enqueue' );
+
 
 // set_post_thumbnail_size( 1175, 522, true );
 
