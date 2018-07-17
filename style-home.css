@@ -5,14 +5,13 @@
 .ds-fw-header {
   /* min-height: 45vh; */
   /* height: 45vh; */
-  min-height: calc(100vh - 306px);
+  min-height: calc(100vh - 306.5px);
   background-position: left 34%;
 }
 
-#evenements-accueil-section h2 {
-  /* font-size: 32px; */
-  /* text-align: center; */
-  /* text-transform: uppercase; */
+/* hauteur section horaire des messes */
+#horaires-section-desktop-test {
+  height: 96px !important;
 }
 
 /* ajuste le padding de la liste des événements */
