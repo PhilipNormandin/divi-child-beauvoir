@@ -213,7 +213,7 @@ ul.wcs-timetable__list li {
   }
 
   #evenements-accueil-section {
-    animation-delay: 100ms !important;
+    animation-delay: 200ms !important;
   }
 
 }
