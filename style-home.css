@@ -256,9 +256,9 @@ ul.wcs-timetable__list li {
   .ds-fw-header {
     /* min-height: calc(60vh - 90px); */
     /* height: calc(100vh - 90px); */
-    height: 280px;
-    background-position: 40% 30%;
-    background-size: 290%;
+    /* height: 280px; */
+    background-position: 58% 53%;
+    background-size: 300%;
   }
 
 }
@@ -271,7 +271,7 @@ ul.wcs-timetable__list li {
   .ds-fw-header {
     /* min-height: calc(60vh - 90px); */
     /* height: calc(60vh - 90px); */
-    height: 280px;
+    /* height: 280px; */
     background-position: 64% 30%;
     background-size: 160%;
   }
@@ -294,7 +294,7 @@ ul.wcs-timetable__list li {
   .ds-fw-header {
     /* min-height: calc(60vh - 90px); */
     /* height: calc(60vh - 90px); */
-    height: 280px;
+    /* height: 280px; */
     background-position: center 31%;
     background-size: 100%;
   }
@@ -305,6 +305,16 @@ ul.wcs-timetable__list li {
 ---------------------------------------------------------------------------------------------- */
 
 @media all and (max-width: 980px) {
+
+  /* hauteur section horaire des messes */
+  #horaires-section-mobile {
+    height: 73px !important;
+  }
+
+  /* ajuste hauteur image Sacré-Coeur */
+  .ds-fw-header {
+    height: calc(100vh - 163px);
+  }
 
   /* largeur section événements à venir */
   #evenements-accueil-section .et_pb_row {
