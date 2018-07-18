@@ -256,8 +256,8 @@ ul.wcs-timetable__list li {
   .ds-fw-header {
     /* min-height: calc(60vh - 90px); */
     /* height: calc(100vh - 90px); */
-    /* height: 280px; */
-    background-position: 58% 53%;
+    height: 280px;
+    background-position: 58% 32%;
     background-size: 300%;
   }
 
@@ -271,7 +271,7 @@ ul.wcs-timetable__list li {
   .ds-fw-header {
     /* min-height: calc(60vh - 90px); */
     /* height: calc(60vh - 90px); */
-    /* height: 280px; */
+    height: 280px;
     background-position: 64% 30%;
     background-size: 160%;
   }
@@ -294,7 +294,7 @@ ul.wcs-timetable__list li {
   .ds-fw-header {
     /* min-height: calc(60vh - 90px); */
     /* height: calc(60vh - 90px); */
-    /* height: 280px; */
+    height: 280px;
     background-position: center 31%;
     background-size: 100%;
   }
@@ -313,7 +313,7 @@ ul.wcs-timetable__list li {
 
   /* ajuste hauteur image Sacré-Coeur */
   .ds-fw-header {
-    height: calc(100vh - 163px);
+    /* height: calc(100vh - 163px); */
   }
 
   /* largeur section événements à venir */
