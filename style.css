@@ -104,10 +104,15 @@ footer#main-footer > #my-footer + .et_pb_section {
   font-weight: 600;
   font-size: 18px !important;
 }
+.et_mobile_menu li.no-url-link > a {
+  color: #0080ff !important;
+  font-weight: 500 !important;
+}
 .et_mobile_menu .menu-item-type-post_type > a,
 .et_mobile_menu .lang-item > a {
   font-size: 16px !important;
-  color: #0080ff !important;
+  font-weight: 500 !important;
+  /* color: #9cf !important; */
 }
 .et_mobile_menu .lang-item > a {
   width: auto;
