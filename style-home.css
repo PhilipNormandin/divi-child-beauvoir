@@ -212,6 +212,10 @@ ul.wcs-timetable__list li {
     height: 96px !important;
   }
 
+  #evenements-accueil-section {
+    animation-delay: 100ms !important;
+  }
+
 }
 
 /* Break point pour écrans de 1390px et moins - ajustements pour layout Falkor
