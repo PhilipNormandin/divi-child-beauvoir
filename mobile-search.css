@@ -14,7 +14,7 @@
     /* align search icon for Centered header */
     .et_header_style_centered #et_search_icon:before {
         font-family: "icomoon" !important;
-        content: "\e904";
+        content: "\e901";
         top: 6px;
         left: -3px;
     }

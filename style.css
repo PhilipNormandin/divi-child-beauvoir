@@ -492,7 +492,7 @@ img.wpsmartcrop-image {
   .mobile_nav.closed .mobile_menu_bar::before,
   .mobile_nav.opened .mobile_menu_bar::before,
   #et_search_icon::before {
-    color: #0080ff !important;
+    color: #1f4766 !important;
   }
 
   /* redimentionne le hamburger */
