@@ -308,7 +308,7 @@ ul.wcs-timetable__list li {
 
   /* hauteur section horaire des messes */
   #horaires-section-mobile {
-    height: 73px !important;
+    min-height: 73px !important;
   }
 
   /* ajuste hauteur image Sacré-Coeur */
