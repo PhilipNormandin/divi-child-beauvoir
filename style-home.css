@@ -1,19 +1,6 @@
 /* Propriétés globales
 ---------------------------------------------------------------------------- */
 
-/* image d'en-tête sur page d'accueil */
-.ds-fw-header {
-  /* min-height: 45vh; */
-  /* height: 45vh; */
-  min-height: calc(100vh - 306.5px);
-  background-position: left 34%;
-}
-
-/* hauteur section horaire des messes */
-#horaires-section-desktop-test {
-  height: 96px !important;
-}
-
 /* ajuste le padding de la liste des événements */
 .wcs-timetable__container {
   padding-top: 0 !important;
@@ -205,20 +192,25 @@ ul.wcs-timetable__list li {
     width: 96% !important;
   }
 
-  #evenements-accueil-section h2 {
-    /* font-size: 32px; */
-    /* text-align: center; */
-  }
-
 }
 
-/* Break point pour écrans de plus de 1060px
+/* Break point pour grands écrans
 ---------------------------------------------------------------------------------------------- */
 
-@media only screen and (min-width: 1061px) {
+@media only screen and (min-width: 1366px) {
 
-  /* section horaire version desktop s'affiche par défaut dans cette largeur */
-  /* section horaire version mobile se cache par défaut dans cette largeur */
+  /* image d'en-tête sur page d'accueil */
+  .ds-fw-header {
+    /* min-height: 45vh; */
+    /* height: 45vh; */
+    min-height: calc(100vh - 306.5px);
+    background-position: left 34%;
+  }
+
+  /* hauteur section horaire des messes */
+  #horaires-section-desktop-test {
+    height: 96px !important;
+  }
 
 }
 
