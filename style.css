@@ -34,6 +34,7 @@ nouveau rouge pour calendrier : #BD322C
 @import "falkor-footers.css";
 @import "falkor-blogs.css";
 @import "falkor-blurb.css";
+@import "falkor-contact-forms.css";
 
 /* header pour versions mobile, tablette et petit écran
 ------------------------------------------------------------------------ */
@@ -59,9 +60,9 @@ nouveau rouge pour calendrier : #BD322C
 ------------------------------------------------------------------------ */
 @import "style-events.css";
 
-/* retirer le sidebar de certaines pages
+/* page nous joindre
 ------------------------------------------------------------------------ */
-/* @import "event-single-page.css"; */
+@import "style-contact.css";
 
 @font-face {
  font-family: "icomoon";
@@ -136,6 +137,18 @@ img.wpsmartcrop-image {
   max-width: 1375px !important;
   padding-right: 0px !important;
   padding-left: 0px !important;
+}
+
+/* ajuste largeur footer pour petits écrans */
+@media only screen and (max-width: 1390px) {
+  #my-footer #links-row {
+    max-width: 1175px !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #my-footer #links-row {
+    width: 90% !important;
+  }
 }
 
 /* grosseur police du menu principal */
