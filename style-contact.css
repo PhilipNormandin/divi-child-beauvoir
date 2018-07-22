@@ -69,4 +69,20 @@
   #adresse-formulaire-section .et_pb_column:nth-child(1) .et_pb_module {
     max-width: 100% !important;
   }
+  #adresse-formulaire-section .et_pb_column:nth-child(2) h2 {
+    text-align: center;
+  }
+  #adresse-formulaire-section .et_pb_column:nth-child(2) .et_pb_text {
+    margin-bottom: 0 !important;
+  }
+}
+@media all and (max-width: 480px) {
+  #adresse-formulaire-section .et_pb_column:nth-child(2) .et_contact_bottom_container {
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+  #adresse-formulaire-section .et_pb_column:nth-child(2) .et_contact_bottom_container button {
+    margin-left: 0 !important;
+  }
 }
