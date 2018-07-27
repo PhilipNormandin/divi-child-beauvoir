@@ -35,6 +35,7 @@ nouveau rouge pour calendrier : #BD322C
 @import "falkor-blogs.css";
 @import "falkor-blurb.css";
 @import "falkor-contact-forms.css";
+@import "falkor-content.css";
 
 /* header pour versions mobile, tablette et petit écran
 ------------------------------------------------------------------------ */
@@ -63,6 +64,10 @@ nouveau rouge pour calendrier : #BD322C
 /* page nous joindre
 ------------------------------------------------------------------------ */
 @import "style-contact.css";
+
+/* page horaires
+------------------------------------------------------------------------ */
+@import "style-schedule.css";
 
 @font-face {
  font-family: "icomoon";
@@ -139,9 +144,13 @@ img.wpsmartcrop-image {
   padding-left: 0px !important;
 }
 
-/* ajuste largeur footer pour petits écrans */
+/* ajuste largeur header page et footer pour petits écrans */
 @media only screen and (max-width: 1390px) {
-  #my-footer #links-row {
+  #header-page-section .et_pb_fullwidth_header_container {
+    width: 90% !important;
+  }
+  #my-footer #links-row,
+  #my-footer #contact-row {
     max-width: 1175px !important;
   }
 }
