@@ -1,8 +1,16 @@
 /* Propriétés globales
 ---------------------------------------------------------------------------- */
-/* retire un peu de padding */
+
+/* ajoute du padding */
+blockquote p {
+  padding-bottom: 30px;
+}
+/* retire du padding */
 .horaire-row .et_pb_promo_description {
   padding-bottom: 0 !important;
+}
+blockquote p:last-child {
+  padding-bottom: 0;
 }
 /* affichage de l'image */
 .horaire-row img {
@@ -64,6 +72,9 @@
   #horaires-dates {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
+  }
+  #horaires-dates .et_pb_row {
+    width: 90% !important;
   }
   #page-container .content_1_f .horaire-row .texte-gauche,
   #page-container .content_1_f .horaire-row .texte-droite {
