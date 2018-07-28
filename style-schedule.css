@@ -60,10 +60,19 @@
    grid-template-columns: minmax(300px,1fr);
  }
 }
+@media all and (max-width: 480px) {
+  #page-container .content_1_f .horaire-row .texte-gauche,
+  #page-container .content_1_f .horaire-row .texte-droite {
+    padding: 30px 20px 30px 30px !important;
+  }
+  blockquote p {
+    font-size: 16px !important;
+  }
+}
 /* ajuste taille police des dates */
 @media all and (max-width: 767px) {
   #horaires-dates p {
     line-height: 30px;
-    font-size: 24px;
+    font-size: 22px;
   }
 }
