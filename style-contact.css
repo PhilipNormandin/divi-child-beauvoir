@@ -32,6 +32,11 @@
   }
 }
 
+/* retire le message d'erreur */
+.et-pb-contact-message {
+  display: none;
+}
+
 /* ajuste largeur et position des sections */
 @media all and (max-width: 980px) {
   #adresse-formulaire-section > .et_pb_row,
