@@ -356,7 +356,7 @@ img.wpsmartcrop-image {
 
     /* repositionne à droite le logo dans menu fixe */
     .et-fixed-header a #logo{
-      float: right;
+      /* float: right; */
     }
 
   }
