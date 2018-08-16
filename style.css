@@ -30,7 +30,7 @@ nouveau rouge pour calendrier : #BD322C
 
 /* Animations sur https://github.com/daneden/animate.css
 ------------------------------------------------------------------------ */
-/* @import "animate.css"; */
+@import "animate.css";
 
 /* Les feuilles CSS de Falkor
 ------------------------------------------------------------------------ */
@@ -42,7 +42,7 @@ nouveau rouge pour calendrier : #BD322C
 
 /* Menu version desktop
 ------------------------------------------------------------------------ */
-/* @import "beauvoir-header.css"; */
+@import "beauvoir-header.css";
 
 /* Menu versions mobile, tablette et petit écran
 ------------------------------------------------------------------------ */
