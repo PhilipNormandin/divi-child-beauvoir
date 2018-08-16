@@ -5,15 +5,13 @@
  Author:         Philippe Normandin
  Author URI:     http://www.philippenormandin.com
  Template:       Divi
- Version:        2.0.0
+ Version:        3.0.0
  GitHub Theme URI: https://github.com/PhilipNormandin/divi-child-beauvoir
 */
 
 
-/* =Theme customization starts here
-------------------------------------------------------- */
-
 /* Les couleurs
+------------------------------------------------------------------------
 
 rouge      : #BF0404
 bleu foncé : #1B3E59 #1f4766 http://www.0to255.com/1B3E59
@@ -27,9 +25,14 @@ bleu foncé de Divi-Den Falkor : #1f2532
 
 nouveau bleu pale pour bouton : #06c
 nouveau rouge pour calendrier : #BD322C
+
 */
 
-/* les feuilles CSS de Falkor
+/* Animations sur https://github.com/daneden/animate.css
+------------------------------------------------------------------------ */
+@import "animate.css";
+
+/* Les feuilles CSS de Falkor
 ------------------------------------------------------------------------ */
 @import "falkor-footers.css";
 @import "falkor-blogs.css";
@@ -37,38 +40,36 @@ nouveau rouge pour calendrier : #BD322C
 @import "falkor-contact-forms.css";
 @import "falkor-content.css";
 
-/* header pour versions mobile, tablette et petit écran
+/* Menu version desktop
 ------------------------------------------------------------------------ */
-@import "mobile-default-header.css";
+@import "beauvoir-header.css";
 
-/* recherche pour versions mobile, tablette et petit écran
+/* Menu versions mobile, tablette et petit écran
 ------------------------------------------------------------------------ */
-@import "mobile-search.css";
+@import "beauvoir-mobile-header.css";
 
-/* menu pour versions mobile, tablette et petit écran
+/* Bas de page
 ------------------------------------------------------------------------ */
-@import "mobile-style-image-back.css";
+@import "beauvoir-footer.css";
 
-/* contenu de la page d'accueil
+/* Page ACCUEIL
 ------------------------------------------------------------------------ */
-@import "style-home.css";
+@import "beauvoir-accueil.css";
 
-/* footer
+/* Page NOUS JOINDRE
 ------------------------------------------------------------------------ */
-@import "style-footer.css";
+@import "beauvoir-contact.css";
 
-/* page événements
+/* Page HORAIRES
 ------------------------------------------------------------------------ */
-@import "style-events.css";
+@import "beauvoir-horaires.css";
 
-/* page nous joindre
+/* page ÉVÉNEMENTS
 ------------------------------------------------------------------------ */
-@import "style-contact.css";
+@import "beauvoir-evenements.css";
 
-/* page horaires
+/* icones provenant de icomoon
 ------------------------------------------------------------------------ */
-@import "style-schedule.css";
-
 @font-face {
  font-family: "icomoon";
  src: url("fonts/icomoon.woff");
@@ -77,665 +78,83 @@ nouveau rouge pour calendrier : #BD322C
 /* Propriétés globales
 ------------------------------------------------------------------------ */
 
-/* largeur du formulaire de recherche */
-#main-header .et_search_form_container {
-  width: 50% !important;
-}
-
-/* grosseur du input de recherche */
-#main-header .et-search-field {
-  font-size: 20px !important;
-}
-
 /* boutons */
-#horaires-section-desktop .my-buttons,
-#horaires-section-desktop .my-buttons:hover {
+body #main-content a.my-buttons,
+body #main-content a.my-buttons:hover {
   padding: 10px 30px !important;
+  font-weight: 400 !important;
 }
-#horaires-section-desktop .my-buttons:hover,
-#horaires-section-desktop-test .my-buttons:hover,
-#horaires-section-mobile .my-buttons:hover,
-#horaires-section-mobile-test .my-buttons:hover {
+body #main-content #horaires-accueil_section .my-buttons:hover,
+body #main-content #evenements-accueil_section .my-buttons:hover,
+body #main-content #articles-accueil_section .my-buttons:hover {
   opacity: .7;
 }
 
-/* cache section vide apparaissant sous footer */
-footer#main-footer > #my-footer + .et_pb_section {
-  margin: 0 !important;
-  padding: 0 !important;
+/* bouncing image fix */
+.et_fixed_nav.et_show_nav #page-container {
+  /* margin-top: -1px !important; */
+  /* padding-top: 212px !important; */
 }
 
-/* ajustements mineurs menu mobile */
-.et_mobile_menu .menu-item-has-children > a {
-  font-weight: 600;
-  font-size: 18px !important;
-}
-.et_mobile_menu li.no-url-link > a {
-  color: #0080ff !important;
-  font-weight: 500 !important;
-}
-.et_mobile_menu .menu-item-type-post_type > a,
-.et_mobile_menu .lang-item > a {
-  font-size: 16px !important;
-  font-weight: 500 !important;
-  /* color: #9cf !important; */
-}
-.et_mobile_menu .lang-item > a {
-  width: auto;
-}
-
-/* cache panier de woocommerce */
-.et-cart-info {
-  display:none;
-}
-
-/* test le plugin smart cropping */
-img.wpsmartcrop-image {
-  /* display: block !important; */
-  /* width: 100% !important; */
-  /* height: 30vh !important; */
-}
-
-/* ajuste menu secondaire */
-#top-header .container {
-  width: 90% !important;
-  max-width: 1375px !important;
-  padding-right: 0px !important;
-  padding-left: 0px !important;
-}
-
-/* ajuste largeur header page et footer pour petits écrans */
+/* ajustements mineurs pour petits écrans */
 @media only screen and (max-width: 1390px) {
   #header-page-section .et_pb_fullwidth_header_container {
     width: 90% !important;
   }
-  #my-footer #links-row,
-  #my-footer #contact-row {
-    max-width: 1175px !important;
-  }
-}
-@media only screen and (max-width: 480px) {
-  #my-footer #links-row {
-    width: 90% !important;
-  }
 }
 
-/* grosseur police du menu principal */
-#et-top-navigation {
-    font-weight: 600 !important;
-}
+/* Animations s'effectuant à l'ouverture d'une page avec animate.css
+------------------------------------------------------------------------ */
 
-/* Break point pour version grand écran
----------------------------------------------------------------------------------------------- */
+/* empêche la page d'apparaitre avant les animations */
+body {
+  opacity: 0;
+  transition: opacity 0.4s ease-out 0.4s;
+}
+body.show-the-page {
+  opacity: 1;
+}
 
 @media only screen and (min-width: 1366px) {
 
-  /* effet hover
-  ------------------------------------------*/
-
-  #et-info-email:hover,
-  #et-secondary-menu > ul > li > a:hover,
-  #top-menu-nav > ul > li > a:hover,
-  .et-social-icons a:hover {
-    /* opacity: 1; */
+  /* menu principal et Logo */
+  #main-header #logo.animated {
+    animation-name: zoomIn;
+    animation-duration: 0.7s;
+    animation-delay: 0.7s;
+  }
+  #main-header #et-top-navigation.animated {
+    animation-name: fadeIn;
+    animation-duration: 0.7s;
+    animation-delay: 0.3s;
+  }
+  #top-header.animated {
+    animation-name: fadeIn;
+    animation-duration: 0.7s;
+    animation-delay: 0.3s;
   }
 
-  #et-secondary-menu > ul > li > a:hover {
-    /* color: #ffe9a3; */
-    /* transition: all .3s ease-in-out; */
-  }
-
-  /* Menu principal et Logo
-  ------------------------------------------*/
-
-  /* espace autour du logo */
-  img#logo {
-    padding: 18px;
-  }
-
-  /* pointeur du curseur sur menu comportant un sous-menu */
-  .no-url-link > a:hover {
-    cursor: pointer;
-  }
-
-  /* flèches indiquant un sous-menu */
-  #et-secondary-nav .menu-item-has-children > a:first-child::after,
-  #top-menu .menu-item-has-children > a:first-child::after {
-  	/* content: "\35"; */
-  }
-  #et-secondary-nav .menu-item-has-children:hover > a:first-child::after,
-  #top-menu .menu-item-has-children:hover > a:first-child::after {
-  	/* content: "\33"; */
-  }
-  #et-secondary-nav .sub-menu .menu-item-has-children > a:first-child::after,
-  #top-menu .sub-menu .menu-item-has-children > a:first-child::after {
-  	content: "\35";
-  }
-
-  /* espace entre les menus et la loupe */
-  #top-menu li:last-of-type {
-    /* margin-right: 60px; */
-  }
-
-  /* repositionne la loupe */
-  .et_header_style_centered #et_search_icon::before {
-    padding: 0.5em;
-    top: -24px;
-  }
-
-  /* Jumping header Fix */
-  /* https://divi.space/divi-tutorials/fixing-the-jumping-header-issue-in-divi/ */
-  #page-container { padding-top: 211px !important; }
-  #main-header { top: 40px !important; }
-
-  /* espace au-dessus du champ de recherche */
-  .et_header_style_centered .et-search-form input,
-  .et_header_style_centered span.et_close_search_field {
-    top: 65%;
-  }
-
-  /* espace sous menu principal */
-  #main-header #top-menu > li > a {
-    padding-bottom: 24px;
-  }
-
-  /* menu en majuscule */
-  header#main-header nav#top-menu-nav {
-    text-transform: uppercase;
-  }
-
-  /* Menu secondaire
-  ------------------------------------------*/
-
-  /* hauteur de la barre du menu en haut */
-  #top-header .container {
-    line-height: 19px;
-    /* height: 40px; */
-  }
-
-  /* grosseur de police du menu en haut */
-  ul#et-secondary-nav.menu a {
-    font-size: 14px;
-  }
-
-  /* espace au-dessus menu secondaire */
-  #et-secondary-nav {
-    margin-top: -5px;
-  }
-
-  /* ensemble des médias sociaux */
-  #top-header .et-social-icons {
-    float: right !important;
-  }
-
-  /* liens médias-sociaux (ajoutés manuellement) */
-  ul#et-secondary-nav .my-social-links > a {
-    font-size: 24px;
-    padding-bottom: 0;
-    position: relative;
-    top: 6px;
-  }
-
-  /* liens médias-sociaux (par défaut) */
-  #top-header .et-social-icon a::before,
-  #top-header .et-social-icon a {
-    font-size: 24px !important;
-    padding-bottom: 0 !important;
-    top: 3px;
-  }
-
-  /* espace à droite de NOUS JOINDRE */
-  ul#et-secondary-nav.menu li:nth-child(4) {
-    margin-right: 0;
-  }
-
-  /* espace à gauche des langages */
-  ul#et-secondary-nav.menu li:nth-child(5) {
-    margin-left: 4vw;
-  }
-
-  /* Menu fixe
-  ------------------------------------------*/
-
-  /* espace sous menu principal */
-  #main-header.et-fixed-header #top-menu > li > a {
-    margin-bottom: 16px;
-  }
-
-  /* durée de transition lorsqu'on passe de non fixe à fixe */
-  #main-header,
-  #top-header {
-  	transition: 0.1s ease;
-  	-moz-transition: 0.1s ease;
-  	-webkit-transition: 0.1s ease;
-  }
-  .logo_container {
-    transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -webkit-transition: all 0.2s ease;
-  }
-
-  /* cache le top header */
-  #top-header.et-fixed-header {
-  	top: -40px !important;
-  }
-
-   /* repositionne le main-header */
-  #main-header.et-fixed-header {
-  	top: 0 !important;
-  }
-
-  /* espace autour du logo dans menu fixe */
-  .et-fixed-header #logo {
-    padding: 0.5em;
-  }
-
-  /* annule effet transition du logo */
-  .et-fixed-header #logo {
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    transition: none !important;
-  }
-
-  /* partie logo se place à gauche */
-  .et_header_style_centered #main-header.et-fixed-header .et_menu_container .logo_container {
-    float: left;
-    width: 25%;
-    height: 90px;
-    transition-delay: -0.5s;
-  }
-
-  /* partie navigation se place à droite */
-  .et_header_style_centered #main-header.et-fixed-header #et-top-navigation {
-    width: 75%;
-    float: right;
-    line-height: 90px;
-  }
-
-  @media only screen and (min-width: 1530px) {
-
-    /* repositionne à droite le logo dans menu fixe */
-    .et-fixed-header a #logo{
-      /* float: right; */
-    }
-
-  }
-
-  /* annule effet transition de la partie navigation */
-  .et_fixed_nav #et-top-navigation {
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    transition: none !important;
-  }
-
-  /* repositionne le champ de recherche (espace au-dessus) */
-  .et_header_style_centered .et-fixed-header .et-search-form input,
-  .et_header_style_centered .et-fixed-header span.et_close_search_field,
-  .et_header_style_centered .et-fixed-header .et-search-form {
-    top: 0;
-  }
-
-  /* repositionne vers la droite le champ de recherche */
-  .et_fullwidth_nav #main-header.et-fixed-header .et_search_form_container {
-    left: 30vh;
-  }
-
-  /* Jumping search Fix when pass from non fixed to fixed header and vice-versa */
-  .et_fullwidth_nav #main-header.et-fixed-header .container.et_pb_search_visible,
-  .et_fullwidth_nav #main-header.et-fixed-header .container.et_pb_is_animating {
-    height: 90px !important;
-  }
-
-  /* Jumping search Fix when pass from fixed to non fixed header */
-  .et_fullwidth_nav #main-header .container.et_pb_search_visible,
-  .et_fullwidth_nav #main-header .container.et_pb_is_animating {
-    height: 172px !important;
-  }
-
-  /* repositionne la loupe */
-  .et_header_style_centered .et-fixed-header #et_search_icon::before {
-    top: -22px;
-  }
-
-  /* Sous-menu du menu principal
-  ------------------------------------------*/
-
-  #top-menu li:nth-child(1) ul,
-  #top-menu li:nth-child(1) li a,
-  #top-menu li:nth-child(1) li ul {
-    /* width: 300px; */
-  }
-
-  #top-menu li:nth-child(2) ul,
-  #top-menu li:nth-child(2) li a,
-  #top-menu li:nth-child(2) li ul {
-    /* width: 300px; */
-  }
-
-  #top-menu li:nth-child(3) ul,
-  #top-menu li:nth-child(3) li a,
-  #top-menu li:nth-child(3) li ul {
-    /* width: 300px; */
-  }
-
-  #top-menu li:nth-child(4) ul,
-  #top-menu li:nth-child(4) li a,
-  #top-menu li:nth-child(4) li ul {
-    /* width: 300px; */
-  }
-
-  #top-menu li ul {
-    padding: 0;
-    border-top: 0px;
-  }
-
-  #top-menu li li {
-    padding: 0;
-    margin: 0;
-  }
-
-  #top-menu li li a {
-    font-size: 15px;
-    margin: 0;
-    transition: all .1s ease-in-out;
-    text-transform: none;
-    /* border-top: 1px solid #D7DADB; */
-  }
-
-  #top-menu li li a:hover {
-    color: white;
-    background-color: #1f4766;
-    opacity: 1 !important;
-  }
-
-  /* drop down menu - level 2 */
-  #top-menu li li ul {
-    padding: 0;
-    top: 0px;
+  /* menu fixe */
+  #main-header.animated.et-fixed-header {
+    animation-name: slideInDown;
+    animation-duration: 0.7s;
   }
 
 }
-
-/* Break point pour versions mobile, tablette et petit écran
----------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1365px) {
 
-  /* cache menu secondaire et la navigation du menu principal */
-  #top-header,
-  #top-menu-nav {
-    display: none !important;
-  }
-
-  /* Jumping header Fix */
-  #page-container { padding-top: 90px !important; }
-  #main-header { top: 0px !important; }
-
-  /* fixe hauteur et padding du header */
-  #main-header,
-  #main-header .logo_container {
-    height: 90px !important;
-    padding: 0 !important;
-  }
-
-  /* rend le header fixe */
-  #main-header {
-    position: fixed !important;
-  }
-
-  /* rend clickable le hamburger */
-  .mobile_nav.closed .mobile_menu_bar {
-    z-index: 3;
-  }
-
-  /* dimensionne le logo */
-  #logo {
-      max-height: 70px !important;
-  }
-
-  /* positionne la loupe et le hamburger */
-  #et-top-navigation {
-    top: 8px;
-  }
-
-  /* assure que le hamburger apparaisse sur petits écrans */
-  #et_mobile_nav_menu {
-    display: block !important;
-  }
-
-  /* annule les transitions du logo */
-  #main-header .logo_container {
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    transition: none !important;
-  }
-
-  /* couleur hamburger - X -loupe */
-  .mobile_nav.closed .mobile_menu_bar::before,
-  .mobile_nav.opened .mobile_menu_bar::before,
-  #et_search_icon::before {
-    color: #1f4766 !important;
-  }
-
-  /* redimentionne le hamburger */
-  .mobile_nav.closed .mobile_menu_bar::before {
-    font-size: 56px !important;
-  }
-
-  /* positionne le hamburger */
-  #et_mobile_nav_menu {
-    position: relative;
-    top: 5px;
-    right: -10px;
-  }
-
-  /* redimentionne la loupe */
-  #et_search_icon:before {
-    font-size: 38px !important;
-  }
-
-  /* positionne la loupe */
-  #et_top_search {
-    top: 14px;
-    left: -44px;
-  }
-
-  /* espace au-dessus du input et x de recherche */
-  #main-header .et-search-form input,
-  #main-header span.et_close_search_field {
-    top: 20px !important;
-  }
-
-  /* largeur et position du formulaire de recherche */
-  #main-header .et_search_form_container {
-    width: 40% !important;
-    left: 160px;
-  }
-
-  /* positionne x de recherche */
-  #main-header .et_close_search_field::after {
-    font-size: 42px !important;
-    position: relative !important;
-    top: -6px !important;
-    left: -6px !important;
-  }
-
-  /* le x du menu lorsque ouvert */
-  .mobile_nav.opened .mobile_menu_bar:before {
-    border: none;
-    font-size: 56px;
-  }
-
-  /* annule uppercase des sous-menus */
-  .et_mobile_menu li.menu-item-has-children li a {
-    text-transform: none !important;
-  }
-
-  /* largeur et position du menu */
-  .et_mobile_menu > li {
-    width: 70%;
-    margin: 0 auto 0 10%;
-  }
-
-  .et_primary_nav_dropdown_animation_slide #et-top-navigation ul li:hover > ul,
-  .et_secondary_nav_dropdown_animation_slide #et-secondary-nav li:hover > ul {
-    -webkit-animation: none;
-    -moz-animation: none;
-    -o-animation: none;
-    animation: none;
+  /* menu principal */
+  #main-header.animated {
+    animation-name: fadeInDownBig;
+    animation-duration: 0.7s;
+    /* animation-delay: 0.3s; */
   }
 
 }
 
-/* Break point pour version petit écran - ajustements pour l'en-tête fixe
----------------------------------------------------------------------------------------------- */
-
-@media only screen and (min-width: 1366px) and (max-width: 1439px) {
-
-  /* redimentionne l'en-tête fixe */
-  .et_fullwidth_nav #main-header .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-
-  /* redimentionne le logo dans l'en-tête fixe */
-  #main-header.et-fixed-header #logo {
-    max-width: 98%  !important;
-  }
-
-  /* redimentionne l'espace pour le logo dans l'en-tête fixe */
-  #main-header.et-fixed-header .logo_container {
-    width: 21% !important;
-  }
-
-  /* redimentionne l'espace pour le menu dans l'en-tête fixe */
-  #main-header.et-fixed-header #et-top-navigation {
-    width: 79% !important;
-  }
-
-  /* donne la pleine largeur de l'écran à l'en-tête */
-  .container.clearfix.et_menu_container {
-    /* width: 100% !important; */
-  }
-
-}
-
-/* Break point pour version petit écran - ajustements mineurs
----------------------------------------------------------------------------------------------- */
-
-@media only screen and (min-width: 981px) and (max-width: 1365px) {
-
-  /* enlève padding gauche et droite du container de menu */
-  #main-header .container {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-    /* width: 80% !important; */
-  }
-
-  /* repositionne le hamburger */
-  #et_mobile_nav_menu {
-    top: 7px;
-    right: -49px;
-  }
-
-  /* repositionne la loupe */
-  #et_top_search {
-    top: 11px;
-    left: -80px;
-  }
-
-  /* repositionne le input de recherche */
-  .et_fullwidth_nav .et-search-form {
-    right: 0px;
-    top: 0px !important;
-  }
-
-  /* refixe la largeur du container de input et x de recherche */
-  .et_search_outer .et_search_form_container {
-    width: 80% !important;
-  }
-
-}
-
-/* Break point pour version mobile portrait
----------------------------------------------------------------------------------------------- */
-
-@media all and (max-width: 479px) {
-
-  /* largeur du menu */
-  .container.clearfix.et_menu_container {
-    width: 98% !important;
-  }
-
-  /* redimentionne le logo */
-  #main-header .logo_container {
-    max-width: 74% !important;
-  }
-  #main-header #logo {
-    max-width: 98% !important;
-  }
-
-  /* redimentionne le hamburger */
-  .mobile_nav.closed .mobile_menu_bar::before {
-    font-size: 48px !important;
-  }
-
-  /* redimentionne le x du menu lorsque ouvert */
-  .mobile_nav.opened .mobile_menu_bar:before {
-    font-size: 48px;
-    top: -2px;
-  }
-
-  /* redimentionne la loupe */
-  #et_search_icon:before {
-    font-size: 32px !important;
-  }
-
-  /* repositionne le hamburger */
-  #et_mobile_nav_menu {
-    top: 10px !important;
-  }
-
-  /* repositionne la loupe */
-  #et_top_search {
-    top: 18px !important;
-    left: -12px !important;
-  }
-
-}
-
-/* Break point pour version mobile - ajustements recherche dans l'en-tête
----------------------------------------------------------------------------------------------- */
-
-@media only screen and (max-width: 767px) {
-
-  /* largeur du formulaire de recherche */
-  #main-header .et_search_form_container {
-    width: 80% !important;
-    left: 0px;
-  }
-
-  /* adjuste horizontalement le input de recherche */
-  .et-search-form input {
-     /* left: 0px !important; */
-  }
-
-  /* efface logo lorsque formulaire de recherche activé */
-  #main-header .et_pb_menu_hidden #logo {
-    opacity: 0;
-    transition: opacity .4s ease;
-  }
-
-  /* affiche logo lorsque formulaire de recherche non activé */
-  #main-header .et_pb_menu_visible #logo {
-    opacity: 1;
-    transition: opacity .4s ease .7s;
-  }
-
-}
-
-/* Rêgles et Break points pour header de page
----------------------------------------------------------------------------------------------- */
+/* En-tête de chaque page
+------------------------------------------------------------------------ */
 
 #header-page-section h2 {
   padding-bottom: 5px !important;
@@ -745,6 +164,11 @@ img.wpsmartcrop-image {
 
   #header-page-section .et_pb_fullwidth_header_container h2 {
     font-size: 58px !important;
+  }
+
+  #header-page-section .et_pb_fullwidth_header {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
   }
 
 }
@@ -762,12 +186,22 @@ img.wpsmartcrop-image {
     font-size: 48px !important;
   }
 
+  #header-page-section .et_pb_fullwidth_header {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 980px) {
 
   #header-page-section .et_pb_fullwidth_header_container h2 {
     font-size: 38px !important;
+  }
+
+  #header-page-section .et_pb_fullwidth_header {
+    /* padding-top: 1% !important; */
+    /* padding-bottom: 1% !important; */
   }
 
 }
@@ -779,8 +213,8 @@ img.wpsmartcrop-image {
   }
 
   #header-page-section .et_pb_fullwidth_header {
-    padding-top: 0% !important;
-    padding-bottom: 0% !important;
+    /* padding-top: 0% !important; */
+    /* padding-bottom: 0% !important; */
   }
 
   #header-page-section .header-content {
@@ -789,17 +223,8 @@ img.wpsmartcrop-image {
 
 }
 
-@media only screen and (min-width: 768px) {
-
-  #header-page-section .et_pb_fullwidth_header {
-    padding-top: 1% !important;
-    padding-bottom: 1% !important;
-  }
-
-}
-
-/* Rêgles et Break points pour page en construction
----------------------------------------------------------------------------------------------- */
+/* Page en construction
+------------------------------------------------------------------------ */
 
 #page-under-construction-section .et_pb_text   {
   margin-bottom: 10px !important;
@@ -826,5 +251,69 @@ img.wpsmartcrop-image {
   #page-under-construction-section .et_pb_image img {
     max-width: 274px !important;
   }
+
+}
+
+/* Break point pour version grand écran
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 1366px) {
+
+
+}
+
+/* Break point pour versions mobile, tablette et petit écran
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1365px) {
+
+
+}
+
+/* Break point pour versions grande tablette et petit écran
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 981px) and (max-width: 1365px) {
+
+
+}
+
+/* Break point pour versions mobile et tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 980px) {
+
+
+}
+
+/* Break point pour version tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+
+
+}
+
+/* Break point pour versions mobile et petite tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 767px) {
+
+
+}
+
+/* Break point pour versions mobile landscape et petite tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
+
+/* Break point pour version mobile portrait
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 479px) {
+
 
 }

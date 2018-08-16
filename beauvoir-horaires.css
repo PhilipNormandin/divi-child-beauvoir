@@ -1,0 +1,110 @@
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+/* espacement autour de paragraphes et conteneurs */
+blockquote p {
+  padding-bottom: 30px;
+}
+blockquote p:last-child {
+  padding-bottom: 0;
+}
+.horaire-row .et_pb_promo_description {
+  padding-bottom: 10px !important;
+}
+
+/* ajuste affichage des images */
+.horaire-row img {
+  object-fit: cover;
+  max-width: 100% !important;
+}
+
+/* Break point pour écrans de 1390px et moins
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 1390px) {
+
+  /* ajuste largeur et espacement de différents blocs */
+  #horaires-section .horaire-row {
+    max-width: 1175px !important;
+  }
+  #horaires-section #dates-horaires-row > .et_pb_column {
+    padding: 0 !important;
+  }
+  #horaires-section .horaire-row .et_pb_column.image-gauche {
+    padding: 0 !important;
+  }
+  #horaires-section .horaire-row .et_pb_column.texte-gauche,
+  #horaires-section .horaire-row .et_pb_column.texte-droite {
+    padding: 50px 65px !important;
+  }
+
+}
+
+/* Break point pour écrans de 1090px et moins
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 1090px) {
+
+  /* ajuste espacement blocs texte */
+  #horaires-section .horaire-row .et_pb_column.texte-gauche,
+  #horaires-section .horaire-row .et_pb_column.texte-droite {
+    padding: 30px 30px 30px 50px !important;
+  }
+
+}
+
+/* Break point pour versions mobile et tablette
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 980px) {
+
+  /* efface blocs image */
+  #horaires-section .horaire-row .et_pb_column.image-droite,
+  #horaires-section .horaire-row .et_pb_column.image-gauche {
+    display: none;
+  }
+  /* ajuste blocs texte */
+  #horaires-section .horaire-row,
+  #horaires-section .horaire-row .et_pb_column.texte-droite,
+  #horaires-section .horaire-row .et_pb_column.texte-gauche {
+    min-width: 300px !important;
+    max-width: 500px !important;
+    box-sizing: border-box;
+  }
+
+}
+
+/* Break point pour versions mobile et petite tablette
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 767px) {
+
+  /* ajuste taille police des dates */
+  #dates-horaires-row p {
+    line-height: 30px;
+    font-size: 22px;
+  }
+
+}
+
+/* Break point pour version mobile portrait
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 480px) {
+
+  /* ajuste police et espacement autour blocs texte */
+  blockquote p {
+    font-size: 16px !important;
+  }
+  #dates-horaires-row .et_pb_module {
+    padding-left: 0 !important;
+  }
+  #horaires-section .horaire-row .et_pb_column.texte-gauche,
+  #horaires-section .horaire-row .et_pb_column.texte-droite {
+    padding: 30px 40px !important;
+  }
+  #horaires-section blockquote {
+    padding-left: 30px !important;
+  }
+
+}

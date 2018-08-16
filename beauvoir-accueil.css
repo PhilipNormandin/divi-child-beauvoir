@@ -1,0 +1,462 @@
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+/* ajuste boutons */
+#main-content #evenements-accueil_section a.my-buttons,
+#main-content #articles-accueil_section a.my-buttons {
+  font-weight: 500 !important;
+}
+
+/* ajuste titres des sections ÉVÉNEMENTS À VENIR et ARTICLES DE NOTRE BLOGUE */
+#evenements-accueil-titre_row .et_pb_text,
+#articles-accueil-titre_row .et_pb_text {
+  margin-bottom: 0 !important;
+}
+#horaires-accueil_section .horaires-version-desktop h2,
+#horaires-accueil_section .horaires-version-mobile h2,
+#evenements-accueil_section #evenements-accueil-titre_row h2,
+#articles-accueil_section #articles-accueil-titre_row h2 {
+  font-variant: small-caps;
+}
+#evenements-accueil_section #evenements-accueil-titre_row h2,
+#articles-accueil_section #articles-accueil-titre_row h2 {
+  font-size: 40px;
+  padding-bottom: 0 !important;
+}
+
+/* espacement autour des sections */
+#evenements-accueil_section,
+#articles-accueil_section {
+  /* padding-top: 4vh; */
+  /* padding-bottom: 4vh; */
+}
+/* espacement autour des lignes de chaque section */
+#evenements-accueil-titre_row,
+#articles-accueil-titre_row {
+  /* padding-top: 4vh; */
+  /* padding-bottom: 3.5vh; */
+}
+#evenements-accueil-contenu_row,
+#articles-accueil-contenu_row {
+  /* padding-top: 3.5vh; */
+  /* padding-bottom: 3.5vh; */
+}
+#evenements-accueil-bouton_row,
+#articles-accueil-bouton_row {
+  /* padding-top: 3.5vh; */
+  /* padding-bottom: 4vh; */
+}
+
+/* Section ÉVÉNEMENTS À VENIR
+------------------------------------------------------------------------ */
+
+/* enlève du padding */
+#evenements-accueil_section .wcs-timetable__container {
+  padding-top: 0 !important;
+  padding-bottom: 0!important;
+}
+ul.wcs-timetable__list,
+ul.wcs-timetable__list li {
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* ajoute une ligne sous le 3e événement */
+.wcs-timetable__list .wcs-class:last-child {
+  border-bottom: 1px solid rgba(102, 102, 102, 0.1);
+}
+
+/* ajustements des autres lignes de la liste */
+.wcs-timetable__list .wcs-class::after {
+  opacity: 0.1;
+}
+
+/* Section ARTICLES DE NOTRE BLOGUE
+------------------------------------------------------------------------ */
+
+/* enlève le margin sous chaque article */
+#articles-accueil-contenu_row article.et_pb_post {
+  margin-bottom: 0;
+}
+
+/* ajustements du texte sous l'image */
+#articles-accueil-contenu_row .post-content > p:first-child {
+  color: #525252 !important;
+}
+#articles-accueil_section .post-content a.more-link {
+  text-transform: none !important;
+  color: #BF0404 !important;
+}
+
+/* limite à deux lignes l'extrait de l'article */
+.ds-limit-excerpt .post-content p {
+  display: block;
+  height: 3em;
+  /* max-height: 3em; */
+  width: 100%;
+  overflow: hidden;
+}
+
+/* ajuste largeur de l'extrait sous l'image */
+.ds-limit-excerpt .post-content {
+    width: 100%;
+}
+
+/* Section CÉLÉBRATIONS EUCHARISTIQUES - à l'horizontal
+----------------------------------------------------------- */
+
+/* hauteur de la section */
+#horaires-accueil_section .horaires-version-desktop {
+  /* height: 96px !important; */
+}
+
+/* espace réservé au titre */
+#horaires-accueil_section .horaires-version-desktop .et_pb_column_0 {
+  width: auto;
+  margin-right: 0;
+}
+
+/* grosseur du titre */
+#horaires-accueil_section .horaires-version-desktop h2 {
+  font-size: 32px;
+}
+
+/* dimension des horaires alignés à l'horizontal - deux items */
+#horaires-accueil_section .horaires-version-desktop .et_pb_column_1.deux-items {
+  max-width: 600px;
+  min-width: 300px;
+  width: 28%;
+  margin-right: 0;
+}
+
+/* ajustements de chaque horaire */
+#horaires-accueil_section .horaires-version-desktop .et_pb_column_1 .et_pb_module {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+/* espace réservé au bouton TOUS LES HORAIRES */
+#horaires-accueil_section .horaires-version-desktop .et_pb_column_2 {
+  width: auto;
+}
+
+/* efface un point qui n'a pas rapport dans le décor */
+#horaires-accueil_section .horaires-version-desktop::after {
+  display: none !important;
+}
+
+/* positionne les éléments avec Flex */
+#horaires-accueil_section .horaires-version-desktop,
+#horaires-accueil_section .horaires-version-desktop .et_pb_column_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* position et dimension de la section */
+#horaires-accueil_section .horaires-version-desktop  {
+  padding: 14px 0 !important;
+}
+
+/* un peu de padding sous le titre */
+#horaires-accueil_section .horaires-version-desktop h2 {
+  padding-bottom: 3px !important;
+}
+
+/* Section CÉLÉBRATIONS EUCHARISTIQUES - à la vertical
+----------------------------------------------------------- */
+
+/* Contains snippet parts from https://www.needyesterday.com/4-snippet-for-the-toggle-module/ */
+
+/* largeur de la section */
+#horaires-accueil_section .horaires-version-mobile {
+  width: 96% !important;
+}
+
+/* espacement autour de la section */
+#horaires-accueil_section .horaires-version-mobile {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+/* dimensionne et positionne le titre */
+#horaires-accueil_section .horaires-version-mobile h2 {
+  font-size: 32px;
+  line-height: 42px;
+  padding: 0 0 4px 0 !important;
+  left: -13px;
+}
+
+/* espacement autour du module */
+#horaires-accueil_section .horaires-version-mobile #horaire-des-messes-toggle {
+  padding-bottom: 0 !important;
+}
+
+/* efface l'icon par défaut du module */
+#horaires-accueil_section .horaires-version-mobile .et_pb_toggle_open h2.et_pb_toggle_title::before,
+#horaires-accueil_section .horaires-version-mobile .et_pb_toggle_close h2.et_pb_toggle_title::before {
+  display: none;
+}
+
+/* dessine et positionne pointeur */
+#horaires-accueil_section .horaires-version-mobile h2.et_pb_toggle_title::after {
+  font-family: "icomoon" !important;
+  content: "\e904";
+  font-size: 26px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  right: -24px;
+  font-weight: bold;
+}
+
+/* centre le bouton */
+#horaires-accueil_section .horaires-version-mobile .et_pb_button_module_wrapper {
+  text-align: center !important;
+}
+
+/* annime le pointeur */
+#horaires-accueil_section .horaires-version-mobile .toggle_custom .et_pb_toggle_title::after {
+  transition: 0.3s;
+}
+#horaires-accueil_section .horaires-version-mobile .toggle_custom.et_pb_toggle_open .et_pb_toggle_title::after {
+  transform: rotate(180deg);
+  /* transform-origin: 50% 50%; */
+}
+
+/* ajout d'un séparateur et quelques ajustements autour du contenu */
+#horaire-des-messes-toggle .et_pb_toggle_content {
+  /* border-top: 1px white solid; */
+  margin-top: 24px;
+  /* padding-top: 48px; */
+  padding-bottom: 20px;
+  width: 500px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* espace autour de chaque item */
+#horaire-des-messes-toggle .et_pb_toggle_content p {
+  padding-bottom: 30px;
+}
+
+/* Break point pour version grand écran
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 1366px) {
+
+  /* ajuste image du Sacré-Coeur */
+  .ds-fw-header {
+    min-height: calc(100vh - 288px);
+    background-position: left 10%;
+  }
+
+  /* largeur section CÉLÉBRATIONS EUCHARISTIQUES à l'horizontal */
+  #horaires-accueil_section .horaires-version-desktop {
+    width: 90% !important;
+    max-width: 1375px !important;
+  }
+
+}
+
+/* Break point pour versions mobile, tablette et petit écran
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1365px) {
+
+  /* largeur section CÉLÉBRATIONS EUCHARISTIQUES à l'horizontal */
+  #horaires-accueil_section .horaires-version-desktop {
+    width: 90% !important;
+    max-width: none !important;
+  }
+
+  /* grosseur titre section CÉLÉBRATIONS EUCHARISTIQUES à l'horizontal */
+  #horaires-accueil_section .horaires-version-desktop h2 {
+    font-size: 30px;
+  }
+
+  /* grosseur items section CÉLÉBRATIONS EUCHARISTIQUES à l'horizontal */
+  #horaires-accueil_section .horaires-version-desktop .et_pb_column .et_pb_text_inner {
+    font-size: 14px;
+  }
+
+}
+
+/* Break point pour écrans de 1161px à 1365px
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 1161px) and (max-width: 1365px) {
+
+  /* ajuste image du Sacré-Coeur */
+  .ds-fw-header {
+    height: calc(100vh - 167px);
+    background-position: center 5%;
+    background-size: 100%;
+  }
+
+}
+
+/* Break point pour écrans de 1160px et moins
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1160px) {
+
+  /* cache section CÉLÉBRATIONS EUCHARISTIQUES à l'horizontal */
+  #horaires-accueil_section .horaires-version-desktop {
+    display: none !important;
+  }
+
+  /* affiche section CÉLÉBRATIONS EUCHARISTIQUES à la vertical */
+  #horaires-accueil_section .horaires-version-mobile {
+    display: block !important;
+  }
+
+  /* ajuste animation section CÉLÉBRATIONS EUCHARISTIQUES à la vertical */
+  #horaires-accueil_section {
+    animation-delay: 200ms !important;
+    animation-duration: 1000ms !important;
+  }
+
+  /* ajuste image du Sacré-Coeur */
+  .ds-fw-header {
+    height: calc(100vh - 89px);
+  }
+
+}
+
+/* Break point pour écrans de 981px à 1160px
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 981px) and (max-width: 1160px) {
+
+  /* ajuste image du Sacré-Coeur */
+  .ds-fw-header {
+    background-position: center 5%;
+    background-size: 130%;
+  }
+
+}
+
+/* Break point pour versions mobile et tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 980px) {
+
+  /* largeur des lignes section  ÉVÉNEMENTS À VENIR */
+  #evenements-accueil_section #evenements-accueil-titre_row,
+  #evenements-accueil_section #evenements-accueil-contenu_row,
+  #evenements-accueil_section #evenements-accueil-bouton_row {
+    width: 90%;
+  }
+
+  /* ajuste animation des pages à voir */
+  .blurb_11_f .et_pb_column:nth-child(1) .et_pb_blurb,
+  .blurb_11_f .et_pb_column:nth-child(3) .et_pb_blurb {
+    /* animation-delay: 300ms !important; */
+  }
+  .blurb_11_f .et_pb_column:nth-child(2) .et_pb_blurb,
+  .blurb_11_f .et_pb_column:nth-child(4) .et_pb_blurb {
+    /* animation-delay: 600ms !important; */
+  }
+
+}
+
+/* Break point pour version tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+
+  /* ajuste image du Sacré-Coeur */
+  .ds-fw-header {
+    background-position: 50% 12%;
+    background-size: 230%;
+  }
+
+  /* ajuste titres des sections ÉVÉNEMENTS À VENIR et ARTICLES DE NOTRE BLOGUE */
+  #evenements-accueil_section #evenements-accueil-titre_row h2,
+  #articles-accueil_section #articles-accueil-titre_row h2 {
+    font-size: 36px;
+  }
+
+}
+
+/* Break point pour versions mobile et petite tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 767px) {
+
+  /* redimensionne titre de section CÉLÉBRATIONS EUCHARISTIQUES */
+  #horaires-accueil_section .horaires-version-mobile h2 {
+    font-size: 26px;
+    line-height: 1.4em;
+  }
+
+  /* repositionne pointeur de section CÉLÉBRATIONS EUCHARISTIQUES */
+  #horaires-accueil_section .horaires-version-mobile h2.et_pb_toggle_title::after {
+    font-size: 22px;
+    top: 2px;
+  }
+
+  /* ajuste image du Sacré-Coeur */
+  .ds-fw-header {
+    background-position: 50% 12%;
+    background-size: 480%;
+  }
+
+  /* ajoute du margin sous 1er et 2e article à lire */
+  #articles-accueil-contenu_row article.et_pb_post:nth-child(1),
+  #articles-accueil-contenu_row article.et_pb_post:nth-child(2) {
+    margin-bottom: 42px;
+  }
+
+}
+
+/* Break point pour versions mobile landscape et petite tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  /* ajuste titres des sections ÉVÉNEMENTS À VENIR et ARTICLES DE NOTRE BLOGUE */
+  #evenements-accueil_section #evenements-accueil-titre_row h2,
+  #articles-accueil_section #articles-accueil-titre_row h2 {
+    font-size: 34px;
+    text-align: center;
+  }
+
+}
+
+/* Break point pour version mobile portrait
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 479px) {
+
+  /* ajuste titre de section CÉLÉBRATIONS EUCHARISTIQUES */
+  #horaires-accueil_section .horaires-version-mobile h2 {
+    font-size: 22px;
+    padding-bottom: 2px !important;
+  }
+
+  /* ajuste titres des sections ÉVÉNEMENTS À VENIR et ARTICLES DE NOTRE BLOGUE */
+  #evenements-accueil_section #evenements-accueil-titre_row h2,
+  #articles-accueil_section #articles-accueil-titre_row h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  /* repositionne pointeur de section CÉLÉBRATIONS EUCHARISTIQUES */
+  #horaires-accueil_section .horaires-version-mobile h2.et_pb_toggle_title::after {
+    font-size: 18px;
+    line-height: 18px;
+    top: 2px;
+  }
+
+  /* ajuste animation des pages à voir */
+  .blurb_11_f .et_pb_column:nth-child(1) .et_pb_blurb,
+  .blurb_11_f .et_pb_column:nth-child(2) .et_pb_blurb,
+  .blurb_11_f .et_pb_column:nth-child(3) .et_pb_blurb,
+  .blurb_11_f .et_pb_column:nth-child(4) .et_pb_blurb {
+    animation-delay: 500ms !important;
+  }
+
+}

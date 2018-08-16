@@ -1,0 +1,103 @@
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+/* couleur de libellés en blanc par défaut */
+.contact_1_falkor .et_pb_contact_form p:not([data-type="checkbox"]):not([data-type="radio"]) label,
+#contact-phone-fax a {
+  color: #6b6b6b !important;
+}
+
+/* largeur module SUIVEZ-NOUS */
+#social-icons-in-contact-page {
+  /* width: 176.25px !important; */
+}
+
+/* positionne les médias sociaux */
+#social-icons-in-contact-page .et_pb_promo_description {
+  display: flex;
+  flex-direction: column;
+}
+#social-icons-in-contact-page .et_social_icons_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+#social-icons-in-contact-page .et_social_icons_container > li:last-child {
+  margin-right: 0 !important;
+}
+
+/* retire le message d'erreur d'envoi du formulaire */
+.et-pb-contact-message {
+  display: none;
+}
+
+/* ajuste largeur modules ADRESSE, COMMUNICATION et SUIVEZ-NOUS */
+#nous-joindre-adresse-column > .et_pb_module {
+  max-width: 100%;
+}
+
+/* Break point pour versions tablette et petit écran
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 768px) and (max-width: 1365px) {
+
+  /* ajuste largeur colonnes première section */
+  #adresse-formulaire-section .et_pb_column:nth-child(1) {
+    width: 33.666% !important;
+    margin-right: 5.5% !important;
+  }
+  #adresse-formulaire-section .et_pb_column:nth-child(2) {
+    width: 60.833% !important;
+  }
+
+}
+
+/* Break point pour versions mobile et tablette
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 980px) {
+
+  /* ajuste largeur du contenu des sections */
+  #adresse-formulaire-section > .et_pb_row,
+  #google-maps-section > .et_pb_row {
+    width: 90% !important;
+  }
+
+}
+
+/* Break point pour versions mobile et petite tablette
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 767px) {
+
+  /* centre contenu des modules ADRESSE, COMMUNICATION et SUIVEZ-NOUS */
+  #nous-joindre-adresse-column .et_pb_module h3,
+  #nous-joindre-adresse-column .et_pb_module p {
+    text-align: center !important;
+  }
+  #social-icons-in-contact-page .et_social_icons_container {
+    justify-content: center;
+  }
+
+  /* espacement sous les médias sociaux */
+  #social-icons-in-contact-page {
+    margin-bottom: 30px !important;
+  }
+
+}
+
+/* Break point pour version mobile portrait
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 479px) {
+
+  /* centre bouton du formulaire */
+  #adresse-formulaire-section #nous-joindre-adresse-column .et_contact_bottom_container {
+    /* float: none; */
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+  #adresse-formulaire-section #nous-joindre-adresse-column .et_contact_bottom_container button {
+    /* margin-left: 0 !important; */
+  }
+
+}

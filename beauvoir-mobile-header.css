@@ -1,0 +1,570 @@
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+/* ajustements mineurs menu mobile */
+.et_mobile_menu .menu-item-has-children > a {
+  font-weight: 500;
+  font-size: 18px !important;
+  color: #0080ff !important;
+}
+.et_mobile_menu .menu-item-type-post_type > a,
+.et_mobile_menu .lang-item > a {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+/* Break point pour versions mobile, tablette et petit écran
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1365px) {
+
+  /* cache menu secondaire et la navigation du menu principal */
+  #top-header,
+  #top-menu-nav {
+    display: none !important;
+  }
+
+  /* Jumping header Fix */
+  #page-container { padding-top: 90px !important; }
+  #main-header { top: 0px !important; }
+
+  /* fixe hauteur et padding du header */
+  #main-header,
+  #main-header .logo_container {
+    height: 90px !important;
+    padding: 0 !important;
+  }
+
+  /* rend le header fixe ou non fixe */
+  #main-header {
+    position: fixed !important;
+  }
+
+  /* ajuste le logo et le rend clickable */
+  #logo {
+    max-height: 70px !important;
+    height: auto !important;
+    z-index: 4;
+  }
+
+  /* dessine et positionne la loupe */
+  #et-top-navigation #et_search_icon:before {
+    font-family: "icomoon" !important;
+    content: "\e901";
+    top: 6px;
+    left: 5px;
+  }
+
+  /* positionne la loupe et le hamburger */
+  #et-top-navigation {
+    top: 6px;
+  }
+
+  /* assure que le hamburger apparaisse sur petits écrans */
+  #et_mobile_nav_menu {
+    display: block !important;
+  }
+
+  /* annule les transitions du logo */
+  #main-header .logo_container {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    transition: none !important;
+  }
+
+  /* couleur hamburger - X -loupe */
+  .mobile_nav.closed .mobile_menu_bar::before,
+  .mobile_nav.opened .mobile_menu_bar::before,
+  #et_search_icon::before {
+    color: #1f4766 !important;
+  }
+
+  /* redimentionne le hamburger */
+  .mobile_nav.closed .mobile_menu_bar::before {
+    font-size: 56px !important;
+  }
+
+  /* positionne le hamburger */
+  #et_mobile_nav_menu {
+    position: relative;
+    top: 5px;
+    right: -10px;
+  }
+
+  /* redimentionne la loupe */
+  #et_search_icon:before {
+    font-size: 36px !important;
+  }
+
+  /* espace au-dessus du input et x de recherche */
+  #main-header .et-search-form input,
+  #main-header span.et_close_search_field {
+    top: 20px !important;
+  }
+
+  /* largeur du x de recherche */
+  #main-header .et_close_search_field::after {
+    font-size: 42px !important;
+  }
+  #main-header .et_close_search_field {
+    width: 42px;
+    height: 42px;
+  }
+
+  /* le x du menu lorsque ouvert */
+  .mobile_nav.opened .mobile_menu_bar:before {
+    font-size: 56px;
+    top: 0px;
+  }
+  .mobile_nav.opened .mobile_menu_bar {
+    top: -1px;
+  }
+
+  /* annule uppercase des liens */
+  .et_mobile_menu li.menu-item-has-children li a,
+  .et_mobile_menu .menu-item-type-post_type > a {
+    text-transform: none !important;
+  }
+
+  /* largeur et position du menu */
+  .et_mobile_menu > li {
+    width: 70%;
+    margin: 0 auto 0 10%;
+  }
+
+  /* annule animation des sous-menus */
+  .et_primary_nav_dropdown_animation_slide #et-top-navigation ul li:hover > ul,
+  .et_secondary_nav_dropdown_animation_slide #et-secondary-nav li:hover > ul {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+  }
+
+  /* largeur et position du formulaire de recherche */
+  #main-header .et_search_outer .et_search_form_container {
+    width: 90% !important;
+    left: 0;
+  }
+  #main-header form.et-search-form input.et-search-field {
+    left: 50%;
+  }
+
+  /* couleur formulaire de recherche */
+  #main-header form.et-search-form input.et-search-field,
+  #main-header form.et-search-form + .et_close_search_field::after {
+    /* color: #666 !important; */
+  }
+
+}
+
+/* Break point pour version petit écran - ajustements mineurs
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 981px) and (max-width: 1365px) {
+
+  /* enlève padding gauche et droite du container de menu */
+  #main-header .container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  /* repositionne le hamburger */
+  #et_mobile_nav_menu {
+    top: 7px;
+    right: -49px;
+  }
+
+  /* repositionne la loupe */
+  #et_top_search {
+    top: 11px;
+    left: -80px;
+  }
+
+  /* repositionne le input de recherche */
+  .et_fullwidth_nav .et-search-form {
+    /* right: 0px; */
+  }
+  .et_header_style_centered .et-fixed-header .et-search-form {
+    top: 0px;
+  }
+
+}
+
+/* Break point pour versions mobile et tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 980px) {
+
+  /* positionne la loupe */
+  #et_top_search {
+    top: 14px;
+    left: -44px;
+  }
+
+  /* surface touchable du hamburger */
+  #et-top-navigation #et_mobile_nav_menu {
+    float: right;
+  }
+
+}
+
+/* Break point pour versions mobile et petite tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 767px) {
+
+  /* largeur et position du formulaire de recherche */
+  #main-header .et_search_outer .et_search_form_container {
+    width: 80% !important;
+    left: 0px;
+  }
+  #main-header form.et-search-form input.et-search-field {
+    left: 0;
+  }
+
+  /* efface logo lorsque formulaire de recherche activé */
+  #main-header .et_pb_menu_hidden #logo {
+    opacity: 0;
+    transition: opacity .4s ease;
+  }
+
+  /* affiche logo lorsque formulaire de recherche non activé */
+  #main-header .et_pb_menu_visible #logo {
+    opacity: 1;
+    transition: opacity .4s ease .7s;
+  }
+
+}
+
+/* Break point pour version mobile portrait
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 479px) {
+
+  /* largeur du menu */
+  .container.clearfix.et_menu_container {
+    width: 96% !important;
+  }
+
+  /* redimentionne le logo */
+  #main-header .logo_container {
+    max-width: 74% !important;
+  }
+  #main-header #logo {
+    max-width: 98% !important;
+  }
+
+  /* redimentionne le hamburger */
+  .mobile_nav.closed .mobile_menu_bar::before {
+    font-size: 48px !important;
+  }
+
+  /* redimentionne la loupe */
+  #et_search_icon:before {
+    font-size: 32px !important;
+  }
+
+  /* repositionne le hamburger */
+  #et_mobile_nav_menu {
+    top: 10px !important;
+  }
+
+  /* repositionne la loupe */
+  #et_top_search {
+    top: 18px !important;
+    left: -24px !important;
+  }
+
+  /* le x du menu lorsque ouvert */
+  .mobile_nav.opened .mobile_menu_bar:before {
+    font-size: 48px;
+    top: 0px;
+  }
+  .mobile_nav.opened .mobile_menu_bar {
+    top: 0px;
+  }
+
+}
+
+/* CSS from https://divicio.us/snippets/make-divi-centered-centered-inline-logo-header-bars-look-like-default-header-bar-mobile/ */
+/* Make Divi Centered and Centered Inline Logo Header Bars Look Like The Default Header Bar On Mobile */
+@media only screen and (max-width: 1365px) {
+/* align header container text to left */
+    .et_header_style_centered #main-header .container,
+    .et_header_style_split #main-header .container {
+        text-align: left;
+    }
+/* set max width for logo container and bring it above the navigation bar to make it clickable */
+    .et_header_style_centered header#main-header .logo_container,
+    .et_header_style_split header#main-header .logo_container {
+        position:relative;
+        /* z-index: 2; */
+        /* max-width: 50%; */
+    }
+/* move split header logo to left */
+    .et_header_style_split header#main-header .logo_container {
+        float: left;
+    }
+/* prevent the split header logo from shrinking by increasing its max width */
+    .et_header_style_split #logo {
+        max-width: 100%;
+    }
+/* adjust top navigation alignment */
+    .et_header_style_centered #main-header div#et-top-navigation,
+    .et_header_style_split #main-header div#et-top-navigation {
+        position: absolute;
+    }
+/* make "select page bg color transparent" */
+    .et_header_style_centered #main-header .mobile_nav,
+    .et_header_style_split #main-header .mobile_nav {
+         background-color: rgba(0, 0, 0, 0);
+    }
+/* remove mobile_nav left and right padding */
+    .et_header_style_centered #main-header .mobile_nav,
+    .et_header_style_split #main-header .mobile_nav {
+         padding: 5px 0px;
+    }
+/* remove unnecessary top margin */
+    .et_header_style_centered #et_mobile_nav_menu,
+    .et_header_style_split #et_mobile_nav_menu {
+        margin-top: 0px;
+    }
+/* hide "select page" container */
+    .et_header_style_centered #main-header .mobile_nav .select_page,
+    .et_header_style_split #main-header .mobile_nav .select_page {
+        display: none;
+    }
+/* adjust vertical and right alignment of the mobile menu bar */
+    .et_header_style_centered #main-header .mobile_menu_bar,
+    .et_header_style_split #main-header .mobile_menu_bar {
+        position: relative;
+        right: 0px;
+        text-align: right;
+    }
+/* adjust dropdown menu top offset */
+    .et_header_style_centered #main-header .et_mobile_menu,
+    .et_header_style_split #main-header .et_mobile_menu {
+        top: 90px;
+    }
+}
+
+/* CSS from https://divicio.us/snippets/enable-search-on-mobile-for-divi-centered-and-centered-inline-logo-headers/ */
+/* Enable Search on Mobile for Divi Centered and Centered Inline Logo Headers */
+@media (max-width: 1365px) {
+    /* make search icon visible */
+    .et_header_style_centered #et_top_search,
+    .et_vertical_nav.et_header_style_centered #main-header #et_top_search,
+    .et_header_style_split #et_top_search,
+    .et_vertical_nav.et_header_style_split #main-header #et_top_search {
+        display: block !important;
+        float: right;
+        /* z-index: 9998; */
+    }
+    /* align search icon for Centered Inline Logo header*/
+    .et_header_style_split #et_search_icon:before {
+        margin-top: 0;
+        left: -3px;
+    }
+    /* make search field visible */
+    .et_header_style_centered .et_search_outer,
+    .et_header_style_split .et_search_outer {
+        display: block;
+    }
+    /* set max-width for search form container */
+    .et_header_style_centered .container.et_search_form_container,
+    .et_header_style_split .container.et_search_form_container.et_pb_search_visible,
+    .et_header_style_split .container.et_search_form_container.et_pb_search_form_hidden {
+        max-width: 100% !important;
+    }
+    /* apply in-animation for search form container */
+    .et_header_style_centered .container.et_search_form_container.et_pb_search_visible,
+    .et_header_style_split .container.et_search_form_container.et_pb_search_visible {
+        z-index: 999;
+        -webkit-animation: fadeInTop 1s 1 cubic-bezier(.77,0,.175,1);
+        -moz-animation: fadeInTop 1s 1 cubic-bezier(.77,0,.175,1);
+        -o-animation: fadeInTop 1s 1 cubic-bezier(.77,0,.175,1);
+        animation: fadeInTop 1s 1 cubic-bezier(.77,0,.175,1);
+    }
+    /* apply out-animation for menu bar elements */
+    .et_header_style_centered .et_pb_menu_hidden #et_search_icon:before,
+    .et_header_style_centered .et_pb_menu_hidden .mobile_menu_bar,
+    .et_header_style_centered .et_pb_menu_hidden .select_page,
+    .et_header_style_split .et_pb_menu_hidden #et_search_icon:before,
+    .et_header_style_split .et_pb_menu_hidden .mobile_menu_bar,
+    .et_header_style_split .et_pb_menu_hidden .select_page {
+        opacity: 0;
+        -webkit-animation: fadeOutBottom 1s 1 cubic-bezier(.77,0,.175,1);
+        -moz-animation: fadeOutBottom 1s 1 cubic-bezier(.77,0,.175,1);
+        -o-animation: fadeOutBottom 1s 1 cubic-bezier(.77,0,.175,1);
+        animation: fadeOutBottom 1s 1 cubic-bezier(.77,0,.175,1);
+    }
+    /* apply in-animation for "Select Page" container */
+    .et_header_style_centered .et_pb_menu_visible .select_page,
+    .et_header_style_split .et_pb_menu_visible .select_page {
+        opacity: 1;
+        -webkit-animation: fadeInBottom 1s 1 cubic-bezier(.77,0,.175,1);
+        -moz-animation: fadeInBottom 1s 1 cubic-bezier(.77,0,.175,1);
+        -o-animation: fadeInBottom 1s 1 cubic-bezier(.77,0,.175,1);
+        animation: fadeInBottom 1s 1 cubic-bezier(.77,0,.175,1);
+    }
+    /* adjust close search icon horizontal positioning */
+    .et_header_style_centered span.et_close_search_field,
+    .et_header_style_split span.et_close_search_field {
+        right: 0px;
+    }
+    /* adjust search form input horizontal positioning */
+    .et_header_style_centered .et-search-form input,
+    .et_header_style_split .et-search-form input {
+       left: 10px;
+       right: auto;
+    }
+    /* adjust search form input and close icon vertical positioning */
+    .et_header_style_centered .et-search-form input,
+    .et_header_style_centered span.et_close_search_field,
+    .et_vertical_nav.et_header_style_centered .et-search-form input,
+    .et_vertical_nav.et_header_style_centered span.et_close_search_field,
+    .et_header_style_split .et-search-form input,
+    .et_header_style_split span.et_close_search_field  {
+        /* top: unset !important; */
+        /* line-height: 2em; */
+    }
+    .et_header_style_centered span.et_close_search_field,
+    .et_header_style_split span.et_close_search_field  {
+        bottom: 20px;
+    }
+    /* set width values for search form */
+    .et_header_style_centered .et-search-form,
+    .et_header_style_split .et-search-form {
+        width: 100% !important;
+        max-width: 100% !important;
+        bottom: 20px;
+    }
+    /* adjust close search icon top margin */
+    .et_header_style_centered .et_close_search_field:after,
+    .et_header_style_split .et_close_search_field:after {
+        /* margin-top: -2px; */
+    }
+}
+/* END */
+
+/* CSS from https://www.needyesterday.com/8-new-style-mobile-menu-divi/ */
+/* Menu appearing when clicking on hamburger */
+@media only screen and (max-width: 1365px) {
+  #mobile_menu {
+    display: block !important;
+    min-height: calc(100vh - 90px);
+    height: calc(100% - 90px);
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 9998;
+    overflow-y: scroll;
+    border-top: none;
+    padding-top: 20px !important;
+  }
+  .et_mobile_menu li:nth-child(1) {
+    padding-top: 20px;
+  }
+  .et_mobile_menu li a {
+    color: #fff !important;
+    width: 100%;
+    float: left;
+    border: none !important;
+    text-align: left;
+    margin: 5px 10px;
+    transition: .2s;
+    text-transform: uppercase;
+    font-size: 1.4em !important;
+  }
+  .mobile_nav ul#mobile_menu .current_page_item > a {
+    /* color: #fff !important; */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding-left: 20px;
+  }
+  .mobile_nav.closed #mobile_menu {
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    /*
+    background: linear-gradient(
+      rgba(66, 66, 66, 0.90),
+      rgba(66, 66, 66, 0.90)
+    ),
+    url("#");
+    */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.4s 0s;
+    -moz-transition: -moz-transform 0.4s 0s;
+    transition: transform 0.4s 0s;
+  }
+  .mobile_nav.opened #mobile_menu {
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    /*
+    background: linear-gradient(
+      rgba(66, 66, 66, 0.90),
+      rgba(66, 66, 66, 0.90)
+    ),
+    url("#");
+    */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: -webkit-transform 0.4s 0s;
+    -moz-transition: -moz-transform 0.4s 0s;
+    transition: transform 0.4s 0s;
+  }
+  #main-header .container.clearfix.et_menu_container {
+    width: 90%;
+  }
+  .mobile_nav.opened .mobile_menu_bar:before {
+    content: "\4d";
+  }
+}
+@media only screen and  (max-width: 1365px) {
+  .et_header_style_split .mobile_menu_bar, .et_header_style_left .mobile_menu_bar {
+    /* z-index: 9999; */
+  }
+  #et-top-navigation {
+    padding-right: 5px;
+  }
+}
+@media only screen and  (min-width: 768px) {
+  #mobile_menu {
+    width: 70% !important;
+    margin-left: calc(100% - 70%) !important;
+    /* width: 100%; */
+    /* margin-left: 0; */
+    border-left: 7px solid #aab1b3;
+  }
+}
+@media only screen and (max-width: 767px)  {
+  #mobile_menu {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* retire background de la langue choisie dans la liste déroulante */
+.mobile_nav ul#mobile_menu .pll-parent-menu-item .current_page_item > a {
+    background-color: transparent;
+    padding-left: 5%;
+}

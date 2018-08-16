@@ -4,6 +4,13 @@ function my_theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
+// Allow SVG uploads
+function allow_svgimg_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  return $mimes;
+}
+add_filter('upload_mimes', 'allow_svgimg_types');
+
 // define( 'GITHUB_UPDATER_OVERRIDE_DOT_ORG', true );
 
 // function falkorscripts_enqueue() {
