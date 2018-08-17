@@ -78,18 +78,6 @@ nouveau rouge pour calendrier : #BD322C
 /* Propriétés globales
 ------------------------------------------------------------------------ */
 
-/* boutons */
-body #main-content a.my-buttons,
-body #main-content a.my-buttons:hover {
-  padding: 12px 30px 10px 30px !important;
-  font-weight: 400 !important;
-}
-body #main-content #horaires-accueil_section .my-buttons:hover,
-body #main-content #evenements-accueil_section .my-buttons:hover,
-body #main-content #articles-accueil_section .my-buttons:hover {
-  opacity: .7;
-}
-
 /* bouncing image fix */
 .et_fixed_nav.et_show_nav #page-container {
   /* margin-top: -1px !important; */
@@ -101,6 +89,35 @@ body #main-content #articles-accueil_section .my-buttons:hover {
   #header-page-section .et_pb_fullwidth_header_container {
     width: 90% !important;
   }
+}
+
+/* Ajustements des boutons
+------------------------------------------------------------------------ */
+
+body #main-content #horaires-accueil_section .my-buttons:hover,
+body #main-content #evenements-accueil_section .my-buttons:hover,
+body #main-content #articles-accueil_section .my-buttons:hover {
+  opacity: .7;
+}
+
+@media only screen and (min-width: 981px) {
+
+  body #main-content a.my-buttons,
+  body #main-content a.my-buttons:hover {
+    padding: 10px 30px 10px 30px !important;
+    font-weight: 400 !important;
+  }
+
+}
+
+@media only screen and (max-width: 980px) {
+
+  body #main-content a.my-buttons,
+  body #main-content a.my-buttons:hover {
+    padding: 12px 30px 10px 30px !important;
+    font-weight: 400 !important;
+  }
+
 }
 
 /* Animations s'effectuant à l'ouverture d'une page avec animate.css
