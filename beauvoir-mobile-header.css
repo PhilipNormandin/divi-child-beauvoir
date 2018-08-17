@@ -43,7 +43,6 @@
   /* ajuste le logo et le rend clickable */
   #logo {
     max-height: 70px !important;
-    /* height: auto !important; */
     z-index: 4;
   }
 
