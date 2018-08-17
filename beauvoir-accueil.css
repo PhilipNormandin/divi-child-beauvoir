@@ -441,7 +441,7 @@ ul.wcs-timetable__list li {
   /* ajuste titres des sections ÉVÉNEMENTS À VENIR et ARTICLES DE NOTRE BLOGUE */
   #evenements-accueil_section #evenements-accueil-titre_row h2,
   #articles-accueil_section #articles-accueil-titre_row h2 {
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
   }
 

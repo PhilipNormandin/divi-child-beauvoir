@@ -81,7 +81,7 @@ nouveau rouge pour calendrier : #BD322C
 /* boutons */
 body #main-content a.my-buttons,
 body #main-content a.my-buttons:hover {
-  padding: 10px 30px !important;
+  padding: 11px 30px 10px 30px !important;
   font-weight: 400 !important;
 }
 body #main-content #horaires-accueil_section .my-buttons:hover,
