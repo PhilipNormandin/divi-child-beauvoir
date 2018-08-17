@@ -175,8 +175,8 @@ ul.wcs-timetable__list li {
 
 /* espacement autour de la section */
 #horaires-accueil_section .horaires-version-mobile {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 
 /* dimensionne et positionne le titre */
@@ -433,7 +433,7 @@ ul.wcs-timetable__list li {
 
   /* ajuste titre de section CÉLÉBRATIONS EUCHARISTIQUES */
   #horaires-accueil_section .horaires-version-mobile h2 {
-    font-size: 22px;
+    font-size: 26px;
     padding-bottom: 2px !important;
   }
 
