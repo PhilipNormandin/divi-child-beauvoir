@@ -213,6 +213,7 @@ ul.wcs-timetable__list li {
 /* centre le bouton */
 #horaires-accueil_section .horaires-version-mobile .et_pb_button_module_wrapper {
   text-align: center !important;
+  padding-top: 12px !important;
 }
 
 /* annime le pointeur */
@@ -228,8 +229,8 @@ ul.wcs-timetable__list li {
 #horaire-des-messes-toggle .et_pb_toggle_content {
   /* border-top: 1px white solid; */
   margin-top: 24px;
-  /* padding-top: 48px; */
-  padding-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   width: 500px;
   max-width: 90%;
   margin-left: auto;
