@@ -250,7 +250,7 @@ ul.wcs-timetable__list li {
   /* ajuste image du Sacré-Coeur */
   .ds-fw-header {
     min-height: calc(100vh - 288px);
-    background-position: left 10%;
+    background-position: center 4%;
   }
 
   /* largeur section CÉLÉBRATIONS EUCHARISTIQUES à l'horizontal */
@@ -284,14 +284,25 @@ ul.wcs-timetable__list li {
 
 }
 
-/* Break point pour écrans de 1161px à 1365px
+/* Break points pour écrans de 1161px à 1365px
 ------------------------------------------------------------------------ */
 
-@media only screen and (min-width: 1161px) and (max-width: 1365px) {
+@media only screen and (min-width: 1161px) and (max-width: 1365px) and (max-height: 599px) {
 
   /* ajuste image du Sacré-Coeur */
   .ds-fw-header {
     height: calc(100vh - 167px);
+    background-position: center 5%;
+    background-size: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 1161px) and (max-width: 1365px) and (min-height: 600px) {
+
+  /* ajuste image du Sacré-Coeur */
+  .ds-fw-header {
+    height: 400px;
     background-position: center 5%;
     background-size: 100%;
   }
@@ -378,6 +389,25 @@ ul.wcs-timetable__list li {
   #evenements-accueil_section #evenements-accueil-titre_row h2,
   #articles-accueil_section #articles-accueil-titre_row h2 {
     font-size: 36px;
+  }
+
+  /* ajuste dimensions des articles et images */
+  .falkor_blog_4 article {
+    width: 100% !important;
+    margin-bottom: 42px !important;
+    margin-right: 0 !important;
+  }
+  .falkor_blog_4 article:last-child {
+    margin-bottom: 0 !important;
+  }
+  .falkor_blog_4 article .entry-featured-image-url img {
+      position: static;
+      transform: translate(0, -20px) scale(1.02);
+      width: 100% !important;
+      display: block;
+  }
+  .falkor_blog_4 article:hover .entry-featured-image-url img {
+    transform: translate(0%, 0) scale(1) !important;
   }
 
 }

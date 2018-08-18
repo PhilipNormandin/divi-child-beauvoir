@@ -100,7 +100,7 @@ body #main-content #articles-accueil_section .my-buttons:hover {
   opacity: .7;
 }
 
-@media only screen and (min-width: 981px) {
+@media only screen and (min-width: 1366px) {
 
   body #main-content a.my-buttons,
   body #main-content a.my-buttons:hover {
@@ -110,7 +110,7 @@ body #main-content #articles-accueil_section .my-buttons:hover {
 
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1365px) {
 
   body #main-content a.my-buttons,
   body #main-content a.my-buttons:hover {
