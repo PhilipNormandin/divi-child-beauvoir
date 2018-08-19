@@ -355,21 +355,27 @@ ul.wcs-timetable__list li {
 
 @media only screen and (max-width: 980px) {
 
-  /* largeur des lignes section  ÉVÉNEMENTS À VENIR */
+  /* largeur des lignes section ÉVÉNEMENTS À VENIR */
   #evenements-accueil_section #evenements-accueil-titre_row,
   #evenements-accueil_section #evenements-accueil-contenu_row,
   #evenements-accueil_section #evenements-accueil-bouton_row {
     width: 90%;
   }
 
-  /* ajuste animation des pages à voir */
-  .blurb_11_f .et_pb_column:nth-child(1) .et_pb_blurb,
-  .blurb_11_f .et_pb_column:nth-child(3) .et_pb_blurb {
-    /* animation-delay: 300ms !important; */
-  }
-  .blurb_11_f .et_pb_column:nth-child(2) .et_pb_blurb,
-  .blurb_11_f .et_pb_column:nth-child(4) .et_pb_blurb {
-    /* animation-delay: 600ms !important; */
+  /* annule les animations */
+  #image-entete-accueil,
+  #horaires-accueil_section,
+  #evenements-accueil-titre_row,
+  #evenements-accueil-contenu_row,
+  #evenements-accueil-bouton_row,
+  .blurb_11_f .et_pb_column .pages-a-visiter-accueil,
+  #articles-accueil-titre_row,
+  #articles-accueil-contenu_row,
+  #articles-accueil-bouton_row {
+    -webkit-animation-duration: initial !important;
+    animation-duration: initial !important;
+    -webkit-animation-delay: 0ms !important;
+    animation-delay: 0ms !important;
   }
 
 }
@@ -480,14 +486,6 @@ ul.wcs-timetable__list li {
     font-size: 18px;
     line-height: 18px;
     top: 2px;
-  }
-
-  /* ajuste animation des pages à voir */
-  .blurb_11_f .et_pb_column:nth-child(1) .et_pb_blurb,
-  .blurb_11_f .et_pb_column:nth-child(2) .et_pb_blurb,
-  .blurb_11_f .et_pb_column:nth-child(3) .et_pb_blurb,
-  .blurb_11_f .et_pb_column:nth-child(4) .et_pb_blurb {
-    animation-delay: 500ms !important;
   }
 
 }
