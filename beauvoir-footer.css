@@ -21,7 +21,10 @@
   text-align: left;
 }
 
-/* positionne les médias sociaux */
+/* ajuste et positionne les médias sociaux */
+#my-social-icons .et_pb_promo_description h2 + p {
+  display: none;
+}
 #my-footer #my-social-icons .et_pb_promo_description {
   display: flex;
   flex-direction: column;
