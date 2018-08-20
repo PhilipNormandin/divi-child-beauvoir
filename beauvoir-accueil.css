@@ -510,7 +510,7 @@ ul.wcs-timetable__list li {
   /* ajuste titres des pages à voir */
   .blurb_11_f .et_pb_blurb .et_pb_blurb_container h4 a {
     font-size: 24px;
-    font-weight: 500;
+    /* font-weight: 500; */
   }
 
   /* ajoute du margin sous 1er et 2e article à lire */
