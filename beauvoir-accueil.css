@@ -47,6 +47,82 @@
   /* padding-bottom: 4vh; */
 }
 
+/* Annule les animations sur versions mobile, tablette et petit écran
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1365px) {
+
+  #main-header,
+  #image-entete-accueil,
+  #horaires-accueil_section,
+  #horaires-accueil_section .horaires-version-desktop,
+  #evenements-accueil-titre_row,
+  #evenements-accueil-contenu_row,
+  #evenements-accueil-bouton_row,
+  .blurb_11_f .et_pb_column .pages-a-visiter-accueil,
+  #articles-accueil-titre_row,
+  #articles-accueil-contenu_row,
+  #articles-accueil-bouton_row {
+    -webkit-animation-duration: initial !important;
+    animation-duration: initial !important;
+    -webkit-animation-delay: 0ms !important;
+    animation-delay: 0ms !important;
+  }
+
+}
+
+/* Ajustements image du Sacré-Coeur
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 1366px) {
+
+  .ds-fw-header {
+    min-height: calc(100vh - 288px);
+    background-position: center 4%;
+  }
+}
+
+@media only screen and (min-width: 1161px) and (max-width: 1365px) and (max-height: 799px) {
+
+  .ds-fw-header {
+    height: calc(100vh - 167px);
+    background-position: center 5%;
+    background-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 1161px) and (max-width: 1365px) and (min-height: 800px) {
+
+  .ds-fw-header {
+    height: 360px;
+    background-position: center 5%;
+    background-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+
+  .ds-fw-header {
+    height: calc(100vh - 89px);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1160px) {
+
+  .ds-fw-header {
+    background-position: center 12%;
+    background-size: 140%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .ds-fw-header {
+    background-position: center 9%;
+    background-size: 400%;
+  }
+}
+
 /* Section ÉVÉNEMENTS À VENIR
 ------------------------------------------------------------------------ */
 
@@ -247,12 +323,6 @@ ul.wcs-timetable__list li {
 
 @media only screen and (min-width: 1366px) {
 
-  /* ajuste image du Sacré-Coeur */
-  .ds-fw-header {
-    min-height: calc(100vh - 288px);
-    background-position: center 4%;
-  }
-
   /* largeur section CÉLÉBRATIONS EUCHARISTIQUES à l'horizontal */
   #horaires-accueil_section .horaires-version-desktop {
     width: 90% !important;
@@ -282,29 +352,10 @@ ul.wcs-timetable__list li {
     font-size: 14px;
   }
 
-}
-
-/* Break points pour écrans de 1161px à 1365px
------------------------------------------------------------------------- */
-
-@media only screen and (min-width: 1161px) and (max-width: 1365px) and (max-height: 599px) {
-
-  /* ajuste image du Sacré-Coeur */
-  .ds-fw-header {
-    height: calc(100vh - 167px);
-    background-position: center 5%;
-    background-size: 100%;
-  }
-
-}
-
-@media only screen and (min-width: 1161px) and (max-width: 1365px) and (min-height: 600px) {
-
-  /* ajuste image du Sacré-Coeur */
-  .ds-fw-header {
-    height: 400px;
-    background-position: center 5%;
-    background-size: 100%;
+  /* grosseur titre section ÉVÉNEMENTS À VENIR et ARTICLES DE NOTRE BLOGUE */
+  #evenements-accueil_section #evenements-accueil-titre_row h2,
+  #articles-accueil_section #articles-accueil-titre_row h2 {
+    font-size: 38px;
   }
 
 }
@@ -330,11 +381,6 @@ ul.wcs-timetable__list li {
     animation-duration: 1000ms !important;
   }
 
-  /* ajuste image du Sacré-Coeur */
-  .ds-fw-header {
-    height: calc(100vh - 89px);
-  }
-
 }
 
 /* Break point pour écrans de 981px à 1160px
@@ -342,11 +388,6 @@ ul.wcs-timetable__list li {
 
 @media only screen and (min-width: 981px) and (max-width: 1160px) {
 
-  /* ajuste image du Sacré-Coeur */
-  .ds-fw-header {
-    background-position: center 5%;
-    background-size: 130%;
-  }
 
 }
 
@@ -362,34 +403,12 @@ ul.wcs-timetable__list li {
     width: 90%;
   }
 
-  /* annule les animations */
-  #image-entete-accueil,
-  #horaires-accueil_section,
-  #evenements-accueil-titre_row,
-  #evenements-accueil-contenu_row,
-  #evenements-accueil-bouton_row,
-  .blurb_11_f .et_pb_column .pages-a-visiter-accueil,
-  #articles-accueil-titre_row,
-  #articles-accueil-contenu_row,
-  #articles-accueil-bouton_row {
-    -webkit-animation-duration: initial !important;
-    animation-duration: initial !important;
-    -webkit-animation-delay: 0ms !important;
-    animation-delay: 0ms !important;
-  }
-
 }
 
 /* Break point pour version tablette
 ------------------------------------------------------------------------ */
 
 @media only screen and (min-width: 768px) and (max-width: 980px) {
-
-  /* ajuste image du Sacré-Coeur */
-  .ds-fw-header {
-    background-position: 50% 12%;
-    background-size: 270%;
-  }
 
   /* ajuste titres des sections ÉVÉNEMENTS À VENIR et ARTICLES DE NOTRE BLOGUE */
   #evenements-accueil_section #evenements-accueil-titre_row h2,
@@ -433,12 +452,6 @@ ul.wcs-timetable__list li {
   #horaires-accueil_section .horaires-version-mobile h2.et_pb_toggle_title::after {
     font-size: 22px;
     top: 2px;
-  }
-
-  /* ajuste image du Sacré-Coeur */
-  .ds-fw-header {
-    background-position: 50% 12%;
-    background-size: 480%;
   }
 
   /* ajoute du margin sous 1er et 2e article à lire */

@@ -52,6 +52,8 @@
     content: "\e901";
     top: 6px;
     left: 5px;
+    font-size: 36px !important;
+    font-weight: bold;
   }
 
   /* positionne la loupe et le hamburger */
@@ -88,11 +90,6 @@
     position: relative;
     top: 5px;
     right: -10px;
-  }
-
-  /* redimentionne la loupe */
-  #et_search_icon:before {
-    font-size: 36px !important;
   }
 
   /* espace au-dessus du input et x de recherche */
