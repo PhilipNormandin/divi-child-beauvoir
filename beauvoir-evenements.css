@@ -121,9 +121,10 @@
     padding: 4px 0 4px !important;
   }
   #events-calendar-row .et_pb_tabs::before {
-    font-size: 24px;
+    font-size: 20px;
     margin-right: 0;
     text-align: center;
+    top: 15px;
   }
   #events-calendar-row .et_pb_tabs_controls li {
     min-height: auto !important;
