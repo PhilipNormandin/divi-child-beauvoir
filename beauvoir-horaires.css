@@ -18,6 +18,24 @@ blockquote p:last-child {
   max-width: 100% !important;
 }
 
+/* Annule les animations sur versions mobile, tablette et petit écran
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1365px) {
+
+  #main-header,
+  #header-page-section,
+  #header-page-section section.et_pb_fullwidth_header,
+  #dates-horaires-row,
+  #horaires-section .horaire-row {
+    -webkit-animation-duration: initial !important;
+    animation-duration: initial !important;
+    -webkit-animation-delay: 0ms !important;
+    animation-delay: 0ms !important;
+  }
+
+}
+
 /* Break point pour écrans de 1390px et moins
 ------------------------------------------------------------------------ */
 
