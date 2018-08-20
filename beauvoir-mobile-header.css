@@ -52,8 +52,7 @@
     content: "\e901";
     top: 6px;
     left: 5px;
-    font-size: 36px !important;
-    /* font-weight: bold; */
+    font-size: 36px;
   }
 
   /* positionne la loupe et le hamburger */

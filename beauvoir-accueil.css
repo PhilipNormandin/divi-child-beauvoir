@@ -24,6 +24,12 @@
   padding-bottom: 0 !important;
 }
 
+/* ajuste loupe dans les pages à voir */
+.blurb_11_f .et_pb_blurb .et_pb_blurb_container::before {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
 /* espacement autour des sections */
 #evenements-accueil_section,
 #articles-accueil_section {
@@ -121,6 +127,60 @@
     background-position: center 9%;
     background-size: 400%;
   }
+}
+
+/* Adapte effets hover sur versions mobile et tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 980px) {
+
+  /* les ligne */
+  .blurb_11_f .et_pb_blurb::before,
+  .blurb_11_f .et_pb_blurb::after {
+    display: none !important;
+  }
+  .blurb_11_f .et_pb_blurb:hover::after,
+  .blurb_11_f .et_pb_blurb:hover::before {
+    transition-delay: initial !important;
+    -moz-transition-delay: initial !important;
+    -webkit-transition-delay: initial !important;
+    -ms-transition-delay: initial !important;
+  }
+  /* le contenu */
+  .blurb_11_f .et_pb_blurb .et_pb_blurb_container {
+    transition-duration: initial !important;
+    transform: translate(0, -50%) scale(1);
+    opacity: 1;
+  }
+  .blurb_11_f .et_pb_blurb:hover .et_pb_blurb_container {
+    transition-delay: initial !important;
+    -moz-transition-delay: initial !important;
+    -webkit-transition-delay: initial !important;
+    -ms-transition-delay: initial !important;
+    transform: translate(0, -50%) scale(1);
+  }
+  /* la loupe */
+  .blurb_11_f .et_pb_blurb .et_pb_blurb_container::before {
+    display: none !important;
+  }
+  /* layer semi-transparent */
+  .blurb_11_f .et_pb_blurb .et_pb_main_blurb_image::before {
+    display: none !important;
+    transition: none !important;
+  }
+  /* titre de la page */
+  .blurb_11_f .et_pb_blurb .et_pb_blurb_container h4,
+  .blurb_11_f .et_pb_blurb:hover .et_pb_blurb_container h4 {
+    background-color: rgba(3,3,3,0.6);
+    padding-top: 10px;
+    position: relative;
+    top: 120px;
+  }
+  /* espacement autour du contenu */
+  .blurb_11_f .et_pb_blurb .et_pb_blurb_container {
+    padding: 0 !important;
+  }
+
 }
 
 /* Section ÉVÉNEMENTS À VENIR
