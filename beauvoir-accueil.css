@@ -188,7 +188,8 @@
   #page-container .falkor_blog_4 article .post-meta {
     transform: translate(0, 0) !important;
     transition: none !important;
-}
+    padding-top: 0px !important;
+  }
 
 }
 
