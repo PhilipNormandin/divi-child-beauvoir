@@ -377,8 +377,8 @@ ul.wcs-timetable__list li {
 
   /* ajuste animation section CÉLÉBRATIONS EUCHARISTIQUES à la vertical */
   #horaires-accueil_section {
-    animation-delay: 200ms !important;
-    animation-duration: 1000ms !important;
+    /* animation-delay: 200ms !important; */
+    /* animation-duration: 1000ms !important; */
   }
 
 }
