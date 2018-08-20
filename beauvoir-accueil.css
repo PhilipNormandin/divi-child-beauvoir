@@ -69,8 +69,8 @@
   #articles-accueil-titre_row,
   #articles-accueil-contenu_row,
   #articles-accueil-bouton_row {
-    -webkit-animation-duration: 0s !important;
-    animation-duration: 0s !important;
+    -webkit-animation-duration: initial !important;
+    animation-duration: initial !important;
     -webkit-animation-delay: 0ms !important;
     animation-delay: 0ms !important;
   }
@@ -134,7 +134,9 @@
 
 @media only screen and (max-width: 980px) {
 
-  /* les ligne */
+  /*** PAGES À VOIR ***/
+
+  /* lignes */
   .blurb_11_f .et_pb_blurb::before,
   .blurb_11_f .et_pb_blurb::after {
     display: none !important;
@@ -146,7 +148,7 @@
     -webkit-transition-delay: initial !important;
     -ms-transition-delay: initial !important;
   }
-  /* le contenu */
+  /* contenu */
   .blurb_11_f .et_pb_blurb .et_pb_blurb_container {
     transition-duration: initial !important;
     transform: translate(0, -50%) scale(1);
@@ -159,7 +161,7 @@
     -ms-transition-delay: initial !important;
     transform: translate(0, -50%) scale(1);
   }
-  /* la loupe */
+  /* loupe */
   .blurb_11_f .et_pb_blurb .et_pb_blurb_container::before {
     display: none !important;
   }
@@ -179,6 +181,14 @@
   .blurb_11_f .et_pb_blurb .et_pb_blurb_container {
     padding: 0 !important;
   }
+
+  /*** ARTICLES DE NOTRE BLOGUE ***/
+
+  /* informations auteur et date publication */
+  #page-container .falkor_blog_4 article .post-meta {
+    transform: translate(0, 0) !important;
+    transition: none !important;
+}
 
 }
 
