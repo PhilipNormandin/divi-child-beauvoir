@@ -133,7 +133,7 @@
     padding-top: 10px;
   }
   .et_pb_cta_0.et_pb_promo .et_pb_promo_description h2 {
-    padding-bottom: 13px;
+    padding-bottom: 13px !important;
   }
 
   /* ajuste espacement sous formulaire RECEVOIR NOTRE BULLETIN */
