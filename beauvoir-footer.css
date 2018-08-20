@@ -129,10 +129,12 @@
 @media only screen and (max-width: 980px) {
 
   /* ajuste espacement titre et liens SERVICES et LIENS UTILES */
-  .footer_1_f .five-columns .et_pb_promo a {
+  #my-footer #links-row #services-column a,
+  #my-footer #links-row #useful-links-column a {
     padding-top: 10px;
   }
-  .et_pb_cta_0.et_pb_promo .et_pb_promo_description h2 {
+  #my-footer #links-row #services-column h2,
+  #my-footer #links-row #useful-links-column h2 {
     padding-bottom: 13px !important;
   }
 
