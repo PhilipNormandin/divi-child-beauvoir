@@ -173,8 +173,7 @@
   .blurb_11_f .et_pb_blurb:hover .et_pb_blurb_container h4 {
     background-color: rgba(3,3,3,0.6);
     padding-top: 10px;
-    position: relative;
-    top: 120px;
+    margin-top: 50%;
   }
   /* espacement autour du contenu */
   .blurb_11_f .et_pb_blurb .et_pb_blurb_container {
@@ -435,12 +434,6 @@ ul.wcs-timetable__list li {
     display: block !important;
   }
 
-  /* ajuste animation section CÉLÉBRATIONS EUCHARISTIQUES à la vertical */
-  #horaires-accueil_section {
-    /* animation-delay: 200ms !important; */
-    /* animation-duration: 1000ms !important; */
-  }
-
 }
 
 /* Break point pour écrans de 981px à 1160px
@@ -512,6 +505,12 @@ ul.wcs-timetable__list li {
   #horaires-accueil_section .horaires-version-mobile h2.et_pb_toggle_title::after {
     font-size: 22px;
     top: 2px;
+  }
+
+  /* ajuste titres des pages à voir */
+  .blurb_11_f .et_pb_blurb .et_pb_blurb_container h4 a {
+    font-size: 22px;
+    font-weight: 500;
   }
 
   /* ajoute du margin sous 1er et 2e article à lire */
