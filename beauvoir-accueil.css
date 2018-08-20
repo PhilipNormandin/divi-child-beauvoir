@@ -69,8 +69,8 @@
   #articles-accueil-titre_row,
   #articles-accueil-contenu_row,
   #articles-accueil-bouton_row {
-    -webkit-animation-duration: initial !important;
-    animation-duration: initial !important;
+    -webkit-animation-duration: 0s !important;
+    animation-duration: 0s !important;
     -webkit-animation-delay: 0ms !important;
     animation-delay: 0ms !important;
   }
