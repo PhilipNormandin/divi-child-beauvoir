@@ -11,12 +11,29 @@ function allow_svgimg_types($mimes) {
 }
 add_filter('upload_mimes', 'allow_svgimg_types');
 
-//* Enqueue Animate.CSS and WOW.js
+
 //* https://www.elegantthemes.com/blog/divi-resources/how-to-add-animation-effects-to-sectionsrows-in-divi
-add_action( 'wp_enqueue_scripts', 'sk_enqueue_scripts' );
-function sk_enqueue_scripts() {
-// wp_enqueue_style( 'animate', get_stylesheet_directory_uri() . '/css/animate.min.css' );
-// wp_enqueue_script( ‘wow’, get_stylesheet_directory_uri() . ‘/js/wow.min.js’, array(), ”, true );
-}
+//* http://jeremycookson.com/how-to-add-scrolling-animations-in-wordpress/
+
+    //* Enqueue Animate.CSS and WOW.js
+    add_action( 'wp_enqueue_scripts', 'sk_enqueue_scripts' );
+    function sk_enqueue_scripts() {
+    	wp_enqueue_style( 'animate', get_stylesheet_directory_uri() . '/css/animate.min.css' );
+    	wp_enqueue_script( 'wow', get_stylesheet_directory_uri() . '/js/wow.min.js', array(), '', true );
+    }
+
+    //* Enqueue script to activate WOW.js
+    add_action('wp_enqueue_scripts', 'sk_wow_init_in_footer');
+    function sk_wow_init_in_footer() {
+    	add_action( 'print_footer_scripts', 'wow_init' );
+    }
+
+    //* Add JavaScript before </body>
+    function wow_init() { ?>
+    	<script type="text/javascript">
+    		new WOW().init();
+    	</script>
+    <?php }
+
 
 ?>
