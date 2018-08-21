@@ -201,13 +201,13 @@
   /* titre de la page */
   .blurb_11_f .et_pb_blurb .et_pb_blurb_container h4,
   .blurb_11_f .et_pb_blurb:hover .et_pb_blurb_container h4 {
-    background-color: rgba(3,3,3,0.6);
+    background-color: rgba(3,3,3,0.7);
     padding-top: 10px;
-    margin-top: 56%;
+    margin-top: 82%;
   }
   /* espacement autour du contenu */
   .blurb_11_f .et_pb_blurb .et_pb_blurb_container {
-    /* padding: 0 !important; */
+    padding: 0 !important;
   }
 
   /*** ARTICLES DE NOTRE BLOGUE ***/
