@@ -93,9 +93,10 @@
   #articles-accueil-titre_row,
   #articles-accueil-contenu_row,
   #articles-accueil-bouton_row {
-    -webkit-animation-name: none !important;
-    animation-name: none !important;
-    visibility: visible !important;
+    /* -webkit-animation-name: none !important; */
+    /* animation-name: none !important; */
+    /* visibility: visible !important; */
+    
     /* -webkit-animation-duration: initial !important; */
     /* animation-duration: initial !important; */
     /* -webkit-animation-delay: 0ms !important; */
