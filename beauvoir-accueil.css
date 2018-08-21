@@ -95,10 +95,11 @@
   #articles-accueil-bouton_row {
     -webkit-animation-name: none !important;
     animation-name: none !important;
-    -webkit-animation-duration: initial !important;
-    animation-duration: initial !important;
-    -webkit-animation-delay: 0ms !important;
-    animation-delay: 0ms !important;
+    visibility: visible !important;
+    /* -webkit-animation-duration: initial !important; */
+    /* animation-duration: initial !important; */
+    /* -webkit-animation-delay: 0ms !important; */
+    /* animation-delay: 0ms !important; */
   }
 
 }
