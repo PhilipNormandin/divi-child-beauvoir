@@ -53,10 +53,10 @@
   /* padding-bottom: 4vh; */
 }
 
-/* Ajuste les animations sur version grand écran
+/* Ajuste les animations - sur desktop seulement
 ------------------------------------------------------------------------ */
 
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 981px) {
 
   #pages-a-voir_section .et_pb_column .page-a-voir_module.animated {
     animation-name: fadeInRight;
