@@ -62,7 +62,7 @@
     animation-name: fadeInRight;
     animation-timing-function: ease-in-out;
   }
-  #pages-a-voir_section .et_pb_column:nth-child(1) .page-a-voir_module.wow {
+  #pages-a-voir_section .et_pb_column:nth-child(1) .page-a-voir_module.animated {
     animation-delay: 0.4s;
   }
   #pages-a-voir_section .et_pb_column:nth-child(2) .page-a-voir_module.wow {
