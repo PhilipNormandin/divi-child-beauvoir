@@ -58,20 +58,20 @@
 
 @media only screen and (min-width: 1366px) {
 
-  #pages-a-voir_section .et_pb_column .page-a-voir_module.wow {
+  #pages-a-voir_section .et_pb_column .page-a-voir_module.animated {
     animation-name: fadeInRight;
     animation-timing-function: ease-in-out;
   }
   #pages-a-voir_section .et_pb_column:nth-child(1) .page-a-voir_module.animated {
     animation-delay: 0.4s;
   }
-  #pages-a-voir_section .et_pb_column:nth-child(2) .page-a-voir_module.wow {
+  #pages-a-voir_section .et_pb_column:nth-child(2) .page-a-voir_module.animated {
     animation-delay: 0.7s;
   }
-  #pages-a-voir_section .et_pb_column:nth-child(3) .page-a-voir_module.wow {
+  #pages-a-voir_section .et_pb_column:nth-child(3) .page-a-voir_module.animated {
     animation-delay: 1s;
   }
-  #pages-a-voir_section .et_pb_column:nth-child(4) .page-a-voir_module.wow {
+  #pages-a-voir_section .et_pb_column:nth-child(4) .page-a-voir_module.animated {
     animation-delay: 1.3s;
   }
 
