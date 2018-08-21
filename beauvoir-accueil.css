@@ -207,7 +207,7 @@
   }
   /* espacement autour du contenu */
   .blurb_11_f .et_pb_blurb .et_pb_blurb_container {
-    padding: 0 !important;
+    /* padding: 0 !important; */
   }
 
   /*** ARTICLES DE NOTRE BLOGUE ***/
