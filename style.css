@@ -5,7 +5,7 @@
  Author:         Philippe Normandin
  Author URI:     http://www.philippenormandin.com
  Template:       Divi
- Version:        3.0.0
+ Version:        3.5.0
  GitHub Theme URI: https://github.com/PhilipNormandin/divi-child-beauvoir
 */
 
@@ -28,9 +28,13 @@ nouveau rouge pour calendrier : #BD322C
 
 */
 
-/* Animations sur https://github.com/daneden/animate.css
+/* Framework des animations - https://github.com/daneden/animate.css
 ------------------------------------------------------------------------ */
-/* @import "animate.css"; */
+@import "animate.css";
+
+/* Animations dans le site
+------------------------------------------------------------------------ */
+@import "beauvoir-animations.css";
 
 /* Les feuilles CSS de Falkor
 ------------------------------------------------------------------------ */
@@ -64,31 +68,41 @@ nouveau rouge pour calendrier : #BD322C
 ------------------------------------------------------------------------ */
 @import "beauvoir-horaires.css";
 
-/* page ÉVÉNEMENTS
+/* Page ÉVÉNEMENTS
 ------------------------------------------------------------------------ */
 @import "beauvoir-evenements.css";
 
-/* icones provenant de icomoon
+/* Icones provenant de icomoon
 ------------------------------------------------------------------------ */
 @font-face {
  font-family: "icomoon";
  src: url("fonts/icomoon.woff");
 }
 
-/* Propriétés globales
+/* Ajustements position menus secondaire/principal et contenu des pages
 ------------------------------------------------------------------------ */
 
-/* bouncing image fix */
-.et_fixed_nav.et_show_nav #page-container {
-  /* margin-top: -1px !important; */
-  /* padding-top: 212px !important; */
-}
+@media only screen and (min-width: 1366px) {
 
-/* ajustements mineurs pour petits écrans */
-@media only screen and (max-width: 1390px) {
-  #header-page-section .et_pb_fullwidth_header_container {
-    width: 90% !important;
+  /* position menu secondaire */
+  #top-header {
+    position: absolute;
+    width: 100%;
   }
+
+  /* position menu principal */
+  #main-header {
+    position: absolute;
+    top: 40px;
+  }
+
+  /* positionne contenu des pages */
+  #et-main-area {
+    position: absolute;
+    top: 211px;
+    width: 100%;
+  }
+
 }
 
 /* Ajustements des boutons
@@ -120,66 +134,16 @@ body #main-content #articles-accueil_section .my-buttons:hover {
 
 }
 
-/* Animations s'effectuant à l'ouverture d'une page avec animate.css
------------------------------------------------------------------------- */
-
-/* empêche la page d'apparaitre avant les animations */
-body {
-  opacity: 0;
-  transition: opacity 0.4s ease-out 0.4s;
+/* bouton back to top */
+.et_pb_scroll_top.et-pb-icon {
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  background: #0077ee;
+  font-size: 2.75rem;
 }
-body.show-the-page {
-  opacity: 1;
-}
-
-@media only screen and (min-width: 1366px) {
-
-  /* menu principal et Logo */
-  #main-header #logo.animated {
-    animation-name: zoomIn;
-    animation-duration: 0.7s;
-    animation-delay: 0.7s;
-  }
-  #main-header #et-top-navigation.animated {
-    animation-name: fadeIn;
-    animation-duration: 0.7s;
-    animation-delay: 0.3s;
-  }
-  #top-header.animated {
-    animation-name: fadeIn;
-    animation-duration: 0.7s;
-    animation-delay: 0.3s;
-  }
-
-  /* menu fixe */
-  #main-header.animated.et-fixed-header {
-    animation-name: slideInDown;
-    animation-duration: 0.7s;
-  }
-
-}
-
-@media only screen and (max-width: 1365px) {
-
-  /* menu principal */
-  #main-header.animated {
-    animation-name: fadeInDownBig;
-    animation-duration: 0.7s;
-    animation-delay: 0.3s;
-  }
-
-}
-
-@media only screen and (max-width: 980px) {
-
-  /* annule animation menu principal */
-  #main-header.animated {
-    -webkit-animation-duration: initial !important;
-    animation-duration: initial !important;
-    -webkit-animation-delay: 0ms !important;
-    animation-delay: 0ms !important;
-  }
-
+.et_pb_scroll_top.et-pb-icon:hover {
+  background: #1F5DEA;
 }
 
 /* En-tête de chaque page
@@ -187,6 +151,13 @@ body.show-the-page {
 
 #header-page-section h2 {
   padding-bottom: 5px !important;
+}
+
+@media only screen and (max-width: 1390px) {
+
+  #header-page-section .et_pb_fullwidth_header_container {
+    width: 90% !important;
+  }
 }
 
 @media only screen and (min-width: 1366px) {

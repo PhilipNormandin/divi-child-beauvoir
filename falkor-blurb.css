@@ -285,28 +285,28 @@ body.edge #page-container .blurb_1_f.view_port .et_pb_column_2_3 .et_pb_blurb:af
     animation-iteration-count: 1;
 }
 
-@-webkit-keyframes fadeIn {
+/* @-webkit-keyframes fadeIn {
     from {
         opacity: 0.5;
     }
     to {
         opacity: 1;
     }
-}
+} */
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     from {
         opacity: 0.5;
     }
     to {
         opacity: 1;
     }
-}
+} */
 
-.fadeIn {
+/* .fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-}
+} */
 
 /*Blurb 4*/
 
@@ -707,28 +707,28 @@ body.ie .blurb_5_f .et_pb_blurb:hover img {
     animation-iteration-count: 1;
 }
 
-@-webkit-keyframes fadeIn {
+/* @-webkit-keyframes fadeIn {
     from {
         opacity: 0.5;
     }
     to {
         opacity: 1;
     }
-}
+} */
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     from {
         opacity: 0.5;
     }
     to {
         opacity: 1;
     }
-}
+} */
 
-.fadeIn {
+/* .fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-}
+} */
 
 /*Blurb 7*/
 
@@ -812,28 +812,28 @@ body.ie .blurb_5_f .et_pb_blurb:hover img {
     animation-iteration-count: 1;
 }
 
-@-webkit-keyframes fadeIn {
+/* @-webkit-keyframes fadeIn {
     from {
         opacity: 0.5;
     }
     to {
         opacity: 1;
     }
-}
+} */
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     from {
         opacity: 0.5;
     }
     to {
         opacity: 1;
     }
-}
+} */
 
-.fadeIn {
+/* .fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-}
+} */
 
 /*Blurb 8*/
 

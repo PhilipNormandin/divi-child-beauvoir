@@ -30,81 +30,6 @@
   font-weight: bolder;
 }
 
-/* espacement autour des sections */
-#evenements-accueil_section,
-#articles-accueil_section {
-  /* padding-top: 4vh; */
-  /* padding-bottom: 4vh; */
-}
-/* espacement autour des lignes de chaque section */
-#evenements-accueil-titre_row,
-#articles-accueil-titre_row {
-  /* padding-top: 4vh; */
-  /* padding-bottom: 3.5vh; */
-}
-#evenements-accueil-contenu_row,
-#articles-accueil-contenu_row {
-  /* padding-top: 3.5vh; */
-  /* padding-bottom: 3.5vh; */
-}
-#evenements-accueil-bouton_row,
-#articles-accueil-bouton_row {
-  /* padding-top: 3.5vh; */
-  /* padding-bottom: 4vh; */
-}
-
-/* Ajuste les animations - sur desktop seulement
------------------------------------------------------------------------- */
-
-@media only screen and (min-width: 981px) {
-
-  #pages-a-voir_section .et_pb_column .page-a-voir_module.animated {
-    animation-name: fadeInRight;
-    animation-timing-function: ease-in-out;
-  }
-  #pages-a-voir_section .et_pb_column:nth-child(1) .page-a-voir_module.animated {
-    animation-delay: 0.4s;
-  }
-  #pages-a-voir_section .et_pb_column:nth-child(2) .page-a-voir_module.animated {
-    animation-delay: 0.7s;
-  }
-  #pages-a-voir_section .et_pb_column:nth-child(3) .page-a-voir_module.animated {
-    animation-delay: 1s;
-  }
-  #pages-a-voir_section .et_pb_column:nth-child(4) .page-a-voir_module.animated {
-    animation-delay: 1.3s;
-  }
-
-}
-
-/* Annule les animations sur versions mobile, tablette et petit écran
------------------------------------------------------------------------- */
-
-@media only screen and (max-width: 1365px) {
-
-  #main-header,
-  #image-entete-accueil,
-  #horaires-accueil_section,
-  #horaires-accueil_section .horaires-version-desktop,
-  #evenements-accueil-titre_row,
-  #evenements-accueil-contenu_row,
-  #evenements-accueil-bouton_row,
-  #pages-a-voir_section .page-a-voir_module,
-  #articles-accueil-titre_row,
-  #articles-accueil-contenu_row,
-  #articles-accueil-bouton_row {
-    /* -webkit-animation-name: none !important; */
-    /* animation-name: none !important; */
-    /* visibility: visible !important; */
-
-    /* -webkit-animation-duration: initial !important; */
-    /* animation-duration: initial !important; */
-    /* -webkit-animation-delay: 0ms !important; */
-    /* animation-delay: 0ms !important; */
-  }
-
-}
-
 /* Ajustements image du Sacré-Coeur
 ------------------------------------------------------------------------ */
 
@@ -160,66 +85,65 @@
 /* Adapte effets hover sur versions mobile et tablette
 ------------------------------------------------------------------------ */
 
-@media only screen and (max-width: 980px) {
+/*** PAGES À VOIR ***/
 
-  /*** PAGES À VOIR ***/
+/* lignes */
+body.et_mobile_device .blurb_11_f .et_pb_blurb::before,
+body.et_mobile_device .blurb_11_f .et_pb_blurb::after {
+  display: none !important;
+}
+body.et_mobile_device .blurb_11_f .et_pb_blurb:hover::after,
+body.et_mobile_device .blurb_11_f .et_pb_blurb:hover::before {
+  transition-delay: initial !important;
+  -moz-transition-delay: initial !important;
+  -webkit-transition-delay: initial !important;
+  -ms-transition-delay: initial !important;
+}
+/* contenu */
+body.et_mobile_device .blurb_11_f .et_pb_blurb .et_pb_blurb_container {
+  transition-duration: initial !important;
+  transform: translate(0, -50%) scale(1);
+  opacity: 1;
+}
+body.et_mobile_device .blurb_11_f .et_pb_blurb:hover .et_pb_blurb_container {
+  transition-delay: initial !important;
+  -moz-transition-delay: initial !important;
+  -webkit-transition-delay: initial !important;
+  -ms-transition-delay: initial !important;
+  transform: translate(0, -50%) scale(1);
+}
+/* loupe */
+body.et_mobile_device .blurb_11_f .et_pb_blurb .et_pb_blurb_container::before {
+  display: none !important;
+}
+/* layer semi-transparent */
+body.et_mobile_device .blurb_11_f .et_pb_blurb .et_pb_main_blurb_image::before {
+  display: none !important;
+  transition: none !important;
+}
+/* titre de la page */
+body.et_mobile_device .blurb_11_f .et_pb_blurb .et_pb_blurb_container h4,
+body.et_mobile_device .blurb_11_f .et_pb_blurb:hover .et_pb_blurb_container h4 {
+  background-color: rgba(3,3,3,0.7);
+  padding-top: 10px;
+  /* margin-top: 70%; */
+}
+body.et_mobile_device .blurb_11_f .et_pb_blurb .et_pb_blurb_container h4 > a {
+  font-weight: 500;
+}
+/* espacement autour du contenu */
+body.et_mobile_device .blurb_11_f .et_pb_blurb .et_pb_blurb_container {
+  padding: 0 !important;
+}
 
-  /* lignes */
-  .blurb_11_f .et_pb_blurb::before,
-  .blurb_11_f .et_pb_blurb::after {
-    display: none !important;
-  }
-  .blurb_11_f .et_pb_blurb:hover::after,
-  .blurb_11_f .et_pb_blurb:hover::before {
-    transition-delay: initial !important;
-    -moz-transition-delay: initial !important;
-    -webkit-transition-delay: initial !important;
-    -ms-transition-delay: initial !important;
-  }
-  /* contenu */
-  .blurb_11_f .et_pb_blurb .et_pb_blurb_container {
-    transition-duration: initial !important;
-    transform: translate(0, -50%) scale(1);
-    opacity: 1;
-  }
-  .blurb_11_f .et_pb_blurb:hover .et_pb_blurb_container {
-    transition-delay: initial !important;
-    -moz-transition-delay: initial !important;
-    -webkit-transition-delay: initial !important;
-    -ms-transition-delay: initial !important;
-    transform: translate(0, -50%) scale(1);
-  }
-  /* loupe */
-  .blurb_11_f .et_pb_blurb .et_pb_blurb_container::before {
-    display: none !important;
-  }
-  /* layer semi-transparent */
-  .blurb_11_f .et_pb_blurb .et_pb_main_blurb_image::before {
-    display: none !important;
-    transition: none !important;
-  }
-  /* titre de la page */
-  .blurb_11_f .et_pb_blurb .et_pb_blurb_container h4,
-  .blurb_11_f .et_pb_blurb:hover .et_pb_blurb_container h4 {
-    background-color: rgba(3,3,3,0.7);
-    padding-top: 10px;
-    margin-top: 70%;
-  }
-  /* espacement autour du contenu */
-  .blurb_11_f .et_pb_blurb .et_pb_blurb_container {
-    padding: 0 !important;
-  }
+/*** ARTICLES DE NOTRE BLOGUE ***/
 
-  /*** ARTICLES DE NOTRE BLOGUE ***/
-
-  /* informations auteur et date publication */
-  #page-container .falkor_blog_4 article .post-meta {
-    transform: translate(0, 0) !important;
-    transition: none !important;
-    padding-top: 0px !important;
-    line-height: 1 !important;
-  }
-
+/* informations auteur et date publication */
+body.et_mobile_device .falkor_blog_4 article .post-meta {
+  transform: translate(0, 0) !important;
+  transition: none !important;
+  padding-top: 0px !important;
+  line-height: 1 !important;
 }
 
 /* Section ÉVÉNEMENTS À VENIR

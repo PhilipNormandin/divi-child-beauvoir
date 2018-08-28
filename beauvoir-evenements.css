@@ -45,18 +45,17 @@
 }
 
 /* position et taille du libellé FORMAT D'AFFICHAGE */
-#events-calendar-row .et_pb_tabs::before {
-  position: relative;
-  top: 10px;
+#format-affichage-evenements {
   font-size: 26px;
   margin-right: 60px;
 }
 
-/* position des onglets CALENDRIER et LISTE et leur contenu */
+/* position libellé FORMAT D'AFFICHAGE, onglets CALENDRIER/LISTE et contenu */
 #events-calendar-row .et_pb_tabs {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  align-items: center;
 }
 #events-calendar-row .et_pb_tabs .et_pb_all_tabs {
   flex: 1 1 100%;
@@ -85,7 +84,7 @@
 @media all and (max-width: 980px) {
 
   /* taille libellé FORMAT D'AFFICHAGE */
-  #events-calendar-row .et_pb_tabs::before {
+  #format-affichage-evenements {
     font-size: 24px;
   }
 
@@ -101,14 +100,15 @@
 
 @media all and (max-width: 767px) {
 
-  /* ajuste onglets CALENDRIER et LISTE et libellé FORMAT D'AFFICHAGE */
+  /* ajuste libellé FORMAT D'AFFICHAGE, onglets CALENDRIER/LISTE et contenu */
   #events-calendar-row .et_pb_tabs {
+    align-items: unset;
     flex-direction: column;
   }
   .et_pb_tabs_controls {
     width: 100%;
     display: flex !important;
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .et_pb_tabs_controls li {
     display: table !important;
@@ -120,15 +120,48 @@
     text-align: center;
     padding: 4px 0 4px !important;
   }
-  #events-calendar-row .et_pb_tabs::before {
-    font-size: 20px;
+  #format-affichage-evenements {
+    font-size: 22px;
     margin-right: 0;
     text-align: center;
-    top: 15px;
   }
   #events-calendar-row .et_pb_tabs_controls li {
     min-height: auto !important;
     height: auto !important;
+  }
+
+}
+
+/* Break point pour versions mobile landscape et petite tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  /* ajuste affichage du calendrier */
+  .wcs-timetable--monthly-calendar .wcs-calendar__header {
+    margin-bottom: 2em;
+    flex-wrap: nowrap;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+  .wcs-timetable--monthly-calendar .wcs-calendar__header > div:first-of-type {
+    order: 0;
+  }
+  .wcs-timetable--monthly-calendar .wcs-calendar__header h3 {
+    flex-basis: 70%;
+    order: 1;
+  }
+
+}
+
+/* Break point pour version mobile portrait
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 479px) {
+
+  /* taille libellé FORMAT D'AFFICHAGE */
+  #format-affichage-evenements {
+    font-size: 20px;
   }
 
 }

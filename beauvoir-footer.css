@@ -77,13 +77,9 @@
 /* Adapte effets hover sur versions mobile et tablette
 ------------------------------------------------------------------------ */
 
-@media only screen and (max-width: 980px) {
-
-  /* liens */
-  .footer_1_f .five-columns .et_pb_promo:not(:last-child) a:hover::before {
-    width: 0px !important;
-  }
-
+/* liens */
+body.et_mobile_device .footer_1_f .five-columns .et_pb_promo:not(:last-child) a:hover::before {
+  width: 0px !important;
 }
 
 /* Break point pour grande tablette et plus

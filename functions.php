@@ -18,7 +18,7 @@ add_filter('upload_mimes', 'allow_svgimg_types');
     //* Enqueue Animate.CSS and WOW.js
     add_action( 'wp_enqueue_scripts', 'sk_enqueue_scripts' );
     function sk_enqueue_scripts() {
-    	wp_enqueue_style( 'animate', get_stylesheet_directory_uri() . '/css/animate.min.css' );
+    	// wp_enqueue_style( 'animate', get_stylesheet_directory_uri() . '/css/animate.min.css' );
     	wp_enqueue_script( 'wow', get_stylesheet_directory_uri() . '/js/wow.min.js', array(), '', true );
     }
 
