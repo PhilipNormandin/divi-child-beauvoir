@@ -15,7 +15,6 @@ body.show-the-page {
 
 .et_pb_scroll_top {
   animation-duration: 0.7s !important;
-  /* animation-timing-function: ease-in-out; */
 }
 .et_pb_scroll_top.et-visible {
   -webkit-animation: fadeInBottom 1s 1 cubic-bezier(.77,0,.175,1);
@@ -37,9 +36,9 @@ body.show-the-page {
 
   /* menus principal/secondaire et Logo */
   #main-header #logo.animated {
-    animation-name: zoomIn;
+    animation-name: bounceIn;
     animation-duration: 0.7s;
-    animation-delay: 0.7s;
+    animation-delay: 0.8s;
   }
   #main-header #et-top-navigation.animated {
     animation-name: fadeIn;
