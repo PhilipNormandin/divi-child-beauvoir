@@ -38,7 +38,7 @@ body.show-the-page {
   #main-header #logo.animated {
     animation-name: zoomIn;
     animation-duration: 0.7s;
-    animation-delay: 0.8s;
+    animation-delay: 0.7s;
   }
   #main-header #et-top-navigation.animated {
     animation-name: fadeIn;
