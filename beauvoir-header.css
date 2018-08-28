@@ -326,6 +326,7 @@ ul#mobile_menu li.pll-parent-menu-item > a::before {
   .et_header_style_centered .et-fixed-header #et_search_icon::before {
     top: -22px;
     left: -12px !important;
+    margin-left: 10px;
   }
 
 }
