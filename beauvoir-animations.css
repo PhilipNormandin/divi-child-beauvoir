@@ -36,7 +36,7 @@ body.show-the-page {
 
   /* menus principal/secondaire et Logo */
   #main-header #logo.animated {
-    animation-name: bounceIn;
+    animation-name: zoomIn;
     animation-duration: 0.7s;
     animation-delay: 0.8s;
   }
