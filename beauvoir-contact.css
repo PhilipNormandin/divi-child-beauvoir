@@ -108,14 +108,18 @@
 
 @media all and (max-width: 479px) {
 
-  /* centre bouton du formulaire */
-  #adresse-formulaire-section #nous-joindre-adresse-column .et_contact_bottom_container {
-    /* float: none; */
-    /* display: flex; */
-    /* justify-content: center; */
+  /* centre titre du formulaire */
+  #adresse-formulaire-section #nous-joindre-formulaire-column .et_pb_module:first-child h2 {
+    text-align: center;
   }
-  #adresse-formulaire-section #nous-joindre-adresse-column .et_contact_bottom_container button {
-    /* margin-left: 0 !important; */
+
+  /* centre bouton du formulaire */
+  #adresse-formulaire-section #nous-joindre-formulaire-column .et_contact_bottom_container {
+    float: none;
+    text-align: center;
+  }
+  #adresse-formulaire-section #nous-joindre-formulaire-column .et_contact_bottom_container button {
+    margin-left: 0 !important;
   }
 
 }
