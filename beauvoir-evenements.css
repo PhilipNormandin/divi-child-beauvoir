@@ -10,6 +10,11 @@
   padding-bottom: 0 !important;
 }
 
+/* ajuste espacement autour du contenudes onglets */
+#events-calendar-section .et_pb_all_tabs {
+  padding-top: 5vh;
+}
+
 /* efface ligne sous les onglets CALENDRIER et LISTE */
 #events-calendar-row .et_pb_tabs_controls::after {
   display: none;
