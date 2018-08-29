@@ -28,7 +28,7 @@ nouveau rouge pour calendrier : #BD322C
 
 */
 
-/* Framework des animations - https://github.com/daneden/animate.css
+/* Librairie des animations - https://github.com/daneden/animate.css
 ------------------------------------------------------------------------ */
 @import "animate.css";
 
@@ -127,7 +127,9 @@ body #main-content #articles-accueil_section .my-buttons:hover {
 @media only screen and (max-width: 1365px) {
 
   body #main-content a.my-buttons,
-  body #main-content a.my-buttons:hover {
+  body #main-content a.my-buttons:hover,
+  body #main-content a#contact-btn,
+  body #main-content a#contact-btn:hover {
     padding: 12px 30px 9px 30px !important;
     font-weight: 400 !important;
   }

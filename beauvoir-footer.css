@@ -167,7 +167,8 @@ body.et_mobile_device .footer_1_f .five-columns .et_pb_promo:not(:last-child) a:
 
   /* ajuste largeur bouton NOUS JOINDRE */
   #my-footer #contact-column #contact-btn {
-    padding: 10px 100px !important;
+    padding-left: 25% !important;
+    padding-right: 25% !important;
   }
 
   /* ajuste espacement sous colonne COORDONNÉES */
