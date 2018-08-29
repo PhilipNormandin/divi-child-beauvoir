@@ -101,6 +101,11 @@
     margin-bottom: 30px !important;
   }
 
+  /* espacement titre du formulaire */
+  #adresse-formulaire-section #nous-joindre-formulaire-column .et_pb_module:first-child {
+    padding-bottom: 10px !important;
+  }
+
 }
 
 /* Break point pour version mobile portrait
