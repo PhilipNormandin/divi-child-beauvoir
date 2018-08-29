@@ -119,8 +119,6 @@
   .et_pb_tabs_controls {
     width: 100%;
     display: flex !important;
-    margin-top: 20px;
-    margin-bottom: 44px;
   }
   .et_pb_tabs_controls li {
     display: table !important;
@@ -136,10 +134,14 @@
     font-size: 22px;
     margin-right: 0;
     text-align: center;
+    margin-bottom: 20px;
   }
   #events-calendar-row .et_pb_tabs_controls li {
     min-height: auto !important;
     height: auto !important;
+  }
+  #events-calendar-section .et_pb_all_tabs {
+    padding-top: 40px;
   }
 
 }
