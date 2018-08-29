@@ -61,6 +61,12 @@
   flex: 1 1 100%;
 }
 
+/* ajuste espacement autour du calendrier */
+.wcs-timetable__container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 /* Annule les animations sur versions mobile, tablette et petit écran
 ------------------------------------------------------------------------ */
 
@@ -109,6 +115,7 @@
     width: 100%;
     display: flex !important;
     margin-top: 20px;
+    margin-bottom: 50px;
   }
   .et_pb_tabs_controls li {
     display: table !important;
