@@ -175,7 +175,7 @@ body.show-the-page {
   animation-timing-function: ease-in-out;
   animation-delay: 1s;
 }
-#google-maps-section.animated {
+#google-maps-row.animated {
   animation-name: fadeInUpSmall;
   animation-timing-function: ease-in-out;
   animation-delay: 0.2s;
