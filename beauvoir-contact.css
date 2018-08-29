@@ -100,6 +100,9 @@
   #social-icons-in-contact-page {
     margin-bottom: 30px !important;
   }
+  #social-icons-in-contact-page li {
+    margin-bottom: 0 !important;
+  }
 
   /* espacement titre du formulaire */
   #adresse-formulaire-section #nous-joindre-formulaire-column .et_pb_module:first-child {
