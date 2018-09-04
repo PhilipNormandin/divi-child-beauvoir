@@ -3,11 +3,11 @@
 
 /* empêche la page d'apparaitre avant les animations */
 body {
-  opacity: 0;
-  transition: opacity 0.6s ease-out 0.4s;
+  /* opacity: 0; */
+  /* transition: opacity 0.6s ease-out 0.4s; */
 }
 body.show-the-page {
-  opacity: 1;
+  /* opacity: 1; */
 }
 
 /* Bouton back to top
