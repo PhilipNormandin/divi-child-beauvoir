@@ -15,23 +15,61 @@ blockquote p:last-child {
 /* ajuste affichage des images */
 .horaire-row img {
   object-fit: cover;
-  max-width: 100% !important;
+  object-position: center;
+  width: 100% !important;
+}
+.horaire-row .et_pb_column_1_2:first-child,
+.horaire-row .et_pb_column_1_2:last-child {
+  padding-left: 0 !important;
 }
 
-/* Annule les animations sur versions mobile, tablette et petit écran
+/* Corrections CSS de Falkor
 ------------------------------------------------------------------------ */
 
-@media only screen and (max-width: 1365px) {
+@media only screen and (min-width: 1930px) {
 
-  #main-header,
-  #header-page-section,
-  #header-page-section section.et_pb_fullwidth_header,
-  #dates-horaires-row,
-  #horaires-section .horaire-row {
-    -webkit-animation-duration: initial !important;
-    animation-duration: initial !important;
-    -webkit-animation-delay: 0ms !important;
-    animation-delay: 0ms !important;
+  .horaire-row .et_pb_column_1_2:first-child {
+    padding-left: 0 !important;
+  }
+  .content_1_f .et_pb_column_1_2 .et_pb_image,
+  .content_1_f .et_pb_column_1_2 .et_pb_image img,
+  .content_1_f .et_pb_column_1_2 .et_pb_image .et_pb_image_wrap {
+    height: 100% !important;
+  }
+
+}
+
+/* Break point pour version grand écran
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 1366px) {
+
+  /* espacement autour des blocs de texte */
+  #horaires-section .horaire-row .texte-gauche,
+  #horaires-section .horaire-row .texte-droite {
+    padding: 50px 70px !important;
+  }
+
+  /*** Hauteur des blocs d'horaire ***/
+
+  /* eucharistie */
+  #horaires-section .horaire-row.eucharistie {
+    /* height: 414px; */
+  }
+
+  /* chapelle de pierres, église */
+  #horaires-section .horaire-row.chapelle {
+    /* height: 402px; */
+  }
+
+  /* bureau */
+  #horaires-section .horaire-row.bureau {
+    /* height: 414px; */
+  }
+
+  /* magasin */
+  #horaires-section .horaire-row.magasin {
+    /* height: 414px; */
   }
 
 }
@@ -66,7 +104,7 @@ blockquote p:last-child {
   /* ajuste espacement blocs texte */
   #horaires-section .horaire-row .et_pb_column.texte-gauche,
   #horaires-section .horaire-row .et_pb_column.texte-droite {
-    padding: 30px 30px 30px 50px !important;
+    padding: 40px 60px !important;
   }
 
 }

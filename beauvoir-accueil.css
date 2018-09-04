@@ -36,7 +36,7 @@
 @media only screen and (min-width: 1366px) {
 
   .ds-fw-header {
-    min-height: calc(100vh - 288px);
+    min-height: calc(100vh - 273px);
     background-position: center 4%;
   }
 }
@@ -44,7 +44,7 @@
 @media only screen and (min-width: 1161px) and (max-width: 1365px) and (max-height: 799px) {
 
   .ds-fw-header {
-    height: calc(100vh - 167px);
+    height: calc(100vh - 163px);
     background-position: center 5%;
     background-size: 100%;
   }
@@ -254,7 +254,7 @@ ul.wcs-timetable__list li {
 
 /* position et dimension de la section */
 #horaires-accueil_section .horaires-version-desktop  {
-  padding: 14px 0 !important;
+  padding: 12px 0 !important;
 }
 
 /* un peu de padding sous le titre */

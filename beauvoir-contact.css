@@ -35,24 +35,6 @@
   max-width: 100%;
 }
 
-/* Annule les animations sur versions mobile, tablette et petit écran
------------------------------------------------------------------------- */
-
-@media only screen and (max-width: 1365px) {
-
-  #main-header,
-  #header-page-section,
-  #header-page-section section.et_pb_fullwidth_header,
-  #adresse-formulaire-section > .et_pb_row,
-  #google-maps-section {
-    -webkit-animation-duration: initial !important;
-    animation-duration: initial !important;
-    -webkit-animation-delay: 0ms !important;
-    animation-delay: 0ms !important;
-  }
-
-}
-
 /* Break point pour versions tablette et petit écran
 ------------------------------------------------------------------------ */
 

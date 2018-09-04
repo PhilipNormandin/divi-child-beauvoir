@@ -4,7 +4,7 @@
 /* empêche la page d'apparaitre avant les animations */
 body {
   opacity: 0;
-  transition: opacity 0.4s ease-out 0.4s;
+  transition: opacity 0.6s ease-out 0.4s;
 }
 body.show-the-page {
   opacity: 1;
@@ -29,79 +29,41 @@ body.show-the-page {
   animation: fadeOutBottom 1s 1 cubic-bezier(.77,0,.175,1);
 }
 
-/* Menus à l'ouverture des pages - version grand écran
+/* Menu fixe - version grand écran
 ------------------------------------------------------------------------ */
 
 @media only screen and (min-width: 1366px) {
 
-  /* menus principal/secondaire et Logo */
-  #main-header #logo.animated {
-    animation-name: zoomIn;
-    animation-duration: 0.7s;
-    animation-delay: 0.7s;
-  }
-  #main-header #et-top-navigation.animated {
-    animation-name: fadeIn;
-    animation-duration: 0.7s;
-    animation-delay: 0.3s;
-  }
-  #top-header.animated {
-    animation-name: fadeIn;
-    animation-duration: 0.7s;
-    animation-delay: 0.3s;
-  }
-
   /* affiche menu fixe  */
-  #main-header.animated.et-fixed-header.fixed-header-in {
+  #main-header.et-fixed-header.fixed-header-in {
     animation-name: slideInDown;
     animation-duration: 0.7s;
-    /* animation-timing-function: ease-in-out; */
     animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1)
   }
 
   /* cache menu fixe  */
-  #main-header.animated.et-fixed-header.fixed-header-out {
+  #main-header.et-fixed-header.fixed-header-out {
     animation-name: slideOutUp;
     animation-duration: 0.7s;
-    /* animation-timing-function: ease-in-out; */
     animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1)
   }
 
 }
 
-/* Menus à l'ouverture des pages - versions mobile, tablette et petit écran
---------------------------------------------------------------------------- */
-
-@media only screen and (max-width: 1365px) {
-
-  /* menu principal */
-  #main-header.animated {
-    animation-name: fadeInDownBig;
-    animation-duration: 0.7s;
-    animation-delay: 0.3s;
-  }
-
-}
-
-/* Page ACCUEIL
+/* En-tête de chaque page
 ------------------------------------------------------------------------ */
 
-/* image du Sacré-Coeur et horaires */
-#image-entete-accueil.animated,
-#horaires-accueil_section.animated {
-  animation-name: fadeIn;
-  animation-timing-function: ease-in-out;
-  animation-duration: 0.7s;
-  animation-delay: 0.7s;
-}
-#horaires-accueil_section {
+#header-page-section {
   overflow: hidden;
 }
-#horaires-accueil_section .horaires-version-desktop.animated {
+#header-page-content.animated {
   animation-name: fadeInRightSmall;
   animation-timing-function: ease-in-out;
   animation-delay: 1s;
 }
+
+/* Page ACCUEIL
+------------------------------------------------------------------------ */
 
 /* sections ÉVÉNEMENTS À VENIR et ARTICLES DE NOTRE BLOGUE */
 #evenements-accueil_section #evenements-accueil-titre_row.animated,
@@ -114,14 +76,14 @@ body.show-the-page {
 #articles-accueil_section #articles-accueil-contenu_row.animated {
   animation-name: fadeInUpSmall;
   animation-timing-function: ease-in-out;
-  animation-delay: 0.4s;
+  animation-delay: 0.5s;
 }
 #evenements-accueil_section #evenements-accueil-bouton_row.animated,
 #articles-accueil_section #articles-accueil-bouton_row.animated {
   animation-name: bounceIn;
   animation-timing-function: ease-in-out;
   animation-duration: 0.7s;
-  animation-delay: 0.7s;
+  animation-delay: 0.8s;
 }
 
 /* section PAGES À VOIR */
@@ -131,29 +93,23 @@ body.show-the-page {
   animation-timing-function: ease-in-out;
 }
 #pages-a-voir_section .et_pb_column:nth-child(1) .page-a-voir_module.animated {
-  animation-delay: 0.8s;
+  animation-delay: 0.9s;
 }
 #pages-a-voir_section .et_pb_column:nth-child(2) .page-a-voir_module.animated {
-  animation-delay: 1.1s;
+  animation-delay: 1.2s;
 }
 #pages-a-voir_section .et_pb_column:nth-child(3) .page-a-voir_module.animated {
-  animation-delay: 1.4s;
+  animation-delay: 1.5s;
 }
 #pages-a-voir_section .et_pb_column:nth-child(4) .page-a-voir_module.animated {
-  animation-delay: 1.7s;
+  animation-delay: 1.8s;
 }
 
-/* En-tête de chaque page
+/* Pages EN CONSTRUCTION
 ------------------------------------------------------------------------ */
 
-#header-page-section.animated {
-  animation-name: fadeIn;
-  animation-timing-function: ease-in-out;
-  animation-duration: 0.7s;
-  animation-delay: 0.3s;
-}
-#header-page-content.animated {
-  animation-name: fadeInRightSmall;
+#page-under-construction-section.animated {
+  animation-name: fadeInUpSmall;
   animation-timing-function: ease-in-out;
   animation-delay: 1s;
 }
@@ -176,6 +132,28 @@ body.show-the-page {
   animation-delay: 1s;
 }
 #google-maps-row.animated {
+  animation-name: fadeInUpSmall;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.2s;
+}
+
+/* Page TOUS LES HORAIRES
+------------------------------------------------------------------------ */
+
+#horaires-section .horaire-row.eucharistie.animated {
+  animation-name: fadeInUpSmall;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+}
+#horaires-section #dates-horaires-row.animated {
+  animation-name: fadeIn;
+  animation-timing-function: ease-out;
+  animation-delay: 1.8s;
+  animation-duration: 0.6s;
+}
+#horaires-section .horaire-row.chapelle.animated,
+#horaires-section .horaire-row.bureau.animated,
+#horaires-section .horaire-row.magasin.animated {
   animation-name: fadeInUpSmall;
   animation-timing-function: ease-in-out;
   animation-delay: 0.2s;
