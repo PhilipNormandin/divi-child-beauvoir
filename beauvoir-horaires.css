@@ -23,6 +23,62 @@ blockquote p:last-child {
   padding-left: 0 !important;
 }
 
+/* ajuste espacement dates et bouton format liste */
+.wcs-timetable--list time.wcs-class__time {
+  width: 80px;
+}
+
+/* ajuste couleur background et contours format liste */
+.wcs-timetable--list .wcs-class {
+  background-color: #fff;
+  border-right: solid 1px #ddd;
+  border-left: solid 1px #ddd;
+}
+.wcs-timetable__list .wcs-class::after {
+  border-top: 1px solid #ddd;
+  opacity: 1;
+}
+.wcs-timetable__list .wcs-class:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+/* ajuste bouton EN SAVOIR PLUS format liste */
+.wcs-timetable__list .wcs-class .wcs-class__action {
+  margin-right: 30px;
+}
+.wcs-btn {
+  font-size: 100%;
+}
+.wcs-btn::after {
+  opacity: 1;
+  border-color: #ccc;
+}
+
+/* ajuste effet hover format liste */
+.wcs-timetable__list .wcs-class::before,
+.wcs-timetable__list .wcs-class:hover::before {
+  opacity: 0 !important;
+}
+.wcs-timetable--list .wcs-class,
+.wcs-timetable__list .wcs-class .wcs-btn {
+  -webkit-transition: background-color 400ms ease !important;
+  -moz-transition: background-color 400ms ease !important;
+  -ms-transition: background-color 400ms ease !important;
+  transition: background-color 400ms ease !important;
+}
+.wcs-timetable__list .wcs-class:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+.wcs-timetable__list .wcs-class:hover .wcs-btn {
+  background-color: #fff;
+}
+.wcs-timetable__list .wcs-class .wcs-btn:hover {
+  color: #303030;
+}
+.wcs-timetable__list .wcs-class .wcs-btn:hover::after {
+  border-color: #747474;
+}
+
 /* Corrections CSS de Falkor
 ------------------------------------------------------------------------ */
 

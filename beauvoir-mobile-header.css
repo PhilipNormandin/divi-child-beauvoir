@@ -39,6 +39,14 @@
   #main-header {
     position: fixed !important;
   }
+  body.admin-bar #main-header {
+    top: 32px !important;
+  }
+  @media only screen and (max-width: 782px) {
+    body.admin-bar #main-header {
+      top: 46px !important;
+    }
+  }
 
   /* ajuste le logo et le rend clickable */
   #logo {
@@ -346,6 +354,16 @@
     .et_header_style_centered #main-header .et_mobile_menu,
     .et_header_style_split #main-header .et_mobile_menu {
         top: 90px;
+    }
+    body.admin-bar.et_header_style_centered #main-header .et_mobile_menu,
+    body.admin-bar.et_header_style_split #main-header .et_mobile_menu {
+        top: 122px;
+    }
+    @media only screen and (max-width: 782px) {
+      body.admin-bar.et_header_style_centered #main-header .et_mobile_menu,
+      body.admin-bar.et_header_style_split #main-header .et_mobile_menu {
+          top: 136px;
+      }
     }
 }
 

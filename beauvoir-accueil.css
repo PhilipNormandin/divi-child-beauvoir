@@ -36,17 +36,23 @@
 @media only screen and (min-width: 1366px) {
 
   .ds-fw-header {
-    min-height: calc(100vh - 273px);
+    min-height: calc(100vh - 269px);
     background-position: center 4%;
+  }
+  body.admin-bar .ds-fw-header {
+    min-height: calc(100vh - 301px);
   }
 }
 
 @media only screen and (min-width: 1161px) and (max-width: 1365px) and (max-height: 799px) {
 
   .ds-fw-header {
-    height: calc(100vh - 163px);
+    height: calc(100vh - 159px);
     background-position: center 5%;
     background-size: 100%;
+  }
+  body.admin-bar .ds-fw-header {
+    height: calc(100vh - 191px);
   }
 }
 
@@ -64,6 +70,10 @@
   .ds-fw-header {
     height: calc(100vh - 89px);
   }
+  body.admin-bar .ds-fw-header {
+    height: calc(100vh - 121px);
+  }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1160px) {
@@ -162,12 +172,12 @@ ul.wcs-timetable__list li {
 
 /* ajoute une ligne sous le 3e événement */
 .wcs-timetable__list .wcs-class:last-child {
-  border-bottom: 1px solid rgba(102, 102, 102, 0.1);
+  /* border-bottom: 1px solid rgba(102, 102, 102, 0.1); */
 }
 
 /* ajustements des autres lignes de la liste */
 .wcs-timetable__list .wcs-class::after {
-  opacity: 0.1;
+  /* opacity: 0.1; */
 }
 
 /* Section ARTICLES DE NOTRE BLOGUE
@@ -210,7 +220,7 @@ ul.wcs-timetable__list li {
 }
 
 /* espace réservé au titre */
-#horaires-accueil_section .horaires-version-desktop .et_pb_column_0 {
+#horaires-accueil_section .horaires-version-desktop .et_pb_column:nth-child(1) {
   width: auto;
   margin-right: 0;
 }
@@ -221,21 +231,29 @@ ul.wcs-timetable__list li {
 }
 
 /* dimension des horaires alignés à l'horizontal - deux items */
-#horaires-accueil_section .horaires-version-desktop .et_pb_column_1.deux-items {
+#horaires-accueil_section .horaires-version-desktop .deux-items.heures-des-messes {
   max-width: 600px;
   min-width: 300px;
   width: 28%;
   margin-right: 0;
 }
 
+/* dimension des horaires alignés à l'horizontal - trois items */
+#horaires-accueil_section .horaires-version-desktop .trois-items.heures-des-messes {
+  /* max-width: 600px; */
+  /* min-width: 300px; */
+  width: 50%;
+  margin-right: 0;
+}
+
 /* ajustements de chaque horaire */
-#horaires-accueil_section .horaires-version-desktop .et_pb_column_1 .et_pb_module {
+#horaires-accueil_section .horaires-version-desktop .heures-des-messes .et_pb_module {
   margin-bottom: 0;
   line-height: 1.5;
 }
 
 /* espace réservé au bouton TOUS LES HORAIRES */
-#horaires-accueil_section .horaires-version-desktop .et_pb_column_2 {
+#horaires-accueil_section .horaires-version-desktop .et_pb_column:nth-child(3) {
   width: auto;
 }
 
@@ -246,7 +264,7 @@ ul.wcs-timetable__list li {
 
 /* positionne les éléments avec Flex */
 #horaires-accueil_section .horaires-version-desktop,
-#horaires-accueil_section .horaires-version-desktop .et_pb_column_1 {
+#horaires-accueil_section .horaires-version-desktop .heures-des-messes {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -254,7 +272,7 @@ ul.wcs-timetable__list li {
 
 /* position et dimension de la section */
 #horaires-accueil_section .horaires-version-desktop  {
-  padding: 12px 0 !important;
+  padding: 10px 0 !important;
 }
 
 /* un peu de padding sous le titre */
@@ -281,7 +299,7 @@ ul.wcs-timetable__list li {
 /* dimensionne et positionne le titre */
 #horaires-accueil_section .horaires-version-mobile h2 {
   font-size: 32px;
-  line-height: 42px;
+  line-height: 36px;
   padding: 0 0 4px 0 !important;
   left: -13px;
 }
@@ -329,7 +347,7 @@ ul.wcs-timetable__list li {
   /* border-top: 1px white solid; */
   margin-top: 24px;
   padding-top: 12px;
-  padding-bottom: 12px;
+  /* padding-bottom: 12px; */
   width: 500px;
   max-width: 90%;
   margin-left: auto;
@@ -349,7 +367,7 @@ ul.wcs-timetable__list li {
   /* largeur section CÉLÉBRATIONS EUCHARISTIQUES à l'horizontal */
   #horaires-accueil_section .horaires-version-desktop {
     width: 90% !important;
-    max-width: 1375px !important;
+    /* max-width: 1375px !important; */
   }
 
 }
@@ -398,6 +416,16 @@ ul.wcs-timetable__list li {
     display: block !important;
   }
 
+  /* largeur des lignes sections ÉVÉNEMENTS À VENIR et ARTICLES DE NOTRE BLOGUE */
+  #evenements-accueil_section #evenements-accueil-titre_row,
+  #evenements-accueil_section #evenements-accueil-contenu_row,
+  #evenements-accueil_section #evenements-accueil-bouton_row,
+  #articles-accueil_section #articles-accueil-titre_row,
+  #articles-accueil_section #articles-accueil-contenu_row,
+  #articles-accueil_section #articles-accueil-bouton_row {
+    width: 90% !important;
+  }
+
 }
 
 /* Break point pour écrans de 981px à 1160px
@@ -412,13 +440,6 @@ ul.wcs-timetable__list li {
 ------------------------------------------------------------------------ */
 
 @media only screen and (max-width: 980px) {
-
-  /* largeur des lignes section ÉVÉNEMENTS À VENIR */
-  #evenements-accueil_section #evenements-accueil-titre_row,
-  #evenements-accueil_section #evenements-accueil-contenu_row,
-  #evenements-accueil_section #evenements-accueil-bouton_row {
-    width: 90%;
-  }
 
 }
 

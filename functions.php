@@ -35,5 +35,13 @@ add_filter('upload_mimes', 'allow_svgimg_types');
     	</script>
     <?php }
 
+    //======================================================================
+    // SEARCH QUERY SHORTCODE
+    // Create a shortcode for search query to return on search results pages
+    //======================================================================
+    add_shortcode( 'add_search_query', 'gq_add_search_query' );
+    function gq_add_search_query() {
+    	return apply_filters( 'get_search_query', get_query_var( 's' ) );
+    }
 
 ?>

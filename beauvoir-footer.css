@@ -4,7 +4,7 @@
 /* largeur du bouton NOUS JOINDRE */
 #my-footer #contact-btn,
 #my-footer #contact-btn:hover {
-  padding: 10px 51px !important;
+  padding: 10px 50px !important;
 }
 
 /* couleurs et position bouton NOUS JOINDRE */
@@ -74,6 +74,16 @@
   display: grid;
 }
 
+/* ajuste liens copyright */
+#copyright-row .et_pb_text_inner > p > a:first-child,
+#copyright-in-contact-page .et_pb_text_inner > p > a:first-child {
+  margin-right: 0 !important;
+}
+#copyright-row .et_pb_text_inner > p > a:hover,
+#copyright-in-contact-page .et_pb_text_inner > p > a:hover {
+  text-decoration: underline;
+}
+
 /* Adapte effets hover sur versions mobile et tablette
 ------------------------------------------------------------------------ */
 
@@ -89,19 +99,19 @@ body.et_mobile_device .footer_1_f .five-columns .et_pb_promo:not(:last-child) a:
 
   /* largeur de colonne SERVICES */
   #my-footer #services-column {
-    width: 22% !important;
+    width: 21% !important;
     margin-right: 2% !important;
   }
 
   /* largeur de colonne LIENS UTILES (la grille) */
   #my-footer #useful-links-column {
-    width: 44% !important;
+    width: 42% !important;
     margin-right: 2% !important;
   }
 
   /* largeur colonne RECEVOIR NOTRE BULLETIN */
   #my-footer #bulletin-column {
-    width: 30% !important;
+    width: 33% !important;
   }
 
   /* positionne les médias sociaux */

@@ -5,7 +5,7 @@
  Author:         Philippe Normandin
  Author URI:     http://www.philippenormandin.com
  Template:       Divi
- Version:        3.6.0
+ Version:        3.7.0
  GitHub Theme URI: https://github.com/PhilipNormandin/divi-child-beauvoir
 */
 
@@ -56,9 +56,21 @@ nouveau rouge pour calendrier : #BD322C
 ------------------------------------------------------------------------ */
 @import "beauvoir-footer.css";
 
+/* Page CONNEXION
+------------------------------------------------------------------------ */
+@import "beauvoir-connexion.css";
+
 /* Page ACCUEIL
 ------------------------------------------------------------------------ */
 @import "beauvoir-accueil.css";
+
+/* Page ÉVÉNEMENTS
+------------------------------------------------------------------------ */
+@import "beauvoir-evenements.css";
+
+/* Page FAIRE UN DON
+------------------------------------------------------------------------ */
+@import "beauvoir-faire-un-don.css";
 
 /* Page NOUS JOINDRE
 ------------------------------------------------------------------------ */
@@ -68,9 +80,14 @@ nouveau rouge pour calendrier : #BD322C
 ------------------------------------------------------------------------ */
 @import "beauvoir-horaires.css";
 
-/* Page ÉVÉNEMENTS
+/* Articles
 ------------------------------------------------------------------------ */
-@import "beauvoir-evenements.css";
+@import "beauvoir-post-template.css";
+
+/* Résultat de recherche
+------------------------------------------------------------------------ */
+@import "beauvoir-resultat-recherche.css";
+
 
 /* Icones provenant de icomoon
 ------------------------------------------------------------------------ */
@@ -86,14 +103,14 @@ nouveau rouge pour calendrier : #BD322C
 
   /* position menu secondaire */
   #top-header {
-    position: absolute;
-    width: 100%;
+    /* position: absolute; */
+    /* width: 100%; */
   }
 
   /* position menu principal */
   #main-header {
-    position: absolute;
-    top: 40px;
+    /* position: absolute; */
+    /* top: 40px; */
   }
 
   /* positionne contenu des pages */
@@ -101,6 +118,9 @@ nouveau rouge pour calendrier : #BD322C
     position: absolute;
     top: 200px;
     width: 100%;
+  }
+  body.admin-bar #et-main-area {
+    top: 232px;
   }
 
 }
@@ -111,14 +131,14 @@ nouveau rouge pour calendrier : #BD322C
 body #main-content #horaires-accueil_section .my-buttons:hover,
 body #main-content #evenements-accueil_section .my-buttons:hover,
 body #main-content #articles-accueil_section .my-buttons:hover {
-  opacity: .7;
+  /* opacity: .7; */
 }
 
 @media only screen and (min-width: 1366px) {
 
   body #main-content a.my-buttons,
   body #main-content a.my-buttons:hover {
-    padding: 10px 30px 10px 30px !important;
+    padding: 10px 40px 10px 40px !important;
     font-weight: 400 !important;
   }
 
