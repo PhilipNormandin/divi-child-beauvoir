@@ -53,6 +53,9 @@ blockquote p:last-child {
   opacity: 1;
   border-color: #ccc;
 }
+.wcs-btn::before {
+  background-color: #fff;
+}
 
 /* ajuste effet hover format liste */
 .wcs-timetable__list .wcs-class::before,
@@ -67,7 +70,8 @@ blockquote p:last-child {
   transition: background-color 400ms ease !important;
 }
 .wcs-timetable__list .wcs-class:hover {
-  background-color: rgba(0,0,0,0.05);
+  /* background-color: rgba(0,0,0,0.03); */
+  background-color: #f5f7f8;
 }
 .wcs-timetable__list .wcs-class:hover .wcs-btn {
   background-color: #fff;
