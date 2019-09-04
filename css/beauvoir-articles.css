@@ -1,0 +1,118 @@
+/* Divi Child Beauvoir - ARTICLES */
+
+
+/* Réglage des polices
+------------------------------------------------------------------------ */
+
+/* méta-données et titres h2 h3 */
+#post-metadata .date-category-meta,
+#post-author-metadata .et_pb_code_inner,
+#post-content h2,
+#post-content h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+/* espacement en-tête et titre */
+#post-header.et_pb_fullwidth_section .et_pb_post_title {
+    padding: 4.5% 0;
+}
+#post-header .et_pb_title_container {
+  padding-bottom: 1em !important;
+}
+
+/* méta-données */
+.et_pb_title_meta_container a[rel~="tag"]:hover,
+.et_pb_title_meta_container .author.vcard:hover,
+#lien-auteur-article a:hover {
+  text-decoration: underline;
+}
+#post-author-avatar img {
+  width: 100px;
+}
+#post-metadata .date-category-meta,
+#post-metadata .date-category-meta .et_pb_title_meta_container a {
+
+}
+#post-author-metadata .et_pb_code_inner {
+
+}
+#post-metadata .date-category-meta .et_pb_text_inner,
+#post-metadata .date-category-meta .et_pb_title_meta_container a,
+#post-author-metadata .et_pb_code_inner {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    color: #444;
+}
+#post-metadata .date-category-meta .et_pb_title_meta_container a,
+#lien-auteur-article a {
+    color: #444;
+    font-weight: 700 !important;
+}
+#post-author-metadata .et_pb_divider {
+    max-width: 640px;
+}
+
+/* ajuste titres h2 h3 */
+#post-content h2,
+#post-content h3 {
+    font-weight: 600;
+    color: #444;
+}
+#post-content h3 {
+  	font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* ajuste contenu */
+#post-content .et_pb_row {
+  	padding-top: 0 !important;
+  	padding-bottom: 0 !important;
+  	max-width: 820px !important;
+}
+#post-content .et_pb_text_inner {
+    color: #444;
+}
+#post-content p {
+    padding-bottom: 0;
+}
+#post-content p,
+#post-content .et_pb_module {
+    margin-bottom: 30px;
+}
+#post-content .et_pb_image,
+#post-content .et_pb_video {
+    margin: 40px 0;
+}
+#post-content .et_pb_row:last-child .et_pb_module:last-child,
+#post-content .et_pb_row:last-child .et_pb_module:last-child p:last-child,
+#post-content .et_pb_row:last-child .et_pb_module:last-child.et_pb_video,
+#post-content .et_pb_row:last-child .et_pb_module:last-child.et_pb_image {
+  	margin-bottom: 0;
+}
+#post-content h2 {
+  	margin-top: 50px;
+    margin-bottom: 30px;
+  	padding-bottom: 0;
+}
+#post-content h3 {
+  	margin-top: 40px;
+    margin-bottom: 30px;
+  	padding-bottom: 0;
+}
+#post-content .et_pb_image {
+  text-align: center;
+}
+
+/* retire margin et padding avant footer */
+#content-area #left-area {
+  padding-bottom: 0;
+}
+#content-area #left-area > article {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

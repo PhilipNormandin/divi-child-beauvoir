@@ -1,0 +1,70 @@
+/* Divi Child Beauvoir - Page de contenu ALBUM PHOTO */
+
+
+/* Réglage des polices
+------------------------------------------------------------------------ */
+
+/* titres h2 et caption */
+article.tg-item h2,
+figcaption .tolb-title,
+figcaption .tolb-counter {
+    font-family: 'Lato', sans-serif;
+}
+#blurb-tabs .tab-title .et_pb_module_header {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+#main-content > .container {
+    max-width: 100%;
+    width: 100%;
+    padding-top: 0;
+}
+
+.et_post_meta_wrapper {
+    display: none;
+}
+
+#main-content article.album_photo {
+    margin-bottom: 0 !important;
+}
+.single-album_photo.et_no_sidebar #left-area  {
+    padding-bottom: 0 !important;
+}
+
+/* Ajustements pour grand écran
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 1468px) {
+
+
+}
+
+
+/* Ajustements pour tablette et petit écran
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 981px) and (max-width: 1365px) {
+
+    #page-content {
+        /* width: 85% !important; */
+        /* max-width: 980px !important; */
+    }
+
+}
+
+
+/* Ajustements pour téléphone et tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 980px) {
+
+    #page-content {
+        /* width: 90% !important; */
+        /* max-width: 640px !important; */
+    }
+
+}

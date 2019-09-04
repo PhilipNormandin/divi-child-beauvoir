@@ -1,0 +1,745 @@
+/* Divi Child Beauvoir - pages HISTOIRE DU SANCTUAIRE, CHAPELLE DE PIERRES, MARCHE ÉVANGÉLIQUE ... */
+
+
+/* Réglage des polices
+------------------------------------------------------------------------ */
+
+
+/* titres h2 */
+h2 {
+    font-family: lato, sans-serif !important;
+}
+.scene-marche-evangelique h2 {
+    font-family: 'Merriweather', serif !important;
+}
+
+
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+
+/* ajuste titres */
+h2, h3 {
+    color: #444;
+    padding-bottom: 0;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 34px;
+}
+.scene-marche-evangelique h2 {
+
+}
+
+
+/* ajuste textes */
+#main-content .sub-title {
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+#main-content .section-content .et_pb_text.intro {
+    font-size: 24px;
+}
+.et_pb_text {
+    font-size: 19px;
+    line-height: 1.7;
+    padding-bottom: 0;
+}
+#main-content .section-content .big-caption p {
+    font-size: 23px;
+}
+#main-content .section-content .et_pb_text.big-line {
+    font-size: 24px;
+}
+figcaption,
+.figcaption,
+#main-content .section-content .big-red-caption,
+#main-content .section-content .caption-with-list {
+    color: #bd322c;
+    font-style: italic;
+    font-weight: 600;
+    line-height: initial !important;
+    padding-top: 15px;
+}
+figcaption,
+.figcaption p {
+    font-size: 16px;
+    text-align: center;
+}
+.figcaption-centered figcaption {
+    /* text-align: center; */
+}
+#verriere-row .figcaption {
+    padding-top: 4px;
+}
+#main-content .section-content .big-red-caption {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+#main-content .section-content .caption-with-list {
+    font-size: 17px;
+}
+#main-content .section-content .caption-with-list p.caption-with-list-intro {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+#main-content .section-content .caption-with-list ul,
+.realisations ul {
+    padding-bottom: 0px;
+}
+#main-content .section-content .caption-with-list ul li,
+.realisations ul li {
+    padding-left: 5px;
+}
+#main-content .et_pb_text {
+    margin-bottom: 26px;
+}
+.et_pb_section .et_pb_row .et_pb_column .et_pb_module:last-child,
+.section-content .et_pb_text.big-caption.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+#main-content .section-content .big-caption.caption-above-image {
+    margin-bottom: 17px;
+}
+#main-content .vitrail-chapelle .grid-layout .vitrail-description p {
+    font-size: 20px !important;
+}
+#main-content ul {
+    line-height: inherit;
+    padding-bottom: 0 !important;
+}
+#main-content ul li {
+    padding-bottom: 26px;
+    padding-left: 5px;
+}
+#main-content ul li:last-child {
+    padding-bottom: 0;
+}
+.hours-infos .hours-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+/* ajuste images (globalement) */
+.et_pb_image img,
+.scene-marche-evangelique .tg-grid-holder,
+#page-admirer-beaute-nature .tg-grid-holder,
+.tg-grid-holder {
+    box-shadow: 0px 12px 14px -6px rgba(0,0,0,0.3);
+    /* box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.3); */
+}
+.et_pb_image.png-image img {
+    filter: drop-shadow(0px 12px 8px rgba(0, 0, 0, 0.2));
+}
+.et_pb_image.image-without-box-shadow img {
+    box-shadow: none !important;
+}
+.et_pb_module.et_pb_image {
+    margin-bottom: 0 !important;
+}
+figure {
+    margin: 0 !important;
+}
+
+
+/* ajuste images avec propriété "float" */
+.et_pb_section.old-mobile-css-rules .et_pb_row.with-float-image .et_pb_image_wrap.with-figcaption,
+.et_pb_section.old-mobile-css-rules .et_pb_row.with-float-image.image-without-caption .et_pb_image {
+    padding-bottom: 10px;
+}
+/*
+.et_pb_row.with-float-image.no-overflow .et_pb_image_wrap.with-figcaption {
+    padding-bottom: 0;
+}
+*/
+.et_pb_section.old-mobile-css-rules .with-float-image + .et_pb_row {
+    padding-top: 16px;
+}
+.et_pb_section.old-mobile-css-rules .et_pb_row.with-float-image.image-without-caption + .et_pb_row,
+.et_pb_section.old-mobile-css-rules .et_pb_row.with-float-image + .et_pb_row.large-image-row {
+    padding-top: 20px;
+}
+
+
+/* liens et effets hover */
+.contain-link a:hover {
+    text-decoration: underline;
+}
+
+
+/* ajustements constructeur de page divi */
+.et_pb_module.et_pb_image.et-animated--vb {
+    z-index: 99;
+}
+
+
+/* NOUVEAUX RÉGLAGES / FLOAT LAYOUT / FLEX LAYOUT / FIGCAPTION
+----------------------------------------------------------------*/
+
+#main-content .new-mobile-css-rules .et_pb_column.flex-layout .et_pb_module {
+    margin-bottom: 0;
+}
+
+#main-content .new-mobile-css-rules figcaption {
+    line-height: 1.7em !important;
+    padding-top: 10px;
+}
+
+
+/* break points
+------------------------------------------------------------------------ */
+
+
+@media only screen and (max-width: 980px) {
+
+
+    /* ajuste titres */
+    h2, h3 {
+        line-height: 1.2 !important;
+    }
+    h2 {
+        font-size: 32px !important;
+    }
+    .vitrail-chapelle .grid-layout h3 {
+        /* font-size: 22px !important; */
+    }
+
+
+    /* ajuste textes */
+    #main-content .intro-row p,
+    #main-content .conclusion-row p {
+        font-size: 23px !important;
+    }
+    #main-content .section-content .et_pb_text.big-line {
+        font-size: 22px;
+    }
+    #main-content .section-content .big-caption p {
+        font-size: 20px;
+    }
+    .et_pb_text {
+        font-size: 18px;
+    }
+    #main-content .sub-title {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #main-content .et_pb_section.old-mobile-css-rules .et_pb_row:not(.sub-title):not(.intro-row) {
+        padding-top: 0;
+        padding-bottom: 26px;
+    }
+    #main-content .et_pb_row.intro-row,
+    #main-content .conclusion-row {
+        padding: 40px 0 !important
+    }
+    .et_pb_section.old-mobile-css-rules #main-content .section-content .et_pb_text {
+        line-height: 1.4;
+    }
+    #main-content .section-content .et_pb_text.big-caption {
+        width: 100%;
+        text-align: center;
+    }
+    .grid-layout.sacre-coeur-de-montmarte .et_pb_text_inner p {
+        padding-bottom: 5px;
+    }
+    #main-content .section-content .big-caption.caption-above-image {
+        margin-top: 14px;
+    }
+    #main-content .section-content .caption-with-list {
+        text-align: center;
+        width: 100%;
+    }
+    #main-content .section-content .realisations .et_pb_text {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    #main-content .vitrail-chapelle .grid-layout .vitrail-description p {
+        font-size: 19px !important;
+    }
+
+
+    /* ajuste containers (section/row/column) */
+    .section-content {
+        padding-bottom: 24px;
+    }
+    #main-content #coeur-reprend-avec-vigueur.section-content {
+        padding-bottom: 34px;
+    }
+    .et_pb_row.need-margin-bottom {
+        margin-bottom: 14px !important;
+    }
+    .et_pb_row.need-padding-top {
+        padding-top: 20px !important;
+    }
+    .et_pb_row.need-20px-margin-bottom {
+        margin-bottom: 20px !important;
+    }
+    #main-content .section-content .intro-row.sub-title-h3 {
+        padding-top: 14px !important;
+        padding-bottom: 20px !important;
+    }
+    #main-content .section-content .header-image-row {
+        padding-bottom: 0 !important;
+    }
+    #contenu-marche-evangelique .et_pb_row.intro-row {
+        padding: 10px 0 30px !important;
+    }
+    #contenu-marche-evangelique .et_pb_row.scene-marche-evangelique,
+    #page-admirer-beaute-nature .et_pb_row {
+        padding: 30px 0 !important;
+    }
+    .et_pb_column {
+        margin-bottom: 0;
+    }
+
+
+    /* ajuste images (globalement) */
+    .et_pb_section.old-mobile-css-rules .et_pb_image {
+        display: block;
+   		padding-top: 20px;
+  	}
+    #main-content .et_pb_image.large-image {
+        width: 100% !important;
+    }
+    #main-content .et_pb_image.large-image.with-caption-above {
+        padding-top: 0;
+    }
+    #main-content .section-content .realisations .large-image {
+        padding-left: 0 !important;
+    }
+    #main-content .section-content .header-image-row .et_pb_image {
+        padding-top: 0 !important;
+    }
+    #main-content .section-content .header-image-row img {
+        height: 480px;
+        object-fit: cover;
+    }
+
+
+    /* ajuste images avec propriété "float" */
+    .et_pb_section.old-mobile-css-rules .et_pb_row.with-float-image .et_pb_image {
+        float: none;
+        margin: 0 auto 46px !important;
+        width: initial !important;
+    }
+    .et_pb_section.old-mobile-css-rules .et_pb_row.with-float-image .et_pb_image_wrap.with-figcaption,
+    .et_pb_section.old-mobile-css-rules .et_pb_row.with-float-image.image-without-caption .et_pb_image {
+        padding-bottom: 0px !important;
+    }
+    #main-content .intro-row + .et_pb_row.with-float-image .et_pb_image {
+        /* padding-top: 10px !important; */
+    }
+
+
+    /* ajuste contenus et conteneurs avec propriété "flex" et "grid" */
+    .et_pb_section.old-mobile-css-rules .flex-layout {
+  		flex-direction: column;
+  	}
+    .flex-layout.text-on-the-left {
+  		flex-direction: column-reverse;
+  	}
+    .grid-layout.sacre-coeur-de-montmarte,
+    .grid-layout.montage-photos,
+    .vitrail-chapelle .grid-layout {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-items: center;
+    }
+    .grid-layout.sacre-coeur-de-montmarte {
+        grid-gap: 20px 0;
+    }
+    .grid-layout.montage-photos {
+        grid-gap: 46px 0;
+        padding-top: 20px;
+    }
+    .grid-layout.montage-photos .et_pb_image {
+        padding-top: 0 !important;
+    }
+    .vitrail-chapelle .grid-layout {
+        grid-gap: 20px 0;
+    }
+    .vitrail-chapelle .grid-layout .vitrail-titre {
+        grid-row: 2 / 3;
+        text-align: center;
+    }
+    #main-content .vitrail-chapelle .grid-layout .vitrail-image {
+        grid-column: inherit;
+        grid-row: 1 / 2;
+        /* padding-top: 0 !important; */
+        padding-top: 24px;
+        padding-bottom: 5px;
+    }
+    .vitrail-chapelle .grid-layout .vitrail-description {
+        max-width: 700px;
+    }
+    #main-content .flex-layout.image-with-big-caption .et_pb_image {
+        margin: 0 auto 20px !important;
+        width: initial !important;
+    }
+    .et_pb_row.scene-marche-evangelique {
+        flex-direction: column;
+        align-items: center;
+    }
+    .scene-marche-evangelique .me-description {
+        align-items: center;
+        margin-bottom: 0 !important;
+        max-width: 700px;
+        order: 1;
+    }
+    .scene-marche-evangelique .me-image {
+        margin-bottom: 0 !important;
+        max-width: 400px;
+    }
+    .scene-marche-evangelique .me-titre {
+        margin-top: 24px !important;
+        margin-bottom: 20px !important;
+    }
+
+
+    /* ajuste images (à la mitaine) */
+    #photo-statue-sacre-coeur-1920 {
+        max-width: 340px;
+    }
+    #photo-abbe-begin {
+        max-width: 300px;
+    }
+    #peinture-du-sacre-coeur-1997,
+    #photo-rampe-eglise {
+      width: 80%;
+    }
+    #verriere-row .et_pb_column {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+    }
+    #verriere {
+        grid-column-start: span 3;
+        grid-row: 1 / 2;
+    }
+    #calice-verriere,
+    #jesus-verriere,
+    #marguerite-verriere {
+        grid-column: initial;
+        grid-row: 2 / 3;
+        padding-top: 0 !important;
+    }
+    #verriere-row .figcaption {
+        grid-column: 1 / 4;
+        text-align: center;
+    }
+
+    /* ajustements page VIVRE LA MARCHE EVANGELIQUE */
+    #main-content #contenu-marche-evangelique .intro-row p,
+    #main-content #contenu-marche-evangelique .conclusion-row p {
+        font-size: 24px !important;
+    }
+    #contenu-marche-evangelique h2 {
+        font-size: 30px !important;
+    }
+    #contenu-marche-evangelique .et_pb_text {
+        font-size: 19px;
+    }
+
+
+    /* NOUVEAUX RÉGLAGES / FLOAT LAYOUT / FLEX LAYOUT / FIGCAPTION
+    ----------------------------------------------------------------*/
+
+    .new-mobile-css-rules .et_pb_row {
+        padding: 20px 0 !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+
+    #citation-promesse-de-jesus-avec-verriere .grid-layout {
+        grid-column-gap: 6vw;
+    }
+
+    #citations-maristes {
+        max-width: 620px !important;
+    }
+
+    #citations-maristes #statue-marie-et-enfant-jesus {
+        float: right !important;
+        margin-left: 56px !important;
+        max-width: 300px !important;
+        width: 40% !important;
+        margin-bottom: 0 !important;
+    }
+
+    #page-admirer-beaute-nature .et_pb_column:first-child {
+        margin-bottom: 0 !important;
+    }
+
+    .texte-photo-layout .texte {
+        width: 45% !important;
+    }
+
+    .texte-photo-layout .photo {
+        width: 50% !important;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+    /* propriétés globales */
+    .et_pb_row {
+        padding: 20px 0 !important;
+    }
+
+
+    /* contenus et conteneurs avec images flottantes */
+    .et_pb_row.with-float-image .et_pb_column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .et_pb_row.with-float-image .et_pb_image {
+        margin: 0 !important;
+        padding-top: 40px;
+        width: initial !important;
+    }
+    .et_pb_row.with-float-image .et_pb_image_wrap.with-figcaption,
+    .et_pb_row.with-float-image.image-without-caption .et_pb_image {
+        padding-bottom: 0;
+    }
+    .et_pb_row.with-float-image .et_pb_module.et_pb_text:last-child {
+        /* margin-bottom: 30px !important; */
+    }
+
+
+    /* contenus et conteneurs avec propriété "flex" */
+    .et_pb_row.columns-in-flex-layout {
+        flex-direction: column;
+    }
+    .et_pb_row.columns-in-flex-layout .et_pb_column {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .et_pb_row.columns-in-flex-layout .et_pb_column.image-column {
+        order: 3;
+    }
+    .et_pb_row.columns-in-flex-layout .et_pb_image {
+        margin: 0 auto !important;
+        padding-top: 40px;
+        width: initial !important;
+    }
+    .et_pb_row.columns-in-flex-layout .et_pb_column.contain-image + .et_pb_column {
+        /* padding-bottom: 40px !important; */
+    }
+
+
+    .section-content .et_pb_row {
+        /* width: 85%; */
+    }
+
+    #citation-promesse-de-jesus-avec-verriere .grid-layout {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-row-gap: 20px;
+    }
+
+    #citation-promesse-de-jesus-avec-verriere .grid-layout .citation-image {
+        grid-column: inherit;
+        grid-row: 1 / 2;
+    }
+
+    #citation-promesse-de-jesus-avec-verriere .grid-layout .citation-contenu {
+        grid-row: 2 / 3;
+        text-align: center;
+    }
+
+    #citation-promesse-de-jesus-avec-verriere .grid-layout .citation-description {
+        text-align: center;
+    }
+
+    .the-grid-2-pics .et_pb_column {
+        width: 100% !important;
+        max-width: 500px !important;
+    }
+
+    .the-grid-2-pics .et_pb_column:first-child {
+        margin-bottom: 60px !important;
+        margin-right: 0 !important;
+    }
+
+    .texte-photo-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texte-photo-layout .et_pb_column:first-child {
+        margin-right: 0 !important;
+    }
+
+    .texte-photo-layout .texte {
+        margin-bottom: 0 !important;
+        order: 1;
+    }
+
+    .texte-photo-layout .photo {
+        margin-bottom: 24px !important;
+    }
+
+    .texte-photo-layout .texte,
+    .texte-photo-layout .photo {
+        width: 100% !important;
+        max-width: 500px !important;
+    }
+
+    /* NOUVEAUX RÉGLAGES / FLOAT LAYOUT / FLEX LAYOUT / FIGCAPTION
+    ----------------------------------------------------------------*/
+
+    #main-content .new-mobile-css-rules .et_pb_column.flex-layout {
+        flex-direction: column;
+    }
+    #main-content .new-mobile-css-rules .et_pb_column.float-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #main-content .new-mobile-css-rules .et_pb_column.flex-layout .et_pb_image,
+    #main-content .new-mobile-css-rules .et_pb_column.float-layout .et_pb_image {
+        margin: 0 !important;
+        padding-top: 40px;
+        width: initial !important;
+        order: 3;
+    }
+
+    #main-content .new-mobile-css-rules .et_pb_column.flex-layout .et_pb_module {
+        /* margin-bottom: 0; */
+    }
+
+}
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    #citations-maristes {
+        max-width: 620px !important;
+        width: 85%;
+    }
+
+    #citations-maristes #statue-marie-et-enfant-jesus {
+        float: right !important;
+        margin-left: 56px !important;
+        max-width: 300px !important;
+        width: 40% !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 10px !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 981px) and (max-width: 1365px) {
+
+    .section-content .et_pb_row.scene-marche-evangelique {
+        width: 85% !important;
+        max-width: 980px !important;
+        padding: 3% 0 !important;
+    }
+
+    .et_pb_gutters3 .scene-marche-evangelique.et_pb_column {
+        margin-right: 4% !important;
+    }
+
+    .scene-marche-evangelique .et_pb_column_3_5 {
+        width: 58% !important;
+    }
+
+    .scene-marche-evangelique .et_pb_column_2_5 {
+        width: 38% !important;
+    }
+
+    #contenu-marche-evangelique .intro-row {
+        padding-bottom: 3% !important;
+    }
+
+    #main-content .section-content .et_pb_text {
+        margin-bottom: 2.2% !important;
+    }
+
+    #main-content .et_pb_section .et_pb_row .et_pb_column .et_pb_module:last-child {
+        margin-bottom: 0 !important;
+    }
+
+    #page-faire-un-pelerinage .et_pb_text {
+        font-size: 22px;
+    }
+
+}
+
+
+
+
+/* AJUSTEMENTS PAGES DES SERVICES
+----------------------------------------------------------------*/
+
+#liste-produits-alimentaires ul {
+    display: grid;
+    justify-content: center;
+}
+#liste-produits-alimentaires ul li {
+    padding-bottom: 20px;
+}
+
+body.page-id-230325 .tolb-holder .tolb-title {
+    display: none;
+}
+
+@media only screen and (max-width: 1365px) {
+
+    .services-offerts .et_pb_text {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+
+    .services-offerts .et_pb_row.flex-layout {
+        flex-direction: column;
+    }
+    .services-offerts .et_pb_row.flex-layout .et_pb_column {
+        margin: 0 !important;
+    }
+    #liste-photo-produits-alimentaire .et_pb_image {
+        flex: 1 0 46%;
+    }
+
+
+    #service-magasin #photos-objets-religieux.flex-layout {
+        /* flex-direction: column; */
+    }
+    #service-magasin #photos-objets-religieux .et_pb_column:nth-child(2) {
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    #service-location-salles #photos-cafeteria .et_pb_column:nth-child(2),
+    #service-magasin #photos-objets-religieux .et_pb_column:nth-child(2) {
+        flex-direction: column;
+    }
+    #service-magasin #photos-produits-alimentaires .et_pb_column.grid-layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

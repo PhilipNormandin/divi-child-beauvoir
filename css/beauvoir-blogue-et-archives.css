@@ -1,0 +1,87 @@
+/* Divi Child Beauvoir - Page NOTRE BLOGUE et ARCHIVES */
+
+
+/* Réglage des polices
+------------------------------------------------------------------------ */
+
+/* titres h2 */
+#page-content h2.tg-item-title,
+#author-box-bio h2 {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Lato', sans-serif;
+}
+
+/* dates des articles, catégories */
+span.tg-item-date,
+span.tg-cats-holder span.tg-item-term {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+/* largeur contenus */
+#grid-content,
+#author-box {
+	/* max-width: 980px !important; */
+}
+
+/* ajuste espacements contenu et filtres */
+#grid-content .tg-grid-wrapper .tg-grid-area-top2 {
+    margin-bottom: 5vh !important;
+}
+#grid-content .tg-grid-wrapper .tg-grid-area-top2 .tg-filter {
+    margin-bottom: 0 !important;
+}
+
+/* ajuste police titres h2 */
+#page-content h2.tg-item-title,
+#author-box-bio h2 {
+    color: #444;
+    font-size: 25px;
+    /* letter-spacing: 0.05px !important; */
+}
+#author-box-bio h2 {
+    font-weight: 700;
+}
+
+/* ajuste police métadonnées */
+.tg-myriga-h2 .tg-item-date,
+.tg-myriga-h2 .tg-cats-holder {
+    font-size: 18px !important;
+    /* letter-spacing: 0.05px !important; */
+}
+
+/* ajuste police des filtres */
+.tg-nav-sqr-thick .tg-nav-font,
+.tg-nav-sqr-thick input[type="text"].tg-search {
+    font-size: 16px !important;
+    /* padding-bottom: 1px; */
+    /* letter-spacing: -0.25px; */
+}
+
+/* ajuste items dans dropdown CHOISIR UNE CATÉGORIE */
+.tg-dropdown-item.tg-filter {
+  /* text-align: center !important; */
+}
+
+/* ajuste infos auteur version mobile et petite tablette */
+@media only screen and (max-width: 767px) {
+  #author-box {
+    text-align: center;
+    width: 90%;
+  }
+  #author-box h2 {
+    font-size: 22px;
+  }
+  #author-box-avatar {
+    float: none;
+		margin-right: 0 !important;
+    margin-bottom: 1rem !important;
+		display: inline-block;
+  }
+  #author-box-bio {
+    text-align: center;
+  }
+}

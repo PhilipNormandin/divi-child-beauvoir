@@ -1,0 +1,496 @@
+/* Divi Child Beauvoir - Footer du site - combiné avec falkor */
+
+
+/* Réglage des polices
+------------------------------------------------------------------------ */
+
+/* titres h2 */
+#my-footer #links-row h2,
+#my-footer #contact-row h2 {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Lato', sans-serif;
+}
+
+/* paragraphe copyright */
+#my-footer #copyright-row p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+/* ajuste police */
+#my-footer #links-row h2,
+#my-footer #contact-row h2 {
+    font-size: 24px !important;
+}
+
+/* texte - liens, coordonnées et copyright */
+#my-footer #links-row a,
+#my-footer #contact-row p.coordonnees,
+#my-footer #copyright-row p {
+    font-weight: 400 !important;
+    letter-spacing: -0.15px;
+}
+
+/* réglages colonne LIENS RAPIDES */
+#useful-links-column .et_pb_promo_description {
+    display: flex;
+	flex-direction: column;
+}
+#useful-links-column .et_pb_promo_description > h2 {
+    
+}
+#useful-links-column .et_pb_promo_description > div {
+    display: grid;
+}
+
+/* réglages formulaire INFOLETTRE */
+#my-footer .et_bloom_optin {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+#my-footer .et_bloom_form_container,
+.et-db #et-boc * {
+    /* box-sizing: border-box !important; */
+    /* -webkit-box-sizing: border-box !important; */
+    /* -moz-box-sizing: border-box !important; */
+}
+#my-footer .et_bloom_form_content {
+    padding: 6px 0px !important;
+}
+#my-footer #bulletin-column .et_bloom_form_content .et_bloom_popup_input input {
+    padding: 12px 16px !important;
+    color: #444 !important;
+}
+#my-footer .et_bloom_form_content .et_bloom_button_text {
+    font-size: 16px;
+    font-weight: 600 !important;
+    color: #5a5a5a !important;
+    letter-spacing: 0 !important;
+}
+.et_bloom .et_bloom_form_content button.et_bloom_submit_subscription {
+    padding: 12px 10px 10px !important;
+}
+#my-footer .et_bloom_form_content .et_bloom_submit_subscription:hover .et_bloom_button_text {
+    color: #222 !important;
+}
+.et_bloom .et_bloom_form_content button.et_bloom_submit_subscription:hover {
+    /* background-color: #c1c1c1 !important; */
+}
+#my-footer #bulletin-column .et_bloom_form_content .et_bloom_popup_input input,
+.et_bloom .et_bloom_form_content button.et_bloom_submit_subscription {
+    height: 43px;
+}
+#my-footer .et_bloom_form_header {
+  padding: 0;
+}
+.et_bloom .et_bloom_warn_field {
+    box-shadow: unset !important;
+}
+
+/* réglages formulaire INFOLETTRE - Effet loading */
+/* https://icons8.com/preloaders/en/horizontal */
+#bulletin-column .et_bloom_submit_subscription.et_bloom_button_text_loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bulletin-column .et_bloom_submit_subscription .et_bloom_subscribe_loader {
+    background-image: url("/wp-content/themes/divi-child-beauvoir/images/800.gif") !important;
+    background-repeat: no-repeat !important;
+    margin: 0 !important;
+    opacity: 0.8;
+    position: static;
+    width: 58px;
+    height: 16px;
+}
+#bulletin-column .et_bloom_submit_subscription.et_bloom_button_text_loading .et_bloom_button_text {
+    position: absolute;
+}
+
+/* réglages formulaire INFOLETTRE - Bloom Check Mark et Message de remerciement  */
+#bulletin-column .et_pb_promo_description > h2.subscribed {
+    display: none;
+}
+#my-footer #bulletin-column h2.et_bloom_success_message {
+    color: #444 !important;
+    font-size: 20px !important;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 20px;
+    padding-bottom: 34px;
+    text-transform: initial !important;
+}
+.et_bloom #bulletin-column h2.et_bloom_success_message::after {
+    top: -10px !important;
+    margin-left: -10px !important;
+    border-left: 10px solid transparent !important;
+    border-right: 10px solid transparent !important;
+    border-bottom: 10px solid #fff !important;
+}
+.et_bloom  #bulletin-column .et_bloom_success_container.et_bloom_animate_success span.et_bloom_success_checkmark {
+    top: -10px !important;
+}
+.et_bloom #bulletin-column .et_bloom_success_container {
+    left: -2px;
+}
+.et_bloom #bulletin-column span.et_bloom_success_checkmark {
+    margin-left: -23px !important;
+    height: 32px !important;
+    width: 32px !important;
+}
+.et_bloom  #bulletin-column .et_bloom_success_checkmark::before {
+    font-size: 28px !important;
+    line-height: 28px;
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+
+/* réglages bouton NOUS JOINDRE */
+#page-container #et-main-area #my-footer #contact-btn,
+#page-container #et-main-area #my-footer #contact-btn:hover {
+    padding: 10px 40px !important;
+}
+#my-footer #contact-btn {
+    line-height: 22px !important;
+    background-color: #06c !important;
+    border-color: #06c !important;
+}
+#my-footer #contact-btn:hover {
+    background-color: #05a !important;
+    border-color: #05a !important;
+}
+#my-footer #contact-column .et_pb_button_module_wrapper {
+    margin-top: 50px;
+    text-align: left;
+}
+
+/* réglages liens MÉDIAS SOCIAUX */
+#my-social-icons .et_pb_promo_description h2 + p {
+    display: none;
+}
+#my-footer #my-social-icons .et_pb_promo_description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#my-footer #my-social-icons .et_pb_promo_description > div {
+	width: 100%;
+}
+#my-footer #my-social-icons .et_social_icons_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+#my-footer #my-social-icons li {
+    margin-bottom: 0 !important;
+    margin-right: 1% !important;
+}
+#my-footer #my-social-icons li:last-child {
+    margin-right: 0 !important;
+}
+#page-container #et-main-area #my-social-icons {
+    float: none !important;
+}
+
+/* réglages liens dans colonne COPYRIGHT */
+#copyright-row .et_pb_text_inner > p > a:first-child,
+#copyright-in-contact-page .et_pb_text_inner > p > a:first-child {
+    margin-right: 0 !important;
+}
+#copyright-row .et_pb_text_inner > p > a:hover,
+#copyright-in-contact-page .et_pb_text_inner > p > a:hover {
+    text-decoration: underline;
+}
+
+
+/* Ajustements page NOUS JOINDRE
+------------------------------------------------------------------------ */
+body.page-id-225383 #my-footer #copyright-row,
+body.page-id-225395 #my-footer #copyright-row,
+body.page-id-225401 #my-footer #copyright-row {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+/* Ajustements pour grand écran
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 1366px) {
+
+    /* largeur de colonne SERVICES */
+    #my-footer #services-column {
+        width: 23% !important;
+        margin-right: 2% !important;
+    }
+
+    /* largeur de colonne LIENS RAPIDES (la grille) */
+    #my-footer #useful-links-column {
+        width: 48% !important;
+        margin-right: 2% !important;
+    }
+
+    /* largeur colonne INFOLETTRE */
+    #my-footer #bulletin-column {
+        width: 25% !important;
+    }
+
+}
+
+
+/* Ajustements pour tablette et petit écran
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 981px) and (max-width: 1365px) {
+
+    #my-footer #links-row,
+    #my-footer #contact-row {
+        /* width: 85% !important; */
+        width: 90% !important;
+        max-width: 980px !important;
+    }
+
+    #links-row > .et_pb_column {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #links-row #services-column {
+        /* flex-basis: calc(100% / 3); */
+        /* width: auto !important; */
+        /* margin-right: 0 !important; */
+        width: 22% !important;
+        margin-right: 0% !important;
+    }
+    #links-row #useful-links-column {
+        /* flex-basis: calc(2 * 100% / 3); */
+        /* width: auto !important; */
+        /* margin-right: 0 !important; */
+        width: 56% !important;
+        margin-right: 0% !important;
+    }
+    #links-row #bulletin-column {
+        /* width: 400px !important; */
+        /* margin-bottom: 2.75%; */
+        width: 22% !important;
+    }
+
+    #contact-column > .et_pb_button_module_wrapper {
+        text-align: center !important;
+    }
+
+}
+
+ /* correctif */
+@media only screen and (min-width: 1366px) and (max-width: 1390px) {
+    #my-footer #links-row,
+    #my-footer #contact-row {
+        width: 80% !important;
+        max-width: 1175px !important;
+    }
+}
+
+
+/* Ajustements pour téléphone et tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 980px) {
+
+    #my-footer #links-row {
+        padding-bottom: 50px !important;
+    }
+
+    #my-footer #contact-row {
+        padding-top: 50px !important;
+        padding-bottom: 60px !important;
+    }
+
+    #my-footer #links-row #services-column h2,
+    #my-footer #links-row #useful-links-column h2 {
+        padding-bottom: 10px !important;
+    }
+
+    #my-footer #bulletin-column h2 {
+        padding-bottom: 20px !important;
+    }
+
+    #my-footer #links-row #services-column a,
+    #my-footer #links-row #useful-links-column a {
+        padding-top: 10px;
+    }
+
+    #my-footer #useful-links-column {
+        margin-right: 0;
+    }
+
+    #my-footer #bulletin-column .et_pb_promo_description,
+    #my-footer #contact-column #contact-btn {
+        width: 80%;
+        max-width: 400px;
+    }
+
+
+
+/*------------------------------- À CLEANER -------------------------------*/
+
+
+
+  /* ajuste espacement sous formulaire INFOLETTRE */
+  #my-footer #links-row .et_pb_column {
+    /* margin-bottom: 0 !important; */
+  }
+  #my-footer #bulletin-column .et_pb_promo_description {
+    padding-bottom: 0 !important;
+  }
+
+  /* centre les colonnes COORDONNÉES, NOUS JOINDRE et SUIVEZ-NOUS */
+  #my-footer #address-column,
+  #my-footer #contact-column,
+  #my-footer #follow-us-column {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+  #follow-us-column #my-social-icons {
+    width: 100% !important;
+  }
+  #my-footer #address-column .et_pb_module,
+  #my-footer #contact-column .et_pb_button_module_wrapper {
+    text-align: center;
+  }
+
+  /* ajuste espacement autour bouton NOUS JOINDRE */
+  #my-footer #contact-column .et_pb_button_module_wrapper {
+    margin-top: 0;
+  }
+  #my-footer #contact-column {
+    margin-bottom: 60px !important;
+  }
+
+
+
+  /* ajuste espacement sous colonne COORDONNÉES */
+  #my-footer #address-column .et_pb_promo_description p:last-child {
+    padding-bottom: 10px;
+  }
+
+  /* ajuste espacement sous colonne SUIVEZ-NOUS */
+  #my-footer #follow-us-column {
+    margin-bottom: 0 !important;
+  }
+  #follow-us-column #my-social-icons .et_pb_promo_description {
+    padding-bottom: 0 !important;
+  }
+
+  /* centre les médias sociaux */
+  #my-footer #my-social-icons .et_pb_promo_description {
+      align-items: center;
+  }
+  #my-footer #my-social-icons .et_social_icons_container {
+      justify-content: center;
+  }
+
+}
+
+/* Adapte effets hover sur versions mobile et tablette
+------------------------------------------------------------------------ */
+
+/* liens */
+body.et_mobile_device .footer_1_f .five-columns .et_pb_promo:not(:last-child) a:hover::before {
+    width: 0px !important;
+}
+
+
+
+
+
+/* Break point pour version tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+
+  /* largeur de colonne SERVICES */
+  #my-footer #services-column {
+    /* width: 34% !important; */
+    /* margin-right: 2%; */
+  }
+
+  /* largeur de colonne LIENS RAPIDES (la grille) */
+  #my-footer #useful-links-column {
+    /* width: 64% !important; */
+    /* margin-right: 0; */
+  }
+
+  /* largeur colonne INFOLETTRE */
+  #my-footer #bulletin-column {
+    /* width: 50% !important; */
+  }
+
+}
+
+/* Break point pour tablette et plus
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 981px) {
+
+  /* transforme la grille LIENS RAPIDES en 2 colonnes */
+  #useful-links-column .et_pb_promo_description > div {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto repeat(2, 1fr);
+    grid-auto-flow: column;
+  }
+  #useful-links-column .et_pb_promo_description h2 {
+/*     grid-column: 1 / 3; */
+  }
+
+}
+
+/* Break point pour versions mobile et petite tablette
+   -- ET GRANDE TABLETTE
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 980px) {
+
+  /* centre les colonnes SERVICES, LIENS RAPIDES et INFOLETTRE */
+  #my-footer #services-column,
+  #my-footer #useful-links-column,
+  #my-footer #bulletin-column {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  #my-footer #services-column {
+    margin-right: 0 !important;
+  }
+  #my-footer #bulletin-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
+
+/* Ajustements mineurs pour écrans de 1390px et moins
+------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1390px) {
+  #my-footer #copyright-row {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #my-footer #links-row,
+  #my-footer #contact-row {
+    /* max-width: 1175px !important; */
+  }
+}
+@media only screen and (max-width: 480px) {
+  #my-footer #links-row {
+    width: 90% !important;
+  }
+  #my-footer #copyright-row > .et_pb_column {
+    margin-bottom: 0 !important;
+  }
+}

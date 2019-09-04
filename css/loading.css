@@ -1,0 +1,103 @@
+/*
+ initialize rotation key frames,
+*/
+@keyframes kf_spinner {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+/*
+The page overlay DIV, you can style it as you like,
+*/
+#page-overlay {
+    /*
+    basic styles
+    */
+    text-align: center;
+    color: transparent;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefefe;
+
+    /*
+    important to work properly
+    */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999999999;/* highest top level layer */
+
+    /*
+    required for fade-out/fade-in animation effect
+    */
+    -webkit-transition: visibility 0s step-end 0.8s, opacity 0.4s ease-in-out 0.4s;
+    -moz-transition: visibility 0s step-end 0.8s, opacity 0.4s ease-in-out 0.4s;
+    -ms-transition: visibility 0s step-end 0.8s, opacity 0.4s ease-in-out 0.4s;
+    -o-transition: visibility 0s step-end 0.8s, opacity 0.4s ease-in-out 0.4s;
+}
+
+/*
+show our loading layer
+*/
+#page-overlay.loading {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*
+hide our loading layer
+*/
+#page-overlay.loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/*
+create the animated spinner
+*/
+#page-overlay::before {
+    /*
+    required to work
+    */
+    content: '';
+    box-sizing: border-box;
+
+    /*
+    create the spinner with css, no image required 🙂
+    samples --> https://stephanwagner.me/only-css-loading-spinner
+    */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    border-top-color: #333;
+
+    /*
+    animate the spinner
+    */
+    animation: kf_spinner 1s linear infinite;
+
+    /*
+    properties which serve to fade-out the spinner
+    */
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+/*
+let's fade-out the spinner once everything is loaded
+*/
+#page-overlay.loaded::before {
+    opacity: 0;
+}
+
+#page-overlay > span:nth-child(1) {
+    display: none;
+}

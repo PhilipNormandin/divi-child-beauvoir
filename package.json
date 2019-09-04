@@ -1,0 +1,23 @@
+{
+  "name": "beauvoir-npm",
+  "version": "1.0.0",
+  "description": "try some packages for beauvoir website",
+  "main": "index.php",
+  "dependencies": {
+    "roboto-fontface": "^0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilipNormandin/divi-child-beauvoir.git"
+  },
+  "author": "Philip Normandin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhilipNormandin/divi-child-beauvoir/issues"
+  },
+  "homepage": "https://github.com/PhilipNormandin/divi-child-beauvoir#readme"
+}

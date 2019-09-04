@@ -1,0 +1,118 @@
+.et_pb_blurb.et_pb_blurb_position_top .et_pb_main_blurb_image {
+    display: block;
+}
+
+/*Blurb 11*/
+
+.blurb_11_f .et_pb_blurb .et_pb_main_blurb_image {
+    margin-bottom: 0;
+}
+
+.blurb_11_f .et_pb_blurb .et_pb_main_blurb_image img {
+    display: block;
+    width: 100%;
+}
+
+.blurb_11_f .et_pb_blurb .et_pb_blurb_container:before {
+    content: "U";
+    display: block;
+    font-family: ETmodules !important;
+    font-size: 21px;
+    transform: rotate(280deg);
+    margin-bottom: 34px;
+}
+
+.blurb_11_f .et_pb_blurb .et_pb_blurb_container {
+    position: absolute;
+    width: 100%;
+    top: 54%;
+    transform: translate(0, -50%) scale(2);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.blurb_11_f .et_pb_blurb .et_pb_main_blurb_image:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+/*Hover*/
+
+.blurb_11_f .et_pb_blurb {
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.blurb_11_f .et_pb_blurb:after,
+.blurb_11_f .et_pb_blurb:before {
+    transition: 0.3s;
+}
+
+.blurb_11_f .et_pb_blurb .et_pb_main_blurb_image:before {
+    transition-delay: 0.6s;
+    -moz-transition-delay: 0.6s;
+    -webkit-transition-delay: 0.6s;
+    -ms-transition-delay: 0.6s;
+}
+
+.blurb_11_f .et_pb_blurb:hover .et_pb_main_blurb_image:before {
+    transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -webkit-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    opacity: 0.6;
+}
+
+.blurb_11_f .et_pb_blurb:after,
+.blurb_11_f .et_pb_blurb:before {
+    transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    -webkit-transition-delay: 0.3s;
+    -ms-transition-delay: 0.3s;
+}
+
+.blurb_11_f .et_pb_blurb:hover:after,
+.blurb_11_f .et_pb_blurb:hover:before {
+    transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    -webkit-transition-delay: 0.3s;
+    -ms-transition-delay: 0.3s;
+
+    top: 1.2vw;
+    left: 1.2vw;
+    bottom: 1.2vw;
+    right: 1.2vw;
+}
+
+.blurb_11_f .et_pb_blurb .et_pb_blurb_container {
+    transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -webkit-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    padding: 0 20px;
+}
+
+.blurb_11_f .et_pb_blurb:hover .et_pb_blurb_container {
+    transition-delay: 0.6s;
+    -moz-transition-delay: 0.6s;
+    -webkit-transition-delay: 0.6s;
+    -ms-transition-delay: 0.6s;
+    transform: translate(0, -50%) scale(1);
+    opacity: 1;
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    /*blurb 11*/
+    #page-container .blurb_11_f .et_pb_row {
+        width: 100% !important;
+    }
+
+}

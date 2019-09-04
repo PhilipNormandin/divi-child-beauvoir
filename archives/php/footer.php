@@ -2,11 +2,11 @@
 /**
  * Fires after the main content, before the footer is output.
  *
- * @since 3.10
+ * @since ??
  */
 do_action( 'et_after_main_content' );
 
-if ( 'on' === et_get_option( 'divi_back_to_top', 'false' ) ) : ?>
+if ( 'on' == et_get_option( 'divi_back_to_top', 'false' ) ) : ?>
 
 	<span class="et_pb_scroll_top et-pb-icon"></span>
 
@@ -15,6 +15,7 @@ if ( 'on' === et_get_option( 'divi_back_to_top', 'false' ) ) : ?>
 if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
 			<footer id="main-footer">
+				<?php //echo do_shortcode('[et_pb_section global_module="224829"][/et_pb_section]'); ?>
 				<?php get_sidebar( 'footer' ); ?>
 
 
@@ -44,9 +45,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 						get_template_part( 'includes/social_icons', 'footer' );
 					}
 
-					// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
-					echo et_core_fix_unclosed_html_tags( et_core_esc_previously( et_get_footer_credits() ) );
-					// phpcs:enable
+					echo et_get_footer_credits();
 				?>
 					</div>	<!-- .container -->
 				</div>

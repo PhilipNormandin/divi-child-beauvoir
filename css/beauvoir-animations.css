@@ -1,0 +1,114 @@
+/* Divi Child Beauvoir - Animations du site */
+
+
+/* Bouton back to top
+------------------------------------------------------------------------ */
+
+.et_pb_scroll_top {
+  animation-duration: 0.7s !important;
+}
+.et_pb_scroll_top.et-visible {
+  -webkit-animation: fadeIn 1s 1 cubic-bezier(.77,0,.175,1);
+  -moz-animation: fadeIn 1s 1 cubic-bezier(.77,0,.175,1);
+  -o-animation: fadeIn 1s 1 cubic-bezier(.77,0,.175,1);
+  animation: fadeIn 1s 1 cubic-bezier(.77,0,.175,1);
+}
+.et_pb_scroll_top.et-hidden {
+  -webkit-animation: fadeOut 1s 1 cubic-bezier(.77,0,.175,1);
+  -moz-animation: fadeOut 1s 1 cubic-bezier(.77,0,.175,1);
+  -o-animation: fadeOut 1s 1 cubic-bezier(.77,0,.175,1);
+  animation: fadeOut 1s 1 cubic-bezier(.77,0,.175,1);
+}
+
+
+/* Menu fixe - version grand écran
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 1366px) {
+
+  /* affiche menu fixe  */
+  #main-header.et-fixed-header.fixed-header-in {
+    animation-name: slideInDown;
+    animation-duration: 0.7s;
+    animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1)
+  }
+
+  /* cache menu fixe  */
+  #main-header.et-fixed-header.fixed-header-out {
+    animation-name: slideOutUp;
+    animation-duration: 0.7s;
+    animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1)
+  }
+
+}
+
+
+/* Page ACCUEIL
+------------------------------------------------------------------------ */
+
+/* sections ÉVÉNEMENTS À VENIR et ARTICLES DE NOTRE BLOGUE */
+/*
+#evenements-accueil_section #evenements-accueil-titre_row.animated {
+  animation-name: fadeInUpSmall;
+  animation-timing-function: ease;
+  animation-delay: 0.5s;
+}
+#articles-accueil_section #articles-accueil-titre_row.animated {
+  animation-name: fadeInUpSmall;
+  animation-timing-function: ease;
+  animation-delay: 0.5s;
+}
+#evenements-accueil_section #evenements-accueil-contenu_row.animated {
+  animation-name: fadeInUpSmall;
+  animation-timing-function: ease;
+  animation-delay: 1.2s;
+}
+#articles-accueil_section #articles-accueil-contenu_row.animated {
+  animation-name: fadeInUpSmall;
+  animation-timing-function: ease;
+  animation-delay: 1.2s;
+}
+#evenements-accueil_section #evenements-accueil-bouton_row.animated {
+  animation-name: bounceIn;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+  animation-duration: 0.6s;
+}
+#articles-accueil_section #articles-accueil-bouton_row.animated {
+  animation-name: bounceIn;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+  animation-duration: 0.6s;
+}
+*/
+
+/* section PAGES À VOIR */
+/*
+#pages-a-voir_section .et_pb_column .page-a-voir_module.animated {
+  animation-name: bounceInRightSmall;
+  animation-name: fadeInRightSmall;
+  animation-timing-function: ease-in-out;
+}
+#pages-a-voir_section .et_pb_column:nth-child(1) .page-a-voir_module.animated {
+  animation-delay: 1.5s;
+}
+#pages-a-voir_section .et_pb_column:nth-child(2) .page-a-voir_module.animated {
+  animation-delay: 1.8s;
+}
+#pages-a-voir_section .et_pb_column:nth-child(3) .page-a-voir_module.animated {
+  animation-delay: 2.1s;
+}
+#pages-a-voir_section .et_pb_column:nth-child(4) .page-a-voir_module.animated {
+  animation-delay: 2.4s;
+}
+*/
+
+/* Pages EN CONSTRUCTION
+------------------------------------------------------------------------ */
+/*
+body.show-the-page #page-under-construction-section.animated {
+  animation-name: fadeInUpSmall;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+}
+*/

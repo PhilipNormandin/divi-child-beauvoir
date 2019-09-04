@@ -1,0 +1,2897 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2019-01-28 17:16-0500\n"
+"PO-Revision-Date: 2019-01-28 17:21-0500\n"
+"Last-Translator: \n"
+"Language-Team: Elegant Themes\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../includes/builder\n"
+"X-Poedit-SearchPathExcluded-1: ../node_modules\n"
+"X-Poedit-SearchPathExcluded-2: ../core\n"
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Cet article est protégé par mot de passe. Entrez le mot de passe pour voir "
+"les commentaires."
+
+#: comments.php:13
+msgid "0 Comments"
+msgstr "0 Commentaires"
+
+#: comments.php:13
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: comments.php:13
+msgid "Comments"
+msgstr "Commentaires"
+
+#: comments.php:18 comments.php:31
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Commentaires plus anciens"
+
+#: comments.php:19 comments.php:32
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Commentaires plus récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:38
+msgid "Trackbacks/Pingbacks"
+msgstr "Rétroliens/Pings"
+
+#: comments.php:56
+msgid "Submit Comment"
+msgstr "Poster le commentaire"
+
+#: comments.php:56
+msgid "Submit a Comment"
+msgstr "Poster le commentaire"
+
+#: comments.php:56
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Répondre à %s"
+
+#: functions.php:43
+msgid "Primary Menu"
+msgstr "Menu Principal"
+
+#: functions.php:44
+msgid "Secondary Menu"
+msgstr "Menu secondaire"
+
+#: functions.php:45 functions.php:946
+msgid "Footer Menu"
+msgstr "Menu du pied de page"
+
+#: functions.php:127
+#, php-format
+msgid ""
+"Welcome to Divi! Before diving in to your new theme, please visit the <a "
+"style=\"color: #fff; font-weight: bold;\" href=\"%1$s\" target=\"_blank"
+"\">Divi Documentation</a> page for access to dozens of in-depth tutorials."
+msgstr ""
+"Bienvenur sur Divi ! Avant de plonger dans votre propre thème, veuillez "
+"visiter la page <a style=\"color: #fff; font-weight: bold;\" href=\"%1$s\" "
+"target=\"_blank\">Divi Documentation</a> pour un accès à une multitude de "
+"didanticiels en profondeur."
+
+#: functions.php:155
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr " "
+
+#: functions.php:230
+#, fuzzy, php-format
+msgid "%d Item"
+msgstr " "
+
+#: functions.php:231
+#, fuzzy, php-format
+msgid "%d Items"
+msgstr " "
+
+#: functions.php:340
+msgid "Select Page"
+msgstr "Sélectionner une page"
+
+#: functions.php:409 includes/builder/feature/BlockEditorIntegration.php:466
+msgid "Divi Page Settings"
+msgstr "Configurations de page Divi"
+
+#: functions.php:417
+msgid "Skills"
+msgstr "Compétences"
+
+#: functions.php:420
+msgid "Posted on"
+msgstr "Posté le"
+
+#: functions.php:447 functions.php:454
+msgid "Left Sidebar"
+msgstr "Barre latérale gauche"
+
+#: functions.php:448 functions.php:453
+msgid "Right Sidebar"
+msgstr "Barre latérale droite"
+
+#: functions.php:449 functions.php:455
+msgid "No Sidebar"
+msgstr "Pas de barre latérale"
+
+#: functions.php:461
+msgid "Fullwidth"
+msgstr "Pleine largeur"
+
+#: functions.php:469
+msgid "Light"
+msgstr "Clair"
+
+#: functions.php:470
+msgid "Dark"
+msgstr "Foncé"
+
+#: functions.php:483
+msgid "Page Layout"
+msgstr "Modèle de page"
+
+#: functions.php:498
+msgid "Dot Navigation"
+msgstr "Navigation par points"
+
+#: functions.php:501 functions.php:510
+msgid "Off"
+msgstr "Désactiver"
+
+#: functions.php:502 functions.php:511
+msgid "On"
+msgstr "Activer"
+
+#: functions.php:506
+msgid "Hide Nav Before Scroll"
+msgstr "Masquer barre de navigation si aucun défilement"
+
+#: functions.php:509 functions.php:5989 includes/functions/choices.php:24
+#: includes/functions/choices.php:40
+msgid "Default"
+msgstr "Par défaut"
+
+#: functions.php:517
+msgid "Post Title"
+msgstr "Titre du poste"
+
+#: functions.php:520 functions.php:555
+msgid "Show"
+msgstr "Afficher"
+
+#: functions.php:521 functions.php:554
+msgid "Hide"
+msgstr "Masquer"
+
+#: functions.php:526
+msgid "Use Background Color"
+msgstr "Utiliser la couleur de l'arrière-plan"
+
+#: functions.php:531 functions.php:6028
+msgid "Hex Value"
+msgstr "Valeur Hex"
+
+#: functions.php:535 functions.php:2282 functions.php:2309 functions.php:2436
+#: functions.php:2958 functions.php:3086 functions.php:3290
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: functions.php:551
+msgid "Project Navigation"
+msgstr "Navigation projet"
+
+#: functions.php:726
+#, fuzzy
+#| msgid "Select Page"
+msgid "Select"
+msgstr "Sélectionner une page"
+
+#: functions.php:727
+#, fuzzy
+#| msgid "Text Color"
+msgid "Current Color"
+msgstr "Couleur du texte"
+
+#: functions.php:757 functions.php:769 functions.php:9379
+msgid "you don't have sufficient permissions to access this page"
+msgstr ""
+"vous ne disposez pas des autorisations suffisantes pour accéder à cette page"
+
+#: functions.php:846
+msgid "General Settings"
+msgstr "Paramètres Généraux"
+
+#: functions.php:851
+msgid "Site Identity"
+msgstr "Identité du site"
+
+#: functions.php:856
+msgid "Layout Settings"
+msgstr "Paramètres de mise en page"
+
+#: functions.php:861
+msgid "Typography"
+msgstr "Typographie"
+
+#: functions.php:866
+msgid "Mobile Styles"
+msgstr "Styles sur Mobile"
+
+#: functions.php:871
+msgid "Tablet"
+msgstr "Tablette"
+
+#: functions.php:876
+msgid "Phone"
+msgstr "Téléphone"
+
+#: functions.php:881
+msgid "Mobile Menu"
+msgstr "Menu sur Mobile"
+
+#: functions.php:886
+msgid "Background"
+msgstr "Fond"
+
+#: functions.php:891
+msgid "Header & Navigation"
+msgstr "En-tête et navigation"
+
+#: functions.php:896
+msgid "Header Format"
+msgstr "Format de l'en-tête"
+
+#: functions.php:901
+msgid "Primary Menu Bar"
+msgstr "Barre de menu primaire"
+
+#: functions.php:906
+msgid "Secondary Menu Bar"
+msgstr "Barre de menu secondaire"
+
+#: functions.php:911
+msgid "Slide In & Fullscreen Header Settings"
+msgstr "Slide in & Paramètres Header plein écran"
+
+#: functions.php:916
+msgid "Fixed Navigation Settings"
+msgstr "Paramétrages de la barre supérieure"
+
+#: functions.php:921
+msgid "Header Elements"
+msgstr "Éléments de l'en-tête"
+
+#: functions.php:926
+msgid "Footer"
+msgstr "Pied de page"
+
+#: functions.php:931
+msgid "Layout"
+msgstr "Modèle"
+
+#: functions.php:936
+msgid "Widgets"
+msgstr "Widgets"
+
+#: functions.php:941
+msgid "Footer Elements"
+msgstr "Éléments en pied de page"
+
+#: functions.php:951
+msgid "Bottom Bar"
+msgstr "Barre inférieure"
+
+#: functions.php:956 functions.php:1696
+msgid "Color Schemes"
+msgstr "Palettes de couleurs"
+
+#: functions.php:958
+msgid ""
+"Note: Color settings set above should be applied to the Default color scheme."
+msgstr ""
+"Note: les paramètres de couleur ci-dessus devraient être appliqués à la "
+"palette de couleurs par défaut."
+
+#: functions.php:962
+msgid "Buttons"
+msgstr "Boutons"
+
+#: functions.php:967
+msgid "Buttons Style"
+msgstr "Style des boutons"
+
+#: functions.php:972
+msgid "Buttons Hover Style"
+msgstr "Style des boutons en survol"
+
+#: functions.php:977 functions.php:5293
+msgid "Blog"
+msgstr "Blog"
+
+#: functions.php:982
+msgid "Post"
+msgstr "Poste"
+
+#: functions.php:999
+msgid "Meta Text Size"
+msgstr "Taille du texte des métadonnées"
+
+#: functions.php:1018
+msgid "Meta Line Height"
+msgstr "Hauteur de la ligne des métadonnées"
+
+#: functions.php:1037
+msgid "Meta Letter Spacing"
+msgstr "Espacement des lettres dans les métadonnées"
+
+#: functions.php:1056 functions.php:5362 functions.php:5441
+msgid "Meta Font Style"
+msgstr "Style de la police des métadonnées"
+
+#: functions.php:1071 functions.php:1496 functions.php:1568 functions.php:1587
+#: functions.php:2704
+msgid "Header Text Size"
+msgstr "Taille du texte de l'en-tête"
+
+#: functions.php:1090 functions.php:1534
+msgid "Header Line Height"
+msgstr "Hauteur de la ligne de l'en-tête"
+
+#: functions.php:1109 functions.php:1515
+msgid "Header Letter Spacing"
+msgstr "Espacement des lettres de l'en-tête"
+
+#: functions.php:1128 functions.php:1553 functions.php:2723 functions.php:3649
+#: functions.php:3827 functions.php:3942 functions.php:4005 functions.php:4084
+#: functions.php:4148 functions.php:4939 functions.php:5635 functions.php:5741
+msgid "Header Font Style"
+msgstr "Style de la police de l'en-tête"
+
+#: functions.php:1142
+msgid "Enable Boxed Layout"
+msgstr "Activer la mise en page emboitée"
+
+#: functions.php:1156
+msgid "Website Content Width"
+msgstr "Largeur du contenu du site internet"
+
+#: functions.php:1175
+msgid "Website Gutter Width"
+msgstr "Espacement des colonnes sur le site internet"
+
+#: functions.php:1193
+msgid "Use Custom Sidebar Width"
+msgstr "Utilisez personnalisée Sidebar Largeur"
+
+#: functions.php:1207
+msgid "Sidebar Width"
+msgstr "Largeur de la barre latérale"
+
+#: functions.php:1226 functions.php:1245 functions.php:1264
+msgid "Section Height"
+msgstr "Hauteur de la section"
+
+#: functions.php:1283 functions.php:1302 functions.php:1321
+msgid "Row Height"
+msgstr "Hauteur de la ligne"
+
+#: functions.php:1340
+msgid "Stretch Background Image"
+msgstr "Étirer l'image de fond"
+
+#: functions.php:1347 functions.php:1960 functions.php:2337 functions.php:2408
+#: functions.php:2422 functions.php:2944 functions.php:3100 functions.php:3304
+msgid "Background Color"
+msgstr "Couleur de l'arrière-plan"
+
+#: functions.php:1354
+msgid "Background Image"
+msgstr "Image de fond :"
+
+#: functions.php:1374
+msgid "Background Repeat"
+msgstr "Répéter le fond"
+
+#: functions.php:1381 functions.php:1405
+msgid "Background Position"
+msgstr "Position du fond"
+
+#: functions.php:1385 includes/functions/choices.php:116
+msgid "Left"
+msgstr "Gauche"
+
+#: functions.php:1386
+msgid "Center"
+msgstr "Centre"
+
+#: functions.php:1387 includes/functions/choices.php:115
+msgid "Right"
+msgstr "Droite"
+
+#: functions.php:1420 functions.php:1458 functions.php:1477
+msgid "Body Text Size"
+msgstr "Taille du texte du corps"
+
+#: functions.php:1439
+msgid "Body Line Height"
+msgstr "Hauteur de la ligne du corps"
+
+#: functions.php:1607
+msgid "Header Font"
+msgstr "Police de l'en-tête"
+
+#: functions.php:1623
+msgid "Body Font"
+msgstr "Police du corps de texte"
+
+#: functions.php:1640
+msgid "Body Link Color"
+msgstr "Couleur du lien du corps"
+
+#: functions.php:1654
+msgid "Body Text Color"
+msgstr "Couleur du texte du corps"
+
+#: functions.php:1668
+msgid "Header Text Color"
+msgstr "Couleur du texte de l'en-tête"
+
+#: functions.php:1682
+msgid "Theme Accent Color"
+msgstr "Couleur d'accent du thème"
+
+#: functions.php:1712
+msgid "Header Style"
+msgstr "Style d'en-tête"
+
+#: functions.php:1726
+msgid "Enable Vertical Navigation"
+msgstr "Activer la navigation verticale"
+
+#: functions.php:1740
+msgid "Vertical Menu Orientation"
+msgstr "Orientation du menu vertical"
+
+#: functions.php:1756
+msgid "Hide Navigation Until Scroll"
+msgstr "Cacher la barre de navigation si aucun défilement"
+
+#: functions.php:1771 functions.php:2660
+msgid "Show Social Icons"
+msgstr "Afficher les icônes des réseaux sociaux"
+
+#: functions.php:1785
+msgid "Show Search Icon"
+msgstr "Afficher icône de recherche"
+
+#: functions.php:1799
+msgid "Show Top Bar"
+msgstr "Montrer la barre haute"
+
+#: functions.php:1813
+msgid "Menu Width"
+msgstr "Largeur du menu"
+
+#: functions.php:1832 functions.php:1870
+msgid "Menu Text Size"
+msgstr "Taille du texte menu"
+
+#: functions.php:1851 functions.php:1889
+msgid "Top Bar Text Size"
+msgstr "Taille du texte barre haute"
+
+#: functions.php:1908 functions.php:2146 functions.php:2230 functions.php:2890
+#: functions.php:3166 functions.php:3351
+msgid "Letter Spacing"
+msgstr "Espacement des lettres"
+
+#: functions.php:1928 functions.php:2166 functions.php:2250
+msgid "Font"
+msgstr "Police de caractères"
+
+#: functions.php:1945 functions.php:2183 functions.php:2267 functions.php:2909
+#: functions.php:2972
+msgid "Font Style"
+msgstr "Style de la police"
+
+#: functions.php:1974
+msgid "Menu Link Color"
+msgstr "Couleur des liens menu"
+
+#: functions.php:1988 functions.php:2323
+msgid "Active Link Color"
+msgstr "Couleur du lien actif"
+
+#: functions.php:2002
+msgid "Top Bar Text Color"
+msgstr "Couleur du texte dans la barre haute"
+
+#: functions.php:2016
+msgid "Search Bar Text Color"
+msgstr "Couleur texte barre de recherche"
+
+#: functions.php:2030
+msgid "Search Bar Background Color"
+msgstr "Couleur de fond barre de recherche"
+
+#: functions.php:2043 functions.php:2205
+msgid "Make Full Width"
+msgstr "Passer en mode pleine largeur"
+
+#: functions.php:2056 functions.php:2295 functions.php:2511
+msgid "Hide Logo Image"
+msgstr "Cacher l'image du logo"
+
+#: functions.php:2070
+msgid "Menu Height"
+msgstr "Menu Hauteur"
+
+#: functions.php:2089
+msgid "Logo Max Height"
+msgstr "Logo Max Hauteur"
+
+#: functions.php:2108
+msgid "Menu Top Margin"
+msgstr "Marge supérieure du menu"
+
+#: functions.php:2127 functions.php:2211 functions.php:2544 functions.php:3067
+msgid "Text Size"
+msgstr "Taille du texte"
+
+#: functions.php:2351 functions.php:2450
+msgid "Dropdown Menu Background Color"
+msgstr "Couleur de fond du menu déroulant"
+
+#: functions.php:2365
+msgid "Dropdown Menu Line Color"
+msgstr "Couleur de la ligne du menu déroulant"
+
+#: functions.php:2379 functions.php:2464
+msgid "Dropdown Menu Text Color"
+msgstr "Couleur du texte du menu déroulant"
+
+#: functions.php:2393 functions.php:2478
+msgid "Dropdown Menu Animation"
+msgstr "Animation du menu déroulant"
+
+#: functions.php:2525
+msgid "Fixed Menu Height"
+msgstr "Hauteur fixe Menu"
+
+#: functions.php:2563
+msgid "Primary Menu Background Color"
+msgstr "Couleur de fond du menu primaire"
+
+#: functions.php:2577
+msgid "Secondary Menu Background Color"
+msgstr "Couleur de fond du menu secondaire"
+
+#: functions.php:2591
+msgid "Primary Menu Link Color"
+msgstr "Menu principal lien Couleur"
+
+#: functions.php:2605
+msgid "Secondary Menu Link Color"
+msgstr "Menu secondaire Lien Couleur"
+
+#: functions.php:2619
+msgid "Active Primary Menu Link Color"
+msgstr "Actif principal Menu Couleur des liens"
+
+#: functions.php:2633
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+#: functions.php:2646
+msgid "Email"
+msgstr "E-mail"
+
+#: functions.php:2674
+msgid "Column Layout"
+msgstr "Disposition des colonnes"
+
+#: functions.php:2690
+msgid "Footer Background Color"
+msgstr "Couleur d'arrière-plan du pied de page"
+
+#: functions.php:2738
+msgid "Body/Link Text Size"
+msgstr "Taille du texte du lien/corps"
+
+#: functions.php:2757
+msgid "Body/Link Line Height"
+msgstr "Hauteur de la ligne du lien/corps"
+
+#: functions.php:2776
+msgid "Body Font Style"
+msgstr "Style de la police du corps"
+
+#: functions.php:2791
+msgid "Widget Text Color"
+msgstr "Couleur du texte dans le widget"
+
+#: functions.php:2805
+msgid "Widget Link Color"
+msgstr "Couleur du lien dans le widget"
+
+#: functions.php:2819
+msgid "Widget Header Color"
+msgstr "Couleur de l'en-tête dans le widget"
+
+#: functions.php:2833
+msgid "Widget Bullet Color"
+msgstr "Couleur des points dans le widget"
+
+#: functions.php:2848
+msgid "Footer Menu Background Color"
+msgstr "Couleur de fond dans le menu en pied de page"
+
+#: functions.php:2862
+msgid "Footer Menu Text Color"
+msgstr "Couleur du texte dans le menu en pied de page"
+
+#: functions.php:2876
+msgid "Footer Menu Active Link Color"
+msgstr "Couleur du lien actif dans le menu en pied de page"
+
+#: functions.php:2924 functions.php:2987
+msgid "Font Size"
+msgstr "Taille de la police"
+
+#: functions.php:3006
+msgid "Social Icon Size"
+msgstr "Taille des icônes des réseaux sociaux"
+
+#: functions.php:3025
+msgid "Social Icon Color"
+msgstr "Couleur des icônes des réseaux sociaux"
+
+#: functions.php:3038
+msgid "Disable Footer Credits"
+msgstr "Désactiver les crédits de pied de page"
+
+#: functions.php:3052
+msgid "Edit Footer Credits"
+msgstr "Modifier les crédits de pied de page"
+
+#: functions.php:3114
+msgid "Border Width"
+msgstr "Largeur de la bordure"
+
+#: functions.php:3133 functions.php:3318
+msgid "Border Color"
+msgstr "Couleur de la bordure"
+
+#: functions.php:3147 functions.php:3332
+msgid "Border Radius"
+msgstr "Rayon de la bordure"
+
+#: functions.php:3185 functions.php:5678
+msgid "Button Font Style"
+msgstr "Style de la police dans les boutons"
+
+#: functions.php:3201
+msgid "Buttons Font"
+msgstr "Police des boutons"
+
+#: functions.php:3217
+msgid "Add Button Icon"
+msgstr "Ajouter l'icône du bouton"
+
+#: functions.php:3232
+msgid "Select Icon"
+msgstr "Sélectionner une icône"
+
+#: functions.php:3246
+msgid "Icon Color"
+msgstr "Couleur de l'icône"
+
+#: functions.php:3260
+msgid "Icon Placement"
+msgstr "Placement de l'icône"
+
+#: functions.php:3275
+msgid "Only Show Icon on Hover"
+msgstr "Montrer uniquement l'icône lors d'un survol avec la souris"
+
+#: functions.php:3372 includes/widgets/widget-about.php:46
+#: includes/widgets/widget-ads.php:188 includes/widgets/widget-ads.php:196
+#: includes/widgets/widget-ads.php:204 includes/widgets/widget-ads.php:212
+#: includes/widgets/widget-ads.php:220 includes/widgets/widget-ads.php:228
+#: includes/widgets/widget-ads.php:236 includes/widgets/widget-ads.php:244
+msgid "Image"
+msgstr "Image"
+
+#: functions.php:3373
+msgid "Image Module Settings"
+msgstr "Paramètres module image"
+
+#: functions.php:3384
+msgid "Animation"
+msgstr "Animation"
+
+#: functions.php:3385
+msgid "This controls default direction of the lazy-loading animation."
+msgstr "Cela contrôle la direction par défaut de l'animation du lazy-loading"
+
+#: functions.php:3395
+msgid "Gallery"
+msgstr "Galerie"
+
+#: functions.php:3408 functions.php:4191 functions.php:4300
+msgid "Zoom Icon Color"
+msgstr "Couleur de l'icône du zoom"
+
+#: functions.php:3423 functions.php:4206 functions.php:4315
+msgid "Hover Overlay Color"
+msgstr "Couleur de superposition en survol"
+
+#: functions.php:3438 functions.php:3544 functions.php:4221 functions.php:4330
+#: functions.php:4599 functions.php:4678 functions.php:4720 functions.php:4820
+msgid "Title Font Size"
+msgstr "Taille de la police du titre"
+
+#: functions.php:3458 functions.php:3564 functions.php:4241 functions.php:4350
+#: functions.php:4619 functions.php:4698 functions.php:5326 functions.php:5405
+msgid "Title Font Style"
+msgstr "Style de la police du titre"
+
+#: functions.php:3474 functions.php:4257 functions.php:4366
+msgid "Caption Font Size"
+msgstr "Taille de la police de la légende"
+
+#: functions.php:3494 functions.php:4277 functions.php:4386
+msgid "Caption Font Style"
+msgstr "Style de la police de la légende"
+
+#: functions.php:3504
+msgid "Blurb"
+msgstr "Résumé"
+
+#: functions.php:3517 functions.php:3629 functions.php:3807 functions.php:3922
+#: functions.php:3985 functions.php:4064 functions.php:4128 functions.php:4919
+#: functions.php:5615 functions.php:5721
+msgid "Header Font Size"
+msgstr "Taille de la police de l'en-tête"
+
+#: functions.php:3531
+msgid "Tabs"
+msgstr "Onglets"
+
+#: functions.php:3581 functions.php:3958 functions.php:4100 functions.php:4164
+msgid "Padding"
+msgstr "Marge interne"
+
+#: functions.php:3595
+msgid "Slider"
+msgstr "Diapo"
+
+#: functions.php:3609 functions.php:5701
+msgid "Top & Bottom Padding"
+msgstr "Marge interne supérieure et inférieure"
+
+#: functions.php:3665 functions.php:5757
+msgid "Content Font Size"
+msgstr "Taille de la police du contenu"
+
+#: functions.php:3685 functions.php:5777
+msgid "Content Font Style"
+msgstr "Style de la police du contenu"
+
+#: functions.php:3695
+msgid "Testimonial"
+msgstr "Témoignage"
+
+#: functions.php:3708 functions.php:5227
+msgid "Name Font Style"
+msgstr "Style de la police du nom"
+
+#: functions.php:3724
+msgid "Details Font Style"
+msgstr "Style de la police des détails"
+
+#: functions.php:3740
+msgid "Portrait Border Radius"
+msgstr "Rayon de la bordure du portrait"
+
+#: functions.php:3760
+msgid "Image Width"
+msgstr "Largeur d'image"
+
+#: functions.php:3780
+msgid "Image Height"
+msgstr "Hauteur d'image"
+
+#: functions.php:3794
+msgid "Pricing Table"
+msgstr "Table de détermination des prix"
+
+#: functions.php:3843 functions.php:4021 functions.php:5243
+msgid "Subheader Font Size"
+msgstr "Taille de la police du sous-titre"
+
+#: functions.php:3863 functions.php:4041 functions.php:5263
+msgid "Subheader Font Style"
+msgstr "Style de la police du sous-titre"
+
+#: functions.php:3879 functions.php:5536
+msgid "Price Font Size"
+msgstr "Taille de la police du prix"
+
+#: functions.php:3899
+msgid "Pricing Font Style"
+msgstr "Style de la police du tableau de prix"
+
+#: functions.php:3909
+msgid "Call To Action"
+msgstr "Appel d'action"
+
+#: functions.php:3972
+msgid "Audio"
+msgstr "Audio"
+
+#: functions.php:4051
+msgid "Email Optin"
+msgstr "email Optin"
+
+#: functions.php:4114
+msgid "Login"
+msgstr "Se connecter"
+
+#: functions.php:4178
+msgid "Portfolio"
+msgstr "Portefeuille"
+
+#: functions.php:4287
+msgid "Filterable Portfolio"
+msgstr "Portefeuille filtrable"
+
+#: functions.php:4402
+msgid "Filters Font Size"
+msgstr "Taille de la police des filtres"
+
+#: functions.php:4422
+msgid "Filters Font Style"
+msgstr "Style de la police des filtres"
+
+#: functions.php:4432
+msgid "Bar Counter"
+msgstr "Compteur en barre"
+
+#: functions.php:4445
+msgid "Label Font Size"
+msgstr "Taille de la police de l'étiquette"
+
+#: functions.php:4465
+msgid "Label Font Style"
+msgstr "Style de la police de l'étiquette"
+
+#: functions.php:4481
+msgid "Percent Font Size"
+msgstr "Taille de la police du pourcentage"
+
+#: functions.php:4501
+msgid "Percent Font Style"
+msgstr "Style de la police du pourcentage"
+
+#: functions.php:4517
+msgid "Bar Padding"
+msgstr "Marge interne de la barre"
+
+#: functions.php:4537
+msgid "Bar Border Radius"
+msgstr "Rayon de la bordure de la barre"
+
+#: functions.php:4551
+msgid "Circle Counter"
+msgstr "Compteur cercle"
+
+#: functions.php:4563 functions.php:4642
+msgid "Number Font Size"
+msgstr "Taille de la police du nombre"
+
+#: functions.php:4583 functions.php:4662
+msgid "Number Font Style"
+msgstr "Style de la police du nombre"
+
+#: functions.php:4629
+msgid "Number Counter"
+msgstr "Compteur nombre"
+
+#: functions.php:4708
+msgid "Accordion"
+msgstr "Accordéon"
+
+#: functions.php:4740 functions.php:4840
+msgid "Opened Title Font Style"
+msgstr "Style de la police du titre ouvert"
+
+#: functions.php:4756 functions.php:4856
+msgid "Closed Title Font Style"
+msgstr "Style de la police du titre fermé"
+
+#: functions.php:4772 functions.php:4872
+msgid "Toggle Icon Size"
+msgstr "Taille de l'icône du menu déroulant"
+
+#: functions.php:4793 functions.php:4892
+msgid "Toggle Padding"
+msgstr "Marge interne du menu déroulant"
+
+#: functions.php:4807
+msgid "Toggle"
+msgstr "Bascule"
+
+#: functions.php:4906
+msgid "Contact Form"
+msgstr "Formulaire de contact"
+
+#: functions.php:4955
+msgid "Input Font Size"
+msgstr "Taille de la police dans le champ de saisie"
+
+#: functions.php:4975
+msgid "Input Font Style"
+msgstr "Style de la police dans le champ de saisie"
+
+#: functions.php:4991
+msgid "Input Field Padding"
+msgstr "Marge interne du champ de saisie"
+
+#: functions.php:5011
+msgid "Captcha Font Size"
+msgstr "Taille de la police du captcha"
+
+#: functions.php:5031
+msgid "Captcha Font Style"
+msgstr "Style de la police du captcha"
+
+#: functions.php:5041 includes/functions/sidebars.php:4
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: functions.php:5054
+msgid "Widget Header Font Size"
+msgstr "Taille de la police de l'en-tête du widget"
+
+#: functions.php:5074
+msgid "Widget Header Font Style"
+msgstr "Style de la police de l'en-tête du widget"
+
+#: functions.php:5090
+msgid "Remove Vertical Divider"
+msgstr "Supprimer l'élément diviseur vertical"
+
+#: functions.php:5099
+msgid "Divider"
+msgstr "Séparateur"
+
+#: functions.php:5111
+msgid "Show Divider"
+msgstr "Afficher le séparateur"
+
+#: functions.php:5126
+msgid "Divider Style"
+msgstr "Style de l'élément diviseur"
+
+#: functions.php:5143
+msgid "Divider Weight"
+msgstr "Largeur de l'élément diviseur"
+
+#: functions.php:5163
+msgid "Divider Height"
+msgstr "Hauteur de l'élément diviseur"
+
+#: functions.php:5183
+msgid "Divider Position"
+msgstr "Position de l'élément diviseur"
+
+#: functions.php:5194
+msgid "Person"
+msgstr "Personne"
+
+#: functions.php:5207
+msgid "Name Font Size"
+msgstr "Taille de la police du nom"
+
+#: functions.php:5279
+msgid "Social Network Icon Size"
+msgstr "Taille des icônes des réseaux sociaux"
+
+#: functions.php:5306 functions.php:5385
+msgid "Post Title Font Size"
+msgstr "Taille de la police tu titre du poste"
+
+#: functions.php:5342 functions.php:5421
+msgid "Meta Font Size"
+msgstr "Taille de la police des métadonnées"
+
+#: functions.php:5372
+msgid "Blog Grid"
+msgstr "Blog Grille"
+
+#: functions.php:5451
+msgid "Shop"
+msgstr "Boutique"
+
+#: functions.php:5464
+msgid "Product Name Font Size"
+msgstr "Taille de la police du nom du produit"
+
+#: functions.php:5484
+msgid "Product Name Font Style"
+msgstr "Style de la police du nom du produit"
+
+#: functions.php:5500
+msgid "Sale Badge Font Size"
+msgstr "Taille de la police du badge de promotion"
+
+#: functions.php:5520
+msgid "Sale Badge Font Style"
+msgstr "Couleur de la police du badge de promotion"
+
+#: functions.php:5556
+msgid "Price Font Style"
+msgstr "Style de la police du prix"
+
+#: functions.php:5572
+msgid "Sale Price Font Size"
+msgstr "Taille de la police du prix en promotion"
+
+#: functions.php:5592
+msgid "Sale Price Font Style"
+msgstr "Style de la police du prix en promotion"
+
+#: functions.php:5602
+msgid "Countdown"
+msgstr "Compte à rebours"
+
+#: functions.php:5645
+msgid "Social Follow"
+msgstr "Suivi sur les réseaux sociaux"
+
+#: functions.php:5658
+msgid "Follow Font & Icon Size"
+msgstr "Taille de l'icône et de la police du logo « Suivre »"
+
+#: functions.php:5688
+msgid "Fullwidth Slider"
+msgstr "curseur pleine chasse"
+
+#: functions.php:8720
+msgid "0 comments"
+msgstr "0 commentaires"
+
+#: functions.php:8720
+msgid "1 comment"
+msgstr "1 commentaire"
+
+#: functions.php:8720
+msgid "comments"
+msgstr "commentaires"
+
+#: functions.php:8804
+msgid "Password Protected"
+msgstr "Mot de passe protégé"
+
+#: functions.php:8805
+msgid "To view this protected post, enter the password below"
+msgstr "Pour voir ce poste protégé, tapez le mot de passe ci-dessous"
+
+#: functions.php:8808
+msgid "Password"
+msgstr "Mot de passe"
+
+#: functions.php:8809
+msgid "Submit"
+msgstr "Envoi"
+
+#: functions.php:9063
+#, php-format
+msgctxt "WooCommerce items number"
+msgid "%1$s Item"
+msgid_plural "%1$s Items"
+msgstr[0] "Article %1$s"
+msgstr[1] "Articles %1$s"
+
+#: functions.php:9300
+msgid "Theme Options"
+msgstr "Options du thème"
+
+#: functions.php:9304 functions.php:9340
+msgid "Theme Customizer"
+msgstr "Personnaliseur de thème"
+
+#: functions.php:9308 functions.php:9353
+msgid "Module Customizer"
+msgstr "Personnaliseur de module"
+
+#: functions.php:9310
+msgid "Role Editor"
+msgstr "Éditeur de rôle"
+
+#: functions.php:9313
+msgid "Divi Library"
+msgstr "Bibliothèque Divi"
+
+#: functions.php:9502
+msgid "Divi Customizer Settings"
+msgstr "Configurations personnalisées Divi"
+
+#: functions.php:9543
+#, php-format
+msgid "Designed by %1$s | Powered by %2$s"
+msgstr "Design de %1$s | Propulsé par %2$s"
+
+#: header.php:154 header.php:317
+msgid "Search &hellip;"
+msgstr "Rechercher &hellip;"
+
+#: header.php:156 header.php:319
+msgid "Search for:"
+msgstr "Rechercher:"
+
+#: header.php:199 header.php:268
+msgid "Home"
+msgstr "Accueil"
+
+#: includes/builder/feature/BlockEditorIntegration.php:131
+#, fuzzy
+#| msgid "Divider"
+msgid "Divi Builder"
+msgstr "Séparateur"
+
+#: includes/builder/feature/BlockEditorIntegration.php:132
+msgid ""
+"The Divi Builder is activated on this page. To edit your page using the "
+"builder, click the Edit With The Divi Builder button."
+msgstr ""
+
+#: includes/builder/feature/BlockEditorIntegration.php:136
+msgid "Build Your Layout Using Divi"
+msgstr ""
+
+#: includes/builder/feature/BlockEditorIntegration.php:137
+msgid "This Layout Is Built With Divi"
+msgstr ""
+
+#: includes/builder/feature/BlockEditorIntegration.php:140
+#, fuzzy
+#| msgid "Divider"
+msgid "Use Divi Builder"
+msgstr "Séparateur"
+
+#: includes/builder/feature/BlockEditorIntegration.php:141
+msgid "Edit With The Divi Builder"
+msgstr ""
+
+#: includes/builder/feature/BlockEditorIntegration.php:143
+msgid "Use Default Editor"
+msgstr ""
+
+#: includes/builder/feature/BlockEditorIntegration.php:255
+#, php-format
+msgid "Edit &#8220;%s&#8221; in Divi"
+msgstr ""
+
+#: includes/builder/feature/BlockEditorIntegration.php:258
+msgid "Edit With Divi"
+msgstr ""
+
+#: includes/functions/choices.php:9
+msgid "Bold"
+msgstr "Gras"
+
+#: includes/functions/choices.php:10
+msgid "Italic"
+msgstr "Italique"
+
+#: includes/functions/choices.php:11
+msgid "Uppercase"
+msgstr "Majuscule"
+
+#: includes/functions/choices.php:12
+msgid "Underline"
+msgstr "Souligné"
+
+#: includes/functions/choices.php:25
+msgid "Green"
+msgstr "Vert"
+
+#: includes/functions/choices.php:26
+msgid "Orange"
+msgstr "Orange"
+
+#: includes/functions/choices.php:27
+msgid "Pink"
+msgstr "Rose"
+
+#: includes/functions/choices.php:28
+msgid "Red"
+msgstr "Rouge"
+
+#: includes/functions/choices.php:41
+msgid "Centered"
+msgstr "Centré"
+
+#: includes/functions/choices.php:42
+msgid "Centered Inline Logo"
+msgstr "Logo inline centré"
+
+#: includes/functions/choices.php:43
+msgid "Slide In"
+msgstr "Slide In"
+
+#: includes/functions/choices.php:44
+msgid "Fullscreen"
+msgstr "Plein écran"
+
+#: includes/functions/choices.php:56
+msgid "Fade"
+msgstr "Fondu"
+
+#: includes/functions/choices.php:57
+msgid "Expand"
+msgstr "Étendre"
+
+#: includes/functions/choices.php:58
+msgid "Slide"
+msgstr "Diapo"
+
+#: includes/functions/choices.php:59
+msgid "Flip"
+msgstr "Basculer"
+
+#: includes/functions/choices.php:71 includes/functions/choices.php:72
+#: includes/functions/choices.php:73 includes/functions/choices.php:75
+#: includes/functions/choices.php:76 includes/functions/choices.php:77
+#: includes/functions/choices.php:78 includes/functions/choices.php:79
+#: includes/functions/choices.php:80 includes/functions/choices.php:81
+#: includes/functions/choices.php:82 includes/functions/choices.php:83
+#: includes/functions/choices.php:84 includes/functions/choices.php:85
+#: includes/functions/choices.php:86 includes/functions/choices.php:87
+#: includes/functions/choices.php:88 includes/functions/choices.php:89
+#: includes/functions/choices.php:90
+#, php-format
+msgid "%1$s Columns"
+msgstr "Colonnes %1$s"
+
+#: includes/functions/choices.php:74
+msgid "1 Column"
+msgstr "1 Colonne"
+
+#: includes/functions/choices.php:102
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/functions/choices.php:103
+msgid "No"
+msgstr "Non"
+
+#: includes/functions/choices.php:128
+msgid "Left to Right"
+msgstr "De gauche à droite"
+
+#: includes/functions/choices.php:129
+msgid "Right to Left"
+msgstr "De droite à gauche"
+
+#: includes/functions/choices.php:130
+msgid "Top to Bottom"
+msgstr "De haut en bas"
+
+#: includes/functions/choices.php:131
+msgid "Bottom to Top"
+msgstr "De bas en haut"
+
+#: includes/functions/choices.php:132
+msgid "Fade In"
+msgstr "Fondu"
+
+#: includes/functions/choices.php:133
+msgid "No Animation"
+msgstr "Pas d'animation"
+
+#: includes/functions/choices.php:145
+msgid "Solid"
+msgstr "Pleine"
+
+#: includes/functions/choices.php:146
+msgid "Dotted"
+msgstr "Pointillée"
+
+#: includes/functions/choices.php:147
+msgid "Dashed"
+msgstr "En tirets"
+
+#: includes/functions/choices.php:148
+msgid "Double"
+msgstr "Double"
+
+#: includes/functions/choices.php:149
+msgid "Groove"
+msgstr "Rainure"
+
+#: includes/functions/choices.php:150
+msgid "Ridge"
+msgstr "Arête"
+
+#: includes/functions/choices.php:151
+msgid "Inset"
+msgstr "Appliquée à l'intérieur"
+
+#: includes/functions/choices.php:152
+msgid "Outset"
+msgstr "Appliquée à l'extérieur"
+
+#: includes/functions/choices.php:164
+msgid "Top"
+msgstr "Sommet"
+
+#: includes/functions/choices.php:165
+msgid "Vertically Centered"
+msgstr "Centré verticalement"
+
+#: includes/functions/choices.php:166
+msgid "Bottom"
+msgstr "Bas"
+
+#: includes/functions/choices.php:178
+msgid "No Repeat"
+msgstr "Aucune répétition"
+
+#: includes/functions/choices.php:179
+msgid "Tile"
+msgstr "Quadrillage"
+
+#: includes/functions/choices.php:180
+msgid "Tile Horizontally"
+msgstr "Quadriller horizontalement"
+
+#: includes/functions/choices.php:181
+msgid "Tile Vertically"
+msgstr "Quadriller verticalement"
+
+#: includes/functions/choices.php:193
+msgid "Scroll"
+msgstr "Défilement"
+
+#: includes/functions/choices.php:194
+msgid "Fixed"
+msgstr "Fixée"
+
+#: includes/functions/installation.php:1
+msgid "Read Divi Documentation"
+msgstr "Lire la documentation Divi"
+
+#: includes/functions/sidebars.php:13 includes/functions/sidebars.php:22
+#: includes/functions/sidebars.php:31 includes/functions/sidebars.php:40
+#: includes/functions/sidebars.php:49 includes/functions/sidebars.php:58
+msgid "Footer Area"
+msgstr "Zone Pied de page"
+
+#: includes/functions/tutorials.php:1
+msgid "Watch video tutorials"
+msgstr "Regardez les didacticiels vidéo"
+
+#: includes/navigation.php:2
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Entrées précédentes"
+
+#: includes/navigation.php:3
+msgid "Next Entries &raquo;"
+msgstr "Entrées suivantes &raquo;"
+
+#: includes/no-results.php:3
+msgid "No Results Found"
+msgstr "Aucun résultat"
+
+#: includes/no-results.php:4
+msgid ""
+"The page you requested could not be found. Try refining your search, or use "
+"the navigation above to locate the post."
+msgstr ""
+"La page demandée est introuvable. Essayez d'affiner votre recherche ou "
+"utilisez le panneau de navigation ci-dessus pour localiser l'article."
+
+#: includes/social_icons.php:6
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/social_icons.php:13
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/social_icons.php:20
+msgid "Google"
+msgstr "Google"
+
+#: includes/social_icons.php:32
+msgid "RSS"
+msgstr "RSS"
+
+#: includes/widgets/widget-about.php:4
+msgid "Displays About Me Information"
+msgstr "Affiche les informations À propos de moi"
+
+#: includes/widgets/widget-about.php:6
+msgid "ET About Me Widget"
+msgstr "Widget À propos de moi"
+
+#: includes/widgets/widget-about.php:12 includes/widgets/widget-about.php:41
+msgid "About Me"
+msgstr "À PROPOS de moi"
+
+#: includes/widgets/widget-about.php:44 includes/widgets/widget-ads.php:180
+#: includes/widgets/widget-ads.php:192 includes/widgets/widget-ads.php:200
+#: includes/widgets/widget-ads.php:208 includes/widgets/widget-ads.php:216
+#: includes/widgets/widget-ads.php:224 includes/widgets/widget-ads.php:232
+#: includes/widgets/widget-ads.php:240 includes/widgets/widget-ads.php:248
+#: includes/widgets/widget-adsense.php:47
+msgid "Title"
+msgstr "Titre"
+
+#: includes/widgets/widget-about.php:48
+msgid "Text"
+msgstr "Texte"
+
+#: includes/widgets/widget-ads.php:4
+msgid "Displays Advertisements"
+msgstr "Affiche les publicités"
+
+#: includes/widgets/widget-ads.php:6
+msgid "ET Advertisement"
+msgstr "Publicités"
+
+#: includes/widgets/widget-ads.php:12 includes/widgets/widget-ads.php:136
+msgid "Advertisement"
+msgstr "Publicités"
+
+#: includes/widgets/widget-ads.php:183
+msgid "Use Relative Image Paths"
+msgstr "Utiliser Relative Image Paths"
+
+#: includes/widgets/widget-ads.php:185
+msgid "Open in a new window"
+msgstr "Ouvrir dans une nouvelle fenêtre"
+
+#: includes/widgets/widget-ads.php:188 includes/widgets/widget-ads.php:190
+#: includes/widgets/widget-ads.php:192 includes/widgets/widget-ads.php:194
+#: includes/widgets/widget-ads.php:196 includes/widgets/widget-ads.php:198
+#: includes/widgets/widget-ads.php:200 includes/widgets/widget-ads.php:202
+#: includes/widgets/widget-ads.php:204 includes/widgets/widget-ads.php:206
+#: includes/widgets/widget-ads.php:208 includes/widgets/widget-ads.php:210
+#: includes/widgets/widget-ads.php:212 includes/widgets/widget-ads.php:214
+#: includes/widgets/widget-ads.php:216 includes/widgets/widget-ads.php:218
+#: includes/widgets/widget-ads.php:220 includes/widgets/widget-ads.php:222
+#: includes/widgets/widget-ads.php:224 includes/widgets/widget-ads.php:226
+#: includes/widgets/widget-ads.php:228 includes/widgets/widget-ads.php:230
+#: includes/widgets/widget-ads.php:232 includes/widgets/widget-ads.php:234
+#: includes/widgets/widget-ads.php:236 includes/widgets/widget-ads.php:238
+#: includes/widgets/widget-ads.php:240 includes/widgets/widget-ads.php:242
+#: includes/widgets/widget-ads.php:244 includes/widgets/widget-ads.php:246
+#: includes/widgets/widget-ads.php:248 includes/widgets/widget-ads.php:250
+msgid "Banner"
+msgstr "Bannière"
+
+#: includes/widgets/widget-ads.php:190 includes/widgets/widget-ads.php:198
+#: includes/widgets/widget-ads.php:206 includes/widgets/widget-ads.php:214
+#: includes/widgets/widget-ads.php:222 includes/widgets/widget-ads.php:230
+#: includes/widgets/widget-ads.php:238 includes/widgets/widget-ads.php:246
+msgid "Url"
+msgstr "URL"
+
+#: includes/widgets/widget-ads.php:194 includes/widgets/widget-ads.php:202
+#: includes/widgets/widget-ads.php:210 includes/widgets/widget-ads.php:218
+#: includes/widgets/widget-ads.php:226 includes/widgets/widget-ads.php:234
+#: includes/widgets/widget-ads.php:242 includes/widgets/widget-ads.php:250
+msgid "Alt"
+msgstr "Alt"
+
+#: includes/widgets/widget-ads.php:251
+msgid ""
+"If you don't want to display some banners - leave approptiate fields blank"
+msgstr ""
+"Si vous ne souhaitez pas afficher certaines bannières - laissez les champs "
+"correspondants vides"
+
+#: includes/widgets/widget-adsense.php:4
+msgid "Displays Adsense Ads"
+msgstr "Affiche les publicités Adsense"
+
+#: includes/widgets/widget-adsense.php:6
+msgid "ET Adsense Widget"
+msgstr "Widget Adsense"
+
+#: includes/widgets/widget-adsense.php:12
+#: includes/widgets/widget-adsense.php:41
+msgid "Adsense"
+msgstr "Adsense"
+
+#: includes/widgets/widget-adsense.php:49
+msgid "Adsense Code"
+msgstr "Code Adsense"
+
+#: page-template-blank.php:49 page.php:48 single-project.php:55 single.php:134
+msgid "Pages:"
+msgstr "Pages:"
+
+#: single-project.php:72
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr " "
+
+#: single-project.php:73
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr " "
+
+#~ msgid "Help"
+#~ msgstr "Aide"
+
+#~ msgid "Options"
+#~ msgstr "Options"
+
+#~ msgid "settings saved."
+#~ msgstr "paramètres sauvegardés"
+
+#~ msgid "settings reset."
+#~ msgstr "réinitialisation des paramètres."
+
+#~ msgid "Save Changes"
+#~ msgstr "Sauvegarder les changements"
+
+#~ msgid "%s Theme Options"
+#~ msgstr "Options du thème %s"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Réinitialiser par défaut"
+
+#~ msgid "General"
+#~ msgstr "Général"
+
+#~ msgid "Navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "Ads"
+#~ msgstr "Pubs"
+
+#~ msgid "Colorization"
+#~ msgstr "Couleur"
+
+#~ msgid "SEO"
+#~ msgstr "SEO"
+
+#~ msgid "Integration"
+#~ msgstr "Intégration"
+
+#~ msgid "Support"
+#~ msgstr "Assistance"
+
+#~ msgid "Updates"
+#~ msgstr "Mises à jour"
+
+#~ msgid "Reset"
+#~ msgstr "Réinitialiser"
+
+#~ msgid "Upload"
+#~ msgstr "Mettre en ligne"
+
+#~ msgid "You don't have pages"
+#~ msgstr "Vous n'avez aucune page"
+
+#~ msgid "Enabled"
+#~ msgstr "Activer"
+
+#~ msgid "Disabled"
+#~ msgstr "Désactiver"
+
+#~ msgid "Author"
+#~ msgstr "Auteur"
+
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#~ msgid "Ratings"
+#~ msgstr "Évaluations"
+
+#~ msgid "Choose an Image"
+#~ msgstr "Choisir une image"
+
+#~ msgid "&hellip;"
+#~ msgstr "&hellip;"
+
+#~ msgid "Archives"
+#~ msgstr "Archives"
+
+#~ msgid "Search results for \"%s\""
+#~ msgstr "Rechercher des résultats pour \"%s\""
+
+#~ msgid "404 Not Found"
+#~ msgstr "404 Introuvable"
+
+#~ msgid "Currently viewing archives from %1$s"
+#~ msgstr "Vous regardez les archives de %1$s"
+
+#~ msgid "Search Results for: %s"
+#~ msgstr "Résultats de la recherche pour : %s"
+
+#~ msgid "Image doesn't exist"
+#~ msgstr "Image introuvable"
+
+#~ msgid ""
+#~ "<div class=\"updated\"><p>This is a fresh installation of %1$s theme. "
+#~ "Don't forget to go to <a href=\"%2$s\">ePanel</a> to set it up. This "
+#~ "message will disappear once you have clicked the Save button within the "
+#~ "<a href=\"%2$s\">theme's options page</a>.</p></div>"
+#~ msgstr ""
+#~ "<div class=\"updated\"><p>Vous venez d'installer le thème %1$s. N'oubliez "
+#~ "pas d'aller à <a href=\"%2$s\">ePanel</a> pour le configurer. Ce message "
+#~ "disparaîtra une fois que vous aurez cliqué sur le bouton Sauvegarder <a "
+#~ "href=\"%2$s\">dans les options</a>.</p></div>"
+
+#~ msgid "Previous"
+#~ msgstr "Précédent"
+
+#~ msgid "Next"
+#~ msgstr "Suivant"
+
+#~ msgid "Tweet"
+#~ msgstr "Tweeter"
+
+#~ msgid "Member Login"
+#~ msgstr "Connexion membre"
+
+#~ msgid "Username: "
+#~ msgstr "Nom d'utilisateur: "
+
+#~ msgid "Password: "
+#~ msgstr "Mot de passe: "
+
+#~ msgid "Add a Tooltip Text"
+#~ msgstr "Ajouter un texte d'infobulle"
+
+#~ msgid "Click here to learn more"
+#~ msgstr "Cliquez ici pour en savoir plus"
+
+#~ msgid "Join Now"
+#~ msgstr "Rejoindre maintenant"
+
+#~ msgid "Add ET Learn more block"
+#~ msgstr "Ajoute un bloc bascule"
+
+#~ msgid "Add ET Box"
+#~ msgstr "Ajouter un cadre"
+
+#~ msgid "Add ET Button"
+#~ msgstr "Ajoute un bouton"
+
+#~ msgid "Add ET Tabs"
+#~ msgstr "Ajoute des onglets"
+
+#~ msgid "Add Author Bio"
+#~ msgstr "Ajoute Bio auteur"
+
+#~ msgid "Shortcodes"
+#~ msgstr "Codes abrégés"
+
+#~ msgid "Caption"
+#~ msgstr "Légende"
+
+#~ msgid "Caption goes here"
+#~ msgstr "La légende doit être placée ici"
+
+#~ msgid "Caption title goes here"
+#~ msgstr "La légende du titre doit être placée ici"
+
+#~ msgid "State"
+#~ msgstr "État"
+
+#~ msgid "Select between expanded and closed state"
+#~ msgstr "Choisir entre fermé et développé"
+
+#~ msgid "Content"
+#~ msgstr "Contenu"
+
+#~ msgid "Content goes here"
+#~ msgstr "Le contenu va ici"
+
+#~ msgid "Content text or html"
+#~ msgstr "Contenu texte ou HTML"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Type of the box"
+#~ msgstr "Type de cadre"
+
+#~ msgid "Link"
+#~ msgstr "Lien"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Choose button type"
+#~ msgstr "Choisir un type de bouton"
+
+#~ msgid "Color"
+#~ msgstr "Couleur"
+
+#~ msgid "Choose button color"
+#~ msgstr "Choisir la couleur du bouton"
+
+#~ msgid "Link text"
+#~ msgstr "Texte du lien"
+
+#~ msgid "Icon"
+#~ msgstr "Icône"
+
+#~ msgid "Used for icon button type"
+#~ msgstr "Utilisé pour un type de bouton"
+
+#~ msgid "Open link in new window"
+#~ msgstr "Ouvrir le lien dans une nouvelle fenêtre"
+
+#~ msgid "Select yes if the link should be opened in a new window"
+#~ msgstr ""
+#~ "Sélectionner oui si vous voulez que le lien s'ouvre dans une nouvelle "
+#~ "fenêtre"
+
+#~ msgid "Slider Type"
+#~ msgstr "Type de curseur"
+
+#~ msgid "Select Slider Type here"
+#~ msgstr "Sélectionner un type de curseur ici"
+
+#~ msgid "Effect"
+#~ msgstr "Effet"
+
+#~ msgid "Select Animation Effect"
+#~ msgstr "Sélectionner une animation"
+
+#~ msgid "Auto"
+#~ msgstr "Automatique"
+
+#~ msgid "Choose yes if you want for automatic slider animation"
+#~ msgstr ""
+#~ "Choisir oui si vous voulez activer l'animation automatique du curseur"
+
+#~ msgid "Auto Speed"
+#~ msgstr "Vitesse automatique"
+
+#~ msgid "Automattic slider speed (works only if Auto is set to yes)"
+#~ msgstr ""
+#~ "Vitesse automatique du curseur ( fonctionne seulement si vous avez "
+#~ "sélectionné oui pour la fonction automatique )"
+
+#~ msgid "Tab Text"
+#~ msgstr "Texte de l'onglet"
+
+#~ msgid "Tab Content"
+#~ msgstr "Contenu de l'onglet"
+
+#~ msgid "Paste image url here, if you chose \"images\" slider type"
+#~ msgstr ""
+#~ "Copier ici l'URL de l'image, si vous choisissez \"images\" type de curseur"
+
+#~ msgid "Image Url"
+#~ msgstr "URL de l'image"
+
+#~ msgid "Author Image URL"
+#~ msgstr "URL de l'image de l'auteur"
+
+#~ msgid "Use resizing"
+#~ msgstr "Redimensionner"
+
+#~ msgid "+ Add One More Tab"
+#~ msgstr "+ ajouter un autre onglet"
+
+#~ msgid "Divi Post Settings"
+#~ msgstr "Configurations d'article Divi"
+
+#~ msgid "Divi Product Settings"
+#~ msgstr "Configurations de produit Divi"
+
+#~ msgid "Divi Project Settings"
+#~ msgstr "Configurations de projet Divi"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Set As Logo"
+#~ msgstr "Définir comme Logo"
+
+#~ msgid ""
+#~ "If you would like to use your own custom logo image click the Upload "
+#~ "Image button."
+#~ msgstr ""
+#~ "Pour utiliser votre propre image comme logo, cliquer sur le bouton "
+#~ "télécharger image."
+
+#~ msgid "Favicon"
+#~ msgstr "Favicon"
+
+#~ msgid "Set As Favicon"
+#~ msgstr "Définir comme Favicon"
+
+#~ msgid ""
+#~ "If you would like to use your own custom favicon image click the Upload "
+#~ "Image button."
+#~ msgstr ""
+#~ "Pour utiliser votre propre favicon cliquer sur le bouton télécharger "
+#~ "image."
+
+#~ msgid "Fixed Navigation Bar"
+#~ msgstr "Barre de navigation fixe"
+
+#~ msgid ""
+#~ "By default the navigation bar stays on top of the screen at all times. We "
+#~ "suggest to disable this option, if you need to use a logo taller than the "
+#~ "default one."
+#~ msgstr ""
+#~ "Par défaut la barre de navigation reste en haut de l'écran. Nous vous "
+#~ "conseillons de désactiver cette option si vous allez utiliser une grande "
+#~ "image pour votre logo."
+
+#~ msgid "Enable Divi Gallery"
+#~ msgstr "Activer la galerie Divi"
+
+#~ msgid ""
+#~ "Enable this if you want to replace the WordPress default gallery with the "
+#~ "Divi-style gallery."
+#~ msgstr ""
+#~ "Activer cela si vous voulez remplacer la galerie WordPress par défaut "
+#~ "avec la galerie avec le style Divi"
+
+#~ msgid "Color Pickers Default Palette"
+#~ msgstr "Palette par défaut de sélectionneurs de couleurs"
+
+#~ msgid ""
+#~ "Define the default color palette for color pickers in the Divi Builder."
+#~ msgstr ""
+#~ "Définissez la palette de couleur pour les sélectionneurs de couleurs dans "
+#~ "le Divi Builder."
+
+#~ msgid "Grab the first post image"
+#~ msgstr "Saisir la première image de l'article."
+
+#~ msgid ""
+#~ "By default thumbnail images are created using custom fields. However, if "
+#~ "you would rather use the images that are already in your post for your "
+#~ "thumbnail (and bypass using custom fields) you can activate this option. "
+#~ "Once activcated thumbnail images will be generated automatically using "
+#~ "the first image in your post. The image must be hosted on your own server."
+#~ msgstr ""
+#~ "Par défaut les vignettes sont créés en utilisant le champ de "
+#~ "personnalisation. Cependant, si vous préférez utiliser les images qui "
+#~ "sont déjà contenues dans votre article pour en faire des vignettes ( et "
+#~ "couper à l'étape de personnalisation ) vous pouvez activer cette "
+#~ "fonction. Une fois activée, les vignettes seront générées automatiquement "
+#~ "en utilisant la première image de votre article. L'image doit être "
+#~ "hébergée sur votre propre serveur."
+
+#~ msgid "Blog Style Mode"
+#~ msgstr "Mode style de blog"
+
+#~ msgid ""
+#~ "By default the theme truncates your posts on index/homepages "
+#~ "automatically to create post previews. If you would rather show your "
+#~ "posts in full on index pages like a traditional blog then you can "
+#~ "activate this feature."
+#~ msgstr ""
+#~ "Par défaut ce thème crée des extraits de vos articles pour en faire des "
+#~ "aperçus. Si vous préférez montrer les articles dans leur intégralité, "
+#~ "activez cette fonction."
+
+#~ msgid "Shop Page & Category Page Layout for WooCommerce"
+#~ msgstr "Gabarit boutique & modèle de page pour WooCommerce"
+
+#~ msgid ""
+#~ "Here you can choose Shop Page & Category Page Layout for WooCommerce."
+#~ msgstr ""
+#~ "Vous pouvez choisir ici un gabarit boutique & modèle de page pour "
+#~ "WooCommerce"
+
+#~ msgid "Google API Key"
+#~ msgstr "Clé API de Google"
+
+#~ msgid ""
+#~ "The Maps module uses the Google Maps API and requires a valid Google API "
+#~ "Key to function. Before using the map module, please make sure you have "
+#~ "added your API key here. Learn more about how to create your Google API "
+#~ "Key <a target=\"_blank\" href=\"%1$s\">here</a>."
+#~ msgstr ""
+#~ "Le module Cartes l'API de Google Maps et a besoin d'une clé API Google "
+#~ "valide pour fonctionner. Avant d'utiliser le module des cartes, veuillez "
+#~ "vous assurer que vous avez ajouter votre clé API ici. Apprenez en plus "
+#~ "sur comment créer votre clé Google API <a target=\"_blank\" href=\"%1$s"
+#~ "\">ici</a>."
+
+#~ msgid "Enqueue Google Maps Script"
+#~ msgstr "Script de Google Maps mis en file d'attente"
+
+#~ msgid ""
+#~ "Disable this option to remove the Google Maps API script from your Divi "
+#~ "Builder Pages. This may improve compatibility with third party plugins "
+#~ "that also enqueue this script. Please Note: Modules that rely on the "
+#~ "Google Maps API in order to function properly, such as the Maps and "
+#~ "Fullwidth Maps Modules, will still be available but will not function "
+#~ "while this option is disabled (unless you manually add Google Maps API "
+#~ "script)."
+#~ msgstr ""
+#~ "Désactivez cette option pour désactiver le scripte de l'API de Google "
+#~ "Maps depuis vos pages de constructeur Divi. Cela peut améliorer la "
+#~ "compatibilité avec les plugins tiers qui mettent également ce script en "
+#~ "file d'attente. Veuillez noter : Les modules qui dépendent de l'API de "
+#~ "Google Maps pour fonctionner correctement, tels que les modules Cartes et "
+#~ "Cartes en plein écran, seront toujours disponibles, mais ne "
+#~ "fonctionneront pas lorsque cette option sera désactivée (sauf si vous "
+#~ "ajoutez manuellement le script de l'API de Google Maps)."
+
+#~ msgid "Show Facebook Icon"
+#~ msgstr "Afficher l'icône Facebook"
+
+#~ msgid "Here you can choose to display the Facebook Icon on your homepage. "
+#~ msgstr ""
+#~ "Ici vous pouvez choisir d'afficher l'icône Facebook sur votre page "
+#~ "d'accueil. "
+
+#~ msgid "Show Twitter Icon"
+#~ msgstr "Afficher l'icône Twitter"
+
+#~ msgid "Here you can choose to display the Twitter Icon. "
+#~ msgstr "Ici vous pouvez choisir d'afficher l'icône Twitter. "
+
+#~ msgid "Show Google+ Icon"
+#~ msgstr "Afficher l'icône Google+"
+
+#~ msgid "Here you can choose to display the Google+ Icon on your homepage. "
+#~ msgstr ""
+#~ "Ici vous pouvez choisir d'afficher l'icône Google+ sur votre page "
+#~ "d'accueil. "
+
+#~ msgid "Show RSS Icon"
+#~ msgstr "Afficher l'icône RSS"
+
+#~ msgid "Here you can choose to display the RSS Icon. "
+#~ msgstr "Ici vous pouvez choisir d'afficher l'icône RSS. "
+
+#~ msgid "Facebook Profile Url"
+#~ msgstr "URL profil Facebook"
+
+#~ msgid "Enter the URL of your Facebook Profile. "
+#~ msgstr "Entrer l'URL de votre profil Facebook."
+
+#~ msgid "Twitter Profile Url"
+#~ msgstr "URL profil Twitter"
+
+#~ msgid "Enter the URL of your Twitter Profile."
+#~ msgstr "Entrer l'URL de votre profil Twitter."
+
+#~ msgid "Google+ Profile Url"
+#~ msgstr "URL profil Google+"
+
+#~ msgid "Enter the URL of your Google+ Profile. "
+#~ msgstr "Entrer l'URL de votre profil Google+. "
+
+#~ msgid "RSS Icon Url"
+#~ msgstr "URL de l’icône RSS"
+
+#~ msgid "Enter the URL of your RSS feed. "
+#~ msgstr "Entrer l'URL de votre flux RSS. "
+
+#~ msgid "Number of Products displayed on WooCommerce archive pages"
+#~ msgstr "Nombre de produits affichés sur les pages d'archive de WooCommerce"
+
+#~ msgid ""
+#~ "Here you can designate how many WooCommerce products are displayed on the "
+#~ "archive page. This option works independently from the Settings > Reading "
+#~ "options in wp-admin."
+#~ msgstr ""
+#~ "Vous pouvez définir ici combien de produits WooCommerce sont affichés sur "
+#~ "cette page d'archive. Cette option fonctionne indépendamment des "
+#~ "Paramètres > Options de lecture dans wp-admin."
+
+#~ msgid "Number of Posts displayed on Category page"
+#~ msgstr "Nombre d'articles affichés sur la page des catégories"
+
+#~ msgid ""
+#~ "Here you can designate how many recent articles are displayed on the "
+#~ "Category page. This option works independently from the Settings > "
+#~ "Reading options in wp-admin."
+#~ msgstr ""
+#~ "Vous pouvez définir ici combien d'articles seront affichés sur la page "
+#~ "des catégories. Cette option fonctionne indépendamment des options de "
+#~ "lecture dans wp-admin."
+
+#~ msgid "Number of Posts displayed on Archive pages"
+#~ msgstr "Nombre d'articles affichés sur la page d'archives"
+
+#~ msgid ""
+#~ "Here you can designate how many recent articles are displayed on the "
+#~ "Archive pages. This option works independently from the Settings > "
+#~ "Reading options in wp-admin."
+#~ msgstr ""
+#~ "Vous pouvez définir ici combien d'articles seront affichés sur la page "
+#~ "des archives. Cette option fonctionne indépendamment des options de "
+#~ "lecture dans wp-admin."
+
+#~ msgid "Number of Posts displayed on Search pages"
+#~ msgstr "Nombre d'articles affichés sur la page de recherche"
+
+#~ msgid ""
+#~ "Here you can designate how many recent articles are displayed on the "
+#~ "Search results pages. This option works independently from the Settings > "
+#~ "Reading options in wp-admin."
+#~ msgstr ""
+#~ "Vous pouvez définir ici combien d'articles seront affichés sur la page "
+#~ "des résultats de recherche. Cette option fonctionne indépendamment des "
+#~ "options de lecture dans wp-admin."
+
+#~ msgid "Number of Posts displayed on Tag pages"
+#~ msgstr "Nombre d'articles sur la page des tags"
+
+#~ msgid ""
+#~ "Here you can designate how many recent articles are displayed on the Tag "
+#~ "pages. This option works independently from the Settings > Reading "
+#~ "options in wp-admin."
+#~ msgstr ""
+#~ "Ici vous pouvez décider combien d'articles récents seront affichés sur la "
+#~ "page des tags. Cette option fonctionne indépendamment des options de "
+#~ "lecture dans wp-admin."
+
+#~ msgid "Date format"
+#~ msgstr "Format de date"
+
+#~ msgid ""
+#~ "This option allows you to change how your dates are displayed. For more "
+#~ "information please refer to the WordPress codex here:<a href='http://"
+#~ "codex.wordpress.org/Formatting_Date_and_Time' target='_blank'>Formatting "
+#~ "Date and Time</a>"
+#~ msgstr ""
+#~ "Cette option vous permet de changer le format de date. Pour plus "
+#~ "d'informations veuillez vous référer au codex WordPress ici:<a "
+#~ "href='http://codex.wordpress.org/Formatting_Date_and_Time' "
+#~ "target='_blank'>Formater l'heure et la date.</a>"
+
+#~ msgid "Use excerpts when defined"
+#~ msgstr "Utiliser des extraits quand défini"
+
+#~ msgid "This will enable the use of excerpts in posts or pages."
+#~ msgstr "Permet l'utilisation d'extraits dans les articles ou les pages."
+
+#~ msgid "Responsive shortcodes"
+#~ msgstr "Shortcodes réactifs"
+
+#~ msgid ""
+#~ "Enable this option to make shortcodes respond to various screen sizes"
+#~ msgstr ""
+#~ "Activer cette fonction pour faire que les shortcodes s'adaptent à "
+#~ "différentes résolutions d'écrans"
+
+#~ msgid "Google Fonts subsets"
+#~ msgstr "Sous-ensembles Google Fonts"
+
+#~ msgid "This will enable Google Fonts for Non-English languages."
+#~ msgstr "Active Google Fonts pour d'autres langues que l'Anglais."
+
+#~ msgid "Back To Top Button"
+#~ msgstr "Bouton retour en haut de page"
+
+#~ msgid "Enable this option to display Back To Top Button while scrolling"
+#~ msgstr ""
+#~ "Activez cette option pour afficher un bouton de retour en haut de page "
+#~ "pendant le défilement"
+
+#~ msgid "Smooth Scrolling"
+#~ msgstr "Défilement fluide"
+
+#~ msgid ""
+#~ "Enable this option to get the smooth scrolling effect with mouse wheel"
+#~ msgstr ""
+#~ "Activer cette option pour obtenir un défilement fluide avec la molette de "
+#~ "la souris"
+
+#~ msgid "Disable Translations"
+#~ msgstr "Désactiver les traductions"
+
+#~ msgid ""
+#~ "Disable translations if you don't want to display translated theme "
+#~ "strings on your site."
+#~ msgstr ""
+#~ "Désactiver les traductions si vous ne voulez pas afficher les lignes de "
+#~ "textes traduites sur votre site."
+
+#~ msgid "Custom CSS"
+#~ msgstr "Personnaliser CSS"
+
+#~ msgid "Here you can add custom css to override or extend default styles."
+#~ msgstr ""
+#~ "Vous pouvez ajouter ici des CSS personnalisés pour remplacer ou "
+#~ "agrémenter les styles par défaut."
+
+#~ msgid "Memory Limit Increase"
+#~ msgstr "Augmentation de la limite de mémoire"
+
+#~ msgid "Here you can disable automatic memory limit increase."
+#~ msgstr ""
+#~ "Ici vous pouvez désactiver l’augmentation automatique de la limite de "
+#~ "mémoire."
+
+#~ msgid "Pages"
+#~ msgstr "Pages"
+
+#~ msgid "Exclude pages from the navigation bar"
+#~ msgstr "Exclure des pages de la barre de navigation"
+
+#~ msgid ""
+#~ "Here you can choose to remove certain pages from the navigation menu. All "
+#~ "pages marked with an X will not appear in your navigation bar. "
+#~ msgstr ""
+#~ "Vous pouvez choisir ici de retirer certaines pages du menu de navigation."
+#~ "Toutes les pages marquées d'un X n'apparaîtront pas dans votre barre de "
+#~ "navigation."
+
+#~ msgid "Show dropdown menus"
+#~ msgstr "Afficher les menus déroulants"
+
+#~ msgid ""
+#~ "If you would like to remove the dropdown menus from the pages navigation "
+#~ "bar disable this feature."
+#~ msgstr ""
+#~ "Si vous souhaitez supprimer le menu déroulant de votre barre de "
+#~ "navigation, désactivez cette fonction."
+
+#~ msgid "Display Home link"
+#~ msgstr "Afficher lien accueil"
+
+#~ msgid ""
+#~ "By default the theme creates a Home link that, when clicked, leads back "
+#~ "to your blog's homepage. If, however, you are using a static homepage and "
+#~ "have already created a page called Home to use, this will result in a "
+#~ "duplicate link. In this case you should disable this feature to remove "
+#~ "the link."
+#~ msgstr ""
+#~ "Par défaut ce thème crée un lien accueil, lorsque l'on clique dessus, "
+#~ "ramène à votre page d'accueil. Cependant, si vous utilisez une page "
+#~ "d'accueil fixe et avez déjà créé une page nommée accueil, cela produira "
+#~ "un doublon. Dans ce cas, vous devrez désactiver cette fonction pour "
+#~ "supprimer le lien."
+
+#~ msgid "Sort Pages Links"
+#~ msgstr "Classer les liens des pages"
+
+#~ msgid "Here you can choose to sort your pages links."
+#~ msgstr ""
+#~ "Ici vous pouvez choisir comment sont classés les liens des différentes "
+#~ "pages."
+
+#~ msgid "Order Pages Links by Ascending/Descending"
+#~ msgstr "Classer les liens des pages par ordre croissant/décroissant"
+
+#~ msgid ""
+#~ "Here you can choose to reverse the order that your pages links are "
+#~ "displayed. You can choose between ascending and descending."
+#~ msgstr ""
+#~ "Ici vous pouvez choisir d'inverser l'ordre dans lequel les pages de liens "
+#~ "s'affichent. Vous pouvez choisir entre croissant et décroissant."
+
+#~ msgid "Number of dropdown tiers shown"
+#~ msgstr "Nombre de niveaux du menu déroulant visibles"
+
+#~ msgid ""
+#~ "This options allows you to control how many teirs your pages dropdown "
+#~ "menu has. Increasing the number allows for additional menu items to be "
+#~ "shown."
+#~ msgstr ""
+#~ "Cette option vous permet de contrôler combien votre menu déroulant a de "
+#~ "niveaux. Augmenter ce nombre vous permet d'afficher plus d'éléments."
+
+#~ msgid "Exclude categories from the navigation bar"
+#~ msgstr "Exclure des catégories de la barre de navigation"
+
+#~ msgid ""
+#~ "Here you can choose to remove certain categories from the navigation "
+#~ "menu. All categories marked with an X will not appear in your navigation "
+#~ "bar. "
+#~ msgstr ""
+#~ "Ici vous pouvez choisir de supprimer certaines catégories du menu de "
+#~ "navigation. Toutes les catégories marquées d'un X n’apparaîtront pas dans "
+#~ "votre barre de navigation."
+
+#~ msgid ""
+#~ "If you would like to remove the dropdown menus from the categories "
+#~ "navigation bar disable this feature."
+#~ msgstr ""
+#~ "Si vous souhaitez supprimer le menu déroulant de la barre de navigation "
+#~ "des catégories, désactivez cette fonction."
+
+#~ msgid "Hide empty categories"
+#~ msgstr "Cacher les catégories vides"
+
+#~ msgid ""
+#~ "If you would like categories to be displayed in your navigationbar that "
+#~ "don't have any posts in them then disable this option. By default empty "
+#~ "categories are hidden"
+#~ msgstr ""
+#~ "Si vous voulez que les catégories encore vides s'affichent dans votre "
+#~ "barre de navigation, désactivez cette option. Par défaut toutes les "
+#~ "catégories qui ne contiennent pas d'articles sont cachées."
+
+#~ msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
+#~ msgstr ""
+#~ "Classer les liens vers les catégories par groupes de Name/ID/Slug/Count/"
+#~ "Term"
+
+#~ msgid ""
+#~ "By default pages are sorted by name. However if you would rather have "
+#~ "them sorted by ID you can adjust this setting."
+#~ msgstr ""
+#~ "Par défaut les pages sont classées par nom. Cependant, si vous préférez "
+#~ "qu'elles soient classées par ID vous pouvez changer ce paramètre."
+
+#~ msgid "Order Category Links by Ascending/Descending"
+#~ msgstr "Classer les liens des catégories pas ordre croissant ou décroissant"
+
+#~ msgid ""
+#~ "Here you can choose to reverse the order that your categories links are "
+#~ "displayed. You can choose between ascending and descending."
+#~ msgstr ""
+#~ "Vous pouvez choisir ici d'inverser l'ordre dans lequel les liens de vos "
+#~ "catégories s'affichent. Vous pouvez choisir entre un ordre croissant ou "
+#~ "décroissant."
+
+#~ msgid "Disable top tier dropdown menu links"
+#~ msgstr "Désactive le niveau supérieur du menu déroulant"
+
+#~ msgid ""
+#~ "In some cases users will want to create parent categories or links as "
+#~ "placeholders to hold a list of child links or categories. In this case it "
+#~ "is not desirable to have the parent links lead anywhere, but instead "
+#~ "merely serve an organizational function. Enabling this options will "
+#~ "remove the links from all parent pages/categories so that they don't lead "
+#~ "anywhere when clicked."
+#~ msgstr ""
+#~ "Dans certains cas les utilisateurs veulent créer des liens ou des "
+#~ "catégories parentes pour contenir une liste de sous-liens ou sous-"
+#~ "catégories. Dans ce cas, il n'est pas souhaitable que le lien parent "
+#~ "redirige quelques part, ne servant ainsi qu'a un but d'organisation des "
+#~ "liens. En activant cette option les liens hypertextes de toutes les pages "
+#~ "ou catégories parentes seront retirés pour qu'ils ne redirigent pas "
+#~ "lorsque l'on clique dessus."
+
+#~ msgid "Alternative scroll-to-anchor method"
+#~ msgstr "Méthode alternative de défilement par ancrage"
+
+#~ msgid ""
+#~ "Sometimes when using the CSS ID of a section to link directly to it from "
+#~ "another page, the page's final scroll position can be inaccurate. Enable "
+#~ "this option to use an alternative method for scrolling to anchors which "
+#~ "can be more accurate than the default method in some cases."
+#~ msgstr ""
+#~ "Lorsque vous utilisez l'ID de CSS d'une section pour y accéder "
+#~ "directement à partir d'une autre page, la position finale du défilement "
+#~ "de la page peut être incorrecte. Activez cette option pour utiliser une "
+#~ "méthode alternative pour défiler vers les ancrages, ce qui peut être plus "
+#~ "précis que la méthode par défaut dans certains cas."
+
+#~ msgid "Single Post Layout"
+#~ msgstr "Modèle d'article"
+
+#~ msgid "Single Page Layout"
+#~ msgstr "Modèle de page"
+
+#~ msgid "Choose which items to display in the postinfo section"
+#~ msgstr ""
+#~ "Choisir les éléments à afficher dans la section info de vos articles"
+
+#~ msgid ""
+#~ "Here you can choose which items appear in the postinfo section on single "
+#~ "post pages. This is the area, usually below the post title, which "
+#~ "displays basic information about your post. The highlighted itmes shown "
+#~ "below will appear. "
+#~ msgstr ""
+#~ "Ici vous pouvez choisir les éléments qui apparaîtront dans la section "
+#~ "info des pages contenants un seul article. C'est la zone, habituellement "
+#~ "placée sous le titre de l'article, où sont affichées les informations "
+#~ "générales à propos de votre article. Les éléments surlignés ci-dessous "
+#~ "seront affichés."
+
+#~ msgid "Show comments on posts"
+#~ msgstr "Afficher les commentaires dans les articles"
+
+#~ msgid ""
+#~ "You can disable this option if you want to remove the comments and "
+#~ "comment form from single post pages. "
+#~ msgstr ""
+#~ "Vous pouvez désactiver cette option pour retirer les commentaires et le "
+#~ "formulaire pour commenter de vos articles."
+
+#~ msgid "Place Thumbs on Posts"
+#~ msgstr "Mettre des vignettes dans les articles"
+
+#~ msgid ""
+#~ "By default thumbnails are placed at the beginning of your post on single "
+#~ "post pages. If you would like to remove this initial thumbnail image to "
+#~ "avoid repetition simply disable this option. "
+#~ msgstr ""
+#~ "Par défaut les vignettes sont placées au début de vos articles sur les "
+#~ "pages ne contenant qu'un article. Si vous voulez supprimer cette vignette "
+#~ "initiale pour éviter les répétitions, désactivez simplement cette option."
+
+#~ msgid "Place Thumbs on Pages"
+#~ msgstr "Mettre des vignettes dans les pages"
+
+#~ msgid ""
+#~ "By default thumbnails are not placed on pages (they are only used on "
+#~ "posts). However, if you want to use thumbnails on pages you can! Just "
+#~ "enable this option. "
+#~ msgstr ""
+#~ "Par défaut les vignettes ne sont pas placées sur les pages (elles sont "
+#~ "uniquement utilisées sur les postes). Toutefois, si vous voulez utiliser "
+#~ "des vignettes sur les pages vous le pouvez. Vous devez simplement activer "
+#~ "l'option."
+
+#~ msgid "Show comments on pages"
+#~ msgstr "Afficher les commentaires dans la page"
+
+#~ msgid ""
+#~ "By default comments are not placed on pages, however, if you would like "
+#~ "to allow people to comment on your pages simply enable this option. "
+#~ msgstr ""
+#~ "Par défaut les commentaires ne sont pas affichés sur la page, cependant, "
+#~ "si vous souhaitez autoriser les commentaires sur vos articles, activez "
+#~ "simplement cette fonction."
+
+#~ msgid "Post info section"
+#~ msgstr "Section info de l'article"
+
+#~ msgid ""
+#~ "Here you can choose which items appear in the postinfo section on pages. "
+#~ "This is the area, usually below the post title, which displays basic "
+#~ "information about your post. The highlighted itmes shown below will "
+#~ "appear. "
+#~ msgstr ""
+#~ "Ici vous pouvez choisir les articles qui apparaîtront dans la section "
+#~ "info des articles. C'est l'espace, habituellement sous le titre de "
+#~ "l'article, où sont affichées les informations générales de votre article. "
+#~ "Les éléments surlignés ci-dessous seront affichés."
+
+#~ msgid "Show Thumbs on Index pages"
+#~ msgstr "Afficher des vignettes sur les pages d'index"
+
+#~ msgid "Enable this option to show thumbnails on Index Pages."
+#~ msgstr ""
+#~ "Permettre à cette option d'afficher des vignettes sur les pages d'index."
+
+#~ msgid "Homepage SEO"
+#~ msgstr "SEO page d'accueil"
+
+#~ msgid "Single Post Page SEO"
+#~ msgstr "SEO page d'article"
+
+#~ msgid "Index Page SEO"
+#~ msgstr "Index SEO"
+
+#~ msgid " Enable custom title "
+#~ msgstr "Activer la personnalisation du titre"
+
+#~ msgid ""
+#~ "By default the theme uses a combination of your blog name and your blog "
+#~ "description, as defined when you created your blog, to create your "
+#~ "homepage titles. However if you want to create a custom title then simply "
+#~ "enable this option and fill in the custom title field below. "
+#~ msgstr ""
+#~ "Par défaut ce thème utilise une combinaison du nom de votre blog et de la "
+#~ "description de votre blog, comme défini lorsque vous avez créé votre "
+#~ "blog, pour créer les titres de la page d'accueil. Cependant, si vous "
+#~ "voulez créer un titre personnalisé, activez simplement cette option et "
+#~ "remplissez le champ ci-dessous."
+
+#~ msgid " Enable meta description"
+#~ msgstr "Active les descriptions de méta tags"
+
+#~ msgid ""
+#~ "By default the theme uses your blog description, as defined when you "
+#~ "created your blog, to fill in the meta description field. If you would "
+#~ "like to use a different description then enable this option and fill in "
+#~ "the custom description field below. "
+#~ msgstr ""
+#~ "Par défaut ce thème utilise la description de votre blog, telle que "
+#~ "définie lorsque vous avez créé votre blog, pour remplir le champ de méta "
+#~ "description. Si vous voulez utiliser une description différente, activez "
+#~ "cette option et remplissez le champ personnalisable ci-dessous."
+
+#~ msgid " Enable meta keywords"
+#~ msgstr "Active les méta mots-clés"
+
+#~ msgid ""
+#~ "By default the theme does not add keywords to your header. Most search "
+#~ "engines don't use keywords to rank your site anymore, but some people "
+#~ "define them anyway just in case. If you want to add meta keywords to your "
+#~ "header then enable this option and fill in the custom keywords field "
+#~ "below. "
+#~ msgstr ""
+#~ "Par défaut le thème n'ajoute pas de mots-clés à votre en-tête. La plupart "
+#~ "des moteurs de recherche n'utilisent plus les mots-clés pour classer les "
+#~ "sites, mais certaines personnes conservent ce système juste au cas où. Si "
+#~ "vous désirez ajouter des méta mots-clés à votre en-tête, activez cette "
+#~ "option et remplissez le formulaire de personnalisation ci-dessous."
+
+#~ msgid " Enable canonical URL's"
+#~ msgstr "Active les URL's canoniques"
+
+#~ msgid ""
+#~ "Canonicalization helps to prevent the indexing of duplicate content by "
+#~ "search engines, and as a result, may help avoid duplicate content "
+#~ "penalties and pagerank degradation. Some pages may have different URLs "
+#~ "all leading to the same place. For example domain.com, domain.com/index."
+#~ "html, and www.domain.com are all different URLs leading to your homepage. "
+#~ "From a search engine's perspective these duplicate URLs, which also occur "
+#~ "often due to custom permalinks, may be treated individually instead of as "
+#~ "a single destination. Defining a canonical URL tells the search engine "
+#~ "which URL you would like to use officially. The theme bases its canonical "
+#~ "URLs off your permalinks and the domain name defined in the settings tab "
+#~ "of wp-admin."
+#~ msgstr ""
+#~ "La canonicalisation aide à empêcher l'indexation de contenu dupliqué par "
+#~ "les moteurs de recherche, et par conséquent, permet d'éviter les "
+#~ "pénalités du contenu en double et la dégradation du pagerank. Certaines "
+#~ "pages peuvent avoir plusieurs URLs qui mènent tous au même endroit. Par "
+#~ "exemple, domain.com, domain.com/index.html et www.domain.com sont tous "
+#~ "des URLs différents qui conduisent à votre page d'accueil. Du point de "
+#~ "vue moteur de recherche, ces doublons d'URLs qui sont souvent le résultat "
+#~ "de liens personnalisés, peuvent être traités de façon individuelle plutôt "
+#~ "qu'une destination unique. Définir une URL canonique indique au moteur de "
+#~ "recherche quel URL vous voulez officiellement utiliser. Le thème s'appuie "
+#~ "sur vos liens et le nom de domaine définis dans l'onglet paramètres de wp-"
+#~ "admin pour définir l'URLs canonique."
+
+#~ msgid "Homepage custom title (if enabled)"
+#~ msgstr "Titre de la page d'accueil personnalisé (si activé)"
+
+#~ msgid ""
+#~ "If you have enabled custom titles you can add your custom title here. "
+#~ "Whatever you type here will be placed between the < title >< /title > "
+#~ "tags in header.php"
+#~ msgstr ""
+#~ "Si vous avez activé les titres personnalisés vous pouvez ajouter votre "
+#~ "titre personnalisé ici. Tout ce que vous entrerez ici sera placer entre "
+#~ "les balises <title></title> du fichier header.php"
+
+#~ msgid "Homepage meta description (if enabled)"
+#~ msgstr "Méta description de la page d'accueil (si activé)"
+
+#~ msgid ""
+#~ "If you have enabled meta descriptions you can add your custom description "
+#~ "here."
+#~ msgstr ""
+#~ "Si vous avez activé les méta descriptions vous pouvez ajouter votre "
+#~ "description personnalisée ici."
+
+#~ msgid "Homepage meta keywords (if enabled)"
+#~ msgstr "Méta mots-clés de la page d'accueil (si activé)"
+
+#~ msgid ""
+#~ "If you have enabled meta keywords you can add your custom keywords here. "
+#~ "Keywords should be separated by comas. For example: wordpress,themes,"
+#~ "templates,elegant"
+#~ msgstr ""
+#~ "Si vous avez activé les méta mots-clés, vous pouvez ajouter vos mots-clés "
+#~ "personnalisés ici. Les mots-clés doivent être séparés par des virgules. "
+#~ "Par exemple: wordpress,themes,templates,elegant"
+
+#~ msgid "If custom titles are disabled, choose autogeneration method"
+#~ msgstr ""
+#~ "Si la personnalisation du titre est désactivée, choisir la génération "
+#~ "automatique"
+
+#~ msgid ""
+#~ "If you are not using cutsom post titles you can still have control over "
+#~ "how your titles are generated. Here you can choose which order you would "
+#~ "like your post title and blog name to be displayed, or you can remove the "
+#~ "blog name from the title completely."
+#~ msgstr ""
+#~ "Si vous n'utilisez pas de titres d'articles personnalisés, vous avez "
+#~ "cependant toujours le contrôle sur la manière dont les titres sont "
+#~ "générés. Ici vous pouvez choisir dans quel ordre vous voulez que les "
+#~ "titres de l'article et du blog soient affichés, ou vous pouvez retirer "
+#~ "complètement le nom du blog du titre."
+
+#~ msgid "Define a character to separate BlogName and Post title"
+#~ msgstr ""
+#~ "Définir un caractère pour séparer le nom du site internet et le titre de "
+#~ "l'article"
+
+#~ msgid ""
+#~ "Here you can change which character separates your blog title and post "
+#~ "name when using autogenerated post titles. Common values are | or -"
+#~ msgstr ""
+#~ "Ici vous pouvez changer le caractère séparant le nom de votre site "
+#~ "internet du titre de l'article quand vous choisissez la génération "
+#~ "automatique des titres. Les valeurs sont | ou -"
+
+#~ msgid "Enable custom titles"
+#~ msgstr "Active la personnalisation des titres"
+
+#~ msgid ""
+#~ "By default the theme creates post titles based on the title of your post "
+#~ "and your blog name. If you would like to make your meta title different "
+#~ "than your actual post title you can define a custom title for each post "
+#~ "using custom fields. This option must be enabled for custom titles to "
+#~ "work, and you must choose a custom field name for your title below."
+#~ msgstr ""
+#~ "Par défaut ce thème crée des titres d'articles à partir du titre de votre "
+#~ "article et du nom de votre blog. Si vous voulez que  votre méta titre "
+#~ "soit différent du titre de votre article vous pouvez définir un titre "
+#~ "personnalisé pour chaque article en utilisant le formulaire de "
+#~ "personnalisation. Cette option doit être activepour que les titres "
+#~ "personnalisés s'affichent et vous devez choisir un champ de "
+#~ "personnalisation ci-dessous."
+
+#~ msgid "Enable custom description"
+#~ msgstr "Active la personnalisation de la description"
+
+#~ msgid ""
+#~ "If you would like to add a meta description to your post you can do so "
+#~ "using custom fields. This option must be enabled for descriptions to be "
+#~ "displayed on post pages. You can add your meta description using custom "
+#~ "fields based off the custom field name you define below."
+#~ msgstr ""
+#~ "Si vous souhaitez ajouter une méta description à votre article vous "
+#~ "pouvez le faire en utilisant le formulaire de personnalisation. Cette "
+#~ "option doit être activée pour que les descriptions s'affichent sur les "
+#~ "pages de vos articles. Vous pouvez ajouter votre méta description en "
+#~ "utilisant le formulaire de personnalisation."
+
+#~ msgid "Enable custom keywords"
+#~ msgstr "Active la personnalisation des mots-clés"
+
+#~ msgid ""
+#~ "If you would like to add meta keywords to your post you can do so using "
+#~ "custom fields. This option must be enabled for keywords to be displayed "
+#~ "on post pages. You can add your meta keywords using custom fields based "
+#~ "off the custom field name you define below."
+#~ msgstr ""
+#~ "Si vous souhaitez ajouter des méta mots-clés à vos articles vous pouvez "
+#~ "le faire en utilisant des champs personnalisés. Cette option doit être "
+#~ "activée pour les mots-clés pour s'afficher sur vos pages d'articles. Vous "
+#~ "pouvez ajouter vos méta mots-clés en utilisant les champs personnalités "
+#~ "selon le nom de champ que vous définissez ci-dessous."
+
+#~ msgid "Enable canonical URL's"
+#~ msgstr "Active les URL's canoniques"
+
+#~ msgid "Custom field Name to be used for title"
+#~ msgstr "Champ personnalisable pour titre"
+
+#~ msgid ""
+#~ "When you define your title using custom fields you should use this value "
+#~ "for the custom field Name. The Value of your custom field should be the "
+#~ "custom title you would like to use."
+#~ msgstr ""
+#~ "Quand vous créez un titre en utilisant le champ personnalisable vous "
+#~ "devez utiliser cette valeur en tant que nom du champ. La valeur de votre "
+#~ "champ personnalisé devrait être le titre personnalisé que vous souhaitez "
+#~ "utiliser."
+
+#~ msgid "Custom field Name to be used for description"
+#~ msgstr "Champ personnalisable pour description"
+
+#~ msgid ""
+#~ "When you define your meta description using custom fields you should use "
+#~ "this value for the custom field Name. The Value of your custom field "
+#~ "should be the custom description you would like to use."
+#~ msgstr ""
+#~ "Quand vous créez une méta description en utilisant le champ "
+#~ "personnalisable vous devez utiliser cette valeur en tant que nom du "
+#~ "champ. La valeur de votre champ personnalisé devrait être la description "
+#~ "personnalisée que vous souhaitez utiliser."
+
+#~ msgid "Custom field Name to be used for keywords"
+#~ msgstr "Champ personnalisable pour mots-clés"
+
+#~ msgid ""
+#~ "When you define your keywords using custom fields you should use this "
+#~ "value for the custom field Name. The Value of your custom field should be "
+#~ "the meta keywords you would like to use, separated by comas."
+#~ msgstr ""
+#~ "Quand vous définissez vos mots-clés en utilisant la personnalisation vous "
+#~ "devrez utiliser cette valeur dans le champ nom personnalisable. La valeur "
+#~ "de votre champ personnalisé devrait être les métas mots-clés "
+#~ "personnalisés que vous souhaitez utiliser, séparés par une virgule."
+
+#~ msgid ""
+#~ "If you are not using cutsom post titles you can still have control over "
+#~ "hw your titles are generated. Here you can choose which order you would "
+#~ "like your post title and blog name to be displayed, or you can remove the "
+#~ "blog name from the title completely."
+#~ msgstr ""
+#~ "Si vous n'utilisez pas de titre d'article personnalisé, vous pouvez "
+#~ "toujours contrôler la manière dont les titres sont générés. Ici vous "
+#~ "pouvez choisir l'ordre dans lequel vous voulez que le titre de vos "
+#~ "articles et le nom de votre blog s'affichent, ou vous pouvez les séparer "
+#~ "complètement."
+
+#~ msgid "Enable meta descriptions"
+#~ msgstr "Autorise les méta descriptions"
+
+#~ msgid ""
+#~ "Check this box if you want to display meta descriptions on category/"
+#~ "archive pages. The description is based off the category description you "
+#~ "choose when creating/edit your category in wp-admin."
+#~ msgstr ""
+#~ "Cochez cette case si vous voulez afficher des méta descriptions sur les "
+#~ "pages catégories/archives. Les descriptions sont créées à partir de la "
+#~ "description de catégorie que vous faites quand vous créez/modifiez votre "
+#~ "catégorie dans wp-admin."
+
+#~ msgid "Choose title autogeneration method"
+#~ msgstr "Choisir la méthode de génération du titre"
+
+#~ msgid ""
+#~ "Here you can choose how your titles on index pages are generated. You can "
+#~ "change which order your blog name and index title are displayed, or you "
+#~ "can remove the blog name from the title completely."
+#~ msgstr ""
+#~ "Ici vous pouvez choisir comment les titres des pages d'index sont "
+#~ "générés. Vous pouvez changer l'ordre dans lequel le nom de votre blog et "
+#~ "le titre de l'index s'affichent, ou vous pouvez supprimer le nom du blog "
+#~ "complètement."
+
+#~ msgid ""
+#~ "Here you can change which character separates your blog title and index "
+#~ "page name when using autogenerated post titles. Common values are | or -"
+#~ msgstr ""
+#~ "Ici vous pouvez changer le caractère qui sépare le titre de votre blog du "
+#~ "nom de votre page d'index quand vous utilisez la génération automatique "
+#~ "des titres d'articles.  Les valeurs admises sont | ou -"
+
+#~ msgid "Code Integration"
+#~ msgstr "Intégration de code"
+
+#~ msgid "Enable header code"
+#~ msgstr "Activer le code d'en-tête"
+
+#~ msgid ""
+#~ "Disabling this option will remove the header code below from your blog. "
+#~ "This allows you to remove the code while saving it for later use."
+#~ msgstr ""
+#~ "Désactiver cette option va supprimer le code de l'en-tête au bas de votre "
+#~ "blog. Cela vous permet de supprimer le code  tout en le conservant pour "
+#~ "une utilisation ultérieure."
+
+#~ msgid "Enable body code"
+#~ msgstr "Activer le code < body >"
+
+#~ msgid ""
+#~ "Disabling this option will remove the body code below from your blog. "
+#~ "This allows you to remove the code while saving it for later use."
+#~ msgstr ""
+#~ "Désactiver cette option va supprimer le code du corps de texte au bas de "
+#~ "votre blog. Cela vous permet de supprimer le code  tout en le conservant "
+#~ "pour une utilisation ultérieure."
+
+#~ msgid "Enable single top code"
+#~ msgstr "Activer code du haut de page"
+
+#~ msgid ""
+#~ "Disabling this option will remove the single top code below from your "
+#~ "blog. This allows you to remove the code while saving it for later use."
+#~ msgstr ""
+#~ "Désactiver cette option va supprimer le code du haut de page au bas de "
+#~ "votre blog. Cela vous permet de supprimer le code  tout en le conservant "
+#~ "pour une utilisation ultérieure."
+
+#~ msgid "Enable single bottom code"
+#~ msgstr "Activer code du bas de la page"
+
+#~ msgid ""
+#~ "Disabling this option will remove the single bottom code below from your "
+#~ "blog. This allows you to remove the code while saving it for later use."
+#~ msgstr ""
+#~ "Désactiver cette option va supprimer le code du bas de la page au bas de "
+#~ "votre blog. Cela vous permet de supprimer le code  tout en le conservant "
+#~ "pour une utilisation ultérieure."
+
+#~ msgid "Add code to the < head > of your blog"
+#~ msgstr "Ajouter ligne de code à la < head > de votre blog"
+
+#~ msgid ""
+#~ "Any code you place here will appear in the head section of every page of "
+#~ "your blog. This is useful when you need to add javascript or css to all "
+#~ "pages."
+#~ msgstr ""
+#~ "Tout le code que vous placerez ici sera inclus dans la section d'en-tête "
+#~ "de chaque page de votre blog. C'est très utile si vous devez ajouter du "
+#~ "javascript ou des CSS à toutes vos pages."
+
+#~ msgid ""
+#~ "Add code to the < body > (good for tracking codes such as google "
+#~ "analytics)"
+#~ msgstr ""
+#~ "Ajoute du code dans la balise <body> ( pratique pour localiser du code "
+#~ "comme par exemple du code Google Analytics )"
+
+#~ msgid ""
+#~ "Any code you place here will appear in body section of all pages of your "
+#~ "blog. This is usefull if you need to input a tracking pixel for a state "
+#~ "counter such as Google Analytics."
+#~ msgstr ""
+#~ "Tout le code que vous placerez ici sera inclus dans le corps de chaque "
+#~ "page de votre blog. C'est très utile si vous avez besoin d'un pixel de "
+#~ "suivi pour un compteur statistique tel que Google Analytics."
+
+#~ msgid "Add code to the top of your posts"
+#~ msgstr "Ajouter code en haut de vos articles"
+
+#~ msgid ""
+#~ "Any code you place here will be placed at the top of all single posts. "
+#~ "This is useful if you are looking to integrating things such as social "
+#~ "bookmarking links."
+#~ msgstr ""
+#~ "Tout le code que vous placerez ici sera inclus dans le corps de chaque "
+#~ "page de votre blog. C'est très utile si vous souhaitez intégrer des liens "
+#~ "vers les réseaux sociaux."
+
+#~ msgid "Add code to the bottom of your posts, before the comments"
+#~ msgstr "Ajouter code au bas de l'article, avant les commentaires"
+
+#~ msgid "Username"
+#~ msgstr "Nom d'utilisateur"
+
+#~ msgid ""
+#~ "<em>Before you can receive product updates, you must first authenticate "
+#~ "your Elegant Themes subscription. To do this, you need to enter both your "
+#~ "Elegant Themes Username and your Elegant Themes API Key into the Updates "
+#~ "Tab in your theme and plugin settings. To locate your API Key, <a href="
+#~ "\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">log "
+#~ "in</a> to your Elegant Themes account and navigate to the <strong>Account "
+#~ "> API Key</strong> page. <a href=\"http://www.elegantthemes.com/gallery/"
+#~ "divi/documentation/update/\" target=\"_blank\">Learn more here</a></em>. "
+#~ "If you still get this message, please make sure that your Username and "
+#~ "API Key have been entered correctly"
+#~ msgstr ""
+#~ "<em>Avant de pouvoir recevoir les mises à jour des produits, vous devez "
+#~ "d'abord authentifier votre abonnement Elegant Themes. Pour ce faire, vous "
+#~ "devez entrer à la fois votre nom d'utilisateur Elegant Themes et votre "
+#~ "clé API d'Elegant Themes dans l'onglet Mises à jour dans votre thème et "
+#~ "dans les paramètres du plugin. Pour localiser votre clé API, <a href="
+#~ "\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank"
+#~ "\">connectez-vous</a> à votre compte Elegant Themes et rendez-vous sur la "
+#~ "page <strong>Compte > Clé API</strong>. <a href=\"http://www."
+#~ "elegantthemes.com/gallery/divi/documentation/update/\" target=\"_blank"
+#~ "\">En apprendre plus ici</a></em>. Si vous recevez toujours ce message, "
+#~ "assurez-vous que votre nom d'utilisateur et votre clé API ont été "
+#~ "correctement saisis"
+
+#~ msgid "API Key"
+#~ msgstr "Clé API"
+
+#~ msgid "Manage Un-widgetized Advertisements"
+#~ msgstr "Gérer la publicité"
+
+#~ msgid "Enable Single Post 468x60 banner"
+#~ msgstr "Active une bannière 468x60"
+
+#~ msgid ""
+#~ "Enabling this option will display a 468x60 banner ad on the bottom of "
+#~ "your post pages below the single post content. If enabled you must fill "
+#~ "in the banner image and destination url below."
+#~ msgstr ""
+#~ "Activer cette option pour afficher une bannière publicitaire 468x60 au "
+#~ "bas de la page de l'article, sous le contenu de l'article. Si vous "
+#~ "choisissez cette option, vous devez mettre une image dans la bannière et "
+#~ "fournir un URL de destination ci-dessous."
+
+#~ msgid "Input 468x60 advertisement banner image"
+#~ msgstr "Sélectionner une bannière de publicité de dimension 468x60"
+
+#~ msgid "Here you can provide 468x60 banner image url"
+#~ msgstr ""
+#~ "Vous pouvez fournir ici l' URL d'un image pour une bannière de 468x60"
+
+#~ msgid "Input 468x60 advertisement destination url"
+#~ msgstr "Entrer l'URL de destination pour une bannière de 468x60"
+
+#~ msgid "Here you can provide 468x60 banner destination url"
+#~ msgstr ""
+#~ "Vous pouvez fournir ici l'URL de destination pour une bannière de 468x60"
+
+#~ msgid "Input 468x60 adsense code"
+#~ msgstr "Entrer le code Google adsense pour la publicité de dimension 468x60"
+
+#~ msgid "Place your adsense code here."
+#~ msgstr "Placez votre code Google Adsense ici."
+
+#~ msgid "MailChimp API Key"
+#~ msgstr "Clé API MailChimp"
+
+#~ msgid ""
+#~ "Enter your MailChimp API key. You can create an api key <a target=\"_blank"
+#~ "\" href=\"%1$s\">here</a>"
+#~ msgstr ""
+#~ "Entrer votre clé API MailChimp. Vous pouvez créer une clé API ici <a "
+#~ "target=\"_blank\" href=\"%1$s\">here</a>"
+
+#~ msgid "Aweber Authorization"
+#~ msgstr "Autorisation Aweber"
+
+#~ msgid "Authorize your Aweber account here."
+#~ msgstr "Autorisez votre compte Aweber ici."
+
+#~ msgid "Regenerate MailChimp Lists"
+#~ msgstr "Mettre à jour la liste MailChimp"
+
+#~ msgid ""
+#~ "By default, MailChimp lists are cached for one day. If you added new "
+#~ "list, but it doesn't appear within the Email Optin module settings, "
+#~ "activate this option. Don't forget to disable it once the list has been "
+#~ "regenerated."
+#~ msgstr ""
+#~ "Par défaut, listes MailChimp sont mis en cache pour une journée. Si vous "
+#~ "avez ajouté nouvelle liste, mais il ne semble pas dans les paramètres du "
+#~ "module mail optin, activer cette option. Ne pas oublier de désactiver une "
+#~ "fois que la liste a été régénéré."
+
+#~ msgid "Regenerate Aweber Lists"
+#~ msgstr "Mettre à jour les listes Aweber"
+
+#~ msgid ""
+#~ "By default, Aweber lists are cached for one day. If you added new list, "
+#~ "but it doesn't appear within the Email Optin module settings, activate "
+#~ "this option. Don't forget to disable it once the list has been "
+#~ "regenerated."
+#~ msgstr ""
+#~ "Par défaut, listes Aweber sont mis en cache pour une journée. Si vous "
+#~ "avez ajouté nouvelle liste, mais il ne semble pas dans les paramètres du "
+#~ "module mail optin, activer cette option. Ne pas oublier de désactiver une "
+#~ "fois que la liste a été régénéré."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox\" title=\"%1$s\">View version %3$s details</a>. <em>Before you "
+#~ "can update your Elegant Themes, you must first install the <a href="
+#~ "\"https://www.elegantthemes.com/members-area/documentation.html#updater\" "
+#~ "target=\"_blank\">Elegant Updater Plugin</a> to authenticate your "
+#~ "subscription.</em>"
+#~ msgstr ""
+#~ "Une nouvelle version de %1$s est disponible. <a href=\"%2$s\" class="
+#~ "\"thickbox\" title=\"%1$s\">Voir les détails de %3$s</a>. <em>Avant de "
+#~ "pouvoir mettre à jour votre gabarit, vous devrez installer le <a href="
+#~ "\"https://www.elegantthemes.com/members-area/documentation.html#updater\" "
+#~ "target=\"_blank\">Elegant Updater Plugin</a> pour authentifier votre "
+#~ "souscription.</em>"
+
+#~ msgid ""
+#~ "Before you can update your Elegant Themes, you must first install the <a "
+#~ "href=\"https://www.elegantthemes.com/members-area/documentation."
+#~ "html#updater\" target=\"_blank\">Elegant Updater Plugin</a> to "
+#~ "authenticate your subscription."
+#~ msgstr ""
+#~ "Avant de pouvoir mettre à jour votre gabarit, vous devrez installer le <a "
+#~ "href=\"https://www.elegantthemes.com/members-area/documentation."
+#~ "html#updater\" target=\"_blank\">Elegant Updater Plugin</a> pour "
+#~ "authentifier votre souscription."

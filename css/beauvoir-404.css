@@ -1,0 +1,66 @@
+/* Divi Child Beauvoir - Page 404 */
+
+
+/* Réglage des polices
+------------------------------------------------------------------------ */
+
+/* titre des résultats */
+#search-result-list h2.entry-title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+#et-main-area > p:first-of-type,
+div.et_pb_column > p {
+    padding-bottom: 0 !important;
+}
+
+#sorry-sentence,
+#homepage-link,
+#contact-sentence {
+    text-align: center;
+}
+
+#sorry-sentence p,
+#contact-sentence p {
+    line-height: 1.7;
+}
+
+#homepage-link a {
+    color: #444 !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 1em !important;
+    padding: 14px 40px !important;
+    background: #ffffff !important;
+    border: #ddd solid 2px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#homepage-link a:hover {
+    border-color: #555 !important;
+    color: #222 !important;
+}
+
+#contact-sentence {
+    margin-bottom: 0;
+    margin-top: 120px;
+}
+
+#page-content > .et_pb_row,
+#contact-sentence p {
+    padding-bottom: 0 !important;
+}
+
+#admin-email {
+    color: #444;
+    font-weight: bold;
+}
+
+#admin-email:hover {
+    text-decoration: underline;
+}

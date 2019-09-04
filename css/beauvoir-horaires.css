@@ -1,0 +1,326 @@
+/* Divi Child Beauvoir - Page HORAIRES */
+
+
+/* Réglage des polices
+------------------------------------------------------------------------ */
+
+/* sous-titres h2 */
+#horaires-section h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+/* dates, heures... */
+#dates-horaires-row,
+.horaire-row dl,
+blockquote p:first-child {
+    font-family: 'Lato', sans-serif !important;
+}
+
+
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+/* ajuste polices */
+#horaires-section h2 {
+    font-size: 44px !important;
+    line-height: 1.5 !important;
+    letter-spacing: 0.25px;
+}
+#dates-horaires-row .et_pb_text {
+    letter-spacing: 0.5px !important;
+}
+.horaire-row dl {
+    font-size: 20px;
+    letter-spacing: 1px !important;
+}
+
+/* espacement et police des paragraphes et conteneurs */
+blockquote p {
+    padding-bottom: 21px !important;
+    font-weight: 400;
+}
+blockquote p:first-child {
+    margin-bottom: 34px !important;
+    font-weight: 500;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+blockquote p:last-child {
+    padding-bottom: 0 !important;
+}
+.horaire-row .et_pb_promo_description {
+    padding-bottom: 0 !important;
+}
+.content_1_f blockquote {
+    padding-left: 40px !important;
+}
+
+/* séparateurs */
+.content_1_f blockquote {
+    border-width: 1px !important;
+    margin-left: 4px !important;
+}
+blockquote p:first-child {
+    border-bottom: 1px solid #fff;
+}
+
+/* dimension des sections */
+#horaires-section .horaire-row {
+/*     min-height: 420px; */
+}
+
+/* ajuste affichage des images */
+.horaire-row img {
+  object-fit: cover;
+  object-position: center;
+  width: 100% !important;
+}
+.horaire-row .et_pb_column_1_2:first-child,
+.horaire-row .et_pb_column_1_2:last-child {
+  padding-left: 0 !important;
+}
+
+/* ajuste couleur de fond des blocs d'horaire */
+#horaires-section .et_pb_column.texte-gauche,
+#horaires-section .et_pb_column.texte-droite {
+    /* background-color: #004f75 !important; */
+}
+
+/* ajuste police titre CHAPELLE DE PIERRES, ÉGLISE - 2e ligne */
+.horaire-chapelle-eglise {
+	font-family: 'Lato', sans-serif;
+	font-size: 44px !important;
+	font-weight: 700 !important; 
+	line-height: 1.5 !important;
+	letter-spacing: 0.25px;
+	padding-bottom: 22px !important;
+}
+
+
+/* Affichage des jours et heures
+------------------------------------------------------------------------ */
+
+/* si display grid N'EST PAS supporté */
+dt {
+    /* float: left; */
+    /* width: 50%; */
+    /* text-align: right; */
+    /* clear: left; */
+}
+dd {
+    /* float: left; */
+    /* width: auto; */
+}
+dd + dd {
+    /* float: right; */
+    /* clear: both; */
+    /* margin-left: 50% !important; */
+}
+dl:after {
+    /* content:""; */
+    /* display:table; */
+    /* clear:both; */
+}
+.horaire-row.eucharistie blockquote dt {
+    /* width: 47%; */
+}
+.horaire-row.chapelle blockquote dt {
+    /* width: 38%; */
+}
+.horaire-row.bureau blockquote dt {
+    /* width: 44%; */
+}
+.horaire-row.bureau blockquote dd + dd {
+    /* margin-left: 44% !important; */
+
+    /* il faut soustraire le width du dt */
+    /* width: calc(100% - 44%);   */
+}
+.horaire-row.magasin blockquote dt {
+    /* width: 51%; */
+}
+
+/* si display grid EST supporté */
+@supports (display: grid) {
+    dl {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+    }
+    dt {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        text-align: right;
+    }
+    dd {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+dl {
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+}
+dt, dd {
+    margin: 0 !important;
+    padding: .3em 0 !important;
+    font-weight: 400 !important;
+}
+dd::before {
+    content: "›";
+    padding: 0 12px 0 15px;
+}
+dd + dd {
+    line-height: 1;
+    padding-bottom: 0.9em !important;
+}
+
+
+/* Corrections CSS de Falkor
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 1930px) {
+
+  .horaire-row .et_pb_column_1_2:first-child {
+    padding-left: 0 !important;
+  }
+  .content_1_f .et_pb_column_1_2 .et_pb_image,
+  .content_1_f .et_pb_column_1_2 .et_pb_image img,
+  .content_1_f .et_pb_column_1_2 .et_pb_image .et_pb_image_wrap {
+    height: 100% !important;
+  }
+
+}
+
+
+/* Break point pour version grand écran
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 1366px) {
+
+  /* espacement autour des blocs de texte */
+  #horaires-section .horaire-row .texte-gauche,
+  #horaires-section .horaire-row .texte-droite {
+    padding: 50px 60px 60px !important;
+  }
+
+  /*** Hauteur des blocs d'horaire ***/
+
+  /* eucharistie */
+  #horaires-section .horaire-row.eucharistie {
+    /* height: 414px; */
+  }
+
+  /* chapelle de pierres, église */
+  #horaires-section .horaire-row.chapelle {
+    /* height: 402px; */
+  }
+
+  /* bureau */
+  #horaires-section .horaire-row.bureau {
+    /* height: 414px; */
+  }
+
+  /* magasin */
+  #horaires-section .horaire-row.magasin {
+    /* height: 414px; */
+  }
+
+}
+
+
+/* Break point pour écrans de 1390px et moins
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 1390px) {
+
+  /* ajuste largeur et espacement de différents blocs */
+  #horaires-section .horaire-row {
+    max-width: 900px !important;
+  }
+  #horaires-section #dates-horaires-row > .et_pb_column {
+    padding: 0 !important;
+  }
+  #horaires-section .horaire-row .et_pb_column.image-gauche {
+    padding: 0 !important;
+  }
+  #horaires-section .horaire-row .et_pb_column.texte-gauche,
+  #horaires-section .horaire-row .et_pb_column.texte-droite {
+    padding: 50px 65px !important;
+  }
+
+}
+
+
+/* Break point pour écrans de 1090px et moins
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 1090px) {
+
+  /* ajuste espacement blocs texte */
+  #horaires-section .horaire-row .et_pb_column.texte-gauche,
+  #horaires-section .horaire-row .et_pb_column.texte-droite {
+    padding: 40px 60px !important;
+  }
+
+}
+
+
+/* Break point pour versions mobile et tablette
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 980px) {
+
+  /* efface blocs image */
+  #horaires-section .horaire-row .et_pb_column.image-droite,
+  #horaires-section .horaire-row .et_pb_column.image-gauche {
+    display: none;
+  }
+  /* ajuste blocs texte */
+  #horaires-section .horaire-row,
+  #horaires-section .horaire-row .et_pb_column.texte-droite,
+  #horaires-section .horaire-row .et_pb_column.texte-gauche {
+    min-width: 300px !important;
+    max-width: 500px !important;
+    box-sizing: border-box;
+  }
+
+}
+
+
+/* Break point pour versions mobile et petite tablette
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 767px) {
+
+  /* ajuste taille police des dates */
+  #dates-horaires-row p {
+    line-height: 30px;
+    font-size: 22px;
+  }
+
+}
+
+
+/* Break point pour version mobile portrait
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 480px) {
+
+  /* ajuste police et espacement autour blocs texte */
+  blockquote p {
+    font-size: 16px !important;
+  }
+  #dates-horaires-row .et_pb_module {
+    padding-left: 0 !important;
+  }
+  #horaires-section .horaire-row .et_pb_column.texte-gauche,
+  #horaires-section .horaire-row .et_pb_column.texte-droite {
+    padding: 30px 40px !important;
+  }
+  #horaires-section blockquote {
+    padding-left: 30px !important;
+  }
+
+}

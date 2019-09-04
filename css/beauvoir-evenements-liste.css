@@ -1,0 +1,264 @@
+/* Divi Child Beauvoir - Page ÉVÉNEMENTS & Section ÉVÉNEMENTS À VENIR */
+
+
+/* Réglage des polices - Format Liste
+------------------------------------------------------------------------ */
+
+/* titre événement */
+.wcs-timetable__list h3.wcs-class__title {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Lato', sans-serif;
+}
+.wcs-vue-modal .wcs-modal__inner-side h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+/* dates, heures */
+.wcs-timetable__list .wcs-class__time .wcs-class__inner-flex,
+.wcs-modal__meta {
+    /* font-family: 'myRoboto-Medium', sans-serif !important; */
+    font-family: 'Lato', sans-serif !important;
+}
+
+
+/* Propriétés globales - Format Liste
+------------------------------------------------------------------------ */
+
+/* ajuste polices */
+.wcs-timetable__list h3.wcs-class__title {
+    color: #444 !important;
+    font-weight: 600;
+	font-size: 145% !important;
+	letter-spacing: -0.002em;
+}
+.wcs-modal__meta {
+    font-size: 125% !important;
+}
+.wcs-timetable__list .wcs-class__time .wcs-class__inner-flex,
+.wcs-modal__meta {
+    font-weight: 700;
+}
+
+/* ajuste espacements */
+ul.wcs-timetable__list,
+ul.wcs-timetable__list li {
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+}
+.wcs-timetable--list time.wcs-class__time {
+    width: 90px;
+}
+.wcs-timetable__list .wcs-class .wcs-class__time {
+    margin-left: 20px !important;
+}
+.wcs-timetable--list .wcs-class__meta {
+    margin-right: 50px !important;
+}
+
+/* ajuste couleur background et borders */
+.wcs-timetable--list .wcs-class {
+    background-color: #fff !important;
+    border-right: solid 1px #ddd !important;
+    border-left: solid 1px #ddd !important;
+}
+.wcs-timetable__list .wcs-class::after {
+    border-top: 1px solid #ddd !important;
+    opacity: 1 !important;
+}
+.wcs-timetable__list .wcs-class:last-child {
+    border-bottom: 1px solid #ddd !important;
+}
+
+/* ajuste borders de certaines images */
+.wcs-timetable--list .wcs-class .wcs-class__image[style*="image-name"] {
+    /* border-right: 1px solid #ddd !important; */
+}
+
+/* ajuste position de certaines images en background */
+.wcs-timetable__list .wcs-class .wcs-class__image[style*="cross-paint"],
+.wcs-timetable--monthly-calendar .wcs-class__image[style*="cross-paint"] {
+    background-position: 10% center;
+}
+.wcs-timetable__list .wcs-class .wcs-class__image[style*="mother-84628"],
+.wcs-timetable--monthly-calendar .wcs-class__image[style*="mother-84628"] {
+    background-position: 30% center;
+}
+.wcs-timetable__list .wcs-class .wcs-class__image[style*="AdobeStock-180308563"],
+.wcs-timetable--monthly-calendar .wcs-class__image[style*="AdobeStock-180308563"] {
+    background-position: left center;
+}
+.wcs-timetable__list .wcs-class .wcs-class__image[style*="sparklers-923527"],
+.wcs-timetable--monthly-calendar .wcs-class__image[style*="sparklers-923527"] {
+    background-position: 40% bottom;
+}
+.wcs-modal--large.wcs-modal--with-image .wcs-modal__side[style*="sparklers-923527"] {
+    background-position: center bottom;
+}
+.wcs-modal--large.wcs-modal--with-image .wcs-modal__side[style*="jesus-3692881"] {
+    background-position: center 30%;
+}
+.wcs-modal--large.wcs-modal--with-image .wcs-modal__side[style*="blessing-1261935"] {
+    background-position: center 30%;
+}
+.wcs-modal--large.wcs-modal--with-image .wcs-modal__side[style*="god-the-father-906557"] {
+    background-position: center 30%;
+}
+.wcs-modal--large.wcs-modal--with-image .wcs-modal__side[style*="therese"] {
+    background-position: center 56%;
+}
+.wcs-modal--large.wcs-modal--with-image .wcs-modal__side[style*="heart-3147976"] {
+    background-position: center 90%;
+}
+.wcs-modal--large.wcs-modal--with-image .wcs-modal__side[style*="MV1943_cropped"] {
+    background-position: center 30%;
+}
+.wcs-modal--large.wcs-modal--with-image .wcs-modal__side[style*="consecration-du-pain"] {
+    background-position: center 24%;
+}
+
+/* cache heures des événements */
+.wcs-timetable__list .wcs-class__time-duration {
+    display: none !important;
+}
+
+/* ajuste bouton EN SAVOIR PLUS */
+.wcs-timetable__list .wcs-class .wcs-class__action {
+    margin-right: 30px !important;
+}
+.wcs-btn {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 1em !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.wcs-btn::before {
+    background-color: #fff !important;
+}
+.wcs-btn::after {
+    opacity: 1 !important;
+    border-radius: 5px !important;
+    border-color: #ddd !important;
+}
+
+/* ajuste effet hover */
+.wcs-timetable__list .wcs-class::before,
+.wcs-timetable__list .wcs-class:hover::before {
+  opacity: 0 !important;
+}
+.wcs-timetable--list .wcs-class,
+.wcs-timetable__list .wcs-class .wcs-btn,
+.wcs-timetable__list .wcs-class .wcs-btn::after {
+  -webkit-transition: all 400ms ease !important;
+  -moz-transition: all 400ms ease !important;
+  -ms-transition: all 400ms ease !important;
+  transition: all 400ms ease !important;
+}
+.wcs-timetable__list .wcs-class:hover {
+  background-color: #f3f3f3 !important;
+}
+.wcs-timetable__list .wcs-class .wcs-btn:hover {
+    color: #111 !important;
+}
+.wcs-timetable__list .wcs-class:hover .wcs-btn {
+    background-color: #fff !important;
+}
+.wcs-timetable__list .wcs-class .wcs-btn:hover::after {
+    border-color: #525252 !important;
+}
+
+
+/* Propriétés globales - Formats Liste et Calendrier
+------------------------------------------------------------------------ */
+
+/* ajuste police */
+.wcs-modal__meta,
+.wcs-timetable--monthly-calendar .wcs-day-agenda .wcs-class__time-duration {
+    letter-spacing: 1px;
+}
+
+.wcs-modal__meta [class*="ti-"]::before {
+    font-size: 22px;
+}
+
+.wcs-modal__content h3 {
+    font-size: 24px !important;
+}
+
+/* ajuste affichage des heures */
+.wcs-addons--blink {
+    /* animation: none !important; */
+    padding: 0 !important;
+}
+
+/* ajuste description événement */
+.wcs-modal__content ul,
+.wcs-class__excerpt ul {
+    padding-left: 2em !important;
+    padding-top: 10px !important;
+    list-style: revert !important;
+}
+.wcs-modal__content > ul,
+.wcs-class__excerpt > ul {
+    padding-bottom: 2em !important;
+}
+.wcs-modal__content > ul:last-child,
+.wcs-class__excerpt > ul:last-child {
+    padding-bottom: 0 !important;
+}
+.wcs-modal__content ul > li,
+.wcs-class__excerpt ul > li {
+    /* list-style: inside !important; */
+}
+
+
+/* Fenêtre modale
+------------------------------------------------------------------------ */
+
+/* ajuste police */
+.wcs-vue-modal .wcs-modal__inner-side h2 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 0;
+}
+.wcs-modal__meta {
+    font-weight: 500;
+    font-size: 22px !important;
+}
+.wcs-modal__content {
+    color: #444 !important;
+    font-size: 18px !important;
+}
+
+/* ajuste date et heures */
+.wcs-modal--large .wcs-modal__meta li {
+    display: inline-flex !important;
+    align-items: center;
+    margin-right: 20px !important;
+    padding-left: 1.7em;
+}
+.wcs-modal__meta [class*="ti-"] {
+    font-size: 20px;
+}
+.wcs-modal__meta [class*="ti-"]::before {
+    top: 2px !important;
+}
+
+/* ajuste espacements */
+.wcs-modal__content p.before-ul {
+    padding-bottom: 0 !important;
+}
+
+/* liens */
+.wcs-modal__content a {
+    color: #444;
+    font-weight: bold;
+}
+.wcs-modal__content a:hover {
+    text-decoration: underline;
+}
+
+/* autres ajustements */
+.wcs-modal--large .wcs-modal__inner-side {
+    background-color: rgba(0, 0, 0, 0.65) !important;
+}

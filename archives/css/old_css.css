@@ -1,0 +1,163 @@
+/* Les couleurs
+------------------------------------------------------------------------
+
+rouge      : #BF0404
+bleu foncé : #1B3E59 #1f4766 http://www.0to255.com/1B3E59
+gris pale  : #D7DADB
+gris foncé : #4A4A4A #525252 http://www.0to255.com/4a4a4a
+vert-bleu  : #008B83
+jaune pale : #FFE9A3
+
+bleu pale de Divi-Den Falkor : #1f5dea (bouton) et #0080ff (titre)
+bleu foncé de Divi-Den Falkor : #1f2532
+
+nouveau bleu pale - bouton : #06c
+nouveau bleus foncé - menu secondaire : #2d5c88 #235073
+nouveau bleus foncé - footer : #0f2332
+
+rouge - calendrier : #BD322C
+
+UPDATE
+bleu menu secondaire : #004565  http://www.0to255.com/003954
+background titre page : #3b4045 #463f3a #781710 #454545
+
+bleu microsoft : #0067b8 & #005da6 (hover)
+
+*/
+
+
+/* En-tête de chaque page
+------------------------------------------------------------------------ */
+
+#header-page-section {
+  /* overflow: hidden; */
+}
+body.show-the-page #header-page-content.animated {
+  /* animation-name: fadeInRightSmall; */
+  /* animation-timing-function: ease-in-out; */
+  /* animation-delay: 1s; */
+}
+
+
+/* Boutons
+------------------------------------------------------------------------ */
+
+body #main-content #horaires-accueil_section .my-buttons:hover,
+body #main-content #evenements-accueil_section .my-buttons:hover,
+body #main-content #articles-accueil_section .my-buttons:hover {
+  /* opacity: .7; */
+}
+
+
+/* Page ACCUEIL
+------------------------------------------------------------------------ */
+
+/* enlève le margin sous chaque article */
+#articles-accueil-contenu_row article.et_pb_post {
+  /* margin-bottom: 0; */
+}
+
+/* ajustements du texte sous l'image */
+#articles-accueil-contenu_row .post-content > p:first-child {
+  /* color: #525252 !important; */
+}
+#articles-accueil_section .post-content a.more-link {
+  /* text-transform: none !important; */
+  /* color: #BF0404 !important; */
+}
+
+/* limite à deux lignes l'extrait de l'article */
+.ds-limit-excerpt .post-content p {
+  /* display: block; */
+  /* height: 3em; */
+  /* max-height: 3em; */
+  /* width: 100%; */
+  /* overflow: hidden; */
+}
+
+/* ajuste largeur de l'extrait sous l'image */
+.ds-limit-excerpt .post-content {
+    /* width: 100%; */
+}
+
+
+/* Page ÉVÉNEMENTS
+------------------------------------------------------------------------ */
+
+body.show-the-page #events-calendar-row.animated {
+  /* animation-name: fadeInUpSmall; */
+  /* animation-timing-function: ease-in-out; */
+  /* animation-delay: 1s; */
+}
+
+
+/* Page HORAIRES
+------------------------------------------------------------------------ */
+
+body.show-the-page #horaires-section .horaire-row.eucharistie.animated {
+  /* animation-name: fadeInUpSmall; */
+  /* animation-timing-function: ease-in-out; */
+  /* animation-delay: 1s; */
+}
+body.show-the-page #horaires-section #dates-horaires-row.animated {
+  /* animation-name: fadeIn; */
+  /* animation-timing-function: ease-out; */
+  /* animation-delay: 1.9s; */
+  /* animation-duration: 0.6s; */
+}
+body.show-the-page #horaires-section .horaire-row.chapelle.animated,
+body.show-the-page #horaires-section .horaire-row.bureau.animated,
+body.show-the-page #horaires-section .horaire-row.magasin.animated {
+  /* animation-name: fadeInUpSmall; */
+  /* animation-timing-function: ease-in-out; */
+  /* animation-delay: 0.2s; */
+}
+
+
+/* Page FAIRE UN DON
+------------------------------------------------------------------------ */
+
+body.show-the-page #formulaire-don.animated {
+  /* animation-name: fadeInUpSmall; */
+  /* animation-timing-function: ease-in-out; */
+  /* animation-delay: 1s; */
+}
+
+
+/* Page NOUS JOINDRE
+------------------------------------------------------------------------ */
+
+body.show-the-page #adresse-formulaire-row.animated {
+  /* animation-name: fadeInUpSmall; */
+  /* animation-timing-function: ease-in-out; */
+  /* animation-delay: 1s; */
+}
+body.show-the-page #google-maps-row.animated {
+  /* animation-name: fadeInUpSmall; */
+  /* animation-timing-function: ease-in-out; */
+  /* animation-delay: 0.2s; */
+}
+
+
+/* Réglages de boutons
+------------------------------------------------------------------------ */
+
+/*
+#backtoblog {
+    display: none;
+}
+#login input#wp-submit {
+    background-color: #0077ee !important;
+    border-color: #0077ee !important;
+}
+#login input#wp-submit:hover {
+  background-color: #1F5DEA;
+}
+#login #nav a,
+#login #backtoblog a,
+#login #login_error,
+#login .error,
+#login .message {
+    color: #444 !important;
+}
+*/

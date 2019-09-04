@@ -1,0 +1,100 @@
+/* Divi Child Beauvoir - Page des résultats de recherche */
+
+
+/* Réglage des polices
+------------------------------------------------------------------------ */
+
+/* titre des résultats */
+#search-result-list h2.entry-title {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+#search-results-report_container,
+.et_pb_search_list_wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#search-results-report_container {
+    /* margin-bottom: 0 !important; */
+}
+
+#search-results-report_string {
+    font-size: 26px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(0,0,0,0.16);
+    margin-bottom: 2.75%;
+}
+
+#search-query {
+    font-weight: bold;
+}
+
+#help-sentence_string {
+    padding: 29px 0;
+}
+
+body.search-no-results #search-result-list,
+body.search-results #search-form {
+    display: none !important;
+}
+
+#search-result-list h2.entry-title {
+    color: #444;
+    font-size: 26px;
+    font-weight: 600 !important;
+}
+
+#search-result-list h2.entry-title:hover {
+    text-decoration: underline;
+}
+
+#search-result-list > div {
+    margin-bottom: 0 !important;
+}
+
+#search-result-list .et_pb_post .entry-featured-image-url {
+    margin-bottom: 0 !important;
+}
+
+.et_pb_search {
+    margin-top: 20px;
+}
+
+
+/* https://divisoup.com/q19-replace-the-divi-search-button-with-an-icon/ */
+
+.ds-icon-search input.et_pb_searchsubmit {
+    background: transparent;
+    color: transparent;
+    border: none;
+    width: 55px;
+    z-index: 2;
+}
+
+.ds-icon-search input.et_pb_s {
+    padding-right: 55px !important;
+}
+
+.ds-icon-search .et_pb_searchform::before {
+    content: '\55';
+    position: absolute;
+    font-family: 'ETModules';
+    z-index: 1;
+    right: 0;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+#search-result-list .et_pb_row {
+    width: 100% !important;
+}
+.et_pb_search_list_wrapper .et_pb_search_list_image_container {
+    float: left;
+    margin-right: 2em;
+}

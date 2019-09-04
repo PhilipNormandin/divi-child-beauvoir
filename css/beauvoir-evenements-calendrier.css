@@ -1,0 +1,433 @@
+/* Divi Child Beauvoir - Page ÉVÉNEMENTS */
+
+
+/* Réglage des polices
+------------------------------------------------------------------------ */
+
+/* @font-face {
+    font-family: myRoboto;
+    src: url("../fonts/roboto/roboto-v18-latin-500.woff2") format('woff2'),
+    url("../fonts/roboto/roboto-v18-latin-500.woff") format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: myRoboto-Medium;
+    src: url("../fonts/roboto/roboto-v18-latin-500.woff2") format('woff2'),
+    url("../fonts/roboto/roboto-v18-latin-500.woff") format('woff');
+} */
+
+/* tout le calendrier */
+.wcs-timetable--monthly-calendar h4.wcs-day__title,
+.wcs-timetable--monthly-calendar .wcs-date,
+.wcs-timetable--monthly-calendar .wcs-day-agenda .wcs-class__time-duration {
+    /* font-family: 'myRoboto-Medium', sans-serif !important; */
+    font-family: 'Lato', sans-serif !important;
+}
+
+/* agenda du jour */
+.wcs-timetable--monthly-calendar .wcs-day-agenda h3.wcs-class__title,
+.wcs-timetable--monthly-calendar .wcs-day-agenda h4.wcs-day-agenda__title {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Lato', sans-serif !important;
+}
+
+
+/* Propriétés globales
+------------------------------------------------------------------------ */
+
+/* ajuste polices */
+#format-affichage-evenements {
+    font-weight: 600;
+}
+.et_pb_tabs_controls li a {
+    font-size: 18px !important;
+}
+.wcs-timetable__main-col h3,
+.wcs-timetable__main-col h4 {
+    color: #444;
+}
+.wcs-calendar__header h3 {
+    font-size: 32px !important;
+    text-transform: capitalize;
+}
+.wcs-timetable--monthly-calendar .wcs-day-agenda h4.wcs-day-agenda__title {
+    font-size: 26px !important;
+    font-weight: 600;
+}
+.wcs-timetable--monthly-calendar .wcs-day-agenda h3.wcs-class__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #444 !important;
+}
+.wcs-timetable--monthly-calendar .wcs-day-agenda .wcs-class__excerpt {
+    font-size: 17px;
+    line-height: 1.4em;
+}
+.wcs-timetable--monthly-calendar h4.wcs-day__title,
+.wcs-timetable--monthly-calendar .wcs-date,
+.wcs-timetable--monthly-calendar .wcs-day-agenda .wcs-class__time-duration {
+    font-weight: 700;
+}
+.wcs-timetable--monthly-calendar .wcs-day-agenda .wcs-class__time-duration {
+    font-size: 98% !important;
+}
+
+/* ajuste espacement autour du calendrier */
+#events-calendar-row .et_pb_tab {
+  padding: 0px 0 0 0 !important;
+}
+#events-calendar-row {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.wcs-timetable__container {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* ajuste espacement autour du contenu des onglets */
+#events-calendar-section .et_pb_all_tabs {
+  padding-top: 5vh;
+}
+
+/* efface ligne sous les onglets CALENDRIER et LISTE */
+#events-calendar-row .et_pb_tabs_controls::after {
+  display: none;
+}
+
+/* couleurs de fond et contour onglet par défaut */
+#events-calendar-row .et_pb_tabs_controls li {
+  background-color: #dadada !important;
+  border: 2px solid #d2d2d2;
+}
+/* couleur de police onglet par défaut */
+#events-calendar-row .et_pb_tabs_controls li a {
+  color: #666 !important;
+  /* line-height: 1.4em; */
+}
+
+/* couleur de police onglet sélectionné */
+#events-calendar-row .et_pb_tabs_controls .et_pb_tab_active a {
+  color: #666 !important;
+}
+/* couleur de fond onglet sélectionné */
+#events-calendar-row .et_pb_tabs_controls .et_pb_tab_active {
+  background-color: white !important;
+}
+
+/* ajuste border des onglets */
+#events-calendar-row .et_pb_tabs_controls li:first-child {
+  border-radius: 4px 0 0 4px;
+  border-right-width: 1px;
+}
+#events-calendar-row .et_pb_tabs_controls li:last-child {
+  border-radius: 0 4px 4px 0;
+  border-left-width: 1px;
+}
+
+/* position et taille du libellé FORMAT D'AFFICHAGE */
+#format-affichage-evenements {
+  font-size: 26px;
+  margin-right: 60px;
+}
+
+/* position libellé FORMAT D'AFFICHAGE, onglets CALENDRIER/LISTE et contenu */
+#events-calendar-row .et_pb_tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+#events-calendar-row .et_pb_tabs .et_pb_all_tabs {
+  flex: 1 1 100%;
+}
+
+/* ajuste espacement entête calendrier */
+.wcs-timetable--monthly-calendar .wcs-calendar__header {
+    margin-bottom: 24px !important;
+}
+.wcs-timetable__monthly-calendar .wcs-table-tr.wcs-table-thead .wcs-day__title {
+    padding-bottom: 0;
+}
+
+/* ajuste espacement autour des dates */
+.wcs-timetable--monthly-calendar .wcs-date {
+    /* padding: 1.75vh 0 !important; */
+}
+
+/* ajoute border autour de l'agenda */
+.wcs-timetable--monthly-calendar.wcs-timetable--side-agenda .wcs-timetable__side-col {
+    border: 1px solid #d2d2d2;
+}
+.wcs-timetable--monthly-calendar .wcs-table-td--full {
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+/* ajoute shadow autour des images dans l'agenda */
+.wcs-timetable--monthly-calendar .wcs-day-agenda .wcs-class__image {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+}
+
+/* annule effet pointeur sur titre et image dans l'agenda */
+.wcs-day-agenda .wcs-class__title.wcs-modal-call {
+    /* cursor: text; */
+}
+.wcs-day-agenda .wcs-class__image.wcs-modal-call {
+    /* cursor: default; */
+}
+
+/* ajuste dimension image dans l'agenda */
+.wcs-timetable--monthly-calendar .wcs-class__image {
+    flex-basis: 20% !important;
+    height: 90px !important;
+    min-width: 90px !important;
+}
+
+/* ajuste espacement dans l'agenda */
+.wcs-timetable--monthly-calendar .wcs-day-agenda h3.wcs-class__title {
+	margin-top: 6px !important;
+    margin-bottom: 18px !important;
+}
+.wcs-timetable--monthly-calendar .wcs-class__image + .wcs-class__inner {
+    margin-left: 4% !important;
+}
+.wcs-class__excerpt p {
+    padding-bottom: 16px;
+}
+
+
+
+/* Break point pour versions mobile et tablette
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 980px) {
+
+  /* taille libellé FORMAT D'AFFICHAGE */
+  #format-affichage-evenements {
+    font-size: 24px;
+  }
+
+  /* ajuste espacement autour du calendrier */
+  #events-calendar-row .et_pb_tab {
+    /* padding: 40px 0 0 0 !important; */
+  }
+
+}
+
+/* Break point pour versions mobile et petite tablette
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 767px) {
+
+  /* ajuste libellé FORMAT D'AFFICHAGE, onglets CALENDRIER/LISTE et contenu */
+  #events-calendar-row .et_pb_tabs {
+    align-items: unset;
+    flex-direction: column;
+  }
+  .et_pb_tabs_controls {
+    width: 100%;
+    display: flex !important;
+  }
+  .et_pb_tabs_controls li {
+    display: table !important;
+  }
+  .et_pb_tabs_controls li {
+    width: 50%;
+  }
+  .et_pb_tabs_controls li a {
+    text-align: center;
+    padding: 4px 0 4px !important;
+  }
+  #format-affichage-evenements {
+    font-size: 22px;
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  #events-calendar-row .et_pb_tabs_controls li {
+    min-height: auto !important;
+    height: auto !important;
+  }
+  #events-calendar-section .et_pb_all_tabs {
+    padding-top: 40px;
+  }
+
+}
+
+/* Break point pour versions mobile landscape et petite tablette
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  /* ajuste affichage du calendrier */
+  .wcs-timetable--monthly-calendar .wcs-calendar__header {
+    margin-bottom: 2em;
+    flex-wrap: nowrap;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+  .wcs-timetable--monthly-calendar .wcs-calendar__header > div:first-of-type {
+    order: 0;
+  }
+  .wcs-timetable--monthly-calendar .wcs-calendar__header h3 {
+    flex-basis: 70%;
+    order: 1;
+  }
+
+}
+
+/* Break point pour version mobile portrait
+------------------------------------------------------------------------ */
+
+@media all and (max-width: 479px) {
+
+  /* taille libellé FORMAT D'AFFICHAGE */
+  #format-affichage-evenements {
+    font-size: 20px;
+  }
+
+}
+
+/* corrige opacité du triangle pointant vers l'événement */
+.wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda:not(.wcs-timetable--highligh-round) .wcs-date--selected::after {
+    opacity: 1;
+    border-left: 1em solid transparent !important;
+}
+
+
+/* CSS inline - Events Schedule (non accessible lorsque css est "merged")
+------------------------------------------------------------------------- */
+
+.wcs-timetable--1.wcs-timetable__container {
+    color:inherit
+}
+.wcs-timetable--1 .wcs-timetable {
+    border-color:inherit
+}
+.wcs-timetable--1 .wcs-filters__title,
+.wcs-timetable--1 .wcs-filters__filter-wrapper:hover,
+.wcs-timetable--1 .wcs-filter:checked + span {
+    color:#bd322c
+}
+.wcs-timetable--1 .wcs-btn--action,
+.wcs-timetable--1 .wcs-btn--action:hover {
+    background-color:#bd322c;
+    color:rgba( 255,255,255,1)
+}
+.wcs-modal[data-wcs-modal-id='1'] .wcs-btn--action,
+.wcs-modal[data-wcs-modal-id='1'] .wcs-btn--action:hover {
+    background-color:#bd322c;
+    color:rgba( 255,255,255,1)
+}
+.wcs-timetable--1 .wcs-timetable--monthly-calendar .wcs-date--selected span {
+    color:rgba( 255,255,255,0.95)
+}
+.wcs-timetable--1 .wcs-timetable--monthly-calendar .wcs-date.wcs-date--selected span::after {
+    background-color:#bd322c
+}
+.wcs-timetable--1 .wcs-timetable--monthly-calendar .wcs-date span::after {
+    background-color:#bd322c
+}
+.wcs-timetable--1 .wcs-timetable--monthly-calendar .wcs-date--with-events:not(.wcs-date--selected):not(.wcs-date--past-month):not(.wcs-date--future-month):hover,
+.wcs-timetable--1 .wcs-timetable--monthly-calendar .wcs-class__time-duration span:first-child {
+    color:#bd322c
+}
+.wcs-timetable--1 .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda:not(.wcs-timetable--highligh-round) .wcs-date--selected::after {
+    border-top:1em solid #bd322c
+}
+.wcs-timetable--1 .wcs-timetable--monthly-calendar .wcs-calendar-nav i,
+.wcs-timetable--1 .wcs-timetable--monthly-calendar .wcs-day-agenda__title {
+    color:#bd322c
+}
+.wcs-timetable--14.wcs-timetable__container {
+    color:inherit
+}
+.wcs-timetable--14 .wcs-timetable {
+    border-color:inherit
+}
+.wcs-timetable--14 .wcs-filters__title,
+.wcs-timetable--14 .wcs-filters__filter-wrapper:hover,
+.wcs-timetable--14 .wcs-filter:checked + span {
+    color:#bd322c
+}
+.wcs-timetable--14 .wcs-btn--action,
+.wcs-timetable--14 .wcs-btn--action:hover {
+    background-color:#bd322c;
+    color:rgba( 255,255,255,1)
+}
+.wcs-modal[data-wcs-modal-id='14'] .wcs-btn--action,
+.wcs-modal[data-wcs-modal-id='14'] .wcs-btn--action:hover {
+    background-color:#bd322c;
+    color:rgba( 255,255,255,1)
+}
+.wcs-timetable--14 .wcs-timetable--list .wcs-class__time {
+    color:#bd322c
+}
+.wcs-timetable--13.wcs-timetable__container {
+    color:inherit
+}
+.wcs-timetable--13 .wcs-timetable {
+    border-color:inherit
+}
+.wcs-timetable--13 .wcs-filters__title,
+.wcs-timetable--13 .wcs-filters__filter-wrapper:hover,
+.wcs-timetable--13 .wcs-filter:checked + span {
+    color:#bd322c
+}
+.wcs-timetable--13 .wcs-btn--action,
+.wcs-timetable--13 .wcs-btn--action:hover {
+    background-color:#bd322c;
+    color:rgba( 255,255,255,1)
+}
+.wcs-modal[data-wcs-modal-id='13'] .wcs-btn--action,
+.wcs-modal[data-wcs-modal-id='13'] .wcs-btn--action:hover {
+    background-color:#bd322c;
+    color:rgba( 255,255,255,1)
+}
+.wcs-timetable--13 .wcs-timetable--monthly-calendar .wcs-date--selected span {
+    color:rgba( 255,255,255,0.95)
+}
+.wcs-timetable--13 .wcs-timetable--monthly-calendar .wcs-date.wcs-date--selected span::after {
+    background-color:#BD322C
+}
+.wcs-timetable--13 .wcs-timetable--monthly-calendar .wcs-date span::after {
+    background-color:#bd322c
+}
+.wcs-timetable--13 .wcs-timetable--monthly-calendar .wcs-date--with-events:not(.wcs-date--selected):not(.wcs-date--past-month):not(.wcs-date--future-month):hover,
+.wcs-timetable--13 .wcs-timetable--monthly-calendar .wcs-class__time-duration span:first-child {
+    color:#bd322c
+}
+.wcs-timetable--13 .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda:not(.wcs-timetable--highligh-round) .wcs-date--selected::after {
+    border-top:1em solid #BD322C
+}
+.wcs-timetable--13 .wcs-timetable--monthly-calendar .wcs-calendar-nav i,
+.wcs-timetable--13 .wcs-timetable--monthly-calendar .wcs-day-agenda__title {
+    color:#bd322c
+}
+.wcs-timetable--15.wcs-timetable__container {
+    color:inherit
+}
+.wcs-timetable--15 .wcs-timetable {
+    border-color:inherit
+}
+.wcs-timetable--15 .wcs-filters__title,
+.wcs-timetable--15 .wcs-filters__filter-wrapper:hover,
+.wcs-timetable--15 .wcs-filter:checked + span {
+    color:#bd322c
+}
+.wcs-timetable--15 .wcs-btn--action,
+.wcs-timetable--15 .wcs-btn--action:hover {
+    background-color:#bd322c;
+    color:rgba( 255,255,255,1)
+}
+.wcs-modal[data-wcs-modal-id='15'] .wcs-btn--action,
+.wcs-modal[data-wcs-modal-id='15'] .wcs-btn--action:hover {
+    background-color:#bd322c;
+    color:rgba( 255,255,255,1)
+}
+.wcs-timetable--15 .wcs-timetable--list .wcs-class__time {
+    color:#bd322c
+}
