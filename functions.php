@@ -191,7 +191,9 @@ function beauvoir_lang_setup() {
 
     load_child_theme_textdomain( 'divi-child-beauvoir', get_stylesheet_directory() . '/lang' );
     // load_child_theme_textdomain( 'Divi', get_stylesheet_directory() . '/languages/Divi' );
+    load_child_theme_textdomain( 'Divi', get_stylesheet_directory() . '/languages' );
     // load_child_theme_textdomain( 'et_builder', get_stylesheet_directory() . '/languages/et_builder' );
+    load_child_theme_textdomain( 'et_builder', get_stylesheet_directory() . '/languages' );
 
 }
 add_action( 'after_setup_theme', 'beauvoir_lang_setup' );
