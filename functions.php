@@ -104,6 +104,12 @@ function beauvoir_enqueue_scripts() {
         wp_enqueue_script( 'ajustements-pages-script', get_stylesheet_directory_uri() . '/js/ajustements-pages-script.js', array( 'jquery' ), '', true );
     }
 
+    // pages temporaires pour clean-up
+    if ( is_page( array( 'histoire-clean-up' ) ) ) {
+        wp_enqueue_style( 'beauvoir-ajustements-pages_cleanup', get_stylesheet_directory_uri() .'/css/beauvoir-ajustements-pages_cleanup.css' );
+        wp_enqueue_script( 'ajustements-pages-script', get_stylesheet_directory_uri() . '/js/ajustements-pages-script.js', array( 'jquery' ), '', true );
+    }
+
     // page GALERIE DE PHOTOS et autres pages contenant des images affichées avec The Grid
     if ( is_page( array( 'albums-photo', 'photo-gallery', 'galleria-fotografica',
                          'locaux-disponibles', 'location-de-salles-italien', 'location-de-salles-anglais',
