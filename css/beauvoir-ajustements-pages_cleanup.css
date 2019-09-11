@@ -11,3 +11,6 @@
 #main-content .et_pb_text {
     margin-bottom: 22px;
 }
+#main-content .et_pb_text:last-child {
+    margin-bottom: 0 !important;
+}
