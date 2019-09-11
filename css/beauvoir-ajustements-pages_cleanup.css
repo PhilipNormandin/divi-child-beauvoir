@@ -15,6 +15,9 @@
 /* Réglages des images et légendes
 -------------------------------------------------- */
 
+#main-content .et_pb_image {
+    margin-bottom: 0 !important;
+}
 #main-content figure {
     margin: 0 !important;
 }
