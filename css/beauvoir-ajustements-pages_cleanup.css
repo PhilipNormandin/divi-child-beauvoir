@@ -6,10 +6,10 @@
 
 
 #main-content .et_pb_text.intro {
-    font-size: 26px;
+    /* font-size: 26px; */
 }
 #main-content .et_pb_text {
-    margin-bottom: 22px;
+    /* margin-bottom: 22px; */
 }
 #main-content .et_pb_text:last-child {
     margin-bottom: 0 !important;
