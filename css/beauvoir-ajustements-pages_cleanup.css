@@ -2,15 +2,23 @@
 
 
 /* Réglages des titres et paragraphes
------------------------------------------------------------------------- */
+-------------------------------------------------- */
 
 
-#main-content .section-content .et_pb_text.intro {
+.et_pb_text.intro {
     font-size: 24px;
 }
-#main-content .et_pb_text {
+.et_pb_text {
     margin-bottom: 22px;
 }
-#main-content .et_pb_text:last-child {
+.et_pb_text:last-child {
     margin-bottom: 0 !important;
+}
+
+
+/* Réglages des images
+-------------------------------------------------- */
+
+figure {
+    margin: 0 !important;
 }
