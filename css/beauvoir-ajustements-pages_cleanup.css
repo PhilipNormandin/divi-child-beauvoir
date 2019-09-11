@@ -4,9 +4,10 @@
 /* Réglages des titres et paragraphes
 ------------------------------------------------------------------------ */
 
-h2 {
-    font-size: 40px;
-}
+
 #main-content .section-content .et_pb_text.intro {
     font-size: 24px;
+}
+#main-content .et_pb_text {
+    margin-bottom: 22px;
 }
