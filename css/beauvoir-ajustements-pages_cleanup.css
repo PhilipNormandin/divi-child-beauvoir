@@ -1,9 +1,12 @@
 /* Divi Child Beauvoir - pages HISTOIRE DU SANCTUAIRE, CHAPELLE DE PIERRES, MARCHE ÉVANGÉLIQUE ... */
 
 
-/* Réglages des textes
+/* Réglages des titres et paragraphes
 ------------------------------------------------------------------------ */
 
+h2 {
+    font-size: 40px;
+}
 #main-content .section-content .et_pb_text.intro {
     font-size: 24px;
 }
