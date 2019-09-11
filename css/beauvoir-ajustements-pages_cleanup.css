@@ -16,9 +16,16 @@
 }
 
 
-/* Réglages des images
+/* Réglages des images et légendes
 -------------------------------------------------- */
 
 #main-content figure {
     margin: 0 !important;
+}
+#main-content figcaption {
+    color: #bd322c;
+    font-style: italic;
+    font-weight: 600;
+    line-height: initial !important;
+    padding-top: 15px;
 }
