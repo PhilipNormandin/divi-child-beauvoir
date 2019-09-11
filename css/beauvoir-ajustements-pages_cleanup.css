@@ -5,13 +5,13 @@
 -------------------------------------------------- */
 
 
-.et_pb_text.intro {
+#main-content .et_pb_text.intro {
     font-size: 24px;
 }
-.et_pb_text {
+#main-content .et_pb_text {
     margin-bottom: 22px;
 }
-.et_pb_text:last-child {
+#main-content .et_pb_text:last-child {
     margin-bottom: 0 !important;
 }
 
@@ -19,6 +19,6 @@
 /* Réglages des images
 -------------------------------------------------- */
 
-figure {
+#main-content figure {
     margin: 0 !important;
 }
