@@ -24,8 +24,10 @@
 }
 #main-content figcaption {
     color: #bd322c;
+    font-size: 16px;
     font-style: italic;
     font-weight: 600;
     line-height: initial !important;
     padding-top: 15px;
+    text-align: center;
 }
