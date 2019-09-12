@@ -10,6 +10,9 @@
 #main-content .et_pb_text:last-child {
     margin-bottom: 0 !important;
 }
+.et_pb_row.with-float-image + .et_pb_row.large-image-row {
+    padding-top: 20px;
+}
 
 
 /* Réglages des images et légendes
@@ -31,10 +34,15 @@
     box-shadow: 0px 12px 14px -6px rgba(0,0,0,0.3);
 }
 #main-content .et_pb_image {
-    margin-bottom: 0 !important;
+    /* margin-bottom: 0 !important; */
 }
+.et_pb_row.with-float-image .et_pb_image {
+    margin-bottom: 10px !important;
+}
+
+
 @media only screen and (max-width: 1060px) {
     #main-content .et_pb_image {
-        margin-bottom: 10px !important;
+        /* margin-bottom: 10px !important; */
     }
 }
