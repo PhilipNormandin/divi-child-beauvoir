@@ -11,8 +11,8 @@
     margin-bottom: 0 !important;
 }
 .et_pb_row.with-float-image + .et_pb_row {
-    padding-top: 20px;
-    border: 1px solid;
+    padding-top: 10px;
+    border: 1px solid red;
 }
 
 
@@ -38,7 +38,7 @@
     /* margin-bottom: 0 !important; */
 }
 .et_pb_row.with-float-image .et_pb_image {
-    margin-bottom: 10px !important;
+    margin-bottom: 20px !important;
 }
 
 
