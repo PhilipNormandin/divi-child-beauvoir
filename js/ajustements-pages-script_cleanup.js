@@ -9,7 +9,7 @@
         // $(document).bind('ready ajaxComplete', function () {
             $( ".et_pb_image_wrap" ).each(function () {
                 var img_alt = $(this).find( "img" ).attr( "alt" );
-                if ( typeof my_alt_img !== "undefined" ) {
+                if ( typeof img_alt !== "undefined" ) {
                     // $(this).addClass( "with-figcaption" );
                     // $(this).parent().parent().parent().addClass( "figure-with-figcaption" );
                     $(this).append( "<figcaption>" + img_alt + "</figcaption>" );
