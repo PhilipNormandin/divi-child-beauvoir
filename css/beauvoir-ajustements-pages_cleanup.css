@@ -10,8 +10,9 @@
 #main-content .et_pb_text:last-child {
     margin-bottom: 0 !important;
 }
-.et_pb_row.with-float-image + .et_pb_row.large-image-row {
+.et_pb_row.with-float-image + .et_pb_row {
     padding-top: 20px;
+    border: 1px solid;
 }
 
 
