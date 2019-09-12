@@ -6,6 +6,10 @@
 
 #main-content .et_pb_text {
     margin-bottom: 22px;
+
+    hyphens: auto;
+    text-align: justify;
+    text-justify: inter-character;
 }
 #main-content .et_pb_text:last-child {
     margin-bottom: 0 !important;
