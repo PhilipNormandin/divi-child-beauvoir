@@ -16,7 +16,7 @@
 }
 
 
-/* Images - Légendes
+/* Images et Légendes
 -------------------------------------------------- */
 
 #main-content figure {
@@ -44,4 +44,15 @@
 
 .et_pb_row.with-float-image + .et_pb_row {
     padding-top: 10px;
+}
+
+
+/* Écrans Mobiles
+-------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+    .et_pb_row.with-float-image .et_pb_image {
+        float: none;
+    }
 }
