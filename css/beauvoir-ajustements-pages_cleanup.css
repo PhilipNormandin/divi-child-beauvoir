@@ -46,10 +46,14 @@
 -------------------------------------------------- */
 
 .et_pb_row {
-    width: 90%;
+    width: 86%;
 }
 .et_pb_row.with-float-image + .et_pb_row {
     padding-top: 10px;
+}
+.et_pb_column.grid-layout {
+    grid-gap: 40px 6%;
+    align-items: center;
 }
 
 
