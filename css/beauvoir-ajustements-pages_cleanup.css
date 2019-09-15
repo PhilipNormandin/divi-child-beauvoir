@@ -66,5 +66,8 @@
     .et_pb_column.grid-layout .et_pb_image {
         order: -1;
     }
+    .et_pb_column.grid-layout .et_pb_text {
+        text-align: center !important;
+    }
 
 }
