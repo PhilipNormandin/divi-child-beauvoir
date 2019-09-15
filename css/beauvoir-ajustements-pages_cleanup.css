@@ -37,6 +37,9 @@
 .et_pb_row.with-float-image .et_pb_image {
     margin-bottom: 20px !important;
 }
+.et_pb_image_sticky {
+    display: block !important;
+}
 
 
 /* Conteneurs ROW / COLUMN
