@@ -6,8 +6,6 @@
 
 #main-content .et_pb_text {
     margin-bottom: 22px;
-
-    /* hyphens: auto; */
     text-align: justify;
     text-justify: inter-character;
 }
