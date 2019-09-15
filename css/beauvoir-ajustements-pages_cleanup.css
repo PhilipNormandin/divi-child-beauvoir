@@ -60,4 +60,11 @@
         width: inherit;
         margin: 0 auto 30px !important;
     }
+    .et_pb_column.grid-layout {
+        grid-template-columns: auto;
+    }
+    .et_pb_column.grid-layout .et_pb_image {
+        order: -1;
+    }
+
 }
