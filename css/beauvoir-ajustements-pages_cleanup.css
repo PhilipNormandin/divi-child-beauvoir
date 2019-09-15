@@ -55,6 +55,9 @@
 
 @media only screen and (max-width: 767px) {
 
+    .et_pb_row {
+        width: 90%;
+    }
     .et_pb_row.with-float-image .et_pb_image {
         float: none;
         width: inherit;
