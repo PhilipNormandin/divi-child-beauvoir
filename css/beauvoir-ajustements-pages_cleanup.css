@@ -46,22 +46,15 @@
 .et_pb_row.with-float-image .et_pb_image {
     margin-bottom: 20px !important;
 }
-.et_pb_row.with-float-image .et_pb_image:first-child {
-    margin-right: 60px !important;
-}
-.et_pb_row.with-float-image .et_pb_image:last-child {
-    /* margin-left: 60px; */
-}
+
 
 /* Flex Layout
 ------------------ */
 
-.et_pb_column.flex-layout .et_pb_image:first-child {
-    /* margin-right: 60px; */
+.et_pb_column.flex-layout .et_pb_image {
+
 }
-.et_pb_column.flex-layout .et_pb_image:last-child {
-    /* margin-left: 60px; */
-}
+
 
 
 /* =========================================
@@ -109,4 +102,13 @@
         text-align: center !important;
     }
 
+}
+
+
+/* =========================================
+         Réglages Divi Builder
+========================================= */
+
+.et_pb_module.et_pb_image.et-animated--vb {
+    z-index: 99;
 }
