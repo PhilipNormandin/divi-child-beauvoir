@@ -55,6 +55,14 @@
 }
 
 
+/* Flex Layout / Grid Layout
+-------------------------------------------------- */
+
+.et_pb_column.flex-layout .et_pb_image:last-child {
+    margin-left: 60px !important;
+}
+
+
 /* Ajustements Écran Mobile
 -------------------------------------------------- */
 
