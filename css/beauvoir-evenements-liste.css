@@ -115,6 +115,9 @@ ul.wcs-timetable__list li {
 .wcs-modal--large.wcs-modal--with-image .wcs-modal__side[style*="consecration-du-pain"] {
     background-position: center 24%;
 }
+.wcs-modal--large.wcs-modal--with-image .wcs-modal__side[style*="vettiyankal"] {
+	background-position: center top;
+}
 
 /* cache heures des événements */
 .wcs-timetable__list .wcs-class__time-duration {
