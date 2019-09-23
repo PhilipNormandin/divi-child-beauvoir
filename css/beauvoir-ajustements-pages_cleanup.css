@@ -63,7 +63,7 @@
     /* Conteneurs
     ------------------ */
 
-    .et_pb_row {
+    #main-content .et_pb_row {
         padding-top: 0;
         padding-bottom: 0;
     }
