@@ -73,8 +73,8 @@
     ------------------ */
 
     .et_pb_row.with-float-image .et_pb_image {
-        /* float: none; */
-        /* margin: 0 auto 30px !important; */
+        float: none;
+        margin-bottom: 30px !important;
         width: inherit;
     }
 
