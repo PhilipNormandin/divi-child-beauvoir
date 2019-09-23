@@ -77,7 +77,7 @@
     /* Paragraphes
     ------------------ */
 
-    #main-content  .et_pb_text {
+    #main-content  .et_pb_text:last-child {
         margin-bottom: 22px !important;
     }
 
