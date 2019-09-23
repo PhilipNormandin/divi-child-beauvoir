@@ -1,6 +1,19 @@
 /* Divi Child Beauvoir - pages HISTOIRE DU SANCTUAIRE, CHAPELLE DE PIERRES, MARCHE ÉVANGÉLIQUE ... */
 
 
+/* =========================================
+                Paragraphes
+========================================= */
+
+
+#main-content  .et_pb_text {
+    margin-bottom: 22px;
+    text-justify: inter-character;
+}
+#main-content .et_pb_text:last-child {
+    margin-bottom: 0 !important;
+}
+
 
 /* =========================================
             Images et Légendes
@@ -65,7 +78,7 @@
     ------------------ */
 
     #main-content  .et_pb_text {
-
+        margin-bottom: 22px !important;
     }
 
 
