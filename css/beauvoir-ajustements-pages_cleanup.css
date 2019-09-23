@@ -63,7 +63,7 @@
     /* Paragraphes
     ------------------ */
 
-    #main-content .et_pb_text:last-child:not(.sub-title) {
+    #main-content :not(.sub-title) .et_pb_text:last-child {
         margin-bottom: 22px;
     }
 
