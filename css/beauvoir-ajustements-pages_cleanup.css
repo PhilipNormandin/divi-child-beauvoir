@@ -60,6 +60,14 @@
 @media only screen and (max-width: 767px) {
 
 
+    /* Paragraphes
+    ------------------ */
+
+    #main-content .et_pb_text:last-child {
+        margin-bottom: 22px;
+    }
+
+
     /* Float Layout
     ------------------ */
 
