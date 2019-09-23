@@ -8,6 +8,9 @@
 #main-content h2 {
     padding-bottom: 0;
 }
+#main-content .et_pb_row.sub-title .et_pb_text {
+    margin-bottom: 30px;
+}
 
 
 /* =========================================
