@@ -94,7 +94,7 @@
         flex-direction: column;
     }
     .et_pb_column.flex-layout .et_pb_image {
-        margin: 0 auto 30px !important;
+        /* margin: 0 auto 30px !important; */
         order: -1;
         width: inherit;
     }
