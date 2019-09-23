@@ -60,7 +60,7 @@
     margin-bottom: 15px !important;
 }
 .et_pb_row.with-float-image + .et_pb_row {
-    padding-top: 0;
+    padding-top: 0 !important;
 }
 
 
