@@ -7,11 +7,7 @@
 
 
 #main-content  .et_pb_text {
-    /* margin-bottom: 22px; */
-    /* text-justify: inter-character; */
-}
-#main-content .et_pb_text:last-child {
-    /* margin-bottom: 0 !important; */
+
 }
 
 
@@ -61,9 +57,6 @@
 ========================================= */
 
 
-.et_pb_row {
-    width: 86%;
-}
 .et_pb_row.with-float-image + .et_pb_row {
     padding-top: 10px;
 }
@@ -79,6 +72,10 @@
 
     /* Paragraphes
     ------------------ */
+
+    #main-content  .et_pb_text {
+
+    }
 
 
     /* Float Layout
