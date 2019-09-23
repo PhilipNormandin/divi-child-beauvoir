@@ -7,7 +7,7 @@
 
 
 #main-content .et_pb_text {
-    margin-bottom: 22px;
+    margin-bottom: 24px;
 }
 #main-content .et_pb_text:last-child {
     margin-bottom: 0;
@@ -58,15 +58,6 @@
 
 
 @media only screen and (max-width: 767px) {
-
-
-    /* Conteneurs
-    ------------------ */
-
-    /* #main-content .et_pb_row {
-        padding-top: 0;
-        padding-bottom: 0;
-    } */
 
 
     /* Paragraphes
