@@ -116,6 +116,14 @@
         text-align: center !important;
     }
 
+    /* Conteneurs
+    ------------------ */
+
+    .content-section .et_pb_row:not(.subtitle-row) {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
 }
 
 
