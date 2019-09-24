@@ -17,12 +17,14 @@
 
 
 .content-section .et_pb_text:not(.exception) {
-    margin-bottom: 25px;
     hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
 }
-.content-section .et_pb_text:not(.exception):last-child {
+.content-section .et_pb_text {
+    margin-bottom: 25px;
+}
+.content-section .et_pb_text:last-child {
     margin-bottom: 0;
 }
 
@@ -90,7 +92,6 @@
     ------------------ */
 
     .content-section .et_pb_row:not(.subtitle-row) {
-        margin: 25px auto; 
         padding: 0;
     }
 
@@ -98,8 +99,8 @@
     /* Paragraphes
     ------------------ */
 
-    .content-section .et_pb_text:not(.exception):last-child {
-        /* margin-bottom: 25px; */
+    .content-section .et_pb_text:last-child {
+        margin-bottom: 25px;
     }
 
 
