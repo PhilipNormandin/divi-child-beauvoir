@@ -2,6 +2,16 @@
 
 
 /* =========================================
+                 Conteneurs
+========================================= */
+
+.content-section .et_pb_row:not(.subtitle-row) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+/* =========================================
                    Titres
 ========================================= */
 
@@ -66,15 +76,6 @@
 }
 
 
-/* =========================================
-               Conteneurs
-========================================= */
-
-.content-section .et_pb_row:not(.subtitle-row) {
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
 
 /* =========================================
          Ajustements Écran Mobile
@@ -82,6 +83,15 @@
 
 
 @media only screen and (max-width: 767px) {
+
+
+    /* Conteneurs
+    ------------------ */
+
+    .content-section .et_pb_row:not(.subtitle-row) {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 
 
     /* Paragraphes
@@ -114,14 +124,6 @@
     }
     .et_pb_column.flex-layout .et_pb_text {
         text-align: center !important;
-    }
-
-    /* Conteneurs
-    ------------------ */
-
-    .content-section .et_pb_row:not(.subtitle-row) {
-        padding-top: 0;
-        padding-bottom: 0;
     }
 
 }
