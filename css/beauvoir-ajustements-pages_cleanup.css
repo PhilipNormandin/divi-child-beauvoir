@@ -90,8 +90,8 @@
     ------------------ */
 
     .content-section .et_pb_row:not(.subtitle-row) {
-        padding-top: 0;
-        padding-bottom: 0;
+        margin: 25px;
+        padding: 0;
     }
 
 
@@ -99,7 +99,7 @@
     ------------------ */
 
     .content-section .et_pb_text:not(.exception):last-child {
-        margin-bottom: 25px;
+        /* margin-bottom: 25px; */
     }
 
 
