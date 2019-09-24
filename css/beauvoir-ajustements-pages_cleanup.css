@@ -105,10 +105,10 @@
     ------------------ */
 
     .content-section .et_pb_row {
-        padding: 0;
+        padding: 0 !important;
     }
     .content-section .et_pb_row:not(.subtitle-row) {
-        margin: 25px auto;
+        margin: 25px auto ;
     }
     .content-section .subtitle-row {
         margin: 25px auto 50px;
@@ -157,7 +157,7 @@
 
 
 /* =========================================
-         Ajustements Écran Tablet
+        Ajustements Écran Tablette
 ========================================= */
 
 
