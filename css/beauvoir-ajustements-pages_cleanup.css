@@ -103,6 +103,14 @@
     }
 
 
+    /* Sous-titres
+    ------------------ */
+
+    .et_pb_row.subtitle-row .et_pb_text:not(.intro) {
+        margin-bottom: 40px;
+    }
+
+
     /* Float Layout
     ------------------ */
 
