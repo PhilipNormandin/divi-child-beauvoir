@@ -108,6 +108,9 @@
         margin: 25px auto;
         padding: 0;
     }
+    .et_pb_row.subtitle-row {
+        margin: 25px auto 50px;
+    }
 
 
     /* Sous-titres
