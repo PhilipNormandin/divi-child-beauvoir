@@ -44,10 +44,10 @@
 ========================================= */
 
 
-#main-content figure {
+.content-section figure {
     margin: 0 !important;
 }
-#main-content figcaption {
+.content-section figcaption {
     color: #bd322c;
     font-size: 16px;
     font-style: italic;
@@ -56,10 +56,10 @@
     padding-top: 15px;
     text-align: center;
 }
-#main-content img {
+.content-section img {
     box-shadow: 0px 12px 14px -6px rgba(0,0,0,0.3);
 }
-.et_pb_image_sticky {
+.content-section .et_pb_image_sticky {
     display: block !important;
 }
 
