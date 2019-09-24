@@ -5,7 +5,7 @@
                  Conteneurs
 ========================================= */
 
-.content-section .et_pb_row:not(.subtitle-row) {
+.content-section .et_pb_row {
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -16,7 +16,7 @@
 ========================================= */
 
 
-.content-section .et_pb_text:not(.exception) {
+.content-section .et_pb_text:not(.text-aligned-manually) {
     hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
@@ -100,7 +100,7 @@
     /* Conteneurs
     ------------------ */
 
-    .content-section .et_pb_row:not(.subtitle-row) {
+    .content-section .et_pb_row {
         margin: 25px auto;
         padding: 0;
     }
