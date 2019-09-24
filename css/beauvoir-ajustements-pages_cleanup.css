@@ -145,7 +145,7 @@
         flex-direction: column;
     }
     .et_pb_column.flex-layout .et_pb_image {
-        margin-bottom: 20px !important;
+        margin-bottom: 24px !important;
         order: -1;
         width: inherit;
     }
