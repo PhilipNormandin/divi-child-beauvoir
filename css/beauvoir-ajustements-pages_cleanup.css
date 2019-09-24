@@ -16,13 +16,13 @@
 ========================================= */
 
 
-.content-section .et_pb_text {
+#main-content .content-section .et_pb_text {
     margin-bottom: 25px;
     hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
 }
-.content-section .et_pb_text:last-child {
+#main-content .content-section .et_pb_text:last-child {
     margin-bottom: 0;
 }
 
