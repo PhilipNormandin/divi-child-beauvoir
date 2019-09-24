@@ -89,7 +89,7 @@
     /* Conteneurs
     ------------------ */
 
-    .content-section .et_pb_row:not(.subtitle-row) {
+    .content-section .et_pb_row:not(.exception) {
         padding-top: 0;
         padding-bottom: 0;
     }
