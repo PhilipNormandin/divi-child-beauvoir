@@ -73,7 +73,7 @@
     margin-bottom: 15px !important;
 }
 .et_pb_row.with-float-image + .et_pb_row {
-    padding-top: 10px !important;
+    padding-top: 10px;
 }
 
 
