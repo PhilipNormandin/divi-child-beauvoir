@@ -20,6 +20,9 @@
 
 #main-content .et_pb_text {
     margin-bottom: 24px;
+    hyphens: auto;
+    text-align: justify;
+    text-justify: inter-character;
 }
 #main-content .et_pb_text:last-child {
     margin-bottom: 0;
@@ -36,7 +39,7 @@
 }
 #main-content figcaption {
     color: #bd322c;
-    font-size: 17px;
+    font-size: 16px;
     font-style: italic;
     font-weight: 600;
     line-height: initial !important;
