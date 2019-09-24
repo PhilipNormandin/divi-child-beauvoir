@@ -9,7 +9,8 @@
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.content-section .subtitle-row {
+.content-section .subtitle-row,
+.content-section .flex-layout-row {
     padding-top: 30px;
     padding-bottom: 30px;
 }
