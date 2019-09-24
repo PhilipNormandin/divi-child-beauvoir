@@ -31,10 +31,10 @@
                 Sous-titres
 ========================================= */
 
-#main-content h2 {
+.et_pb_row.subtitle-row h2 {
     padding-bottom: 0;
 }
-#main-content .et_pb_row.subtitle-row .et_pb_text:not(.intro) {
+.et_pb_row.subtitle-row .et_pb_text:not(.intro) {
     margin-bottom: 30px;
 }
 
