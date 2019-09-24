@@ -111,6 +111,7 @@
         width: inherit;
     }
 
+
     /* Flex Layout
     ------------------ */
 
@@ -125,6 +126,7 @@
     .et_pb_column.flex-layout .et_pb_text {
         text-align: center !important;
     }
+
 
 }
 
