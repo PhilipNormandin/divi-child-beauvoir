@@ -12,18 +12,6 @@
 
 
 /* =========================================
-                   Titres
-========================================= */
-
-#main-content h2 {
-    padding-bottom: 0;
-}
-#main-content .et_pb_row.subtitle-row .et_pb_text:not(.intro) {
-    margin-bottom: 30px;
-}
-
-
-/* =========================================
                 Paragraphes
 ========================================= */
 
@@ -35,6 +23,18 @@
 }
 #main-content .et_pb_text:last-child {
     margin-bottom: 0;
+}
+
+
+/* =========================================
+                Sous-titres
+========================================= */
+
+#main-content h2 {
+    padding-bottom: 0;
+}
+#main-content .et_pb_row.subtitle-row .et_pb_text:not(.intro) {
+    margin-bottom: 30px;
 }
 
 
