@@ -79,6 +79,15 @@
 }
 
 
+/* =========================================
+               Flex Layout
+========================================= */
+
+
+.et_pb_column.flex-layout .et_pb_text {
+    margin-bottom: 0;
+}
+
 
 /* =========================================
          Ajustements Écran Mobile
@@ -100,8 +109,8 @@
     /* Paragraphes
     ------------------ */
 
-    .content-section .et_pb_text:last-child {
-        /* margin-bottom: 25px; */
+    .content-section .et_pb_text {
+
     }
 
 
