@@ -90,7 +90,7 @@
     ------------------ */
 
     .content-section .et_pb_row:not(.subtitle-row) {
-        margin: 25px;
+        margin: 25px auto;
         padding: 0;
     }
 
