@@ -16,13 +16,13 @@
 ========================================= */
 
 
-.content-section .et_pb_row:not(.subtitle-row) .et_pb_text {
+.content-section .et_pb_text:not(.exception) {
     margin-bottom: 25px;
     hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
 }
-.content-section .et_pb_row:not(.subtitle-row) .et_pb_text:last-child {
+.content-section .et_pb_text:not(.exception):last-child {
     margin-bottom: 0;
 }
 
