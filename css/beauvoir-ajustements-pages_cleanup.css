@@ -98,7 +98,7 @@
     /* Paragraphes
     ------------------ */
 
-    .content-section .et_pb_row:not(.subtitle-row) .et_pb_text:last-child{
+    .content-section .et_pb_text:not(.exception):last-child {
         margin-bottom: 25px;
     }
 
