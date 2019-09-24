@@ -98,7 +98,7 @@
     /* Paragraphes
     ------------------ */
 
-    #main-content .et_pb_row:not(.subtitle-row) .et_pb_text:last-child {
+    .content-section .et_pb_row:not(.subtitle-row) .et_pb_text:last-child{
         margin-bottom: 25px;
     }
 
@@ -116,6 +116,10 @@
     /* Flex Layout
     ------------------ */
 
+    .et_pb_row.with-float-image .et_pb_column {
+        display: flex;
+        flex-direction: column;
+    }
     .et_pb_column.flex-layout {
         flex-direction: column;
     }
