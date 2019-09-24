@@ -5,11 +5,11 @@
                  Conteneurs
 ========================================= */
 
-.content-section .et_pb_row {
+.content-section .et_pb_row:not(.subtitle-row) {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.et_pb_row.subtitle-row {
+.content-section .subtitle-row {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -19,10 +19,10 @@
                 Sous-titres
 ========================================= */
 
-.et_pb_row.subtitle-row h2 {
+.subtitle-row h2 {
     padding-bottom: 0;
 }
-.et_pb_row.subtitle-row .et_pb_text:not(.intro) {
+.subtitle-row .et_pb_text.subtitle {
     margin-bottom: 30px;
 }
 
@@ -105,10 +105,12 @@
     ------------------ */
 
     .content-section .et_pb_row {
-        margin: 25px auto;
         padding: 0;
     }
-    .et_pb_row.subtitle-row {
+    .content-section .et_pb_row:not(.subtitle-row) {
+        margin: 25px auto;
+    }
+    .content-section .subtitle-row {
         margin: 25px auto 50px;
     }
 
@@ -116,7 +118,7 @@
     /* Sous-titres
     ------------------ */
 
-    .et_pb_row.subtitle-row .et_pb_text:not(.intro) {
+    .subtitle-row .et_pb_text.subtitle {
         margin-bottom: 40px;
     }
 
@@ -148,6 +150,25 @@
     }
     .et_pb_column.flex-layout .et_pb_text {
         text-align: center !important;
+    }
+
+
+}
+
+
+/* =========================================
+         Ajustements Écran Tablet
+========================================= */
+
+
+@media only screen and (max-width: 980px) {
+
+
+    /* Conteneurs
+    ------------------ */
+
+    .content-section .et_pb_row {
+        max-width: 100%;
     }
 
 
