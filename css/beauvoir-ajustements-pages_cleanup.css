@@ -9,10 +9,26 @@
     padding-top: 25px;
     padding-bottom: 25px;
 }
+.et_pb_row.subtitle-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 
 /* =========================================
-                Paragraphes
+                Sous-titres
+========================================= */
+
+.et_pb_row.subtitle-row h2 {
+    padding-bottom: 0;
+}
+.et_pb_row.subtitle-row .et_pb_text:not(.intro) {
+    margin-bottom: 30px;
+}
+
+
+/* =========================================
+                  Textes
 ========================================= */
 
 
@@ -26,18 +42,6 @@
 }
 .content-section .et_pb_text:last-child {
     margin-bottom: 0;
-}
-
-
-/* =========================================
-                Sous-titres
-========================================= */
-
-.et_pb_row.subtitle-row h2 {
-    padding-bottom: 0;
-}
-.et_pb_row.subtitle-row .et_pb_text:not(.intro) {
-    margin-bottom: 30px;
 }
 
 
@@ -103,14 +107,6 @@
     .content-section .et_pb_row {
         margin: 25px auto;
         padding: 0;
-    }
-
-
-    /* Paragraphes
-    ------------------ */
-
-    .content-section .et_pb_text {
-
     }
 
 
