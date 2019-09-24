@@ -5,7 +5,7 @@
                  Conteneurs
 ========================================= */
 
-.content-section .et_pb_row:not(.exception) {
+.content-section .et_pb_row:not(.subtitle-row) {
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -89,7 +89,7 @@
     /* Conteneurs
     ------------------ */
 
-    .content-section .et_pb_row:not(.exception) {
+    .content-section .et_pb_row:not(.subtitle-row) {
         padding-top: 0;
         padding-bottom: 0;
     }
