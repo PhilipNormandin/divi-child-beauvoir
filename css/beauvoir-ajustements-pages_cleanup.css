@@ -21,9 +21,6 @@
 #main-content img {
     box-shadow: 0px 12px 14px -6px rgba(0,0,0,0.3);
 }
-.content-section .et_pb_image_sticky {
-    /* display: block !important; */
-}
 
 
 /* =========================================
@@ -60,17 +57,17 @@
 ========================================= */
 
 
-.et_pb_image.float-left {
+#main-content .et_pb_image.float-left {
     float: left;
     margin-right: 60px;
 }
-.et_pb_image.float-right {
+#main-content .et_pb_image.float-right {
     float: right;
     margin-left: 60px;
 }
-.et_pb_image.float-left,
-.et_pb_image.float-right {
-    margin-bottom: 1em !important;
+#main-content .et_pb_image.float-left,
+#main-content .et_pb_image.float-right {
+    margin-bottom: 1em;
 }
 
 
@@ -117,8 +114,8 @@
     /* Float Layout
     ------------------ */
 
-    .et_pb_image.float-left,
-    .et_pb_image.float-right {
+    #main-content .et_pb_image.float-left,
+    #main-content .et_pb_image.float-right {
         float: none;
         width: inherit;
     }
