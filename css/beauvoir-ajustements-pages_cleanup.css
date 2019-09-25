@@ -95,12 +95,10 @@
 @media only screen and (max-width: 767px) {
 
 
-    /* Images et Légendes
-    ------------------ */
+    /* Images (flottante et non flottante)
+    -------------------------------------- */
 
-    #main-content .et_pb_image {
-        margin: 25px auto 35px;
-    }
+
 
 
     /* Sous-titres
@@ -118,16 +116,13 @@
     #main-content .et_pb_image.float-right {
         float: none;
         width: inherit;
+        margin: 25px auto 35px;
     }
 
 
     /* Flex Layout
     ------------------ */
 
-    .et_pb_row.with-float-image .et_pb_column {
-        display: flex;
-        flex-direction: column;
-    }
     .et_pb_column.flex-layout {
         flex-direction: column;
     }
@@ -138,6 +133,18 @@
     }
     .et_pb_column.flex-layout .et_pb_text {
         text-align: center !important;
+    }
+
+
+    /* Mobile Flex Layout
+    ----------------------- */
+
+    .et_pb_row.mobile-flex-layout .et_pb_column {
+        display: flex;
+        flex-direction: column;
+    }
+    #main-content .et_pb_row.mobile-flex-layout .et_pb_image {
+        margin: 25px auto 35px;
     }
 
 
