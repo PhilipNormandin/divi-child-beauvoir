@@ -98,18 +98,11 @@
 @media only screen and (max-width: 767px) {
 
 
-    /* Conteneurs
+    /* Images et Légendes
     ------------------ */
 
-    .content-section .et_pb_row {
-        /* margin: 25px auto; */
-        /* padding: 0 !important; */
-    }
-    .content-section .subtitle-row {
-        /* margin: 25px auto 50px !important; */
-    }
-    .content-section .flex-layout-row {
-        /* margin: 60px auto !important; */
+    .et_pb_image {
+        margin: 30px auto 40px !important;
     }
 
 
@@ -127,7 +120,6 @@
     .et_pb_image.float-left,
     .et_pb_image.float-right {
         float: none;
-        margin: 30px auto 40px !important;
         width: inherit;
     }
 
