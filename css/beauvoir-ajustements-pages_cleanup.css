@@ -66,9 +66,11 @@
     margin-bottom: 10px;
 }
 .et_pb_image.float-left {
+    float: left;
     margin-right: 60px;
 }
 .et_pb_image.float-right {
+    float: right;
     margin-left: 60px;
 }
 
