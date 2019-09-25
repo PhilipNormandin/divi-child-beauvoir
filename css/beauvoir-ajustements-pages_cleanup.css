@@ -144,7 +144,7 @@
         flex-direction: column;
     }
     #main-content .et_pb_row.mobile-flex-layout .et_pb_image {
-        margin: 25px auto 35px;
+        margin: 25px auto 35px !important;
     }
 
 
