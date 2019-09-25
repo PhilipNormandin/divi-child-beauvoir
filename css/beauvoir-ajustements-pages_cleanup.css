@@ -77,10 +77,10 @@
 
 
 .et_pb_row.with-float-image .et_pb_image {
-    margin-bottom: 15px !important;
+    margin-bottom: 10px !important;
 }
 .et_pb_row.with-float-image + .et_pb_row {
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 
 
