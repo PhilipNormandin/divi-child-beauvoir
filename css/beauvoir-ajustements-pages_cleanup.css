@@ -6,10 +6,10 @@
 ========================================= */
 
 
-.content-section figure {
+#main-content figure {
     margin: 0 !important;
 }
-.content-section figcaption {
+#main-content figcaption {
     color: #bd322c;
     font-size: 17px;
     font-style: italic;
@@ -18,11 +18,11 @@
     padding-top: 15px;
     text-align: center;
 }
-.content-section img {
+#main-content img {
     box-shadow: 0px 12px 14px -6px rgba(0,0,0,0.3);
 }
 .content-section .et_pb_image_sticky {
-    display: block !important;
+    /* display: block !important; */
 }
 
 
@@ -31,13 +31,13 @@
 ========================================= */
 
 
-.content-section .et_pb_text:not(.text-aligned-manually) {
+#main-content .et_pb_text:not(.text-aligned-manually) {
     hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
     margin-bottom: 23px !important;
 }
-.content-section .et_pb_text:not(.text-aligned-manually):last-child {
+#main-content .et_pb_text:not(.text-aligned-manually):last-child {
     margin-bottom: 0 !important;
 }
 
@@ -101,7 +101,7 @@
     /* Images et Légendes
     ------------------ */
 
-    .et_pb_image {
+    #main-content .et_pb_image {
         margin: 25px auto 35px !important;
     }
 
@@ -159,7 +159,7 @@
     ------------------ */
 
     .content-section .et_pb_row {
-        max-width: 100%;
+        /* max-width: 100%; */
     }
 
 
