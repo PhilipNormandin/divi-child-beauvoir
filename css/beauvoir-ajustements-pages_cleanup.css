@@ -180,6 +180,7 @@
 ========================================= */
 
 
-.et_pb_module.et_pb_image.et-animated--vb {
+.et_pb_module.et_pb_image.et-animated--vb,
+.et_pb_module.et_pb_wptools_image.et-animated--vb {
     z-index: 99;
 }
