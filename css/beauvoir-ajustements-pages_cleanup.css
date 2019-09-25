@@ -2,51 +2,6 @@
 
 
 /* =========================================
-                 Conteneurs
-========================================= */
-
-.content-section .et_pb_row {
-    /* padding-top: 25px; */
-    /* padding-bottom: 25px; */
-}
-.content-section .subtitle-row,
-.content-section .flex-layout-row {
-    /* padding-top: 30px; */
-    /* padding-bottom: 30px; */
-}
-
-
-/* =========================================
-                Sous-titres
-========================================= */
-
-.subtitle-row h2 {
-    padding-bottom: 0;
-}
-.subtitle-row .et_pb_text.subtitle {
-    margin-bottom: 30px;
-}
-
-
-/* =========================================
-                  Textes
-========================================= */
-
-
-.content-section .et_pb_text:not(.text-aligned-manually) {
-    hyphens: auto;
-    text-align: justify;
-    text-justify: inter-character;
-}
-.content-section .et_pb_text {
-    margin-bottom: 23px !important;
-}
-.content-section .et_pb_text:last-child {
-    margin-bottom: 0 !important;
-}
-
-
-/* =========================================
             Images et Légendes
 ========================================= */
 
@@ -68,6 +23,36 @@
 }
 .content-section .et_pb_image_sticky {
     display: block !important;
+}
+
+
+/* =========================================
+                Paragraphes
+========================================= */
+
+
+.content-section .et_pb_text:not(.text-aligned-manually) {
+    hyphens: auto;
+    text-align: justify;
+    text-justify: inter-character;
+}
+.content-section .et_pb_text {
+    margin-bottom: 23px !important;
+}
+.content-section .et_pb_text:last-child {
+    margin-bottom: 0 !important;
+}
+
+
+/* =========================================
+                Sous-titres
+========================================= */
+
+.subtitle-row h2 {
+    padding-bottom: 0;
+}
+.subtitle-row .et_pb_text.subtitle {
+    margin-bottom: 15px !important;
 }
 
 
