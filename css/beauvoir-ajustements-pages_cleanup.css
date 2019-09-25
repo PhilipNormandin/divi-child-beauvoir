@@ -48,7 +48,7 @@
 
 
 .et_pb_text.subtitle {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 .et_pb_text.subtitle h2 {
     padding-bottom: 20px;
