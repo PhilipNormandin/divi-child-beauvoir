@@ -58,9 +58,10 @@
 
 
 #main-content .et_pb_image.float-left,
-#main-content div.et_pb_wptools_image.float-left {
+#main-content div.et_pb_wptools_image.float-left figure {
     float: left;
-    margin-right: 60px;
+    /* margin-right: 60px; */
+    margin: 0px 60px 1em 0px;
 }
 #main-content .et_pb_image.float-right {
     float: right;
