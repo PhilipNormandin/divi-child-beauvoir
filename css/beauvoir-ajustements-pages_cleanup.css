@@ -57,7 +57,8 @@
 ========================================= */
 
 
-#main-content .et_pb_image.float-left {
+#main-content .et_pb_image.float-left,
+#main-content .et_pb_wptools_image.float-left {
     float: left;
     margin-right: 60px;
 }
