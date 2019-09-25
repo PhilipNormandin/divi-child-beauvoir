@@ -61,11 +61,15 @@
 ========================================= */
 
 
-.et_pb_row.with-float-image .et_pb_image {
-    /* margin-bottom: 10px !important; */
+.et_pb_image.float-left,
+.et_pb_image.float-right {
+    margin-bottom: 10px;
 }
-.et_pb_row.with-float-image + .et_pb_row {
-    /* padding-top: 10px; */
+.et_pb_image.float-left {
+    margin-right: 60px;
+}
+.et_pb_image.float-right {
+    margin-left: 60px;
 }
 
 
