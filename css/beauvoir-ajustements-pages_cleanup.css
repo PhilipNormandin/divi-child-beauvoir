@@ -39,10 +39,10 @@
     text-justify: inter-character;
 }
 .content-section .et_pb_text {
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
 }
 .content-section .et_pb_text:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 
