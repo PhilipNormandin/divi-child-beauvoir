@@ -124,7 +124,8 @@
     /* Float Layout
     ------------------ */
 
-    .et_pb_row.with-float-image .et_pb_image {
+    .et_pb_image.float-left,
+    .et_pb_image.float-right {
         float: none;
         margin: 30px auto 40px !important;
         width: inherit;
@@ -167,6 +168,17 @@
 
     .content-section .et_pb_row {
         max-width: 100%;
+    }
+
+
+    /* Float Layout
+    ------------------ */
+
+    .et_pb_image.float-left {
+        margin-right: 50px;
+    }
+    .et_pb_image.float-right {
+        margin-left: 50px;
     }
 
 
