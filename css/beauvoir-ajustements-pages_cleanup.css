@@ -45,10 +45,10 @@
 
 
 .et_pb_text.subtitle {
-    margin-bottom: 0 !important;
+    margin-bottom: 30px !important;
 }
 .et_pb_text.subtitle h2 {
-    padding-bottom: 20px;
+    padding-bottom: 0;
 }
 
 
@@ -76,7 +76,17 @@
 ========================================= */
 
 
-.et_pb_column.flex-layout .et_pb_text {
+.et_pb_row.flex-layout .et_pb_column {
+    display: flex;
+    align-items: center;
+}
+.et_pb_row.flex-layout .et_pb_image {
+    flex: none;
+}
+.et_pb_row.flex-layout .et_pb_image:first-child {
+    margin-right: 60px;
+}
+.et_pb_row.flex-layout .et_pb_text {
     margin-bottom: 0;
 }
 .et_pb_column.flex-layout .et_pb_text p {
