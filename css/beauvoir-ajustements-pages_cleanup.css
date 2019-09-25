@@ -49,10 +49,10 @@
 ========================================= */
 
 .subtitle-row h2 {
-    padding-bottom: 0;
+    padding-bottom: 20px;
 }
 .subtitle-row .et_pb_text.subtitle {
-    margin-bottom: 30px !important;
+    margin-bottom: 0 !important;
 }
 
 
