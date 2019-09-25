@@ -107,7 +107,7 @@ function beauvoir_enqueue_scripts() {
     // pages temporaires pour clean-up
     if ( is_page( array( 'histoire-clean-up' ) ) ) {
         wp_enqueue_style( 'beauvoir-ajustements-pages_cleanup', get_stylesheet_directory_uri() .'/css/beauvoir-ajustements-pages_cleanup.css' );
-        // wp_enqueue_script( 'ajustements-pages-script_cleanup', get_stylesheet_directory_uri() . '/js/ajustements-pages-script_cleanup.js', array( 'jquery' ), '', true );
+        wp_enqueue_script( 'ajustements-pages-script_cleanup', get_stylesheet_directory_uri() . '/js/ajustements-pages-script_cleanup.js', array( 'jquery' ), '', true );
     }
 
     // page GALERIE DE PHOTOS et autres pages contenant des images affichées avec The Grid
