@@ -74,8 +74,8 @@ rouge - calendrier : #bd322c
         line-height: 1em !important;
     }
     #page-header .et_pb_row {
-        padding-top: 44px !important;
-        padding-bottom: 44px !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
     }
 }
 @media only screen and (min-width: 981px) and (max-width: 1365px) {
