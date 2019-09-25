@@ -21,8 +21,9 @@
 #main-content img {
     box-shadow: 0px 12px 14px -6px rgba(0,0,0,0.3);
 }
-#main-content .et_pb_image {
-
+#main-content .et_pb_image.center {
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 
@@ -86,8 +87,8 @@
 .et_pb_row.flex-layout .et_pb_image {
     flex: none;
 }
-.et_pb_row.flex-layout .et_pb_image:first-child {
-    margin-right: 60px;
+.et_pb_row.flex-layout .et_pb_text:first-child {
+    margin-left: 60px;
 }
 .et_pb_row.flex-layout .et_pb_text {
     margin-bottom: 0;
