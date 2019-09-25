@@ -11,8 +11,8 @@
 }
 .content-section .subtitle-row,
 .content-section .flex-layout-row {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
 }
 
 
@@ -39,7 +39,7 @@
     text-justify: inter-character;
 }
 .content-section .et_pb_text {
-    margin-bottom: 25px !important;
+    margin-bottom: 23px !important;
 }
 .content-section .et_pb_text:last-child {
     margin-bottom: 0 !important;
@@ -113,7 +113,7 @@
 
     .content-section .et_pb_row {
         margin: 25px auto;
-        padding: 0 !important;
+        /* padding: 0 !important; */
     }
     .content-section .subtitle-row {
         margin: 25px auto 50px !important;
