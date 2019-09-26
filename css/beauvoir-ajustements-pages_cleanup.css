@@ -57,15 +57,13 @@
 ========================================= */
 
 
-#main-content .et_pb_image.float-left,
 #main-content div.et_pb_wptools_image.float-left figure {
     float: left;
-    /* margin-right: 60px; */
     margin: 0px 60px 1em 0px;
 }
-#main-content .et_pb_image.float-right {
+#main-content div.et_pb_wptools_image.float-right figure {
     float: right;
-    margin-left: 60px;
+    margin: 0px 0px 1em 60px;
 }
 #main-content .et_pb_image.float-left,
 #main-content .et_pb_image.float-right {
