@@ -5,7 +5,9 @@
             Images et Légendes
 ========================================= */
 
-
+#main-content figure {
+    margin: 0;
+}
 #main-content div.et_pb_wptools_image {
     margin-bottom: 0 !important;
 }
