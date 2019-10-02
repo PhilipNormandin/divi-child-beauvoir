@@ -22,7 +22,7 @@ figcaption,
     font-style: italic;
     font-weight: 600;
     line-height: 1.4em !important;
-    padding-top: 8px;
+    padding-top: 6px;
     text-align: center;
 }
 .caption p:first-child {
