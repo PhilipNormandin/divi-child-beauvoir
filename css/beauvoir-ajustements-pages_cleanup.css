@@ -91,6 +91,15 @@ figcaption,
 @media only screen and (max-width: 767px) {
 
 
+    /* Images et Légendes
+    ---------------------- */
+
+    figcaption,
+    .caption p:last-child {
+        font-size: 15px !important;
+    }
+
+
     /* Paragraphes
     ------------------ */
 
