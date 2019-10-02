@@ -15,8 +15,7 @@ div.et_pb_wptools_image {
 #main-content img {
     box-shadow: 0px 12px 14px -6px rgba(0,0,0,0.3);
 }
-figcaption,
-.figcaption {
+figcaption {
     color: #bd322c;
     font-size: 17px;
     font-style: italic;
@@ -36,7 +35,7 @@ figcaption,
     hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
-    margin-bottom: 23px !important;
+    margin-bottom: 23px;
 }
 #main-content .et_pb_text:not(.text-aligned-manually):last-child {
     margin-bottom: 0 !important;
