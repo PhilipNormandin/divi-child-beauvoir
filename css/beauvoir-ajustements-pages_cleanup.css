@@ -15,7 +15,8 @@ div.et_pb_wptools_image {
 #main-content img {
     box-shadow: 0px 12px 14px -6px rgba(0,0,0,0.3);
 }
-figcaption {
+figcaption,
+.figcaption {
     color: #bd322c;
     font-size: 17px;
     font-style: italic;
