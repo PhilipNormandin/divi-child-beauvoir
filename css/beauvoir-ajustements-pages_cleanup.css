@@ -52,10 +52,10 @@ figcaption,
 
 
 .et_pb_text.subtitle {
-    margin-bottom: 30px !important;
+    /* margin-bottom: 30px !important; */
 }
 .et_pb_text.subtitle h2 {
-    padding-bottom: 0;
+    /* padding-bottom: 0; */
 }
 
 
@@ -109,7 +109,7 @@ figcaption,
         /* text-justify: unset; */
         font-size: 18px;
         line-height: 1.5em;
-        letter-spacing: -0.04em;
+        letter-spacing: -0.038em;
     }
 
 
