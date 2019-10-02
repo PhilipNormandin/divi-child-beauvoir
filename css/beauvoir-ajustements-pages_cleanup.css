@@ -95,9 +95,11 @@ figcaption,
     ------------------ */
 
     #main-content .et_pb_text:not(.text-aligned-manually) {
-        hyphens: none;
-        text-align: left;
-        text-justify: unset;
+        /* hyphens: none; */
+        /* text-align: left; */
+        /* text-justify: unset; */
+        font-size: 17px;
+        line-height: 1.5em;
     }
 
 
