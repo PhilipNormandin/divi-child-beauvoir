@@ -96,7 +96,7 @@ figcaption,
 
     figcaption,
     .caption p:last-child {
-        font-size: 15px !important;
+        font-size: 16px !important;
     }
 
 
@@ -107,7 +107,7 @@ figcaption,
         /* hyphens: none; */
         /* text-align: left; */
         /* text-justify: unset; */
-        font-size: 17px;
+        font-size: 18px;
         line-height: 1.5em;
         letter-spacing: -0.04em;
     }
