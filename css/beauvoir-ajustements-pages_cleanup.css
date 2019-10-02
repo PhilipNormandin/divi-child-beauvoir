@@ -25,6 +25,9 @@ figcaption,
     padding-top: 8px;
     text-align: center;
 }
+.caption p:first-child {
+    padding-bottom: 0;
+}
 
 
 /* =========================================
