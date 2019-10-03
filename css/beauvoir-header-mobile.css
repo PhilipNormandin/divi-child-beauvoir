@@ -82,7 +82,7 @@
     #main-header .et_mobile_menu .menu-item-has-children > a::after {
         border-color: rgba(255,255,255,0.3);
     }
-	
+
 	/* ajustements sous-menu langues */
 	li.pll-parent-menu-item {
 		width: 60%;
@@ -302,7 +302,7 @@
 
   /* ajuste dimension logo */
   a > img#logo {
-    height: 100% !important;
+    /* height: 100% !important; */
   }
 
   /* positionne la loupe */
