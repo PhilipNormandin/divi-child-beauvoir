@@ -110,13 +110,13 @@
   }
 
   /* Jumping header Fix */
-  #page-container { padding-top: 70px !important; }
+  #page-container { padding-top: 76px !important; }
   #main-header { top: 0px !important; }
 
   /* fixe hauteur et padding du header */
   #main-header,
   #main-header .logo_container {
-    height: 70px !important;
+    height: 76px !important;
     padding: 0 !important;
   }
 
@@ -456,7 +456,7 @@
 /* adjust dropdown menu top offset */
     .et_header_style_centered #main-header .et_mobile_menu,
     .et_header_style_split #main-header .et_mobile_menu {
-        top: 70px;
+        top: 76px;
     }
     body.admin-bar.et_header_style_centered #main-header .et_mobile_menu,
     body.admin-bar.et_header_style_split #main-header .et_mobile_menu {
@@ -574,8 +574,8 @@
 @media only screen and (max-width: 1365px) {
   #mobile_menu {
     display: block !important;
-    min-height: calc(100vh - 70px);
-    height: calc(100% - 70px);
+    min-height: calc(100vh - 76px);
+    height: calc(100% - 76px);
     top: 0;
     right: 0;
     position: fixed;
