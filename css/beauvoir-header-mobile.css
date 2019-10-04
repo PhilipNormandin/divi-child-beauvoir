@@ -16,7 +16,7 @@
   #mobile_menu {
     width: 100%;
     margin-left: 0;
-    padding: 60px 30px !important;
+    padding: 30px 30px !important;
   }
 }
 
@@ -455,7 +455,7 @@
 /* adjust dropdown menu top offset */
     .et_header_style_centered #main-header .et_mobile_menu,
     .et_header_style_split #main-header .et_mobile_menu {
-        top: 90px;
+        top: 80px;
     }
     body.admin-bar.et_header_style_centered #main-header .et_mobile_menu,
     body.admin-bar.et_header_style_split #main-header .et_mobile_menu {
@@ -573,8 +573,8 @@
 @media only screen and (max-width: 1365px) {
   #mobile_menu {
     display: block !important;
-    min-height: calc(100vh - 90px);
-    height: calc(100% - 90px);
+    min-height: calc(100vh - 80px);
+    height: calc(100% - 80px);
     top: 0;
     right: 0;
     position: fixed;
