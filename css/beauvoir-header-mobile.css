@@ -16,7 +16,7 @@
   #mobile_menu {
     width: 100%;
     margin-left: 0;
-    padding: 15px 30px !important;
+    padding: 10px 30px !important;
   }
 }
 
@@ -73,8 +73,8 @@
 
     /* divers ajustements */
     #main-header .et_mobile_menu .menu-item-has-children > a::after {
-        border: 2px solid;
-        border-radius: 50%;
+        /* border: 2px solid; */
+        /* border-radius: 50%; */
     }
 
     /* couleur des séparateurs et contours de pointeur */
