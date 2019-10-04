@@ -57,7 +57,7 @@ ul#mobile_menu li.pll-parent-menu-item > a::before {
 /* ajuste formulaire de recherche */
 .et_fullwidth_nav .et-search-form,
 .et_fullwidth_nav .et_close_search_field {
-    right: 20px !important;
+    /* right: 20px !important; */
 }
 
 
