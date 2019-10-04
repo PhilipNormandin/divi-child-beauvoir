@@ -96,8 +96,8 @@ rouge - calendrier : #bd322c
         line-height: 1.2em !important;
     }
     #page-header .et_pb_row {
-        padding-top: 26px !important;
-        padding-bottom: 24px !important;
+        padding-top: 22px !important;
+        padding-bottom: 20px !important;
     }
 }
 @media only screen and (max-width: 767px) {
