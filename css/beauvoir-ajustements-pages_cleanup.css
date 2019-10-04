@@ -139,23 +139,6 @@ figcaption,
 @media only screen and (max-width: 980px) {
 
 
-    /* Conteneurs
-    ------------------ */
-
-    .content-section .et_pb_row {
-        /* max-width: 100%; */
-    }
-
-
-    /* Float Layout
-    ------------------ */
-
-    .et_pb_image.float-left {
-        margin-right: 50px;
-    }
-    .et_pb_image.float-right {
-        margin-left: 50px;
-    }
 
 
 }
