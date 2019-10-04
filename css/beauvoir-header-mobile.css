@@ -110,13 +110,13 @@
   }
 
   /* Jumping header Fix */
-  #page-container { padding-top: 80px !important; }
+  #page-container { padding-top: 70px !important; }
   #main-header { top: 0px !important; }
 
   /* fixe hauteur et padding du header */
   #main-header,
   #main-header .logo_container {
-    height: 80px !important;
+    height: 70px !important;
     padding: 0 !important;
   }
 
@@ -153,7 +153,7 @@
 
   /* positionne la loupe et le hamburger */
   #et-top-navigation {
-    top: 6px;
+    top: 0px;
   }
 
   /* assure que le hamburger apparaisse sur petits écrans */
@@ -456,7 +456,7 @@
 /* adjust dropdown menu top offset */
     .et_header_style_centered #main-header .et_mobile_menu,
     .et_header_style_split #main-header .et_mobile_menu {
-        top: 80px;
+        top: 70px;
     }
     body.admin-bar.et_header_style_centered #main-header .et_mobile_menu,
     body.admin-bar.et_header_style_split #main-header .et_mobile_menu {
@@ -574,8 +574,8 @@
 @media only screen and (max-width: 1365px) {
   #mobile_menu {
     display: block !important;
-    min-height: calc(100vh - 80px);
-    height: calc(100% - 80px);
+    min-height: calc(100vh - 70px);
+    height: calc(100% - 70px);
     top: 0;
     right: 0;
     position: fixed;
