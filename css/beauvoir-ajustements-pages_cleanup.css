@@ -86,6 +86,28 @@ figcaption,
 
 
 /* =========================================
+        Ajustements Écran Tablette
+========================================= */
+
+
+@media only screen and (max-width: 980px) {
+
+
+    /* Float Layout
+    ------------------ */
+
+    .et_pb_text.float-left {
+        margin-right: 50px;
+    }
+    .et_pb_text.float-right {
+        margin-left: 50px;
+    }
+
+
+}
+
+
+/* =========================================
          Ajustements Écran Mobile
 ========================================= */
 
@@ -112,20 +134,17 @@ figcaption,
     }
 
 
-        /* Float Layout
-        ------------------ */
+    /* Float Layout
+    ------------------ */
 
-        .et_pb_text.float-left {
-            margin-right: auto;
-        }
-        .et_pb_text.float-right {
-            margin-left: auto;
-        }
-        .et_pb_text.float-left,
-        .et_pb_text.float-right {
-            float: none;
-            width: inherit;
-        }
+    .et_pb_text.float-left {
+        float: none;
+        margin-right: initial;
+    }
+    .et_pb_text.float-right {
+        float: none;
+        margin-left: initial;
+    }
 
 
     /* Flex Layout
@@ -158,19 +177,6 @@ figcaption,
     .mobile-flex-layout .et_pb_text {
         width: 84%;
     }
-
-
-}
-
-
-/* =========================================
-        Ajustements Écran Tablette
-========================================= */
-
-
-@media only screen and (max-width: 980px) {
-
-
 
 
 }
