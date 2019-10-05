@@ -77,10 +77,10 @@ figcaption,
 .et_pb_row.flex-layout .et_pb_text {
     margin-bottom: 0;
 }
-.et_pb_column.flex-layout .et_pb_text p {
+.et_pb_row.flex-layout .et_pb_text p {
     padding-bottom: 30px;
 }
-.et_pb_column.flex-layout .et_pb_text p:last-child {
+.et_pb_row.flex-layout .et_pb_text p:last-child {
     padding-bottom: 0;
 }
 
@@ -150,15 +150,15 @@ figcaption,
     /* Flex Layout
     ------------------ */
 
-    .et_pb_column.flex-layout {
+    .et_pb_row.flex-layout .et_pb_column {
         flex-direction: column;
     }
-    .et_pb_column.flex-layout .et_pb_image {
+    .et_pb_row.flex-layout .et_pb_image {
         margin-bottom: 24px !important;
         order: -1;
         width: inherit;
     }
-    .et_pb_column.flex-layout .et_pb_text {
+    .et_pb_row.flex-layout .et_pb_text {
         text-align: center !important;
     }
 
