@@ -66,7 +66,8 @@ figcaption,
 ========================================= */
 
 
-.et_pb_row.flex-layout .et_pb_column {
+/*
+    .et_pb_row.flex-layout .et_pb_column {
     display: flex;
     align-items: center;
 }
@@ -90,6 +91,8 @@ figcaption,
     padding-bottom: 0;
 }
 
+*/
+
 
 /* =========================================
                Grid Layout
@@ -107,6 +110,10 @@ figcaption,
 }
 .et_pb_row.grid-image-right .et_pb_column {
     grid-template-columns: 1fr auto;
+}
+.et_pb_row.grid-image-left .et_pb_image,
+.et_pb_row.grid-image-right .et_pb_text {
+    margin-bottom: 0;
 }
 
 
