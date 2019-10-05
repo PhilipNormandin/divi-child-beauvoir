@@ -47,6 +47,25 @@ figcaption,
 
 
 /* =========================================
+               Float Layout
+========================================= */
+
+
+#main-content .et_pb_text.float-left {
+    float: left;
+    margin: 0px 60px 1em 0px;
+}
+#main-content div.et_pb_wptools_image.float-right figure {
+    float: right;
+    margin: 0px 0px 1em 60px;
+}
+#main-content .et_pb_image.float-left,
+#main-content .et_pb_image.float-right {
+    margin-bottom: 1em;
+}
+
+
+/* =========================================
                Flex Layout
 ========================================= */
 
