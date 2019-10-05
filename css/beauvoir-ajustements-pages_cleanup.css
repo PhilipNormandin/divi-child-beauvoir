@@ -173,10 +173,10 @@ figcaption,
         flex-direction: column;
     }
     .et_pb_row.flex-layout .et_pb_module:first-child.et_pb_image {
-        margin-right: initial;
+        margin-right: auto;
     }
     .et_pb_row.flex-layout .et_pb_module:last-child.et_pb_image {
-        margin-left: initial;
+        margin-left: auto;
     }
     .et_pb_row.flex-layout .et_pb_image {
         order: -1;
