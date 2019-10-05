@@ -73,6 +73,7 @@ figcaption,
 }
 .et_pb_row.flex-layout .et_pb_image {
     flex: none;
+    margin-bottom: 0;
 }
 .et_pb_row.flex-layout .et_pb_text {
     margin-bottom: 0;
