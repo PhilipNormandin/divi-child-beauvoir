@@ -116,6 +116,16 @@ figcaption,
     }
 
 
+        /* Float Layout
+        ------------------ */
+
+        #main-content .et_pb_text.float-left,
+        #main-content .et_pb_text.float-right {
+            float: none;
+            width: inherit;
+        }
+
+
     /* Flex Layout
     ------------------ */
 
