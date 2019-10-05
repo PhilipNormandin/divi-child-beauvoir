@@ -172,10 +172,10 @@ figcaption,
     .et_pb_row.flex-layout .et_pb_column {
         flex-direction: column;
     }
-    .et_pb_row.flex-layout .et_pb_module:first-child.et_pb_image {
+    .et_pb_row.flex-layout .et_pb_module:first-of-type.et_pb_image {
         margin-right: auto;
     }
-    .et_pb_row.flex-layout .et_pb_module:last-child.et_pb_image {
+    .et_pb_row.flex-layout .et_pb_module:last-of-type.et_pb_image {
         margin-left: auto;
     }
     .et_pb_row.flex-layout .et_pb_image {
