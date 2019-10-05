@@ -172,14 +172,18 @@ figcaption,
     .et_pb_row.flex-layout .et_pb_column {
         flex-direction: column;
     }
-    .et_pb_row.flex-layout .et_pb_image {
-        margin-left: initial;
+    .et_pb_row.flex-layout .et_pb_module:first-child.et_pb_image {
         margin-right: initial;
+    }
+    .et_pb_row.flex-layout .et_pb_module:last-child.et_pb_image {
+        margin-left: initial;
+    }
+    .et_pb_row.flex-layout .et_pb_image {
         order: -1;
         width: inherit;
     }
     .et_pb_row.flex-layout .et_pb_text {
-        text-align: center !important;
+        text-align: center;
         width: 84%;
     }
 
