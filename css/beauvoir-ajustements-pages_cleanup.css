@@ -69,7 +69,6 @@ figcaption,
 .et_pb_row.flex-layout .et_pb_column {
     display: flex;
     align-items: center;
-    /* gap: 60px; */
 }
 .et_pb_row.flex-layout .et_pb_image {
     flex: none;
@@ -110,6 +109,16 @@ figcaption,
         margin-left: 50px;
     }
 
+
+    /* Flex Layout
+    ------------------ */
+
+    .et_pb_row.flex-layout .et_pb_module:first-child.et_pb_image {
+        margin-right: 50px;
+    }
+    .et_pb_row.flex-layout .et_pb_module:last-child.et_pb_image {
+        margin-left: 50px;
+    }
 
 }
 
@@ -162,9 +171,10 @@ figcaption,
     }
     .et_pb_row.flex-layout .et_pb_column {
         flex-direction: column;
-        gap: 40px;
     }
     .et_pb_row.flex-layout .et_pb_image {
+        margin-left: initial;
+        margin-right: initial;
         order: -1;
         width: inherit;
     }
