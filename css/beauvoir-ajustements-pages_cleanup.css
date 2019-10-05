@@ -51,17 +51,13 @@ figcaption,
 ========================================= */
 
 
-#main-content .et_pb_text.float-left {
+.et_pb_text.float-left {
     float: left;
     margin-right: 60px;
 }
-#main-content .et_pb_text.float-right {
+.et_pb_text.float-right {
     float: right;
     margin-left: 60px;
-}
-#main-content .et_pb_image.float-left,
-#main-content .et_pb_image.float-right {
-    /* margin-bottom: 1em; */
 }
 
 
@@ -119,8 +115,14 @@ figcaption,
         /* Float Layout
         ------------------ */
 
-        #main-content .et_pb_text.float-left,
-        #main-content .et_pb_text.float-right {
+        .et_pb_text.float-left {
+            margin-right: auto;
+        }
+        .et_pb_text.float-right {
+            margin-left: auto;
+        }
+        .et_pb_text.float-left,
+        .et_pb_text.float-right {
             float: none;
             width: inherit;
         }
