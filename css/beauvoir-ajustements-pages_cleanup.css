@@ -69,11 +69,17 @@ figcaption,
 .et_pb_row.flex-layout .et_pb_column {
     display: flex;
     align-items: center;
-    gap: 60px;
+    /* gap: 60px; */
 }
 .et_pb_row.flex-layout .et_pb_image {
     flex: none;
     margin-bottom: 0;
+}
+.et_pb_row.flex-layout .et_pb_module:first-child.et_pb_image {
+    margin-right: 60px;
+}
+.et_pb_row.flex-layout .et_pb_module:last-child.et_pb_image {
+    margin-left: 60px;
 }
 .et_pb_row.flex-layout .et_pb_text {
     margin-bottom: 0;
