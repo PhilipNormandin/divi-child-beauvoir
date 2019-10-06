@@ -79,6 +79,8 @@ figcaption,
     grid-template-columns: 1fr auto;
 }
 .et_pb_row.grid-image-left .et_pb_image,
+.et_pb_row.grid-image-right .et_pb_image,
+.et_pb_row.grid-image-left .et_pb_text,
 .et_pb_row.grid-image-right .et_pb_text {
     margin-bottom: 0;
 }
