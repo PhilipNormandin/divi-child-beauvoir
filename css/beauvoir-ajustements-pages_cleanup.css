@@ -171,6 +171,10 @@ figcaption,
     /* Grid Layout
     ------------------ */
 
+    .et_pb_row.grid-image-left .et_pb_column,
+    .et_pb_row.grid-image-right .et_pb_column {
+        grid-gap: unset;
+    }
     .et_pb_row.grid-image-right .et_pb_image {
         order: -1;
     }
