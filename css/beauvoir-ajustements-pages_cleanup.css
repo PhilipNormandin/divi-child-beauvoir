@@ -216,7 +216,7 @@ figcaption,
     ----------------------- */
 
     .et_pb_row {
-        width: 100%;
+        width: 100% !important;
     }
     .et_pb_row .et_pb_column {
         display: flex !important;
