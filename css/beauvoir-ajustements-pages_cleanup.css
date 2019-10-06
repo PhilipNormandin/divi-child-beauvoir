@@ -90,10 +90,6 @@ figcaption,
 .et_pb_row.grid-image-right .et_pb_image {
     order: 1;
 }
-.et_pb_row.grid-image-left .et_pb_text,
-.et_pb_row.grid-image-right .et_pb_text {
-    font-size: 23px;
-}
 .et_pb_row.grid-image-left .et_pb_text {
     text-align: left;
 }
@@ -153,8 +149,6 @@ figcaption,
     ------------------ */
 
     #main-content .et_pb_text:not(.text-aligned-manually) {
-        /* font-size: 18px; */
-        /* line-height: 1.5em; */
         letter-spacing: -0.03em;
     }
 
@@ -184,7 +178,6 @@ figcaption,
     }
     .et_pb_row.grid-image-left .et_pb_text,
     .et_pb_row.grid-image-right .et_pb_text {
-        font-size: 20px;
         text-align: center;
     }
 
