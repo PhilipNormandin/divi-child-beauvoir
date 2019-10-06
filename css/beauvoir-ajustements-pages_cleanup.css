@@ -62,39 +62,6 @@ figcaption,
 
 
 /* =========================================
-               Flex Layout
-========================================= */
-
-
-/*
-    .et_pb_row.flex-layout .et_pb_column {
-    display: flex;
-    align-items: center;
-}
-.et_pb_row.flex-layout .et_pb_image {
-    flex: none;
-    margin-bottom: 0;
-}
-.et_pb_row.flex-layout div.et_pb_module:first-of-type.et_pb_image {
-    margin-right: 60px;
-}
-.et_pb_row.flex-layout div.et_pb_module:last-of-type.et_pb_image {
-    margin-left: 60px;
-}
-.et_pb_row.flex-layout .et_pb_text {
-    margin-bottom: 0;
-}
-.et_pb_row.flex-layout .et_pb_text p {
-    padding-bottom: 30px;
-}
-.et_pb_row.flex-layout .et_pb_text p:last-child {
-    padding-bottom: 0;
-}
-
-*/
-
-
-/* =========================================
                Grid Layout
 ========================================= */
 
@@ -114,6 +81,15 @@ figcaption,
 .et_pb_row.grid-image-left .et_pb_image,
 .et_pb_row.grid-image-right .et_pb_text {
     margin-bottom: 0;
+}
+.et_pb_row.grid-image-left .et_pb_image {
+    order: -1;
+}
+.et_pb_row.grid-image-left .et_pb_text {
+    text-align: left;
+}
+.et_pb_row.grid-image-right .et_pb_text {
+    text-align: right;
 }
 
 
@@ -187,33 +163,20 @@ figcaption,
     }
 
 
-    /* Flex Layout
+    /* Grid Layout
     ------------------ */
 
-    .et_pb_row.flex-layout {
-        width: 100%;
-    }
-    .et_pb_row.flex-layout .et_pb_column {
-        flex-direction: column;
-    }
-    .et_pb_row.flex-layout .et_pb_module:first-of-type.et_pb_image {
-        margin-right: auto;
-    }
-    .et_pb_row.flex-layout .et_pb_module:last-of-type.et_pb_image {
-        margin-left: auto;
-    }
-    .et_pb_row.flex-layout .et_pb_image {
+    .et_pb_row.grid-image-right .et_pb_image {
         order: -1;
-        width: inherit;
     }
-    .et_pb_row.flex-layout .et_pb_text {
+    .et_pb_row.grid-image-left .et_pb_text,
+    .et_pb_row.grid-image-right .et_pb_text {
         text-align: center;
-        width: 84%;
     }
 
 
-    /* Mobile Flex Layout
-    ----------------------- */
+    /* Mobile Layout (row / column / text)
+    -------------------------------------- */
 
     .et_pb_row {
         width: 100% !important;
