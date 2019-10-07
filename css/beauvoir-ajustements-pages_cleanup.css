@@ -149,7 +149,7 @@ figcaption,
     ------------------ */
 
     #main-content .et_pb_text:not(.text-aligned-manually) {
-        letter-spacing: -0.03em;
+        letter-spacing: -0.02em;
     }
 
 
@@ -194,7 +194,7 @@ figcaption,
         align-items: center;
     }
     .et_pb_row .et_pb_text {
-        width: 84%;
+        width: 86%;
     }
 
 
