@@ -37,6 +37,7 @@ figcaption,
 
 #main-content .et_pb_text:not(.text-aligned-manually):not(.caption) {
     hyphens: auto;
+    -webkit-hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
     margin-bottom: 23px;
