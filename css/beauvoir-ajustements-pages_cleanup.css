@@ -193,7 +193,7 @@ figcaption,
         flex-direction: column !important;
         align-items: center;
     }
-    .et_pb_row .et_pb_text {
+    .et_pb_text {
         width: 80%;
     }
 
