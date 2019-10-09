@@ -107,6 +107,15 @@ figcaption,
 @media only screen and (max-width: 980px) {
 
 
+    /* Images et Légendes
+    ---------------------- */
+
+    figcaption,
+    .caption p:last-child {
+        letter-spacing: -0.012em;
+    }
+
+
     /* Float Layout
     ------------------ */
 
