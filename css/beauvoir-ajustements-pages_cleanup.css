@@ -54,11 +54,11 @@ figcaption,
 
 .et_pb_text.float-left {
     float: left;
-    margin-right: 60px;
+    margin-right: 56px;
 }
 .et_pb_text.float-right {
     float: right;
-    margin-left: 60px;
+    margin-left: 56px;
 }
 
 
@@ -70,7 +70,7 @@ figcaption,
 .et_pb_row.grid-image-left .et_pb_column,
 .et_pb_row.grid-image-right .et_pb_column {
     display: grid;
-    grid-gap: 60px;
+    grid-gap: 56px;
     align-items: center;
 }
 .et_pb_row.grid-image-left .et_pb_column {
@@ -120,10 +120,10 @@ figcaption,
     ------------------ */
 
     .et_pb_text.float-left {
-        margin-right: 40px;
+        margin-right: 46px;
     }
     .et_pb_text.float-right {
-        margin-left: 40px;
+        margin-left: 46px;
     }
 
 
@@ -132,7 +132,7 @@ figcaption,
 
     .et_pb_row.grid-image-left .et_pb_column,
     .et_pb_row.grid-image-right .et_pb_column {
-        grid-gap: 40px;
+        grid-gap: 46px;
     }
 
 }
