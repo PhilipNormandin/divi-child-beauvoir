@@ -112,7 +112,7 @@ figcaption,
 
     figcaption,
     .caption p:last-child {
-        letter-spacing: -0.012em;
+        /* letter-spacing: -0.012em; */
     }
 
 
@@ -158,7 +158,7 @@ figcaption,
     /* Paragraphes
     ------------------ */
 
-    #main-content .et_pb_text:not(.text-aligned-manually) {
+    #main-content .et_pb_text:not(.text-aligned-manually):not(.caption) {
         letter-spacing: -0.016em;
     }
 
