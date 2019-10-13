@@ -37,7 +37,6 @@ figcaption,
 
 #main-content .et_pb_text:not(.text-aligned-manually):not(.caption) {
     hyphens: auto;
-    -webkit-hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
     margin-bottom: 23px;
@@ -107,15 +106,6 @@ figcaption,
 @media only screen and (max-width: 980px) {
 
 
-    /* Images et Légendes
-    ---------------------- */
-
-    figcaption,
-    .caption p:last-child {
-        /* letter-spacing: -0.012em; */
-    }
-
-
     /* Float Layout
     ------------------ */
 
@@ -158,7 +148,10 @@ figcaption,
     /* Paragraphes
     ------------------ */
 
-    #main-content .et_pb_text:not(.text-aligned-manually):not(.caption) {
+    /* #main-content .et_pb_text:not(.text-aligned-manually):not(.caption) {
+        letter-spacing: -0.016em;
+    } */
+    #main-content .et_pb_text:not(.text-aligned-manually) {
         letter-spacing: -0.016em;
     }
 
