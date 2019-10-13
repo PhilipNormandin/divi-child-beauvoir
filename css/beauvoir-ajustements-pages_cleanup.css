@@ -148,10 +148,7 @@ figcaption,
     /* Paragraphes
     ------------------ */
 
-    /* #main-content .et_pb_text:not(.text-aligned-manually):not(.caption) {
-        letter-spacing: -0.016em;
-    } */
-    #main-content .et_pb_text:not(.text-aligned-manually) {
+    #main-content .et_pb_text:not(.text-aligned-manually):not(.caption) {
         letter-spacing: -0.016em;
     }
 
