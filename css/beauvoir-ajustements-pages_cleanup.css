@@ -125,6 +125,14 @@ figcaption,
         grid-gap: 46px;
     }
 
+
+    /* Mise en page pour tablettes
+    -------------------------------- */
+
+    .et_pb_row {
+        width: 84%;
+    }
+
 }
 
 
@@ -182,8 +190,8 @@ figcaption,
     }
 
 
-    /* Mobile Layout (row / column / text)
-    -------------------------------------- */
+    /* Mise en page pour mobiles
+    -------------------------------- */
 
     .et_pb_row {
         width: 100% !important;
