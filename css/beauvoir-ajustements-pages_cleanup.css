@@ -9,9 +9,6 @@
 figure {
     margin: 0;
 }
-div.et_pb_wptools_image {
-    margin-bottom: 0 !important;
-}
 #main-content img {
     box-shadow: 0px 12px 14px -6px rgba(0,0,0,0.3);
 }
@@ -149,11 +146,11 @@ figcaption,
     -------------------------------------------- */
 
 
-    .et_pb_row {
+    #main-content .et_pb_row {
         width: 100%;
         max-width: 100% !important;
     }
-    .et_pb_row .et_pb_column {
+    #main-content .et_pb_row .et_pb_column {
         display: flex !important;
         flex-direction: column !important;
         align-items: center;
@@ -195,20 +192,6 @@ figcaption,
     }
 
 
-
-
-    /* Mise en page pour mobiles
-    -------------------------------- */
-
-    .et_pb_row {
-        /* width: 100% !important; */
-    }
-    .et_pb_text {
-        /* width: 88%; */
-        /* max-width: 580px; */
-    }
-
-
 }
 
 
@@ -218,7 +201,6 @@ figcaption,
 
 
 .et_pb_module.et_pb_image.et-animated--vb,
-.et_pb_module.et_pb_wptools_image.et-animated--vb,
 .et_pb_module.caption.et-animated--vb {
     z-index: 99;
 }
