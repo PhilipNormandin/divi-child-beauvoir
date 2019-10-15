@@ -148,10 +148,7 @@ figcaption,
     /* Mise en page pour tablettes et mobiles
     -------------------------------------------- */
 
-    .et_pb_row:not(.intro) {
-        /* width: 88%; */
-        /* max-width: 580px !important; */
-    }
+
     .et_pb_row {
         width: 100%;
         max-width: 100% !important;
@@ -163,6 +160,8 @@ figcaption,
     }
     .et_pb_text {
         width: 88%;
+    }
+    .et_pb_row:not(.intro) .et_pb_text {
         max-width: 580px;
     }
 
