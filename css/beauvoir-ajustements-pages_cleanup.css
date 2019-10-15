@@ -148,7 +148,7 @@ figcaption,
     /* Mise en page pour tablettes
     -------------------------------- */
 
-    .et_pb_row {
+    .et_pb_row:not(.intro) {
         /* width: 88%; */
         max-width: 580px !important;
     }
