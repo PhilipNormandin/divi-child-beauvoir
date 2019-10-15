@@ -120,62 +120,6 @@ figcaption,
     ------------------ */
 
     .et_pb_text.float-left {
-        /* margin-right: 46px; */
-    }
-    .et_pb_text.float-right {
-        /* margin-left: 46px; */
-    }
-
-
-    /* Grid Layout
-    ------------------ */
-
-    .et_pb_row.grid-image-left .et_pb_column,
-    .et_pb_row.grid-image-right .et_pb_column {
-        /* grid-gap: 46px; */
-    }
-
-
-    /* Mise en page pour tablettes
-    -------------------------------- */
-
-    .et_pb_row {
-        /* width: 88%; */
-    }
-
-
-}
-
-
-/* =========================================
-         Ajustements Écran Mobile
-========================================= */
-
-
-@media only screen and (max-width: 980px) {
-
-
-    /* Images et Légendes
-    ---------------------- */
-
-    figcaption,
-    .caption p:last-child {
-        /* font-size: 16px !important; */
-    }
-
-
-    /* Paragraphes
-    ------------------ */
-
-    #main-content .et_pb_text:not(.text-aligned-manually):not(.caption) {
-        /* letter-spacing: -0.016em; */
-    }
-
-
-    /* Float Layout
-    ------------------ */
-
-    .et_pb_text.float-left {
         float: none;
         margin-right: initial;
     }
@@ -201,16 +145,54 @@ figcaption,
     }
 
 
-    /* Mise en page pour mobiles
+    /* Mise en page pour tablettes
     -------------------------------- */
 
     .et_pb_row {
-        width: 100% !important;
+        /* width: 88%; */
     }
     .et_pb_row .et_pb_column {
         display: flex !important;
         flex-direction: column !important;
         align-items: center;
+    }
+
+
+}
+
+
+/* =========================================
+         Ajustements Écran Mobile
+========================================= */
+
+
+@media only screen and (max-width: 767px) {
+
+
+    /* Images et Légendes
+    ---------------------- */
+
+    figcaption,
+    .caption p:last-child {
+        font-size: 16px !important;
+    }
+
+
+    /* Paragraphes
+    ------------------ */
+
+    #main-content .et_pb_text:not(.text-aligned-manually):not(.caption) {
+        letter-spacing: -0.016em;
+    }
+
+
+
+
+    /* Mise en page pour mobiles
+    -------------------------------- */
+
+    .et_pb_row {
+        width: 100% !important;
     }
     .et_pb_text {
         width: 88%;
