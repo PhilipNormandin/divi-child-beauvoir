@@ -40,7 +40,7 @@
 	flex-direction: column;
 }
 #useful-links-column .et_pb_promo_description > h2 {
-    
+
 }
 #useful-links-column .et_pb_promo_description > div {
     display: grid;
@@ -468,6 +468,11 @@ body.et_mobile_device .footer_1_f .five-columns .et_pb_promo:not(:last-child) a:
     align-items: center;
   }
 
+    /* ajuste largeur module texte (écrase règles du fichier beauvoir-ajustements-pages_cleanup.css) */
+    #my-footer .et_pb_text {
+        width: inherit;
+        max-width: none;
+    }
 
 }
 
