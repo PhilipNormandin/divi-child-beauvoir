@@ -202,8 +202,8 @@ figcaption,
         align-items: center;
     }
     .et_pb_text {
-        max-width: 570px;
         width: 88%;
+        max-width: 580px;
     }
 
 
