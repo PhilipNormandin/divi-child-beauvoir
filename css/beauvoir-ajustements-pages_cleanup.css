@@ -104,7 +104,7 @@ figcaption,
 
 
 .et_pb_row {
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -153,7 +153,7 @@ figcaption,
         /* max-width: 580px; */
     }
     .et_pb_row {
-        width: 100% !important;
+        width: 100%;
     }
     .et_pb_text {
         width: 88%;
