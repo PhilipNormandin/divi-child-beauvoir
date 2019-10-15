@@ -149,6 +149,13 @@ figcaption,
     -------------------------------- */
 
     .et_pb_row {
+        /* width: 88%; */
+        /* max-width: 580px; */
+    }
+    .et_pb_row {
+        width: 100% !important;
+    }
+    .et_pb_text {
         width: 88%;
         max-width: 580px;
     }
