@@ -20,7 +20,7 @@ figcaption,
     font-weight: 600;
     line-height: 1.4em !important;
     padding-top: 6px;
-    text-align: center;
+    text-align: center !important;
 }
 .caption p:first-child {
     padding-bottom: 0;
@@ -32,7 +32,7 @@ figcaption,
 ========================================= */
 
 
-#main-content .et_pb_text {
+#main-content .et_pb_text:not(.not-justified) {
     hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
@@ -42,13 +42,12 @@ figcaption,
 #main-content .et_pb_row.grid-image-left .et_pb_text,
 #main-content .et_pb_row.grid-image-right .et_pb_text,
 #main-content .et_pb_text.caption {
-    hyphens: none;
+    /* hyphens: none;
     text-align: inherit;
     text-justify: unset;
-    margin-bottom: inherit;
-    margin-bottom: inherit;
+    margin-bottom: inherit; */
 }
-#main-content .et_pb_text:last-child {
+#main-content .et_pb_text:not(.not-justified):last-child {
     margin-bottom: 0 !important;
 }
 
