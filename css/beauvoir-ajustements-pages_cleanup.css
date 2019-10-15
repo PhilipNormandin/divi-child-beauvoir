@@ -160,9 +160,10 @@ figcaption,
     }
     .et_pb_text {
         width: 88%;
-    }
-    .et_pb_row:not(.intro) .et_pb_text {
         max-width: 580px;
+    }
+    .et_pb_row.intro .et_pb_text {
+        max-width: none;
     }
 
 
