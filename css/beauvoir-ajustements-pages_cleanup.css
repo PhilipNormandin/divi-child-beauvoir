@@ -152,7 +152,7 @@
     }
     .et_pb_row.grid-image-left .et_pb_text,
     .et_pb_row.grid-image-right .et_pb_text {
-        text-align: center;
+        text-align: center !important;
     }
 
 
@@ -201,7 +201,7 @@
     /* Paragraphes
     ------------------ */
 
-    #main-content .et_pb_text:not(.not-justified) {
+    #main-content .et_pb_text {
         letter-spacing: -0.016em;
     }
 
