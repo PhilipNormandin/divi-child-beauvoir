@@ -6,13 +6,9 @@
 ========================================= */
 
 
-figure {
-    margin: 0;
-}
 #main-content img {
     box-shadow: 0px 12px 14px -6px rgba(0,0,0,0.3);
 }
-figcaption,
 .caption p:last-child {
     color: #bd322c;
     font-size: 17px !important;
@@ -42,6 +38,13 @@ figcaption,
 }
 #main-content .et_pb_text:not(.not-justified):last-child {
     margin-bottom: 0 !important;
+}
+#main-content .et_pb_row.intro .et_pb_text,
+#main-content .et_pb_row.grid-image-left .et_pb_text,
+#main-content .et_pb_row.grid-image-right .et_pb_text,
+#main-content .et_pb_text.caption {
+    hyphens: none;
+    text-justify: unset;
 }
 
 
@@ -189,7 +192,7 @@ figcaption,
     /* Paragraphes
     ------------------ */
 
-    #main-content .et_pb_text:not(.text-aligned-manually):not(.caption) {
+    #main-content .et_pb_text:not(.not-justified) {
         letter-spacing: -0.016em;
     }
 
