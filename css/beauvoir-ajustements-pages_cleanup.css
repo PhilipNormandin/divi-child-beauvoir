@@ -2,18 +2,6 @@
 
 
 /* =========================================
-               Introductions
-========================================= */
-
-
-#main-content .et_pb_row.intro .et_pb_text {
-    text-align: center;
-    text-justify: unset;
-    hyphens: none;
-}
-
-
-/* =========================================
             Images et Légendes
 ========================================= */
 
@@ -32,8 +20,20 @@
     line-height: 1.4em !important;
     padding-top: 6px;
     text-align: center !important;
-    text-justify: unset;
-    hyphens: none;
+    text-justify: unset !important;
+    hyphens: none !important;
+}
+
+
+/* =========================================
+               Introductions
+========================================= */
+
+
+#main-content .et_pb_row.intro .et_pb_text {
+    text-align: center !important;
+    text-justify: unset !important;
+    hyphens: none !important;
 }
 
 
@@ -98,14 +98,14 @@
     order: 1;
 }
 .et_pb_row.grid-image-left .et_pb_text {
-    text-align: left;
-    text-justify: unset;
-    hyphens: none;
+    text-align: left !important;
+    text-justify: unset !important;
+    hyphens: none !important;
 }
 .et_pb_row.grid-image-right .et_pb_text {
-    text-align: right;
-    text-justify: unset;
-    hyphens: none;
+    text-align: right !important;
+    text-justify: unset !important;
+    hyphens: none !important;
 }
 
 
