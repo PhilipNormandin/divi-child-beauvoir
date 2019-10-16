@@ -16,7 +16,7 @@
     /* padding-bottom: 0; */
     margin-bottom: 6px;
 }
-.et_pb_text.caption .et_pb_text_inner {
+.et_pb_text.caption p {
     color: #bd322c;
     font-size: 17px !important;
     font-style: italic;
