@@ -9,11 +9,7 @@
 #main-content img {
     box-shadow: 0px 12px 14px -6px rgba(0,0,0,0.3);
 }
-.et_pb_text.caption p:first-child {
-    /* padding-bottom: 0; */
-}
 .et_pb_text.caption img {
-    /* padding-bottom: 0; */
     margin-bottom: 6px;
 }
 .et_pb_text.caption p {
@@ -159,8 +155,8 @@
     }
 
 
-    /* Mise en page pour tablettes et mobiles
-    -------------------------------------------- */
+    /* Mise en page pour écrans tablette et mobile
+    ------------------------------------------------- */
 
 
     #main-content .et_pb_row {
@@ -195,8 +191,7 @@
     /* Images et Légendes
     ---------------------- */
 
-    figcaption,
-    .caption p:last-child {
+    .et_pb_text.caption p {
         font-size: 16px !important;
     }
 
