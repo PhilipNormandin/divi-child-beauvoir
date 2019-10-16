@@ -30,13 +30,13 @@
 ========================================= */
 
 
-#main-content .et_pb_text:not(.not-justified) {
+#main-content .et_pb_text {
     hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
     margin-bottom: 23px;
 }
-#main-content .et_pb_text:not(.not-justified):last-child {
+#main-content .et_pb_text:last-child {
     margin-bottom: 0 !important;
 }
 #main-content .et_pb_row.intro .et_pb_text,
