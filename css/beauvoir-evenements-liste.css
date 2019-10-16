@@ -54,6 +54,9 @@ ul.wcs-timetable__list li {
 .wcs-timetable--list .wcs-class__meta {
     margin-right: 50px !important;
 }
+.wcs-timetable__zero-data .wcs-class__meta {
+    margin-right: 15px !important;
+}
 
 /* ajuste couleur background et borders */
 .wcs-timetable--list .wcs-class {
