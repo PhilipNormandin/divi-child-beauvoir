@@ -16,13 +16,12 @@
     /* padding-bottom: 0; */
     margin-bottom: 6px;
 }
-.et_pb_text.caption {
+.et_pb_text.caption .et_pb_text_inner {
     color: #bd322c;
     font-size: 17px !important;
     font-style: italic;
     font-weight: 600;
     line-height: 1.4em !important;
-    /* padding-top: 6px; */
     text-align: center !important;
     text-justify: unset !important;
     hyphens: none !important;
