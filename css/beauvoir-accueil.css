@@ -306,7 +306,10 @@ body.admin-bar #header-home-slider .et_pb_slide .et_pb_container {
 #horaires-accueil_section .horaires-version-desktop .trois-items.heures-des-messes {
   /* max-width: 600px; */
   /* min-width: 300px; */
-  width: 54%;
+
+    /* été */
+    /* width: 54%; */
+    width: 35%;
 }
 
 /* ajustements de chaque horaire */
@@ -451,7 +454,10 @@ body.admin-bar #header-home-slider .et_pb_slide .et_pb_container {
   /* largeur section CÉLÉBRATIONS EUCHARISTIQUES à l'horizontal */
   #horaires-accueil_section .horaires-version-desktop {
     width: 90% !important;
-    max-width: 1300px !important;
+
+    /* été */
+    /* max-width: 1300px !important; */
+    max-width: 1000px !important;
   }
 
 }
