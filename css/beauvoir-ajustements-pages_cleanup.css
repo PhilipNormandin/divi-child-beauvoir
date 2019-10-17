@@ -159,11 +159,11 @@
 
     .et_pb_text.float-left {
         float: none;
-        margin-right: initial;
+        margin-right: auto;
     }
     .et_pb_text.float-right {
         float: none;
-        margin-left: initial;
+        margin-left: auto;
     }
 
 
