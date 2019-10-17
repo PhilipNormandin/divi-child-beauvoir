@@ -25,6 +25,8 @@
 .et_pb_text.caption {
     margin-top: 40px !important;
     margin-bottom: 30px !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
