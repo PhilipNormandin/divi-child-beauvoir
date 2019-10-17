@@ -130,14 +130,6 @@
 @media only screen and (max-width: 980px) {
 
 
-    /* Introductions
-    ---------------------- */
-
-    .et_pb_row.intro .et_pb_text {
-        max-width: none;
-    }
-
-
     /* Float Layout
     ------------------ */
 
@@ -171,7 +163,6 @@
     .et_pb_row.grid-image-right .et_pb_text {
         margin-bottom: 0 !important;
         text-align: center !important;
-        max-width: 460px;
     }
 
 
@@ -190,6 +181,13 @@
     .et_pb_text {
         width: 88%;
         max-width: 580px;
+    }
+    .et_pb_row.intro .et_pb_text {
+        max-width: none;
+    }
+    .et_pb_row.grid-image-left .et_pb_text,
+    .et_pb_row.grid-image-right .et_pb_text {
+        max-width: 460px;
     }
 
 
