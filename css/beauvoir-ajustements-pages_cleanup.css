@@ -33,7 +33,7 @@
 ========================================= */
 
 
-#main-content .et_pb_row.intro .et_pb_text {
+.et_pb_row.intro .et_pb_text {
     text-align: center !important;
     text-justify: unset !important;
     hyphens: none !important;
@@ -45,13 +45,13 @@
 ========================================= */
 
 
-#main-content .et_pb_text {
+.et_pb_text {
     hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
     margin-bottom: 23px;
 }
-#main-content .et_pb_text:last-child {
+.et_pb_text:last-child {
     margin-bottom: 0 !important;
 }
 
