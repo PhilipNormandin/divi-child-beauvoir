@@ -185,8 +185,9 @@
     }
     .et_pb_row.grid-image-left .et_pb_text,
     .et_pb_row.grid-image-right .et_pb_text {
-        max-width: 460px;
+        margin-bottom: 0 !important;
         text-align: center !important;
+        max-width: 460px;
     }
 
 
