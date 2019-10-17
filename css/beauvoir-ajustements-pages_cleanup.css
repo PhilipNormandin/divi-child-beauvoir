@@ -22,6 +22,10 @@
     text-justify: unset !important;
     hyphens: none !important;
 }
+.et_pb_text.caption {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
 
 
 /* =========================================
@@ -67,7 +71,7 @@
 }
 .et_pb_text.float-left,
 .et_pb_text.float-right {
-    margin-top: 4px !important; 
+    margin-top: 4px !important;
     margin-bottom: 1em !important;
 }
 
@@ -140,6 +144,14 @@
     }
 
 
+    /* Introductions
+    ---------------------- */
+
+    .et_pb_row.intro .et_pb_text {
+        max-width: none;
+    }
+
+
     /* Float Layout
     ------------------ */
 
@@ -169,6 +181,7 @@
     }
     .et_pb_row.grid-image-left .et_pb_text,
     .et_pb_row.grid-image-right .et_pb_text {
+        max-width: 460px;
         text-align: center !important;
     }
 
@@ -190,14 +203,6 @@
         width: 88%;
         max-width: 580px;
     }
-    .et_pb_row.intro .et_pb_text {
-        max-width: none;
-    }
-    .et_pb_row.grid-image-left .et_pb_text,
-    .et_pb_row.grid-image-right .et_pb_text {
-        max-width: 460px;
-    }
-
 
 
 }
