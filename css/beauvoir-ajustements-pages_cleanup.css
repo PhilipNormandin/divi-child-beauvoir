@@ -178,7 +178,6 @@
     /* Mise en page pour écrans tablette et mobile
     ------------------------------------------------- */
 
-
     #main-content .et_pb_row {
         width: 100%;
         max-width: 100% !important;
@@ -191,33 +190,6 @@
     .et_pb_text {
         width: 88%;
         max-width: 580px;
-    }
-
-
-}
-
-
-/* =========================================
-         Ajustements Écran Mobile
-========================================= */
-
-
-@media only screen and (max-width: 767px) {
-
-
-    /* Images et Légendes
-    ---------------------- */
-
-    .et_pb_text.caption p {
-        /* font-size: 16px !important; */
-    }
-
-
-    /* Paragraphes
-    ------------------ */
-
-    #main-content .et_pb_text {
-        /* letter-spacing: -0.016em; */
     }
 
 
