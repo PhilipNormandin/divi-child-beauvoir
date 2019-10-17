@@ -71,8 +71,8 @@
     float: right;
     margin-left: 56px;
 }
-.et_pb_text.float-left,
-.et_pb_text.float-right {
+.float-left,
+.float-right {
     margin-top: 4px !important;
     margin-bottom: 1em !important;
 }
