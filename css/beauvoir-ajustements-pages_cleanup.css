@@ -188,6 +188,11 @@
     .et_pb_row.intro .et_pb_text {
         max-width: none;
     }
+    .et_pb_row.grid-image-left .et_pb_text,
+    .et_pb_row.grid-image-right .et_pb_text {
+        max-width: 460px;
+    }
+
 
 
 }
