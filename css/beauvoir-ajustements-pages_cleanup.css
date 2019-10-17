@@ -22,7 +22,7 @@
     text-justify: unset !important;
     hyphens: none !important;
 }
-.et_pb_text.caption {
+.caption {
     margin-top: 40px !important;
     margin-bottom: 30px !important;
     margin-left: auto;
@@ -99,7 +99,7 @@
 .et_pb_row.grid-image-right .et_pb_image,
 .et_pb_row.grid-image-left .et_pb_text,
 .et_pb_row.grid-image-right .et_pb_text {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 .et_pb_row.grid-image-left .et_pb_image {
     order: -1;
@@ -140,7 +140,7 @@
     /* Images et Légendes
     ---------------------- */
 
-    .et_pb_text.caption {
+    .caption {
         margin-top: 20px !important;
         margin-bottom: 35px !important;
     }
