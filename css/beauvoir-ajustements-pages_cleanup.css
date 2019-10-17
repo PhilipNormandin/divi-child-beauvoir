@@ -180,6 +180,8 @@
     .et_pb_row.grid-image-left .et_pb_image,
     .et_pb_row.grid-image-right .et_pb_image {
         margin-bottom: 20px !important;
+        margin-left: auto;
+        margin-right: auto;
     }
     .et_pb_row.grid-image-left .et_pb_text,
     .et_pb_row.grid-image-right .et_pb_text {
