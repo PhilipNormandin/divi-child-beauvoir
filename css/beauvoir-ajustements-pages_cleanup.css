@@ -46,8 +46,8 @@
 
 
 .et_pb_text {
-    /* hyphens: auto; */
-    /* text-align: justify; */
+    hyphens: auto;
+    text-align: justify;
     text-justify: inter-character;
     margin-bottom: 24px !important;
 }
