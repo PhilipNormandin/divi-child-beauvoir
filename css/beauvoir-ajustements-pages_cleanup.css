@@ -133,6 +133,7 @@
     /* Images et Légendes
     ----------------------- */
     .et_pb_text.caption p {
+        font-size: 16px !important;
         line-height: 1.3em !important;
     }
 
