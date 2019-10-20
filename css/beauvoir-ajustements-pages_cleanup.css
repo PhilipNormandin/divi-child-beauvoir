@@ -130,14 +130,6 @@
 @media only screen and (max-width: 980px) {
 
 
-    /* Images et Légendes
-    ----------------------- */
-    .et_pb_text.caption p {
-        font-size: 16px !important;
-        line-height: 1.3em !important;
-    }
-
-
     /* Float Layout
     ------------------ */
 
@@ -197,6 +189,34 @@
     .et_pb_row.grid-image-left .et_pb_text,
     .et_pb_row.grid-image-right .et_pb_text {
         max-width: 460px;
+    }
+
+
+}
+
+
+/* =========================================
+        Ajustements Écran Mobile
+========================================= */
+
+
+@media only screen and (max-width: 767px) {
+
+
+    /* Images et Légendes
+    ----------------------- */
+
+    .et_pb_text.caption p {
+        font-size: 16px !important;
+        line-height: 1.3em !important;
+    }
+
+
+    /* Paragraphes
+    ------------------ */
+
+    .et_pb_text {
+        letter-spacing: -0.35px;
     }
 
 
