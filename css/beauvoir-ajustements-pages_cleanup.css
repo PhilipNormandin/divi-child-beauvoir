@@ -54,6 +54,9 @@
 .et_pb_text:last-child {
     margin-bottom: 0 !important;
 }
+.et_pb_text i {
+    font-size: 19.4px;
+}
 
 
 /* =========================================
