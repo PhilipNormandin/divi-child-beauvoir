@@ -17,7 +17,7 @@
     font-size: 17px !important;
     font-style: italic;
     font-weight: 600;
-    line-height: 1.4em !important; 
+    line-height: 1.2em !important;
     text-align: center !important;
     text-justify: unset !important;
     hyphens: none !important;
@@ -208,7 +208,7 @@
 
     .et_pb_text.caption p {
         font-size: 16px !important;
-        line-height: 1.3em !important;
+        /* line-height: 1.3em !important; */
     }
 
 
