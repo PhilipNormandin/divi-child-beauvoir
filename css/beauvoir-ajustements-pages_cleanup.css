@@ -55,7 +55,7 @@
     margin-bottom: 0 !important;
 }
 .et_pb_row:not(.grid-image-left):not(.grid-image-right) .et_pb_text i {
-    font-size: 19.3px;
+    font-size: 19.2px;
 }
 
 
@@ -66,11 +66,11 @@
 
 .et_pb_text.float-left {
     float: left;
-    margin-right: 54px;
+    margin-right: 50px;
 }
 .et_pb_text.float-right {
     float: right;
-    margin-left: 54px;
+    margin-left: 50px;
 }
 
 
@@ -82,7 +82,7 @@
 .et_pb_row.grid-image-left .et_pb_column,
 .et_pb_row.grid-image-right .et_pb_column {
     display: grid;
-    grid-gap: 56px;
+    grid-gap: 60px;
     align-items: center;
 }
 .et_pb_row.grid-image-left .et_pb_column {
