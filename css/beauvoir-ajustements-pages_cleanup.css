@@ -221,9 +221,9 @@
     /* Paragraphes
     ------------------ */
 
-    .et_pb_row:not(.intro):not(.caption):not(.grid-image-left):not(.grid-image-right) .et_pb_text {
+    .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) {
         /* letter-spacing: -0.65px; */
-        letter-spacing: -0.04em;
+        letter-spacing: -0.03em;
     }
 
 
