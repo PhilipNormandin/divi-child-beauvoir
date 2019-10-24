@@ -185,7 +185,7 @@
         align-items: center;
     }
     .et_pb_text {
-        width: 86vw;
+        width: 90vw;
         max-width: 580px;
     }
     .et_pb_row.intro .et_pb_text {
@@ -221,7 +221,7 @@
     ------------------ */
 
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) {
-        letter-spacing: -0.03em;
+        letter-spacing: -0.025em;
     }
 
 
