@@ -185,11 +185,11 @@
         align-items: center;
     }
     .et_pb_text {
-        width: 90vw;
+        width: 87vw;
         max-width: 580px;
     }
     .et_pb_row.intro .et_pb_text {
-        width: 87vw;
+        width: 90vw;
         max-width: none;
     }
     .et_pb_row.grid-image-left .et_pb_text,
