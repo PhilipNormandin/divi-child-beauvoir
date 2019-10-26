@@ -55,7 +55,7 @@
     margin-bottom: 0 !important;
 }
 .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
-    /* font-size: 1.025em; */
+    font-size: 1.03em;
 }
 .no-hyphens {
     hyphens: none;
