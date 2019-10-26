@@ -55,7 +55,10 @@
     margin-bottom: 0 !important;
 }
 .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
-    font-size: 1.03em;
+    font-family: lato;
+    font-size: 1.09em;
+    font-weight: 600;
+
 }
 .no-hyphens {
     hyphens: none;
