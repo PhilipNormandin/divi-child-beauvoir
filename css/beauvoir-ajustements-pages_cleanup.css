@@ -38,6 +38,10 @@
     text-justify: unset !important;
     hyphens: none !important;
 }
+.intro i {
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 1.05em;
+}
 
 
 /* =========================================
