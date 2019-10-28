@@ -146,11 +146,12 @@
     /* Paragraphes
     ------------------ */
 
-    .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) :not(i) {
+    .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) {
         letter-spacing: -0.025em;
     }
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
         font-size: 1.075em;
+        letter-spacing: initial !important;
     }
 
 
