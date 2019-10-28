@@ -143,6 +143,9 @@
 #toc a {
     color: #fff;
 }
+#toc a:hover {
+    text-decoration: underline;
+}
 
 
 /* =========================================
