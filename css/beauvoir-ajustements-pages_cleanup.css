@@ -86,6 +86,20 @@ figure {
 
 
 /* =========================================
+                   Liens
+========================================= */
+
+
+.link-to-page {
+    font-weight: bold;
+}
+.link-to-page:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+
+/* =========================================
                Float Layout
 ========================================= */
 
