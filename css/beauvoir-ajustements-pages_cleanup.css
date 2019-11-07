@@ -91,13 +91,14 @@ figure {
 
 
 .link-to-page {
-    color: #005FFD;
-    font-weight: 600;
-}
-.link-to-page:hover {
+    /* color: #005FFD; */
     color: #444;
+    font-weight: 600;
     text-decoration: underline;
     text-decoration-thickness: 2px;
+}
+.link-to-page:hover {
+    text-decoration: none;
 }
 
 
