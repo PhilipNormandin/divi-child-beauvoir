@@ -166,10 +166,16 @@ figure {
 ========================================= */
 
 
-.grid-1x1-2x3 .et_pb_column {
+.grid-1x1-2x3 .et_pb_column,
+.grid-1x1-3x2 .et_pb_column {
     display: grid;
-    grid-template-columns: 3fr 2fr;
     grid-gap: 40px;
+}
+.grid-1x1-2x3 .et_pb_column {
+    grid-template-columns: 3fr 2fr;
+}
+.grid-1x1-3x2 .et_pb_column {
+    grid-template-columns: 2fr 3fr;
 }
 
 
