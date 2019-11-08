@@ -91,8 +91,8 @@ figure {
 
 
 .link-to-page {
-    /* color: #005FFD; */
     color: #3a3a3a;
+    font-size: 0.95em;
     font-weight: 600;
     text-decoration: underline;
     text-decoration-thickness: 2px;
