@@ -163,7 +163,7 @@ figure {
 ========================================= */
 
 
-.gallery-1x1-2x3 {
+.gallery-1x1-2x3 .et_pb_column {
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 40px;
