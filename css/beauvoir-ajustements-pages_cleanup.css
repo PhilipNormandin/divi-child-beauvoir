@@ -32,7 +32,7 @@ figure {
 
 
 /* =========================================
-               Introductions
+         Titres et Introductions
 ========================================= */
 
 
@@ -45,6 +45,9 @@ figure {
     font-family: 'Lato', Arial, sans-serif;
     font-size: 1.05em;
     font-weight: 600;
+}
+.intro h3 {
+    padding-bottom: 0 !important;
 }
 
 
@@ -159,11 +162,11 @@ figure {
 
 
 /* =========================================
-            Grid Gallery Layout
+          Grid Image/Image Layout
 ========================================= */
 
 
-.gallery-1x1-2x3 .et_pb_column {
+.grid-1x1-2x3 .et_pb_column {
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 40px;
