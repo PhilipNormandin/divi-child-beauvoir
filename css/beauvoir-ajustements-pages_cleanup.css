@@ -199,13 +199,13 @@ figure {
 
 
 #toc .et_pb_column {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     position: fixed !important;
     left: -370px;
     top: 40vh;
-    transition: all .5s;
+    transition: all .5s; */
 }
 #toc a {
     color: #fff;
