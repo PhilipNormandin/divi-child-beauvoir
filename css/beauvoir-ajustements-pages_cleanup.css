@@ -93,6 +93,12 @@ figure {
 ========================================= */
 
 
+#toc a {
+    color: #fff;
+}
+#toc a:hover {
+    text-decoration: underline;
+}
 .link-to-page {
     color: #3a3a3a;
     font-size: 0.95em;
@@ -190,28 +196,6 @@ figure {
 
 .et_pb_row {
     width: 92%;
-}
-
-
-/* =========================================
-               Sommaire
-========================================= */
-
-
-#toc .et_pb_column {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    position: fixed !important;
-    left: -370px;
-    top: 40vh;
-    transition: all .5s; */
-}
-#toc a {
-    color: #fff;
-}
-#toc a:hover {
-    text-decoration: underline;
 }
 
 
