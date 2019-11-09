@@ -262,7 +262,7 @@ figure {
         width: 100%;
         max-width: 100% !important;
     }
-    #main-content .et_pb_row:not(#toc) .et_pb_column {
+    #main-content .et_pb_row .et_pb_column {
         display: flex !important;
         flex-direction: column !important;
         align-items: center;
