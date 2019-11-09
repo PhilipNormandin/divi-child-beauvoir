@@ -198,6 +198,15 @@ figure {
 ========================================= */
 
 
+#toc .et_pb_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: fixed !important;
+    left: -370px;
+    top: 40vh;
+    transition: all .5s;
+}
 #toc a {
     color: #fff;
 }
@@ -285,20 +294,6 @@ figure {
     .et_pb_row.grid-image-left .et_pb_text,
     .et_pb_row.grid-image-right .et_pb_text {
         max-width: 460px;
-    }
-
-
-    /* Sommaire
-    ------------------ */
-
-    #toc .et_pb_row {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        position: fixed !important;
-        left: -370px;
-        top: 40vh;
-        transition: all .5s;
     }
 
 
