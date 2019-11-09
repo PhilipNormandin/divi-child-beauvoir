@@ -288,6 +288,15 @@ figure {
     }
 
 
+    /* Sommaire
+    ------------------ */
+
+    #toc .et_pb_row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
 }
 
 
