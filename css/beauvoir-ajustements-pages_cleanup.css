@@ -198,7 +198,7 @@ figure {
 ========================================= */
 
 
-#toc .et_pb_row {
+#toc .et_pb_column {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
