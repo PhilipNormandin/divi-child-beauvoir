@@ -211,7 +211,7 @@ figure {
     ------------------ */
 
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) {
-        letter-spacing: -0.02em;
+        /* letter-spacing: -0.02em; */
     }
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
         font-size: 1.075em;
@@ -269,7 +269,7 @@ figure {
     }
     .et_pb_text {
         width: 92vw;
-        max-width: 600px;
+        max-width: 560px;
     }
     .et_pb_row.intro .et_pb_text {
         width: 90vw;
