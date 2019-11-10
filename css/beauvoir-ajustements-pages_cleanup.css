@@ -263,8 +263,8 @@ figure {
         max-width: 100% !important;
     }
     #main-content .et_pb_row .et_pb_column {
-        display: flex !important;
-        flex-direction: column !important;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
     .et_pb_text {
