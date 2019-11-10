@@ -211,11 +211,10 @@ figure {
     ------------------ */
 
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) {
-        /* letter-spacing: -0.02em; */
+        letter-spacing: -0.02em;
     }
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
-        /* font-size: 1.075em; */
-        /* letter-spacing: initial !important; */
+        letter-spacing: initial !important;
     }
 
 
