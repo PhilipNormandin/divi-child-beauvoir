@@ -138,7 +138,7 @@
 
   /* ajuste le logo et le rend clickable */
   #logo {
-    max-height: 74px !important;
+    max-height: 96% !important;
     z-index: 4;
   }
 
