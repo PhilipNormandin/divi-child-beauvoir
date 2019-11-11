@@ -140,7 +140,7 @@
   #logo,
   .et_pb_svg_logo #logo {
       height: max-content;
-      max-height: 98% !important;
+      max-height: 74px !important;
       z-index: 4;
   }
 
