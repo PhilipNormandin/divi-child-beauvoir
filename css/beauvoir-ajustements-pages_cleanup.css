@@ -272,7 +272,7 @@ figure {
     }
     .et_pb_row.intro .et_pb_text {
         width: 90vw;
-        max-width: none;
+        max-width: 640px;
     }
     .et_pb_row.grid-image-left .et_pb_text,
     .et_pb_row.grid-image-right .et_pb_text {
