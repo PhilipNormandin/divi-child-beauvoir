@@ -450,7 +450,7 @@
     .et_header_style_split #main-header .mobile_menu_bar {
         position: relative;
         right: 0px;
-        top: 2px;
+        top: 3px;
     }
 /* adjust dropdown menu top offset */
     .et_header_style_centered #main-header .et_mobile_menu,
