@@ -139,6 +139,7 @@
   /* ajuste le logo et le rend clickable */
   #logo,
   .et_pb_svg_logo #logo {
+      height: auto;
       max-height: 96% !important;
       z-index: 4;
   }
