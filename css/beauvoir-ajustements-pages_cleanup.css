@@ -60,10 +60,10 @@ figure {
     hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
-    margin-bottom: 24px;
+    margin-bottom: 24px !important;
 }
 .et_pb_text:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
     font-family: 'Lato', Arial, sans-serif;
