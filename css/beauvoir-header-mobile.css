@@ -138,7 +138,7 @@
 
   /* ajuste le logo et le rend clickable */
   #logo {
-    max-height: 80px !important;
+    max-height: 70px !important;
     z-index: 4;
   }
 
@@ -146,7 +146,7 @@
   #et-top-navigation #et_search_icon:before {
     font-family: "icomoon" !important;
     content: "\e901";
-    top: 6px;
+    top: 3px;
     left: 5px;
     font-size: 38px;
   }
@@ -170,7 +170,7 @@
 
   /* redimentionne le hamburger */
   .mobile_nav.closed .mobile_menu_bar::before {
-    font-size: 56px !important;
+    font-size: 58px !important;
   }
 
   /* positionne le hamburger */
@@ -198,7 +198,7 @@
 
   /* le x du menu lorsque ouvert */
   .mobile_nav.opened .mobile_menu_bar:before {
-    font-size: 56px;
+    font-size: 58px;
     top: 0px;
   }
   .mobile_nav.opened .mobile_menu_bar {
@@ -450,8 +450,7 @@
     .et_header_style_split #main-header .mobile_menu_bar {
         position: relative;
         right: 0px;
-        /* text-align: right; */
-        top: -2px;
+        top: 2px;
     }
 /* adjust dropdown menu top offset */
     .et_header_style_centered #main-header .et_mobile_menu,
