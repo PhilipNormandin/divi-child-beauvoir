@@ -137,9 +137,10 @@
   }
 
   /* ajuste le logo et le rend clickable */
-  #logo {
-    max-height: 96% !important;
-    z-index: 4;
+  #logo,
+  .et_pb_svg_logo #logo {
+      max-height: 96% !important;
+      z-index: 4;
   }
 
   /* dessine et positionne la loupe */
