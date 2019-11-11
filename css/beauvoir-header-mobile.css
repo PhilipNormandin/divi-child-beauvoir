@@ -433,7 +433,7 @@
 /* remove mobile_nav left and right padding */
     .et_header_style_centered #main-header .mobile_nav,
     .et_header_style_split #main-header .mobile_nav {
-         padding: 5px 0px;
+         padding: 0px;
     }
 /* remove unnecessary top margin */
     .et_header_style_centered #et_mobile_nav_menu,
