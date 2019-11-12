@@ -261,7 +261,7 @@ figure {
         width: 100%;
         max-width: 100% !important;
     }
-    #main-content .et_pb_row .et_pb_column {
+    #main-content .et_pb_column {
         display: flex;
         flex-direction: column;
         align-items: center;
