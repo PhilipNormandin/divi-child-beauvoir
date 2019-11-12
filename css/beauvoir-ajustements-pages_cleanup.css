@@ -265,7 +265,7 @@ figure {
         display: flex;
         flex-direction: column;
         align-items: center;
-        grid-gap: none;
+        grid-gap: unset;
     }
     .et_pb_text {
         width: 92vw;
