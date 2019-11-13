@@ -187,6 +187,12 @@ figure {
 .grid-2x3-1x1 .et_pb_column {
     grid-template-columns: 2fr 3fr;
 }
+.grid-2x3-3x4 .et_pb_column {
+    grid-template-columns: 8fr 9fr;
+}
+.grid-3x4-2x3 .et_pb_column {
+    grid-template-columns: 9fr 8fr;
+}
 
 
 /* =========================================
