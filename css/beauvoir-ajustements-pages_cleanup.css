@@ -57,6 +57,7 @@ figure {
 
 
 .et_pb_text {
+    font-size: 19px;
     hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
@@ -316,6 +317,9 @@ figure {
     /* Paragraphes
     ------------------ */
 
+    .et_pb_text {
+        font-size: 18px;
+    }
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) {
         letter-spacing: -0.035em;
     }
