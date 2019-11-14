@@ -374,7 +374,7 @@
 
   /* redimentionne la loupe */
   #et_search_icon:before {
-    font-size: 32px !important;
+    font-size: 34px !important;
   }
 
   /* repositionne le hamburger */
@@ -384,8 +384,8 @@
 
   /* repositionne la loupe */
   #et_top_search {
-    top: 18px !important;
-    left: -26px !important;
+    top: 17px !important;
+    left: -28px !important;
   }
 
   /* le x du menu lorsque ouvert */
