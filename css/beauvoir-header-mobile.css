@@ -34,6 +34,10 @@
     .et_header_style_split #main-header .et_mobile_menu {
         top: 80px;
     }
+    .mobile_nav.closed .mobile_menu_bar::before,
+    .mobile_nav.opened .mobile_menu_bar::before {
+        font-size: 56px !important;
+    }
 
 }
 
