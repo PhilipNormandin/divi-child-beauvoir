@@ -326,7 +326,7 @@ figure {
     }
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
         font-size: 1.075em;
-        letter-spacing: -0.025em !important;
+        /* letter-spacing: -0.025em !important; */
     }
 
 
