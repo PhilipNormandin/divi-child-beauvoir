@@ -220,7 +220,7 @@ figure {
     ------------------ */
 
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) {
-        letter-spacing: -0.04em;
+        letter-spacing: -0.03em;
     }
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
         letter-spacing: initial !important;
@@ -311,7 +311,7 @@ figure {
 
     .et_pb_text.caption p {
         font-size: 16px !important;
-        letter-spacing: -0.02em !important;
+        letter-spacing: -0.015em !important;
     }
 
 
