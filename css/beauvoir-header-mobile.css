@@ -2,7 +2,7 @@
 
 
 /* =========================================
-                  Header
+                Main Header
 ========================================= */
 
 
@@ -28,14 +28,11 @@
     #logo,
     .et_pb_svg_logo #logo {
         max-height: 80px !important;
+        max-width: 307px !important;
     }
     .et_header_style_centered #main-header .et_mobile_menu,
     .et_header_style_split #main-header .et_mobile_menu {
         top: 80px;
-    }
-    #main-header #logo {
-        max-width: 307px !important;
-        /* width: 97%; */
     }
 
 }
@@ -53,17 +50,16 @@
     #logo,
     .et_pb_svg_logo #logo {
         max-height: 70px !important;
+        max-width: 262px !important;
+        width: 75%;
     }
     .et_header_style_centered #main-header .et_mobile_menu,
     .et_header_style_split #main-header .et_mobile_menu {
         top: 70px;
     }
-    #main-header .logo_container {
-        /* max-width: 70% !important; */
-    }
-    #main-header #logo {
-        max-width: 262px !important;
-        width: 75%;
+    .et_header_style_centered #main-header .mobile_menu_bar,
+    .et_header_style_split #main-header .mobile_menu_bar {
+        top: 0px;
     }
 
 }
@@ -520,7 +516,7 @@
     .et_header_style_split #main-header .mobile_menu_bar {
         position: relative;
         right: 0px;
-        top: 3px;
+        /* top: 3px; */
     }
 /* adjust dropdown menu top offset */
     .et_header_style_centered #main-header .et_mobile_menu,
