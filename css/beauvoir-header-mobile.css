@@ -6,6 +6,19 @@
 ========================================= */
 
 
+@media only screen and (max-width: 1365px) {
+
+    #logo,
+    .et_pb_svg_logo #logo {
+        height: max-content;
+    }
+    #main-header #logo {
+        max-width: 262px !important;
+    }
+
+}
+
+
 @media only screen and (min-width: 480px) and (max-width: 1365px) {
 
     #page-container {
@@ -13,7 +26,7 @@
     }
     #main-header,
     #main-header .logo_container {
-      height: 80px !important;
+        height: 80px !important;
     }
     #logo,
     .et_pb_svg_logo #logo {
@@ -34,7 +47,7 @@
     }
     #main-header,
     #main-header .logo_container {
-      height: 70px !important;
+        height: 70px !important;
     }
     #logo,
     .et_pb_svg_logo #logo {
@@ -43,6 +56,9 @@
     .et_header_style_centered #main-header .et_mobile_menu,
     .et_header_style_split #main-header .et_mobile_menu {
         top: 70px;
+    }
+    #main-header .logo_container {
+        max-width: 60% !important;
     }
 
 }
@@ -186,7 +202,7 @@
   /* ajuste le logo et le rend clickable */
   #logo,
   .et_pb_svg_logo #logo {
-      height: max-content;
+      /* height: max-content; */
       /* max-height: 70px !important; */
       z-index: 4;
   }
@@ -408,10 +424,10 @@
 
   /* redimentionne le logo */
   #main-header .logo_container {
-    max-width: 74% !important;
+    /* max-width: 74% !important; */
   }
   #main-header #logo {
-    max-width: 98% !important;
+    /* max-width: 98% !important; */
   }
 
   /* redimentionne le hamburger */
