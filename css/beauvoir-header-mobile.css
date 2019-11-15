@@ -148,7 +148,8 @@
 
     /* effet shadow */
     #main-header {
-        box-shadow: 0 6px 9px rgba(0,0,0,0.3) !important;
+        /* box-shadow: 0 6px 9px rgba(0,0,0,0.3) !important; */
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3) !important;
     }
 
     /* espacements */
