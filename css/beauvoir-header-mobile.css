@@ -44,19 +44,19 @@
 @media only screen and (max-width: 479px) {
 
     #page-container {
-        padding-top: 60px !important;
+        padding-top: 70px !important;
     }
     #main-header,
     #main-header .logo_container {
-        height: 60px !important;
+        height: 70px !important;
     }
     #logo,
     .et_pb_svg_logo #logo {
-        max-height: 60px !important;
+        max-height: 70px !important;
     }
     .et_header_style_centered #main-header .et_mobile_menu,
     .et_header_style_split #main-header .et_mobile_menu {
-        top: 60px;
+        top: 70px;
     }
     #main-header .logo_container {
         /* max-width: 70% !important; */
