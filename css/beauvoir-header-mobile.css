@@ -61,6 +61,10 @@
     .et_header_style_split #main-header .mobile_menu_bar {
         top: 0px;
     }
+    .mobile_nav.closed .mobile_menu_bar::before,
+    .mobile_nav.opened .mobile_menu_bar::before {
+        font-size: 40px !important;
+    }
 
 }
 
@@ -433,7 +437,7 @@
 
   /* redimentionne le hamburger */
   .mobile_nav.closed .mobile_menu_bar::before {
-    font-size: 48px !important;
+    /* font-size: 48px !important; */
   }
 
   /* redimentionne la loupe */
@@ -454,7 +458,7 @@
 
   /* le x du menu lorsque ouvert */
   .mobile_nav.opened .mobile_menu_bar:before {
-    font-size: 48px;
+    /* font-size: 48px; */
     top: 0px;
   }
   .mobile_nav.opened .mobile_menu_bar {
