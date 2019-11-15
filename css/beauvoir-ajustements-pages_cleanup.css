@@ -311,6 +311,7 @@ figure {
 
     .et_pb_text.caption p {
         font-size: 16px !important;
+        letter-spacing: -0.025em !important;
     }
 
 
