@@ -12,6 +12,12 @@
     .et_pb_svg_logo #logo {
         height: max-content;
     }
+    #et_search_icon::before {
+        font-family: "icomoon" !important;
+        content: "\e901";
+        top: 3px;
+        left: 5px;
+    }
 
 }
 
@@ -41,6 +47,9 @@
     .mobile_nav.closed .mobile_menu_bar::before,
     .mobile_nav.opened .mobile_menu_bar::before {
         font-size: 56px !important;
+    }
+    #et_search_icon::before {
+        font-size: 36px !important;
     }
 
 }
@@ -229,11 +238,11 @@
 
   /* dessine et positionne la loupe */
   #et-top-navigation #et_search_icon:before {
-    font-family: "icomoon" !important;
-    content: "\e901";
-    top: 3px;
-    left: 5px;
-    font-size: 38px;
+    /* font-family: "icomoon" !important; */
+    /* content: "\e901"; */
+    /* top: 3px; */
+    /* left: 5px; */
+    /* font-size: 38px; */
   }
 
   /* positionne la loupe et le hamburger */
