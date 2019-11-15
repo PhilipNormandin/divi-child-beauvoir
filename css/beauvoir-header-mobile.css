@@ -34,6 +34,10 @@
     .et_header_style_split #main-header .et_mobile_menu {
         top: 80px;
     }
+    .et_header_style_centered #main-header .mobile_menu_bar,
+    .et_header_style_split #main-header .mobile_menu_bar {
+        top: 10px;
+    }
     .mobile_nav.closed .mobile_menu_bar::before,
     .mobile_nav.opened .mobile_menu_bar::before {
         font-size: 56px !important;
@@ -257,7 +261,7 @@
   /* positionne le hamburger */
   #et_mobile_nav_menu {
     position: relative;
-    top: 5px;
+    /* top: 5px; */
     right: -10px;
   }
 
