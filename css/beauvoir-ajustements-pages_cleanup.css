@@ -282,7 +282,7 @@ figure {
         align-items: center;
     }
     .et_pb_text {
-        width: 96vw;
+        width: 98vw;
         max-width: 600px;
     }
     .et_pb_row.intro .et_pb_text {
@@ -322,7 +322,7 @@ figure {
         font-size: 17px;
     }
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) {
-        letter-spacing: -0.04em;
+        /* letter-spacing: -0.04em; */
     }
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
         font-size: 1.075em;
