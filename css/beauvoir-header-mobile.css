@@ -14,6 +14,7 @@
     }
     #main-header #logo {
         max-width: 262px !important;
+        width: 97%;
     }
 
 }
