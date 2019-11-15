@@ -44,26 +44,26 @@
 @media only screen and (max-width: 479px) {
 
     #page-container {
-        padding-top: 70px !important;
+        padding-top: 60px !important;
     }
     #main-header,
     #main-header .logo_container {
-        height: 70px !important;
+        height: 60px !important;
     }
     #logo,
     .et_pb_svg_logo #logo {
-        max-height: 70px !important;
+        max-height: 60px !important;
     }
     .et_header_style_centered #main-header .et_mobile_menu,
     .et_header_style_split #main-header .et_mobile_menu {
-        top: 70px;
+        top: 60px;
     }
     #main-header .logo_container {
         /* max-width: 70% !important; */
     }
     #main-header #logo {
         max-width: 262px !important;
-        /* width: 97%; */
+        width: 75%;
     }
 
 }
