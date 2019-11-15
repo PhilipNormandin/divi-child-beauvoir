@@ -116,7 +116,7 @@
   /* fixe hauteur et padding du header */
   #main-header,
   #main-header .logo_container {
-    height: 76px !important;
+    height: 70px !important;
     padding: 0 !important;
   }
 
