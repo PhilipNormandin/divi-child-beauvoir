@@ -110,7 +110,7 @@
   }
 
   /* Jumping header Fix */
-  #page-container { padding-top: 76px !important; }
+  #page-container { padding-top: 70px !important; }
   #main-header { top: 0px !important; }
 
   /* fixe hauteur et padding du header */
