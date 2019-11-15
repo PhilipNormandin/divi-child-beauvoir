@@ -240,7 +240,7 @@
 
   /* redimentionne le hamburger */
   .mobile_nav.closed .mobile_menu_bar::before {
-    font-size: 58px !important;
+    /* font-size: 58px !important; */
   }
 
   /* positionne le hamburger */
