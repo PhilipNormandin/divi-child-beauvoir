@@ -341,3 +341,6 @@ figure {
 .et_pb_module.caption.et-animated--vb {
     z-index: 99;
 }
+#toc.et-animated--vb {
+    display: none;
+}
