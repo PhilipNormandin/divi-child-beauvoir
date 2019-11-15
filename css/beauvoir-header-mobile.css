@@ -1,6 +1,53 @@
 /* Divi Child Beauvoir - En-Tête du site versions mobile, tablette et petit écran */
 
 
+/* =========================================
+                  Header
+========================================= */
+
+
+@media only screen and (min-width: 480px) and (max-width: 1365px) {
+
+    #page-container {
+        padding-top: 80px !important;
+    }
+    #main-header,
+    #main-header .logo_container {
+      height: 80px !important;
+    }
+    #logo,
+    .et_pb_svg_logo #logo {
+        max-height: 80px !important;
+    }
+    .et_header_style_centered #main-header .et_mobile_menu,
+    .et_header_style_split #main-header .et_mobile_menu {
+        top: 80px;
+    }
+
+}
+
+
+@media only screen and (max-width: 479px) {
+
+    #page-container {
+        padding-top: 70px !important;
+    }
+    #main-header,
+    #main-header .logo_container {
+      height: 70px !important;
+    }
+    #logo,
+    .et_pb_svg_logo #logo {
+        max-height: 70px !important;
+    }
+    .et_header_style_centered #main-header .et_mobile_menu,
+    .et_header_style_split #main-header .et_mobile_menu {
+        top: 70px;
+    }
+
+}
+
+
 /* Ajuste largeur menu mobile pour tous les écrans
 ------------------------------------------------------------------------ */
 
@@ -110,13 +157,13 @@
   }
 
   /* Jumping header Fix */
-  #page-container { padding-top: 70px !important; }
+  /* #page-container { padding-top: 70px !important; } */
   #main-header { top: 0px !important; }
 
   /* fixe hauteur et padding du header */
   #main-header,
   #main-header .logo_container {
-    height: 70px !important;
+    /* height: 70px !important; */
     padding: 0 !important;
   }
 
@@ -140,7 +187,7 @@
   #logo,
   .et_pb_svg_logo #logo {
       height: max-content;
-      max-height: 70px !important;
+      /* max-height: 70px !important; */
       z-index: 4;
   }
 
@@ -457,7 +504,7 @@
 /* adjust dropdown menu top offset */
     .et_header_style_centered #main-header .et_mobile_menu,
     .et_header_style_split #main-header .et_mobile_menu {
-        top: 70px;
+        /* top: 70px; */
     }
     body.admin-bar.et_header_style_centered #main-header .et_mobile_menu,
     body.admin-bar.et_header_style_split #main-header .et_mobile_menu {
