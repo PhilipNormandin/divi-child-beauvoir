@@ -311,7 +311,7 @@ figure {
 
     .et_pb_text.caption p {
         font-size: 16px !important;
-        letter-spacing: -0.025em !important;
+        letter-spacing: -0.015em !important;
     }
 
 
@@ -322,7 +322,7 @@ figure {
         font-size: 17px;
     }
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) {
-        letter-spacing: -0.04em;
+        /* letter-spacing: -0.04em; */
     }
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
         font-size: 1.075em;
