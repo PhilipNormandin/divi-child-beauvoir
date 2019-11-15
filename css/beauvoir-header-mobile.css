@@ -15,8 +15,6 @@
     #et_search_icon::before {
         font-family: "icomoon" !important;
         content: "\e901";
-        top: 3px;
-        left: 5px;
     }
 
 }
@@ -50,6 +48,8 @@
     }
     #et_search_icon::before {
         font-size: 36px !important;
+        top: 3px !important;
+        left: 5px !important;
     }
 
 }
@@ -84,6 +84,8 @@
     }
     #et_search_icon::before {
         font-size: 32px !important;
+        top: 3px !important;
+        left: 5px !important;
     }
     #et_top_search {
         top: 14px !important;
