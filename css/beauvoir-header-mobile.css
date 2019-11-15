@@ -48,8 +48,8 @@
     }
     #et_search_icon::before {
         font-size: 36px !important;
-        top: 6px !important;
-        left: 3px !important;
+        top: 4px !important;
+        left: 10px !important;
     }
 
 }
