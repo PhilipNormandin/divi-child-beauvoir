@@ -87,7 +87,7 @@ function beauvoir_enqueue_scripts() {
     }
 
     // pages HISTOIRE DU SANCTUAIRE, CHAPELLE DE PIERRES, MARCHE ÉVANGÉLIQUE ...
-    if ( is_page( array( 'histoire-du-sanctuaire', 'histoire-du-sanctuaire-italien', 'histoire-du-sanctuaire-anglais',
+    if ( is_page( array( 'histoire-du-sanctuaire--old', 
                          'entrer-dans-la-chapelle-de-pierres', 'entrer-dans-la-chapelle-de-pierres-italien', 'entrer-dans-la-chapelle-de-pierres-anglais',
                          'mission-et-spiritualite', 'mission-et-spiritualite-italien', 'mission-et-spiritualite-anglais',
                          'vivre-la-marche-evangelique', 'vivre-la-marche-evangelique-italien', 'vivre-la-marche-evangelique-anglais',
@@ -105,9 +105,9 @@ function beauvoir_enqueue_scripts() {
     }
 
     // pages temporaires pour clean-up
-    if ( is_page( array( 'histoire-clean-up' ) ) ) {
+    if ( is_page( array( 'histoire-clean-up',
+                         'histoire-du-sanctuaire', 'histoire-du-sanctuaire-italien', 'histoire-du-sanctuaire-anglais' ) ) ) {
         wp_enqueue_style( 'beauvoir-ajustements-pages_cleanup', get_stylesheet_directory_uri() .'/css/beauvoir-ajustements-pages_cleanup.css' );
-        wp_enqueue_script( 'ajustements-pages-script_cleanup', get_stylesheet_directory_uri() . '/js/ajustements-pages-script_cleanup.js', array( 'jquery' ), '', true );
     }
 
     // page GALERIE DE PHOTOS et autres pages contenant des images affichées avec The Grid
