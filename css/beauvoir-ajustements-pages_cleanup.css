@@ -221,7 +221,7 @@ figure {
     ----------------------- */
 
     .et_pb_text.caption p {
-        /* letter-spacing: -0.02em !important; */
+        letter-spacing: -0.02em !important;
     }
 
 
@@ -229,7 +229,7 @@ figure {
     ------------------ */
 
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) {
-        /* letter-spacing: -0.03em; */
+        letter-spacing: -0.03em;
     }
     .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
         letter-spacing: initial !important;
