@@ -338,7 +338,10 @@ figure {
     /* Liste à puces
     ------------------ */
 
-    #main-content ul li{
+    #main-content ul {
+        padding-bottom: 12px;
+    }
+    #main-content ul li {
         padding-left: 0px;
     }
 
