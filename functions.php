@@ -87,7 +87,7 @@ function beauvoir_enqueue_scripts() {
     }
 
     // pages HISTOIRE DU SANCTUAIRE, CHAPELLE DE PIERRES, MARCHE ÉVANGÉLIQUE ...
-    if ( is_page( array( 'histoire-du-sanctuaire--old', 
+    if ( is_page( array( 'histoire-du-sanctuaire--old',
                          'entrer-dans-la-chapelle-de-pierres', 'entrer-dans-la-chapelle-de-pierres-italien', 'entrer-dans-la-chapelle-de-pierres-anglais',
                          'mission-et-spiritualite', 'mission-et-spiritualite-italien', 'mission-et-spiritualite-anglais',
                          'vivre-la-marche-evangelique', 'vivre-la-marche-evangelique-italien', 'vivre-la-marche-evangelique-anglais',
@@ -575,6 +575,24 @@ function beauvoir_custom_excerpt_length( $length ) {
     return 10;
 }
 // add_filter( 'excerpt_length', 'beauvoir_custom_excerpt_length', 999 );
+
+
+/* Enable Gutenberg on CPT
+------------------------------------------------------------------------*/
+
+function enable_gutenberg_please( $args, $post_type ) {
+	// If not Class CPT, bye bye.
+	if ( 'class' !== $post_type ) {
+		return $args;
+	}
+	// Add additional Class CPT options.
+	$events_args = array(
+    	'show_in_rest' => true,
+	);
+	// Merge args together.
+	return array_merge( $args, $events_args );
+}
+add_filter( 'register_post_type_args', 'enable_gutenberg_please', 10, 2 );
 
 
 ?>
