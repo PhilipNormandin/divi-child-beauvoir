@@ -619,7 +619,7 @@ function enable_gutenberg_please( $args, $post_type ) {
 		// Add additional Album photo CPT options.
 		$events_args = array(
     		'show_in_rest' => true,
-            'supports' => array('title', 'thumbnail' , 'excerpt')
+            'supports' => array('title', 'thumbnail', 'editor', 'excerpt')
 		);
 
 		// Merge args together.
