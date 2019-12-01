@@ -619,7 +619,7 @@ function enable_gutenberg_please( $args, $post_type ) {
 		// Add additional Sermon CPT options.
 		$events_args = array(
     		'show_in_rest' => true,
-            'supports' => array('title')
+            'supports' => array('title', 'editor')
 		);
 
 		// Merge args together.
