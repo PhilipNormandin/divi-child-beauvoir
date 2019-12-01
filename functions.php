@@ -614,6 +614,17 @@ function enable_gutenberg_please( $args, $post_type ) {
 		// Merge args together.
 		return array_merge( $args, $events_args );
 
+	} elseif ( 'sermon' === $post_type ) {
+
+		// Add additional Album photo CPT options.
+		$events_args = array(
+    		'show_in_rest' => true,
+            'supports' => array('title', 'thumbnail' , 'excerpt')
+		);
+
+		// Merge args together.
+		return array_merge( $args, $events_args );
+
 	}
 
 	return $args;
