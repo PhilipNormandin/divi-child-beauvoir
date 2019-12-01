@@ -608,7 +608,7 @@ function enable_gutenberg_please( $args, $post_type ) {
 		// Add additional Album photo CPT options.
 		$events_args = array(
     		'show_in_rest' => true,
-            'supports' => array('title', 'thumbnail', 'editor' , 'excerpt')
+            'supports' => array('title', 'thumbnail', 'editor', 'excerpt')
 		);
 
 		// Merge args together.
@@ -619,7 +619,7 @@ function enable_gutenberg_please( $args, $post_type ) {
 		// Add additional Sermon CPT options.
 		$events_args = array(
     		'show_in_rest' => true,
-            'supports' => array('title')
+            'supports' => array('title', 'thumbnail', 'editor', 'excerpt')
 		);
 
 		// Merge args together.
