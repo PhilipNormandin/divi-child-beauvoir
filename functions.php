@@ -581,16 +581,43 @@ function beauvoir_custom_excerpt_length( $length ) {
 ------------------------------------------------------------------------*/
 
 function enable_gutenberg_please( $args, $post_type ) {
-	// If not Class CPT, bye bye.
-	if ( 'class' !== $post_type ) {
-		return $args;
+
+	if ( 'class' === $post_type ) {
+
+		// Add additional Class CPT options.
+		$events_args = array(
+    		'show_in_rest' => true,
+		);
+
+		// Merge args together.
+		return array_merge( $args, $events_args );
+
+    } elseif ( 'member' === $post_type ) {
+
+		// Add additional Member CPT options.
+		$events_args = array(
+    		'show_in_rest' => true,
+            'supports' => array('title', 'thumbnail', 'editor')
+		);
+
+		// Merge args together.
+		return array_merge( $args, $events_args );
+
+	} elseif ( 'album_photo' === $post_type ) {
+
+		// Add additional Album photo CPT options.
+		$events_args = array(
+    		'show_in_rest' => true,
+            'supports' => array('title', 'thumbnail', 'editor' , 'excerpt')
+		);
+
+		// Merge args together.
+		return array_merge( $args, $events_args );
+
 	}
-	// Add additional Class CPT options.
-	$events_args = array(
-    	'show_in_rest' => true,
-	);
-	// Merge args together.
-	return array_merge( $args, $events_args );
+
+	return $args;
+
 }
 add_filter( 'register_post_type_args', 'enable_gutenberg_please', 10, 2 );
 
