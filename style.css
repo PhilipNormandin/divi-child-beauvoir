@@ -73,7 +73,7 @@ rouge - calendrier : #bd322c
         font-size: 48px !important;
         line-height: 1em !important;
     }
-    #page-header .et_pb_row {
+    #main-content #page-header .et_pb_row {
         padding-top: 40px !important;
         padding-bottom: 40px !important;
     }
