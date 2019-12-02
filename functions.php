@@ -580,6 +580,37 @@ function beauvoir_custom_excerpt_length( $length ) {
 /* Enable Gutenberg on CPT
 ------------------------------------------------------------------------*/
 
+// function enable_gutenberg_please( $args, $post_type ) {
+//
+// 	if ( 'class' === $post_type ) {
+//
+// 		// Add additional CPT options.
+// 		$events_args = array(
+//     		'show_in_rest' => true,
+// 		);
+//
+// 		// Merge args together.
+// 		return array_merge( $args, $events_args );
+//
+// 	} elseif ( 'album_photo' === $post_type ||
+//                     'sermon' === $post_type ||
+//                     'member' === $post_type ) {
+//
+// 		// Add additional CPT options.
+// 		$events_args = array(
+//     		'show_in_rest' => true,
+//             'supports' => array('title', 'thumbnail', 'editor', 'excerpt')
+// 		);
+//
+// 		// Merge args together.
+// 		return array_merge( $args, $events_args );
+//
+// 	}
+//
+// 	return $args;
+//
+// }
+
 function enable_gutenberg_please( $args, $post_type ) {
 
 	if ( 'class' === $post_type ) {
@@ -587,19 +618,6 @@ function enable_gutenberg_please( $args, $post_type ) {
 		// Add additional CPT options.
 		$events_args = array(
     		'show_in_rest' => true,
-		);
-
-		// Merge args together.
-		return array_merge( $args, $events_args );
-
-	} elseif ( 'album_photo' === $post_type ||
-                    'sermon' === $post_type ||
-                    'member' === $post_type ) {
-
-		// Add additional CPT options.
-		$events_args = array(
-    		'show_in_rest' => true,
-            'supports' => array('title', 'thumbnail', 'editor', 'excerpt')
 		);
 
 		// Merge args together.
