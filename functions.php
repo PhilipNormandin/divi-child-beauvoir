@@ -115,12 +115,12 @@ function beauvoir_enqueue_scripts() {
                          'locaux-disponibles', 'location-de-salles-italien', 'location-de-salles-anglais',
                          'vivre-la-marche-evangelique', 'vivre-la-marche-evangelique-italien', 'vivre-la-marche-evangelique-anglais',
                          'admirer-la-beaute-de-la-nature', 'admirer-la-beaute-de-la-nature-italien', 'admirer-la-beaute-de-la-nature-anglais' ) ) ||
-         is_singular( 'album_photo' ) ) {
+         is_singular( 'photo_album' ) ) {
         wp_enqueue_style( 'beauvoir-galerie-albums', get_stylesheet_directory_uri() .'/css/beauvoir-galerie-albums.css' );
     }
 
     // page d'album photo
-    if ( is_singular( 'album_photo' ) ) {
+    if ( is_singular( 'photo_album' ) ) {
         wp_enqueue_style( 'beauvoir-album-photo', get_stylesheet_directory_uri() .'/css/beauvoir-album-photo.css' );
     }
 
@@ -592,7 +592,7 @@ function beauvoir_custom_excerpt_length( $length ) {
 // 		// Merge args together.
 // 		return array_merge( $args, $events_args );
 //
-// 	} elseif ( 'album_photo' === $post_type ||
+// 	} elseif ( 'photo_album' === $post_type ||
 //                     'sermon' === $post_type ||
 //                     'member' === $post_type ) {
 //
