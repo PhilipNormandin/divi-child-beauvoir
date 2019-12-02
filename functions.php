@@ -584,7 +584,7 @@ function enable_gutenberg_please( $args, $post_type ) {
 
 	if ( 'class' === $post_type ) {
 
-		// Add additional Class CPT options.
+		// Add additional CPT options.
 		$events_args = array(
     		'show_in_rest' => true,
 		);
@@ -592,34 +592,14 @@ function enable_gutenberg_please( $args, $post_type ) {
 		// Merge args together.
 		return array_merge( $args, $events_args );
 
-    } elseif ( 'member' === $post_type ) {
+	} elseif ( 'album_photo' === $post_type ||
+                    'sermon' === $post_type ||
+                    'member' === $post_type || ) {
 
-		// Add additional Member CPT options.
-		$events_args = array(
-    		'show_in_rest' => true,
-            'supports' => array('title', 'thumbnail', 'editor')
-		);
-
-		// Merge args together.
-		return array_merge( $args, $events_args );
-
-	} elseif ( 'album_photo' === $post_type ) {
-
-		// Add additional Album photo CPT options.
+		// Add additional CPT options.
 		$events_args = array(
     		'show_in_rest' => true,
             'supports' => array('title', 'thumbnail', 'editor', 'excerpt')
-		);
-
-		// Merge args together.
-		return array_merge( $args, $events_args );
-
-	} elseif ( 'sermon' === $post_type ) {
-
-		// Add additional Sermon CPT options.
-		$events_args = array(
-    		'show_in_rest' => true,
-            'supports' => array('title', 'excerpt', 'thumbnail', 'editor')
 		);
 
 		// Merge args together.
