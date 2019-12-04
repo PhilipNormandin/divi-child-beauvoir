@@ -500,7 +500,7 @@ function show_photo_albums_page_link() {
         $link_url = get_permalink( get_page_by_path( 'photo-albums' ) );
     } else {
         $link_url = get_permalink( get_page_by_path( 'albums-photo' ) );
-        echo "string!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+        // echo "string!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
     }
 
     $return_string = '<a href="' . $link_url . '">' . $link_text . '</a>';
