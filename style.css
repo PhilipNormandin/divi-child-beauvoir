@@ -226,6 +226,7 @@ body #et-main-area #main-content #content-area .my-generic-button.et_pb_button:h
 
 #photo-albums-link {
     text-align: center;
+    transition: all 300ms ease !important;
 }
 
 #photo-albums-link a {
