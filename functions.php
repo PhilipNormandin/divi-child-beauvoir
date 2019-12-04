@@ -490,8 +490,10 @@ function show_client_search_query() {
  * Just add the following shortcode : [photo_albums_page_link]
  */
 function show_photo_albums_page_link() {
-    if($curlang == "en") {
-      echo "VOILÀ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+    if ( $curlang == "en" ) {
+        echo "ENGLISH !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+    } else {
+        echo "FRANÇAIS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
     }
     // $link_url = get_home_url();
     // $link_text = __( 'Back to the homepage', 'divi-child-beauvoir' );
