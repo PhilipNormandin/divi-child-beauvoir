@@ -490,10 +490,16 @@ function show_client_search_query() {
  * Just add the following shortcode : [photo_albums_page_link]
  */
 function show_photo_albums_page_link() {
+
+    $link_url = null;
+    $link_text = __( 'Back to Photo gallery', 'divi-child-beauvoir' );
+
     if ( $curlang == "en" ) {
-        echo "ENGLISH !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
-    } else {
-        echo "FRANÇAIS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+        $link_url = get_permalink( get_page_by_path( 'photo-gallery' ) );
+        echo "english !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+    } elseif ( $curlang == "fr" ) {
+        $link_url = get_permalink( get_page_by_path( 'albums-photo' ) );
+        echo "français !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
     }
     // $link_url = get_home_url();
     // $link_text = __( 'Back to the homepage', 'divi-child-beauvoir' );
