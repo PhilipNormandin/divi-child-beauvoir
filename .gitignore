@@ -5,4 +5,4 @@ node_modules
 tmp
 
 # ignore language directories
-wp-content/themes/divi-child-beauvoir/lang/
+wp-content/themes/divi-child-beauvoir/lang/*
