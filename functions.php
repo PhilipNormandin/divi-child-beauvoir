@@ -191,7 +191,7 @@ function beauvoir_lang_setup() {
 
     load_child_theme_textdomain( 'divi-child-beauvoir', get_stylesheet_directory() . '/lang' );
     // load_child_theme_textdomain( 'Divi', get_stylesheet_directory() . '/languages/Divi' );
-    load_child_theme_textdomain( 'et_builder', get_stylesheet_directory() . '/languages/et_builder' );
+    // load_child_theme_textdomain( 'et_builder', get_stylesheet_directory() . '/languages/et_builder' );
 
 }
 add_action( 'after_setup_theme', 'beauvoir_lang_setup' );
@@ -482,6 +482,24 @@ function show_client_search_query() {
     return get_search_query( false );
 }
 // add_shortcode( 'client_search_query', 'show_client_search_query' );
+
+
+/**
+ * Create shortcode which add photo albums page link
+ *
+ * Just add the following shortcode : [photo_albums_page_link]
+ */
+function show_photo_albums_page_link() {
+    if($curlang == "en") {
+      echo "VOILÀ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+    }
+    // $link_url = get_home_url();
+    // $link_text = __( 'Back to the homepage', 'divi-child-beauvoir' );
+    // $return_string = '<a href="' . $link_url . '">' . $link_text . '</a>';
+
+    // return $return_string;
+}
+add_shortcode( 'photo_albums_page_link', 'show_photo_albums_page_link' );
 
 
 /* Image size and compression
