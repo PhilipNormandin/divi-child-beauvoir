@@ -189,7 +189,7 @@ add_action('init', 'disable_cptdivi');
 // Load child textdomain
 function beauvoir_lang_setup() {
 
-    load_child_theme_textdomain( 'divi-child-beauvoir', get_home_url() . '/wp-content/languages/loco' );
+    load_child_theme_textdomain( 'divi-child-beauvoir' );
 
     // load_child_theme_textdomain( 'divi-child-beauvoir', get_stylesheet_directory() . '/lang' );
     // load_child_theme_textdomain( 'Divi', get_stylesheet_directory() . '/languages/Divi' );
