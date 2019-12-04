@@ -452,7 +452,7 @@ add_shortcode( '404_sorry_sentence', 'show_404_sorry_sentence' );
  */
 function show_404_home_page_link() {
     $link_url = get_home_url();
-    $link_text = __( 'Back to the homepage', 'divi-child-beauvoir' );
+    $link_text = __( 'Back to Home Page', 'divi-child-beauvoir' );
     $return_string = '<a href="' . $link_url . '">' . $link_text . '</a>';
 
     return $return_string;
@@ -488,24 +488,23 @@ function show_client_search_query() {
  * Create shortcode which add photo albums page link
  *
  * Just add the following shortcode : [photo_albums_page_link]
+ *
+ * https://stackoverflow.com/questions/29118772/how-to-determine-the-current-language-of-a-wordpress-page-when-using-polylang
  */
 function show_photo_albums_page_link() {
 
     $link_url = null;
-    $link_text = __( 'Back to Photo gallery', 'divi-child-beauvoir' );
+    $link_text = __( 'Back to Photo albums Page', 'divi-child-beauvoir' );
 
     if ( pll_current_language() == 'en' ) {
-        $link_url = get_permalink( get_page_by_path( 'photo-gallery' ) );
-        echo "english !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
-    } elseif ( pll_current_language() == 'fr' ) {
+        $link_url = get_permalink( get_page_by_path( 'photo-albums' ) );
+    } else {
         $link_url = get_permalink( get_page_by_path( 'albums-photo' ) );
-        echo "français !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
     }
-    // $link_url = get_home_url();
-    // $link_text = __( 'Back to the homepage', 'divi-child-beauvoir' );
-    // $return_string = '<a href="' . $link_url . '">' . $link_text . '</a>';
 
-    // return $return_string;
+    $return_string = '<a href="' . $link_url . '">' . $link_text . '</a>';
+
+    return $return_string;
 }
 add_shortcode( 'photo_albums_page_link', 'show_photo_albums_page_link' );
 
