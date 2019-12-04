@@ -224,6 +224,27 @@ body #et-main-area #main-content #content-area .my-generic-button.et_pb_button:h
     left: 0.5px;
 }
 
+#photo-albums-link {
+    text-align: center;
+}
+
+#photo-albums-link a {
+    color: #444 !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 1em !important;
+    padding: 14px 40px !important;
+    background: #ffffff !important;
+    border: #ddd solid 2px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#photo-albums-link a:hover {
+    border-color: #555 !important;
+    color: #222 !important;
+}
+
 
 /* Page en construction
 ------------------------------------------------------------------------ */
