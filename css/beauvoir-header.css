@@ -275,8 +275,9 @@ ul#mobile_menu li.pll-parent-menu-item > a::before {
   }
 
   /* espace à gauche des langues */
-  ul#et-secondary-nav.menu li.pll-parent-menu-item {
-    margin-left: 60px;
+  ul#et-secondary-nav.menu li.pll-parent-menu-item,
+  ul#et-secondary-nav > li.lang-item:first-child {
+      margin-left: 60px;
   }
 
   /* position icon à droite des langues */
