@@ -102,7 +102,7 @@
   #mobile_menu {
     width: 70% !important;
     margin-left: 30% !important;
-    padding: 60px 90px !important;
+    padding: 30px 90px !important;
     border-left: 7px solid #aab1b3;
   }
 }
@@ -167,6 +167,7 @@
     }
     #mobile_menu li.lang-item a {
         border-bottom: none !important;
+        padding-top: 40px;
     }
 
     /* divers ajustements */
