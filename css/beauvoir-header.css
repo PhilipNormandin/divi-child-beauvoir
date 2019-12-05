@@ -25,6 +25,7 @@
 
 /* icon à gauche des langues */
 ul#et-secondary-nav.menu li.pll-parent-menu-item > a::before,
+ul#et-secondary-nav > li.lang-item:nth-child(6) > a::before,
 ul#mobile_menu li.pll-parent-menu-item > a::before {
   font-family: "ETmodules";
   content: "\e0e3";
