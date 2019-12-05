@@ -54,6 +54,7 @@ rouge - calendrier : #bd322c
 #page-header,
 #horaires-accueil_section,
 #horaire-des-messes-toggle {
+    /* background-color: #3d4247 !important; */
     background-color: #42494f !important;
 }
 
