@@ -276,7 +276,7 @@ ul#mobile_menu li.pll-parent-menu-item > a::before {
 
   /* espace à gauche des langues */
   ul#et-secondary-nav.menu li.pll-parent-menu-item,
-  ul#et-secondary-nav > li.lang-item:first-child {
+  ul#et-secondary-nav > li.lang-item:nth-child(6) {
       margin-left: 60px;
   }
 
