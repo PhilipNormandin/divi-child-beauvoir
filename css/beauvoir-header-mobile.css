@@ -161,9 +161,12 @@
     }
 
     /* menus et sous-menus */
-    #mobile_menu li:not(.lang-item) a {
+    #mobile_menu li a {
         border-bottom: 2px solid;
         margin: 0 !important;
+    }
+    #mobile_menu li.lang-item a {
+        border-bottom: none !important;
     }
 
     /* divers ajustements */
