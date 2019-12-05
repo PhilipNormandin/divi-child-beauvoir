@@ -378,7 +378,7 @@
 
   /* repositionne le hamburger */
   #et_mobile_nav_menu {
-    top: 7px;
+    /* top: 7px; */
     right: -49px;
   }
 
