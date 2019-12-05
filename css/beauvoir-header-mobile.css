@@ -161,7 +161,7 @@
     }
 
     /* menus et sous-menus */
-    #mobile_menu li a {
+    #mobile_menu li:not(.lang-item) a {
         border-bottom: 2px solid;
         margin: 0 !important;
     }
