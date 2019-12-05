@@ -131,7 +131,7 @@ function beauvoir_enqueue_scripts() {
 
     // page d'article
     if ( is_singular( 'post' ) ) {
-        wp_enqueue_style( 'beauvoir-articles', get_stylesheet_directory_uri() .'/css/beauvoir-articles.css' );
+        // wp_enqueue_style( 'beauvoir-articles', get_stylesheet_directory_uri() .'/css/beauvoir-articles.css' );
     }
 
     // page d'archive
