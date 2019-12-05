@@ -25,13 +25,19 @@
 
 /* icon à gauche des langues */
 ul#et-secondary-nav.menu li.pll-parent-menu-item > a::before,
-ul#et-secondary-nav > li.lang-item:nth-child(6) > a::before,
+ul#et-secondary-nav > li.lang-item:last-child > a::before,
 ul#mobile_menu li.pll-parent-menu-item > a::before,
 ul#mobile_menu > li.lang-item:last-child > a::before {
   font-family: "ETmodules";
   content: "\e0e3";
   margin-right: 10px;
   position: relative;
+}
+ul#et-secondary-nav.menu li.pll-parent-menu-item > a,
+ul#et-secondary-nav > li.lang-item:last-child > a,
+ul#mobile_menu li.pll-parent-menu-item > a,
+ul#mobile_menu > li.lang-item:last-child > a {
+    display: inline-flex;
 }
 ul#mobile_menu li.pll-parent-menu-item > a::before {
   margin-right: 20px !important;
