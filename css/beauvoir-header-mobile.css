@@ -33,6 +33,7 @@
     .et_pb_svg_logo #logo {
         max-height: 80px !important;
         max-width: 307px !important;
+        height: 100% !important;
     }
     .et_header_style_centered #main-header .et_mobile_menu,
     .et_header_style_split #main-header .et_mobile_menu {
