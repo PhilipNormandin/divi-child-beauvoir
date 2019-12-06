@@ -496,7 +496,7 @@ function show_client_search_query() {
 function show_photo_albums_page_link() {
 
     $link_url = null;
-    $link_text = __( 'Back to Photo albums Page', 'divi-child-beauvoir' );
+    $link_text = __( 'See All Albums', 'divi-child-beauvoir' );
 
     if ( pll_current_language() == 'en' ) {
         $link_url = get_permalink( get_page_by_path( 'photo-albums' ) );
