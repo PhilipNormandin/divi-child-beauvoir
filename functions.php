@@ -511,6 +511,29 @@ function show_photo_albums_page_link() {
 add_shortcode( 'photo_albums_page_link', 'show_photo_albums_page_link' );
 
 
+/**
+ * Create shortcode which add Our blog page link
+ *
+ * Just add the following shortcode : [our_blog_page_link]
+ */
+function show_our_blog_page_link() {
+
+    $link_url = null;
+    $link_text = __( 'See All Articles', 'divi-child-beauvoir' );
+
+    if ( pll_current_language() == 'en' ) {
+        $link_url = get_permalink( get_page_by_path( 'our-blog' ) );
+    } else {
+        $link_url = get_permalink( get_page_by_path( 'notre-blogue' ) );
+    }
+
+    $return_string = '<a href="' . $link_url . '">' . $link_text . '</a>';
+
+    return $return_string;
+}
+add_shortcode( 'our_blog_page_link', 'show_our_blog_page_link' );
+
+
 /* Image size and compression
 ------------------------------------------------------------------------*/
 // https://astucesdivi.com/taille-images-de-divi/
