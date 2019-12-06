@@ -107,7 +107,7 @@ rouge - calendrier : #bd322c
 @media only screen and (max-width: 767px) {
     #page-header h1,
     #post-title h1 {
-        font-size: 34px !important;
+        font-size: 36px !important;
         line-height: 1.2em !important;
     }
     #et-main-area #page-header .et_pb_row {
@@ -118,7 +118,7 @@ rouge - calendrier : #bd322c
 @media only screen and (max-width: 479px) {
     #page-header h1,
     #post-title h1 {
-        font-size: 30px !important;
+        font-size: 32px !important;
         line-height: 1.2em !important;
     }
     #et-main-area #page-header .et_pb_row {
