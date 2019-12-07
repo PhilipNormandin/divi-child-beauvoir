@@ -177,7 +177,7 @@
     #main-header .et_mobile_menu::after {
         content: "";
         display: inline-block;
-        height: 50px;
+        height: 40px;
     }
 
     /* couleur des séparateurs et contours de pointeur */
