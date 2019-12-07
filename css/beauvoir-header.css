@@ -33,6 +33,10 @@
     #main-header.et-fixed-header #logo {
         padding: 0px;
     }
+    #main-header.et-fixed-header span.et_close_search_field {
+        display: inline-flex;
+        align-items: center;
+    }
     #main-header.et-fixed-header #top-menu > li > ul.sub-menu {
         top: 47px !important;
     }
@@ -468,13 +472,13 @@ ul#mobile_menu li.pll-parent-menu-item > a::before {
   /* Jumping search Fix when pass from non fixed to fixed header and vice-versa */
   .et_fullwidth_nav #main-header.et-fixed-header .container.et_pb_search_visible,
   .et_fullwidth_nav #main-header.et-fixed-header .container.et_pb_is_animating {
-    height: 80px !important;
+    /* height: 80px !important; */
   }
 
   /* Jumping search Fix when pass from fixed to non fixed header */
   .et_fullwidth_nav #main-header .container.et_pb_search_visible,
   .et_fullwidth_nav #main-header .container.et_pb_is_animating {
-    height: 160px !important;
+    /* height: 160px !important; */
   }
 
   /* repositionne la loupe */
