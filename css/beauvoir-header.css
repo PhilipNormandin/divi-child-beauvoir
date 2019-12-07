@@ -9,11 +9,6 @@
 
 @media only screen and (min-width: 1366px) {
 
-    #logo,
-    .et_pb_svg_logo #logo {
-        height: max-content;
-    }
-
     #main-header.et-fixed-header .container,
     #main-header.et-fixed-header .et_menu_container .logo_container {
         height: 80px !important;
