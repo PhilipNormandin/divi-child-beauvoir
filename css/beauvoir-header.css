@@ -3,14 +3,15 @@
 
 
 /* =========================================
-                Main Header
+              Main Fixed Header
 ========================================= */
 
 
 @media only screen and (min-width: 1366px) {
 
     #main-header.et-fixed-header .container,
-    #main-header.et-fixed-header .et_menu_container .logo_container {
+    #main-header.et-fixed-header .et_menu_container .logo_container,
+    #main-header.et-fixed-header .et_search_outer .et_search_form_container {
         height: 80px !important;
     }
     #main-header.et-fixed-header #et-top-navigation {
