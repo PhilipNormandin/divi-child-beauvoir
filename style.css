@@ -135,15 +135,19 @@ rouge - calendrier : #bd322c
 /* Contenu de page
 ------------------------------------------------------------------------ */
 
-#page-content,
-#events-calendar-section,
-.et_pb_section.tab-content {
-    min-height: 780px;
-}
+@media only screen and (min-width: 768px) {
 
-body.error404 #page-content,
-body.search #page-content {
-    min-height: 580px !important;
+    #page-content,
+    #events-calendar-section,
+    .et_pb_section.tab-content {
+        min-height: 780px;
+    }
+
+    body.error404 #page-content,
+    body.search #page-content {
+        min-height: 580px !important;
+    }
+
 }
 
 /* ajuste contenu lorsque menu est fixe */
