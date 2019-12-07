@@ -166,6 +166,9 @@
         border-bottom: 2px solid;
         margin: 0 !important;
     }
+    #mobile_menu li.contact-us-link a {
+        border-bottom: none;
+    }
     #mobile_menu li.lang-item a {
         border-bottom: none !important;
         padding-top: 40px;
@@ -675,8 +678,8 @@
 @media only screen and (max-width: 1365px) {
   #mobile_menu {
     display: block !important;
-    min-height: calc(100vh - 76px);
-    height: calc(100% - 76px);
+    min-height: calc(100vh - 70px);
+    height: calc(100% - 70px);
     top: 0;
     right: 0;
     position: fixed;
