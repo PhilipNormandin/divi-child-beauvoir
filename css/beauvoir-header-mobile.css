@@ -111,7 +111,7 @@
   #mobile_menu {
     width: 100%;
     margin-left: 0;
-    padding: 10px 30px 60px !important;
+    padding: 10px 30px !important;
   }
 }
 
@@ -175,9 +175,9 @@
     }
 
     /* divers ajustements */
-    #main-header .et_mobile_menu .menu-item-has-children > a::after {
-        /* border: 2px solid; */
-        /* border-radius: 50%; */
+    #main-header .et_mobile_menu li:last-child::after {
+        content: "";
+        height: 50px;
     }
 
     /* couleur des séparateurs et contours de pointeur */
