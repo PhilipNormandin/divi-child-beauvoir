@@ -368,7 +368,7 @@ function show_article_author_name() {
     $author_name = get_full_author_name();
     $author_archive_url = get_author_posts_url( get_the_author_meta( 'ID' ) );
     // $html_link_to_author_archive = '<a href="' . $author_archive_url . '">' . $author_name . '</a>';
-    $html_link_to_author_archive = '<span>' . $author_name . '</span>';
+    $html_link_to_author_archive = '<span class="author">' . $author_name . '</span>';
     $return_string = $string_to_translate . ' ' . $html_link_to_author_archive;
     return $return_string;
 }
