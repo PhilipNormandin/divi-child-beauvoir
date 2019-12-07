@@ -177,6 +177,7 @@
     /* divers ajustements */
     #main-header .et_mobile_menu li:last-child::after {
         content: "";
+        display: inline-block;
         height: 50px;
     }
 
