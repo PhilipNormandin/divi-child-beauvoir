@@ -84,4 +84,7 @@ span.tg-cats-holder span.tg-item-term {
   #author-box-bio {
     text-align: center;
   }
+  #page-content h2.tg-item-title {
+      font-size: 23px;
+  }
 }
