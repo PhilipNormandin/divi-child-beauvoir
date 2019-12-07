@@ -1,6 +1,18 @@
 /* Divi Child Beauvoir - En-Tête du site */
 
 
+/* =========================================
+                   Polices
+========================================= */
+
+
+#main-header #top-menu > li > a {
+    padding-bottom: 21px;
+    font-weight: 600;
+    letter-spacing: -0.15px;
+    color: #333;
+}
+
 
 /* =========================================
               Main Fixed Header
@@ -219,13 +231,6 @@ ul#mobile_menu li.pll-parent-menu-item > a::before {
   /* #page-container { padding-top: 211px !important; } */
   /* #main-header { top: 40px !important; } */
 
-  /* ajuste menu principal */
-  #main-header #top-menu > li > a {
-    padding-bottom: 21px;
-    font-weight: 700;
-    letter-spacing: -0.15px;
-    /* color: #333; */
-  }
 
   /* menu en majuscule */
   header#main-header nav#top-menu-nav {
