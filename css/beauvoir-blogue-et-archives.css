@@ -87,4 +87,8 @@ span.tg-cats-holder span.tg-item-term {
   #page-content h2.tg-item-title {
       font-size: 23px;
   }
+  .tg-myriga-h2 .tg-item-date,
+  .tg-myriga-h2 .tg-cats-holder {
+      font-size: 17px !important;
+  }
 }
