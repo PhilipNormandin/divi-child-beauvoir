@@ -33,6 +33,9 @@
     #main-header.et-fixed-header #top-menu > li > ul.sub-menu {
         top: 47px !important;
     }
+    #main-header.et-fixed-header #top-menu > li > a {
+        margin-bottom: 12px !important;
+    }
 
 }
 
@@ -423,11 +426,6 @@ ul#mobile_menu li.pll-parent-menu-item > a::before {
   }
   body.admin-bar #main-header.et-fixed-header {
     top: 32px !important;
-  }
-
-  /* espace sous menu principal */
-  #main-header.et-fixed-header #top-menu > li > a {
-    margin-bottom: 16px;
   }
 
   /* partie logo se place à gauche */
