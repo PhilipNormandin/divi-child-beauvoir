@@ -682,4 +682,13 @@ function enable_gutenberg_please( $args, $post_type ) {
 add_filter( 'register_post_type_args', 'enable_gutenberg_please', 10, 2 );
 
 
+function show_tax_in_gutenberg_please() {
+
+    $mytax = get_taxonomy( 'wcs-type' );
+    $mytax->show_in_rest = true;
+
+}
+add_action( 'init', 'show_tax_in_gutenberg_please', 30 );
+
+
 ?>
