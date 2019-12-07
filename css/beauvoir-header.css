@@ -1,6 +1,39 @@
 /* Divi Child Beauvoir - En-Tête du site */
 
 
+
+/* =========================================
+                Main Header
+========================================= */
+
+
+@media only screen and (min-width: 1366px) {
+
+    #logo,
+    .et_pb_svg_logo #logo {
+        height: max-content;
+    }
+    #et_search_icon::before {
+        font-family: "icomoon" !important;
+        content: "\e901";
+    }
+
+    #main-header.et-fixed-header .container,
+    #main-header.et-fixed-header .et_menu_container .logo_container {
+        height: 70px !important;
+    }
+    #main-header.et-fixed-header #et-top-navigation {
+        line-height: 70px;
+    }
+
+}
+
+
+
+/*------------------------------- À CLEANER -------------------------------*/
+
+
+
 /* Propriétés globales
 ------------------------------------------------------------------------ */
 
@@ -73,6 +106,7 @@ ul#mobile_menu li.pll-parent-menu-item > a::before {
 ------------------------------------------------------------------------ */
 
 @media only screen and (min-width: 1366px) {
+
 
   /* Largeur des sous-menus - menu principal
   ---------------------------------------------*/
@@ -401,7 +435,7 @@ ul#mobile_menu li.pll-parent-menu-item > a::before {
   .et_header_style_centered #main-header.et-fixed-header .et_menu_container .logo_container {
     float: left;
     width: 25%;
-    height: 90px !important;
+    /* height: 90px !important; */
     transition-delay: -0.5s;
   }
 
@@ -409,7 +443,7 @@ ul#mobile_menu li.pll-parent-menu-item > a::before {
   .et_header_style_centered #main-header.et-fixed-header #et-top-navigation {
     width: 75%;
     float: right;
-    line-height: 90px;
+    /* line-height: 90px; */
   }
 
   /* annule effet transition de la partie navigation */
@@ -434,7 +468,7 @@ ul#mobile_menu li.pll-parent-menu-item > a::before {
   /* Jumping search Fix when pass from non fixed to fixed header and vice-versa */
   .et_fullwidth_nav #main-header.et-fixed-header .container.et_pb_search_visible,
   .et_fullwidth_nav #main-header.et-fixed-header .container.et_pb_is_animating {
-    height: 90px !important;
+    /* height: 90px !important; */
   }
 
   /* Jumping search Fix when pass from fixed to non fixed header */
