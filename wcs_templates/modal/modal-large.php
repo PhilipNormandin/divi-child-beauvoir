@@ -21,7 +21,7 @@
 							</template>
 							<span v-html="data.title"></span>
 <?php echo "<span :src='data.image'></span>" ?>
-<?php $filename = "{{ data.image }}";
+<?php $filename = "data.image";
 	  // $extension_pos = strrpos($filename, '.'); // find position of the last dot, so where the extension starts
 	  // $newfilename = substr($my_img_url, 0, $extension_pos) . '-600x400' . substr($filename, $extension_pos);
 	  $newfilename = substr_replace($filename, '-600x400', -4, 0);
