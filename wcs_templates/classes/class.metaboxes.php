@@ -96,7 +96,7 @@ class CurlyWeeklyClassMetaBoxes {
 				<input type="hidden" name="wcs-timestamp" value="<?php echo $class_start->format('Y-m-d'); ?>">
 				<input type="hidden" name="wcs-date" value="<?php echo $class_start->format('Y-m-d'); ?>">
 
-				<p><strong><?php _e( 'Starting Date & Time:', 'WeeklyClass' ) ?></strong></p>
+				<p><strong><?php _e( 'Starting Date & Timeeee!!!!:', 'WeeklyClass' ) ?></strong></p>
 <?php echo "TESTING" ?>
 			<input type="text"  value="<?php echo $class_start->format('Y-m-d'); ?>" readonly id="wcs-datepicker" data-wcs-offset='<?php echo get_option('gmt_offset') ?>' data-wcs-timestamp="<?php echo intval( $class_start->getTimestamp() ) * 1000; ?>" data-wcs-timezone="<?php echo get_option('gmt_offset'); ?>" data-wcs-months="<?php echo implode( ',', array_values( $wp_locale->month ) ); ?>" data-wcs-months-short="<?php echo implode( ',', array_values( $wp_locale->month_abbrev ) ); ?>" data-wcs-days="<?php echo implode( ',', array_values( $wp_locale->weekday ) ); ?>" data-wcs-days-short="<?php echo implode( ',', array_values( $wp_locale->weekday_abbrev ) ); ?>" data-wcs-days-min="<?php echo implode( ',', array_values( $wp_locale->weekday_initial ) ); ?>" data-wcs-firstday="<?php echo $start_of_week ?>"></input>
 
