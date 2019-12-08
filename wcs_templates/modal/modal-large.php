@@ -24,8 +24,7 @@
 <?php $filename = " <p>{{ data.image }}</p>";
 	  // $extension_pos = strrpos($filename, '.'); // find position of the last dot, so where the extension starts
 	  // $newfilename = substr($my_img_url, 0, $extension_pos) . '-600x400' . substr($filename, $extension_pos);
-	  $ext   = pathinfo($filename, PATHINFO_EXTENSION);
-	  $newfilename = basename($filename, ".$ext") . '-600x400' . $ext;
+	  $newfilename = substr_replace($filename, '-600x400', -4, 0);
   	  echo $newfilename; ?>
 							<small v-if="filter_var(options.modal_wcs_type) && data.terms.wcs_type">
                                 <taxonomy-list :options="options" :tax="'wcs_type'" :event="data" v-on:open-modal="openTaxModal"></taxonomy-list>
