@@ -21,8 +21,10 @@
 							</template>
 							<span v-html="data.title"></span>
 <?php echo "<span :src='data.image'></span>" ?>
-<?php $newurl = " <p>{{ data.image }}</p>";
- 	  echo $newurl; ?>
+<?php $filename = " <p>{{ data.image }}</p>";
+	  $extension_pos = strrpos($filename, '.'); // find position of the last dot, so where the extension starts
+	  $newfilename = substr($my_img_url, 0, $extension_pos) . '-600x400' . substr($filename, $extension_pos);
+  	  echo $newfilename; ?>
 							<small v-if="filter_var(options.modal_wcs_type) && data.terms.wcs_type">
                                 <taxonomy-list :options="options" :tax="'wcs_type'" :event="data" v-on:open-modal="openTaxModal"></taxonomy-list>
 							</small>
