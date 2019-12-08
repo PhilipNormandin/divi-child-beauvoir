@@ -3,7 +3,7 @@
 		<div class="wcs-modal__box">
 			<div class="wcs-modal__inner">
 				<a href="#" class="wcs-modal__close ti-close" v-on:click="closeModal"></a>
-				<div class="wcs-modal__side" :style="data.image ? 'background-image: url(' <?php str_replace(".jpg", "-600x400.jpg", '{{ data.image }}') ?> ')' : ''">
+				<div class="wcs-modal__side" :style="data.image ? 'background-image: url(' + <?php str_replace(".jpg", "-600x400.jpg", '{{ data.image }}') ?> + ')' : ''">
 					<div class="wcs-modal__inner-side">
 						<h2>
 							<template v-for="(button, button_type) in data.buttons">
