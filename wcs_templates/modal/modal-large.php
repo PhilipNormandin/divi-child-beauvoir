@@ -4,8 +4,7 @@
 			<div class="wcs-modal__inner">
 				<a href="#" class="wcs-modal__close ti-close" v-on:click="closeModal"></a>
 <script>
-var s = {{ data.image }};
-{{ data.image }} = s.substring(0, s.lastIndexOf(".")) + "-600x400" + s.substring(s.lastIndexOf("."));
+{{ data.image }} = data.image.substring(0, data.image.lastIndexOf(".")) + "-600x400" + data.image.substring(data.image.lastIndexOf("."));
 </script>
 				<div class="wcs-modal__side" :style="data.image ? 'background-image: url(' + data.image + ')' : ''">
 					<div class="wcs-modal__inner-side">
