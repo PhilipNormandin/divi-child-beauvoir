@@ -20,7 +20,7 @@
 								</template>
 							</template>
 							<span v-html="data.title"></span>
-<?php echo 'data.image' ?>
+<?php echo '<span>data.image</span>' ?>
 							<small v-if="filter_var(options.modal_wcs_type) && data.terms.wcs_type">
                                 <taxonomy-list :options="options" :tax="'wcs_type'" :event="data" v-on:open-modal="openTaxModal"></taxonomy-list>
 							</small>
