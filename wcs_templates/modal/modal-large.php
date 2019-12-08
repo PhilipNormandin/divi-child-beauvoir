@@ -3,7 +3,7 @@
 		<div class="wcs-modal__box">
 			<div class="wcs-modal__inner">
 				<a href="#" class="wcs-modal__close ti-close" v-on:click="closeModal"></a>
-				<div class="wcs-modal__side" :style="data.image ? 'background-image: url(' + data.image + ')' : ''">
+				<div class="wcs-modal__side" :style="data.image ? 'background-image: url(' <?php str_replace(".jpg", "-600x400.jpg", '{{ data.image }}') ?> ')' : ''">
 					<div class="wcs-modal__inner-side">
 						<h2>
 							<template v-for="(button, button_type) in data.buttons">
@@ -28,7 +28,7 @@
 	  // $newfilename = str_replace(".jpg", "-600x400.jpg", $filename);
 	  echo str_replace(".jpg", "-600x400.jpg", '{{ data.image }}');
 	  // $newfilename = preg_replace("/\.jpg$/i","-600x400.jpg",$filename);
-  	  // echo $newfilename; 
+  	  // echo $newfilename;
 ?>
 							<small v-if="filter_var(options.modal_wcs_type) && data.terms.wcs_type">
                                 <taxonomy-list :options="options" :tax="'wcs_type'" :event="data" v-on:open-modal="openTaxModal"></taxonomy-list>
