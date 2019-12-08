@@ -4,7 +4,7 @@
 			<div class="wcs-modal__inner">
 				<a href="#" class="wcs-modal__close ti-close" v-on:click="closeModal"></a>
 <script>
-alert('data.image');
+alert({{ data.image }});
 // var s = data.image;
 // var new_string = s.substring(0, s.lastIndexOf(".")) + "-600x400" + s.substring(s.lastIndexOf("."));
 </script>
