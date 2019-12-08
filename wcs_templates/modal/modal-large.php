@@ -21,7 +21,8 @@
 							</template>
 							<span v-html="data.title"></span>
 <?php echo "<span :src='data.image'></span>" ?>
-<?php echo " <p>{{ data.image }}</p>" ?>
+<?php $newurl = " <p>{{ data.image }}</p>";
+ 	  echo $newurl; ?>
 							<small v-if="filter_var(options.modal_wcs_type) && data.terms.wcs_type">
                                 <taxonomy-list :options="options" :tax="'wcs_type'" :event="data" v-on:open-modal="openTaxModal"></taxonomy-list>
 							</small>
