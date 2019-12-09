@@ -32,7 +32,7 @@
 ------------------------------------------------------------------------ */
 
 .wcs-modal-container {
-    display: flex;
+    /* display: flex; */
 }
 .wcs-modal__inner {
     margin: 0 !important;
