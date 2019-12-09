@@ -3,9 +3,6 @@
 		<div class="wcs-modal__box">
 			<div class="wcs-modal__inner">
 				<a href="#" class="wcs-modal__close ti-close" v-on:click="closeModal"></a>
-<script>
-{{ data.image }} = {{ data.image }} + .substring(0, {{ data.image }} + .lastIndexOf(".")) + "-600x400" + {{ data.image }} + .substring({{ data.image }} + .lastIndexOf("."));
-</script>
 				<div class="wcs-modal__side" :style="data.image ? 'background-image: url(' + data.image + ')' : ''">
 					<div class="wcs-modal__inner-side">
 						<h2>
@@ -23,16 +20,14 @@
 								</template>
 							</template>
 							<span v-html="data.title"></span>
-<?php echo "<span :src='data.image'></span>" ?>
-<?php $filename = " <p>{{ data.image }}</p>";
-	  // $extension_pos = strrpos($filename, '.'); // find position of the last dot, so where the extension starts
-	  // $newfilename = substr($my_img_url, 0, $extension_pos) . '-600x400' . substr($filename, $extension_pos);
-	  // $newfilename = substr_replace($filename, '-600x400', -4, 0);
-	  // $newfilename = str_replace(".jpg", "-600x400.jpg", $filename);
-	  echo str_replace(".jpg", "-600x400.jpg", '{{ data.image }}');
-	  // $newfilename = preg_replace("/\.jpg$/i","-600x400.jpg",$filename);
-  	  // echo $newfilename;
-?>
+
+							<?php
+							$filename = " <p>{{ data.image }}</p>";
+							$extension_pos = strrpos($filename, '.jpg'); // find position of the last dot, so where the extension starts
+							$newurl = substr($filename, 0, $extension_pos) . '_thumb' . substr($filename, $extension_pos);
+							echo $newurl;
+							?>
+
 							<small v-if="filter_var(options.modal_wcs_type) && data.terms.wcs_type">
                                 <taxonomy-list :options="options" :tax="'wcs_type'" :event="data" v-on:open-modal="openTaxModal"></taxonomy-list>
 							</small>
