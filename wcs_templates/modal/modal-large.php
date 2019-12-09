@@ -23,7 +23,7 @@
 
 							<?php
 							$filename = "{{ data.image }}";
-							$extension_pos = strrpos($filename, '.'); // find position of the last dot, so where the extension starts
+							$extension_pos = strrpos($filename, '.', -1); // find position of the last dot, so where the extension starts
 echo $extension_pos;
 							// $newurl = substr($filename, 0, $extension_pos) . '_thumb' . substr($filename, $extension_pos);
 							// echo $newurl;
