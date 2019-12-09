@@ -55,7 +55,7 @@ function beauvoir_enqueue_scripts() {
     wp_enqueue_style( 'lato', 'https://fonts.googleapis.com/css?family=Lato:400,700' );
 
     // page ACCUEIL
-    if ( is_page( array( 'accueil', 'home', 'pagina-iniziale', 'accueil-anglais', 'accueil-italien', 'test-accueil' ) ) ) {
+    if ( is_page( array( 'accueil', 'home', 'pagina-iniziale', 'accueil-anglais', 'accueil-italien', 'accueil-test' ) ) ) {
         wp_enqueue_style( 'beauvoir-accueil', get_stylesheet_directory_uri() .'/css/beauvoir-accueil.css' );
         wp_enqueue_style( 'beauvoir-evenements-liste', get_stylesheet_directory_uri() .'/css/beauvoir-evenements-liste.css' );
         wp_enqueue_style( 'falkor-blurb', get_stylesheet_directory_uri() .'/css/my-falkor-blurb.css' );
