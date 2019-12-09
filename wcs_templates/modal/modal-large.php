@@ -22,7 +22,7 @@
 							<span v-html="data.title"></span>
 
 							<?php
-							$filename = " <p>{{ data.image }}</p>";
+							$filename = "{{ data.image }}";
 							$extension_pos = strrpos($filename, '.jpg'); // find position of the last dot, so where the extension starts
 							$newurl = substr($filename, 0, $extension_pos) . '_thumb' . substr($filename, $extension_pos);
 							echo $newurl;
