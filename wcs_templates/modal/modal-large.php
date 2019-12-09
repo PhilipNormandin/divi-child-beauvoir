@@ -32,8 +32,7 @@
 							<li>
 								<span class="ti-calendar"></span>{{ data.start | moment( options.label_modal_dateformat ? options.label_modal_dateformat : 'MMMM DD @ HH:mm' ) }}
 								<template v-if="isMultiDay(data)">
-									<?php echo __( 'to', 'divi-child-beauvoir' ) ?>
-									{{ data.end |moment( options.label_modal_dateformat ? options.label_modal_dateformat : 'MMMM DD @ HH:mm' ) }}
+									- {{ data.end |moment( options.label_modal_dateformat ? options.label_modal_dateformat : 'MMMM DD @ HH:mm' ) }}
 								</template>
 							</li>
 							<li v-if="filter_var( options.show_modal_ending )">
