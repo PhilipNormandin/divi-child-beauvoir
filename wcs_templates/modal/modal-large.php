@@ -24,8 +24,9 @@
 							<?php
 							$filename = "{{ data.image }}";
 							$extension_pos = strrpos($filename, '.jpg'); // find position of the last dot, so where the extension starts
-							$newurl = substr($filename, 0, $extension_pos) . '_thumb' . substr($filename, $extension_pos);
-							echo $newurl;
+echo $extension_pos;
+							// $newurl = substr($filename, 0, $extension_pos) . '_thumb' . substr($filename, $extension_pos);
+							// echo $newurl;
 							?>
 
 							<small v-if="filter_var(options.modal_wcs_type) && data.terms.wcs_type">
