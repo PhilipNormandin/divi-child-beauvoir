@@ -14,7 +14,7 @@
 }
 .wcs-timetable--cover .wcs-class__excerpt {
     font-size: 22px;
-    padding: 20px 0 30px;
+    padding: 20px 0 30px !important;
 }
 .wcs-timetable--cover .wcs-class__title,
 .wcs-timetable--cover .wcs-class__excerpt {
