@@ -260,7 +260,7 @@ ul#mobile_menu li.pll-parent-menu-item > a::before {
     font-weight: 600;
     border-top: 1px solid #D7DADB;
     color: #555;
-    letter-spacing: -0.15px;
+    letter-spacing: -0.20px;
   }
 
   #top-menu > li > ul.sub-menu > li > ul.sub-menu > li:first-child a {
