@@ -41,3 +41,6 @@
     line-height: 1.5em;
     padding-bottom: 22px;
 }
+.wcs-modal--large .wcs-modal__inner-side {
+    padding: 50px 50px 30px;
+}
