@@ -65,7 +65,7 @@ body #main-content a.my-buttons.home-buttons-go-to:hover {
     font-size: 25px !important;
 }
 #evenements-accueil_section h2,
-#evenements-accueil_section h3,
+#evenements-accueil_section .wcs-timetable--list h3,
 #articles-accueil_section h2,
 #articles-accueil_section h3,
 span.tg-cats-holder span.tg-item-term {
