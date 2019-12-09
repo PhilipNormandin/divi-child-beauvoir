@@ -109,6 +109,14 @@ span.tg-cats-holder {
 }
 
 
+/* Section Événements à venir
+------------------------------------------------------------------------ */
+
+.wcs-timetable--cover .wcs-class__title {
+        font-family: 'Lato', sans-serif;
+}
+
+
 /* Ajustements pour tablette et petit écran
 ------------------------------------------------------------------------ */
 
