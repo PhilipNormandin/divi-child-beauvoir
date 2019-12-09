@@ -10,7 +10,7 @@
     font-weight: 600;
 }
 .wcs-timetable--cover .wcs-class__time-location {
-    display: none;
+    /* display: none; */
 }
 .wcs-timetable--cover .wcs-class__excerpt {
     font-size: 22px;
