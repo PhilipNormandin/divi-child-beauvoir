@@ -63,7 +63,7 @@
 			<h4 class="wcs-day-agenda__title" v-if="getOption( 'mth_cal_date_format', 'MMMM DD' )">{{selectedDay.date | moment( getOption( 'mth_cal_date_format', 'MMMM DD' ), false) }}</h4>
 			<template v-if="getFilteredCalendarEvents(selectedDay.events).length > 0">
 			<div v-for="event in getFilteredCalendarEvents(selectedDay.events)" class="wcs-class" :class="event | eventCSS">
-				<div v-if="event.thumbnail" class='wcs-class__image wcs-modal-call' :style='"background-image: url(" + event.thumbnail +")"' v-on:click="openModal( event, options, $event )"></div>
+				<!-- <div v-if="event.thumbnail" class='wcs-class__image wcs-modal-call' :style='"background-image: url(" + event.thumbnail +")"' v-on:click="openModal( event, options, $event )"></div> -->
 				<div class="wcs-class__inner">
 					<div class="wcs-class__time-duration">
 						<span v-html="starting_ending(event)"></span>
