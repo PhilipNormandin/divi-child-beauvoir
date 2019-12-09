@@ -117,6 +117,9 @@ span.tg-cats-holder {
     font-size: 38px !important;
     font-weight: 600;
 }
+.wcs-timetable--cover .wcs-class__time-location {
+    display: none;
+}
 
 
 /* Ajustements pour tablette et petit écran
