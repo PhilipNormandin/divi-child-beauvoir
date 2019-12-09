@@ -97,6 +97,7 @@
 							</template>
 						</div>
 					</div>
+<?php echo "testing" ?>
 					<div v-if="filter_var(options.show_excerpt)" class="wcs-class__excerpt" v-html="event.excerpt"></div>
 				</div>
 			</div>
