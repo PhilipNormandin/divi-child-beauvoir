@@ -37,3 +37,6 @@
 .wcs-modal__inner {
     margin: 0 !important;
 }
+.wcs-modal__inner p {
+    line-height: 1.4em;
+}
