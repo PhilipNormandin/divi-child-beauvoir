@@ -7,23 +7,25 @@
 .wcs-timetable--cover .wcs-class__title,
 .wcs-timetable--cover .wcs-class__time {
     font-family: 'Lato', sans-serif;
+}
+.wcs-timetable--cover .wcs-class__title {
     font-size: 38px !important;
     font-weight: 600;
+}
+.wcs-timetable--cover .wcs-class__time {
+    font-size: 24px;
 }
 .wcs-timetable--cover .wcs-class__excerpt {
     font-size: 22px;
     padding: 20px 0 30px !important;
 }
-.wcs-timetable--cover .wcs-class__time-location {
-    margin: 20px 0 30px !important;
-}
-.wcs-timetable--cover .wcs-class__time {
-    font-size: 24px;
-}
 .wcs-timetable--cover .wcs-class__title,
 .wcs-timetable--cover .wcs-class__time,
 .wcs-timetable--cover .wcs-class__excerpt {
     text-shadow: 0.08em 0.08em 0.08em rgba(0,0,0,0.4);
+}
+.wcs-timetable--cover .wcs-class__time-location {
+    margin: 20px 0 30px !important;
 }
 
 
