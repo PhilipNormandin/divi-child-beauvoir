@@ -3,8 +3,23 @@
 
 
 /* =========================================
+              Calendar Layout
+========================================= */
+
+
+.wcs-timetable--monthly-calendar .wcs-day-agenda h3.wcs-class__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #444 !important;
+	margin-top: 10px !important;
+    margin-bottom: 18px !important;
+}
+
+
+/* =========================================
             Cover Layout
 ========================================= */
+
 
 .wcs-timetable--cover .wcs-class__title,
 .wcs-timetable--cover .wcs-class__time {
