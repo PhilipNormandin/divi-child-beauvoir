@@ -69,7 +69,7 @@ function beauvoir_enqueue_scripts() {
 
     // pages affichant des événements
     if ( is_page( array( 'accueil', 'home', 'evenements', 'events', 'accueil-test' ) ) ) {
-        // wp_enqueue_style( 'beauvoir-events-schedule-layouts', get_stylesheet_directory_uri() .'/css/beauvoir-events-schedule-layouts.css' );
+        wp_enqueue_style( 'beauvoir-events-schedule-layouts', get_stylesheet_directory_uri() .'/css/beauvoir-events-schedule-layouts.css' );
     }
 
     // page HORAIRES
