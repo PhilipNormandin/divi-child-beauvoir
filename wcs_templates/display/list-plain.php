@@ -37,7 +37,8 @@
 				</div>
 				<div class="wcs-class__action">
 					<div class="wcs-class__inner-flex">
-						<a v-if="hasModal(event) && options.label_info.length > 0" href="#" class="wcs-btn wcs-modal-call" v-on:click="openModal( event, options, $event )">{{options.label_info}}</a>
+						<!-- <a v-if="hasModal(event) && options.label_info.length > 0" href="#" class="wcs-btn wcs-modal-call" v-on:click="openModal( event, options, $event )">{{options.label_info}}</a> -->
+						<a v-if="hasModal(event) && options.label_info.length > 0" href="#" class="wcs-btn wcs-modal-call" v-on:click="openModal( event, options, $event )"><?php echo __( 'Learn more', 'divi-child-beauvoir' ) ?></a>
 						<a v-else-if="hasLink(event) && options.label_info.length > 0" :href="event.permalink" class="wcs-btn">{{options.label_info}}</a>
 						<template v-for="(button, button_type) in event.buttons">
 							<template v-if="button_type == 'main' && button.label.length > 0 ">
