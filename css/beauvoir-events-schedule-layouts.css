@@ -28,6 +28,9 @@
 .wcs-timetable--cover .wcs-class__time-location {
     margin: 20px 0 50px !important;
 }
+.wcs-timetable__container{
+    justify-content: center;
+}
 .wcs-timetable--cover-aspect-169 {
     max-width: 900px;
 }
