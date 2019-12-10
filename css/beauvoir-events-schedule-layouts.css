@@ -1,8 +1,10 @@
 /* Divi Child Beauvoir - Pages ACCUEIL - ÉVÉNEMENTS */
 
 
-/* Cover Layout
------------------------------------------------------------------------- */
+
+/* =========================================
+            Cover Layout
+========================================= */
 
 .wcs-timetable--cover .wcs-class__title,
 .wcs-timetable--cover .wcs-class__time {
@@ -28,18 +30,11 @@
 }
 
 
-/* Modal Layout
------------------------------------------------------------------------- */
+/* =========================================
+                Modal Layout
+========================================= */
 
-.wcs-modal-container {
 
-}
-.wcs-modal__box {
-
-}
-.wcs-modal__inner {
-
-}
 .wcs-modal__inner p {
     line-height: 1.5em;
     padding-bottom: 22px;
