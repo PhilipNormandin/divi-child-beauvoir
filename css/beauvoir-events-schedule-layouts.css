@@ -28,6 +28,9 @@
 .wcs-timetable--cover .wcs-class__time-location {
     margin: 20px 0 50px !important;
 }
+.wcs-timetable--cover-aspect-169 {
+    max-width: 900px;
+}
 
 
 /* =========================================
@@ -38,7 +41,4 @@
 .wcs-modal__inner p {
     line-height: 1.5em;
     padding-bottom: 22px;
-}
-.wcs-modal--large .wcs-modal__inner-side {
-    /* padding: 50px 50px 30px; */
 }
