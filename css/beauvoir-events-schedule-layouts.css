@@ -32,7 +32,10 @@
 ------------------------------------------------------------------------ */
 
 .wcs-modal-container {
-    /* display: flex; */
+
+}
+.wcs-modal__box {
+    top: 6vh;
 }
 .wcs-modal__inner {
     margin: 0 !important;
