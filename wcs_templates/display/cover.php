@@ -27,7 +27,6 @@
 		</div>
 		<p v-if="filter_var(options.show_excerpt)" class="wcs-class__excerpt" v-html="single.excerpt"></p>
 		<div class="wcs-class__action">
-			<!-- <a v-if="hasModal(single) && options.label_info.length > 0" href="#" class="wcs-btn wcs-btn--lg wcs-btn--action wcs-modal-call" v-on:click="openModal( single, options, $event )">{{options.label_info}}</a> -->
 			<a v-if="hasModal(single) && options.label_info.length > 0" href="#" class="wcs-btn wcs-btn--lg wcs-btn--action wcs-modal-call" v-on:click="openModal( single, options, $event )"><?php echo __( 'Learn more', 'divi-child-beauvoir' ) ?></a>
 			<a v-else-if="hasLink(single) && options.label_info.length > 0" :href="single.permalink" class="wcs-btn wcs-btn--lg wcs-btn--action">{{options.label_info}}</a>
 			<template v-for="(button, button_type) in single.buttons">
