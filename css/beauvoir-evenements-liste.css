@@ -265,5 +265,5 @@ ul.wcs-timetable__list li {
 
 /* autres ajustements */
 .wcs-modal--large .wcs-modal__inner-side {
-    background-color: rgba(0, 0, 0, 0.65) !important;
+    /* background-color: rgba(0, 0, 0, 0.65) !important; */
 }
