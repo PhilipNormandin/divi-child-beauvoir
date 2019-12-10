@@ -12,7 +12,7 @@
 			<span class="wcs-class__time">
                 <!-- {{single.start | moment( options.label_dateformat ? options.label_dateformat : 'dddd, MMMM D' ) }} -->
 				{{single.start | moment( '<?php echo __( "MMMM D, YYYY", "divi-child-beauvoir" ) ?>' ) }}
-                <template v-if="isMultiDay(single)"><?php echo __( 'to', 'divi-child-beauvoir' ) ?> {{ single.end | moment( options.label_dateformat ? options.label_dateformat : 'dddd, MMMM D' ) }}</template>
+                <template v-if="isMultiDay(single)"><?php echo __( 'to', 'divi-child-beauvoir' ) ?> {{ single.end | moment( '<?php echo __( "MMMM D, YYYY", "divi-child-beauvoir" ) ?>' ) }}</template>
             </span>
 			<span v-if="options.show_ending" v-html="starting_ending(single)" class='wcs-addons--pipe'></span>
 			<span v-if="filter_var(options.show_duration)" class='wcs-class__duration wcs-addons--pipe'>{{single.duration}}</span>
