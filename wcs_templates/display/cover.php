@@ -10,8 +10,8 @@
 		<h2 class="wcs-class__title wcs-modal-call" v-on:click="openModal( single, options, $event )">{{single.title}}</h2>
 		<div class="wcs-class__time-location">
 			<span class="wcs-class__time">
-                <!-- {{single.start | moment( options.label_dateformat ? options.label_dateformat : 'dddd, MMMM D' ) }} -->
-    			{{single.start | moment( options.label_dateformat ? options.label_dateformat : <?php echo __( 'dddd, MMMM D', 'divi-child-beauvoir' ) ?> ) }}
+                {{single.start | moment( options.label_dateformat ? options.label_dateformat : 'dddd, MMMM D' ) }}
+    			<!-- {{single.start | moment( options.label_dateformat ? options.label_dateformat : <?php echo __( 'dddd, MMMM D', 'divi-child-beauvoir' ) ?> ) }} -->
                 <template v-if="isMultiDay(single)"><?php echo __( 'to', 'divi-child-beauvoir' ) ?> {{ single.end | moment( options.label_dateformat ? options.label_dateformat : 'dddd, MMMM D' ) }}</template>
             </span>
 			<span v-if="options.show_ending" v-html="starting_ending(single)" class='wcs-addons--pipe'></span>
