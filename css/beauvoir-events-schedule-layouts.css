@@ -35,18 +35,6 @@
 }
 
 
-
-
-.wcs-vue-modal .wcs-modal__inner-side h2 {
-    /* font-family: 'Lato', sans-serif; */
-}
-
-/* dates, heures */
-
-.wcs-modal__meta {
-    /* font-family: 'Lato', sans-serif !important; */
-}
-
 /* =========================================
             Cover Layout
 ========================================= */
@@ -90,6 +78,10 @@
 ========================================= */
 
 
+.wcs-vue-modal .wcs-modal__inner-side h2,
+.wcs-modal__meta {
+    font-family: 'Lato', sans-serif !important;
+}
 .wcs-modal__inner p {
     line-height: 1.5em;
     padding-bottom: 22px;
