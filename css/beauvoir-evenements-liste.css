@@ -121,10 +121,6 @@ ul.wcs-timetable__list li {
 	background-position: center top;
 }
 
-/* cache heures des événements */
-.wcs-timetable__list .wcs-class__time-duration {
-    display: none !important;
-}
 
 /* ajuste bouton EN SAVOIR PLUS */
 .wcs-timetable__list .wcs-class .wcs-class__action {
