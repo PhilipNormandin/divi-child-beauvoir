@@ -667,6 +667,4 @@ function show_tax_in_gutenberg_please() {
 add_action( 'init', 'show_tax_in_gutenberg_please', 30 );
 
 
-unregister_block_type( "commentstatusdiv");
-
 ?>
