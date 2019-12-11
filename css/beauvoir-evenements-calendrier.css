@@ -17,21 +17,6 @@
     url("../fonts/roboto/roboto-v18-latin-500.woff") format('woff');
 } */
 
-/* tout le calendrier */
-.wcs-timetable--monthly-calendar h4.wcs-day__title,
-.wcs-timetable--monthly-calendar .wcs-date,
-.wcs-timetable--monthly-calendar .wcs-day-agenda .wcs-class__time-duration {
-    /* font-family: 'myRoboto-Medium', sans-serif !important; */
-    font-family: 'Lato', sans-serif !important;
-}
-
-/* agenda du jour */
-.wcs-timetable--monthly-calendar .wcs-day-agenda h3.wcs-class__title,
-.wcs-timetable--monthly-calendar .wcs-day-agenda h4.wcs-day-agenda__title {
-    /* font-family: 'Open Sans', sans-serif; */
-    font-family: 'Lato', sans-serif !important;
-}
-
 
 /* Propriétés globales
 ------------------------------------------------------------------------ */
