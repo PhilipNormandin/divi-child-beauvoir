@@ -1,25 +1,6 @@
 /* Divi Child Beauvoir - Page ÉVÉNEMENTS & Section ÉVÉNEMENTS À VENIR */
 
 
-/* Réglage des polices - Format Liste
------------------------------------------------------------------------- */
-
-/* titre événement */
-.wcs-timetable__list h3.wcs-class__title {
-    /* font-family: 'Open Sans', sans-serif; */
-    font-family: 'Lato', sans-serif;
-}
-.wcs-vue-modal .wcs-modal__inner-side h2 {
-    font-family: 'Lato', sans-serif;
-}
-
-/* dates, heures */
-.wcs-timetable__list .wcs-class__time .wcs-class__inner-flex,
-.wcs-modal__meta {
-    font-family: 'Lato', sans-serif !important;
-}
-
-
 /* Propriétés globales - Format Liste
 ------------------------------------------------------------------------ */
 
