@@ -10,8 +10,9 @@
 		<h2 class="wcs-class__title wcs-modal-call" v-on:click="openModal( single, options, $event )">{{single.title}}</h2>
 		<div class="wcs-class__time-location">
 			<span class="wcs-class__time">
-                {{single.start | moment( options.label_dateformat ? options.label_dateformat : 'dddd, MMMM D' ) }}
-                <template v-if="isMultiDay(single)"> <?php echo __( 'to', 'divi-child-beauvoir' ) ?> {{ single.end | moment( options.label_dateformat ? options.label_dateformat : 'dddd, MMMM D' ) }}</template>
+                <!-- {{single.start | moment( options.label_dateformat ? options.label_dateformat : 'dddd, MMMM D' ) }} -->
+				{{single.start | moment( '<?php echo __( "MMMM DD, YYYY", "divi-child-beauvoir" ) ?>' ) }}
+                <template v-if="isMultiDay(single)"><?php echo __( 'to', 'divi-child-beauvoir' ) ?> {{ single.end | moment( '<?php echo __( "MMMM DD, YYYY", "divi-child-beauvoir" ) ?>' ) }}</template>
             </span>
 			<span v-if="options.show_ending" v-html="starting_ending(single)" class='wcs-addons--pipe'></span>
 			<span v-if="filter_var(options.show_duration)" class='wcs-class__duration wcs-addons--pipe'>{{single.duration}}</span>
@@ -27,7 +28,7 @@
 		</div>
 		<p v-if="filter_var(options.show_excerpt)" class="wcs-class__excerpt" v-html="single.excerpt"></p>
 		<div class="wcs-class__action">
-			<a v-if="hasModal(single) && options.label_info.length > 0" href="#" class="wcs-btn wcs-btn--lg wcs-btn--action wcs-modal-call" v-on:click="openModal( single, options, $event )">{{options.label_info}}</a>
+			<a v-if="hasModal(single) && options.label_info.length > 0" href="#" class="wcs-btn wcs-btn--lg wcs-btn--action wcs-modal-call" v-on:click="openModal( single, options, $event )"><?php echo __( 'Learn more', 'divi-child-beauvoir' ) ?></a>
 			<a v-else-if="hasLink(single) && options.label_info.length > 0" :href="single.permalink" class="wcs-btn wcs-btn--lg wcs-btn--action">{{options.label_info}}</a>
 			<template v-for="(button, button_type) in single.buttons">
 				<template v-if="button_type == 'main' && button.label.length > 0 ">
