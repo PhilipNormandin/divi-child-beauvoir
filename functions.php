@@ -667,6 +667,4 @@ function show_tax_in_gutenberg_please() {
 add_action( 'init', 'show_tax_in_gutenberg_please', 30 );
 
 
-wp.data.dispatch( 'core/edit-post').removeEditorPanel( 'discussion-panel' );
-
 ?>
