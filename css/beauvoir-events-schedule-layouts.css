@@ -29,7 +29,8 @@
 
 
 .wcs-timetable__list h3.wcs-class__title,
-.wcs-timetable__list .wcs-class__time .wcs-class__inner-flex {
+.wcs-timetable__list .wcs-class__time .wcs-class__inner-flex,
+.wcs-timetable__list .wcs-class__time-duration {
     font-family: 'Lato', sans-serif !important;
 }
 
