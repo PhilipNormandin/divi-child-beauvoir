@@ -22,9 +22,9 @@ blockquote p:first-child {
 
 /* ajuste polices */
 #horaires-section h2 {
-    font-size: 44px !important;
-    line-height: 1.5 !important;
-    letter-spacing: 0.25px;
+    /* font-size: 44px !important; */
+    /* line-height: 1.5 !important; */
+    /* letter-spacing: 0.25px; */
 }
 #dates-horaires-row .et_pb_text {
     letter-spacing: 0.5px !important;
@@ -91,7 +91,7 @@ blockquote p:first-child {
 .horaire-chapelle-eglise {
 	font-family: 'Lato', sans-serif;
 	font-size: 44px !important;
-	font-weight: 700 !important; 
+	font-weight: 700 !important;
 	line-height: 1.5 !important;
 	letter-spacing: 0.25px;
 	padding-bottom: 22px !important;
