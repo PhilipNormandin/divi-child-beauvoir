@@ -73,7 +73,7 @@ function beauvoir_enqueue_scripts() {
     }
 
     // page HORAIRES
-    if ( is_page( array( 'horaires', 'schedules', 'orari' ) ) ) {
+    if ( is_page( array( 'horaires', 'schedules', 'orari', 'horaires-test' ) ) ) {
         wp_enqueue_style( 'beauvoir-horaires', get_stylesheet_directory_uri() .'/css/beauvoir-horaires.css' );
         wp_enqueue_style( 'falkor-content', get_stylesheet_directory_uri() .'/css/my-falkor-content.css' );
     }
