@@ -237,7 +237,7 @@ dd + dd {
 
   /* ajuste largeur et espacement de différents blocs */
   #horaires-section .horaire-row {
-    max-width: 900px !important;
+    /* max-width: 900px !important; */
   }
   #horaires-section #dates-horaires-row > .et_pb_column {
     /* padding: 0 !important; */
