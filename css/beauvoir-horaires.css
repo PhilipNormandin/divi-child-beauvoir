@@ -281,9 +281,9 @@ dd + dd {
   #horaires-section .horaire-row,
   #horaires-section .horaire-row .et_pb_column.texte-droite,
   #horaires-section .horaire-row .et_pb_column.texte-gauche {
-    min-width: 300px !important;
-    max-width: 500px !important;
-    box-sizing: border-box;
+    /* min-width: 300px !important; */
+    /* max-width: 500px !important; */
+    /* box-sizing: border-box; */
   }
 
 }
