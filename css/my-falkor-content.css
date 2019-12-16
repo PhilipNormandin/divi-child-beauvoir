@@ -101,7 +101,7 @@ body.safari .content_1_f .et_pb_column_1_2 .et_pb_image{
 @media only screen and (max-width: 480px) {
 
     #page-container .content_1_f .et_pb_column:first-child {
-        padding: 30px !important;
+        /* padding: 30px !important; */
     }
 
     .content_1_f .et_pb_text,
