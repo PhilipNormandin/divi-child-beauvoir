@@ -49,7 +49,7 @@ function beauvoir_enqueue_scripts() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 
     // enqueue child styles
-    // wp_enqueue_style( 'child-theme', get_stylesheet_directory_uri() .'/style.css', array('parent-theme') );
+    wp_enqueue_style( 'child-theme', get_stylesheet_directory_uri() .'/style.css', array('parent-theme') );
 
     // add Lato font
     wp_enqueue_style( 'lato', 'https://fonts.googleapis.com/css?family=Lato:400,700' );
