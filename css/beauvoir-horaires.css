@@ -247,7 +247,7 @@ dd + dd {
   }
   #horaires-section .horaire-row .et_pb_column.texte-gauche,
   #horaires-section .horaire-row .et_pb_column.texte-droite {
-    padding: 50px 65px !important;
+    /* padding: 50px 65px !important; */
   }
 
 }
@@ -261,7 +261,7 @@ dd + dd {
   /* ajuste espacement blocs texte */
   #horaires-section .horaire-row .et_pb_column.texte-gauche,
   #horaires-section .horaire-row .et_pb_column.texte-droite {
-    padding: 40px 60px !important;
+    /* padding: 40px 60px !important; */
   }
 
 }
