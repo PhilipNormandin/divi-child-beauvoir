@@ -62,8 +62,8 @@ body.safari .content_1_f .et_pb_column_1_2 .et_pb_image{
 @media only screen and (max-width: 1390px) {
 
     .content_1_f .et_pb_row {
-        width: 90% !important;
-        max-width: 100% !important;
+        /* width: 90% !important; */
+        /* max-width: 100% !important; */
     }
 
     .content_1_f .et_pb_text {
