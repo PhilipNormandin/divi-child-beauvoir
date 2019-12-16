@@ -317,7 +317,7 @@ dd + dd {
   }
   #horaires-section .horaire-row .et_pb_column.texte-gauche,
   #horaires-section .horaire-row .et_pb_column.texte-droite {
-    padding: 30px 40px !important;
+    /* padding: 30px 40px !important; */
   }
   #horaires-section blockquote {
     padding-left: 30px !important;
