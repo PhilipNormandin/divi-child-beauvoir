@@ -240,7 +240,7 @@ dd + dd {
     max-width: 900px !important;
   }
   #horaires-section #dates-horaires-row > .et_pb_column {
-    padding: 0 !important;
+    /* padding: 0 !important; */
   }
   #horaires-section .horaire-row .et_pb_column.image-gauche {
     padding: 0 !important;
