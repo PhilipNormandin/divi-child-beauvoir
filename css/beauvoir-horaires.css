@@ -202,7 +202,7 @@ dd + dd {
   /* espacement autour des blocs de texte */
   #horaires-section .horaire-row .texte-gauche,
   #horaires-section .horaire-row .texte-droite {
-    padding: 50px 60px 60px !important;
+    /* padding: 50px 60px 60px !important; */
   }
 
   /*** Hauteur des blocs d'horaire ***/
