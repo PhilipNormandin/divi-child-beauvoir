@@ -27,7 +27,7 @@ blockquote p:first-child {
     /* letter-spacing: 0.25px; */
 }
 #dates-horaires-row .et_pb_text {
-    letter-spacing: 0.5px !important;
+    /* letter-spacing: 0.5px !important; */
 }
 .horaire-row dl {
     font-size: 20px;
