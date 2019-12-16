@@ -296,8 +296,8 @@ dd + dd {
 
   /* ajuste taille police des dates */
   #dates-horaires-row p {
-    line-height: 30px;
-    font-size: 22px;
+    /* line-height: 30px; */
+    /* font-size: 22px; */
   }
 
 }
