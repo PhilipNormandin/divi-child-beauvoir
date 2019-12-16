@@ -106,7 +106,7 @@ body.safari .content_1_f .et_pb_column_1_2 .et_pb_image{
 
     .content_1_f .et_pb_text,
     .content_1_f blockquote {
-        padding-left: 20px !important;
+        /* padding-left: 20px !important; */
     }
 
 }
