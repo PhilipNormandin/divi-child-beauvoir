@@ -76,7 +76,7 @@ body.safari .content_1_f .et_pb_column_1_2 .et_pb_image{
     }
 
     #page-container .content_1_f .et_pb_column:first-child {
-        padding: 40px !important;
+        /* padding: 40px !important; */
     }
 
 }
@@ -93,7 +93,7 @@ body.safari .content_1_f .et_pb_column_1_2 .et_pb_image{
     }
 
     #page-container .content_1_f .et_pb_column:first-child {
-        padding: 50px !important;
+        /* padding: 50px !important; */
     }
 
 }
