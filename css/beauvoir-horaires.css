@@ -72,9 +72,9 @@ blockquote p:first-child {
 
 /* ajuste affichage des images */
 .schedule-row img {
-  object-fit: cover;
-  object-position: center;
-  width: 100% !important;
+  /* object-fit: cover; */
+  /* object-position: center; */
+  /* width: 100% !important; */
 }
 .horaire-row .et_pb_column_1_2:first-child,
 .horaire-row .et_pb_column_1_2:last-child {
