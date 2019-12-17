@@ -221,7 +221,7 @@ body #et-main-area #main-content #content-area .my-generic-button.et_pb_button:h
     background-color: #1F5DEA;
 }
 @media only screen and (max-width: 1024px) {
-    .et_pb_scroll_top.et-pb-icon {
+    body.single .et_pb_scroll_top.et-pb-icon {
         bottom: 50px;
     }
 }
