@@ -15,16 +15,13 @@ body.safari .content_1_f .et_pb_column_1_2 .et_pb_image{
     position: absolute;
     width: 100%;
 }
-.content_1_f .et_pb_column_1_2 .et_pb_image {
-    height: 100% !important;
-    max-width: none;
-    overflow: hidden;
-}
+.content_1_f .et_pb_column_1_2 .et_pb_image,
 .content_1_f .et_pb_column_1_2 .et_pb_image img {
-    height: 100% !important;
-    max-width: none;
-    overflow: hidden;
+    /* height: 100% !important; */
+    /* max-width: none; */
+    /* overflow: hidden; */
 }
+
 
 /*Responsive*/
 
