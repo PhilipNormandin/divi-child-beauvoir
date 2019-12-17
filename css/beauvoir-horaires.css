@@ -71,7 +71,7 @@ blockquote p:first-child {
 }
 
 /* ajuste affichage des images */
-.horaire-row img {
+.schedule-row img {
   object-fit: cover;
   object-position: center;
   width: 100% !important;
@@ -89,12 +89,12 @@ blockquote p:first-child {
 
 /* ajuste police titre CHAPELLE DE PIERRES, ÉGLISE - 2e ligne */
 .horaire-chapelle-eglise {
-	font-family: 'Lato', sans-serif;
-	font-size: 44px !important;
-	font-weight: 700 !important;
-	line-height: 1.5 !important;
-	letter-spacing: 0.25px;
-	padding-bottom: 22px !important;
+	/* font-family: 'Lato', sans-serif; */
+	/* font-size: 44px !important; */
+	/* font-weight: 700 !important; */
+	/* line-height: 1.5 !important; */
+	/* letter-spacing: 0.25px; */
+	/* padding-bottom: 22px !important; */
 }
 
 
