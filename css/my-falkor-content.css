@@ -36,25 +36,25 @@ body.safari .content_1_f .et_pb_column_1_2 .et_pb_image{
 
     .content_1_f .et_pb_column_1_2 .et_pb_image,
     .content_1_f .et_pb_column_1_2 .et_pb_image img {
-        height: auto !important;
-        max-width: none;
-        overflow: hidden;
-        width: 100%;
+        /* height: auto !important; */
+        /* max-width: none; */
+        /* overflow: hidden; */
+        /* width: 100%; */
     }
 
     .content_1_f .et_pb_column_1_2 .et_pb_image .et_pb_image_wrap {
-        height: auto !important;
-        width: 100%;
+        /* height: auto !important; */
+        /* width: 100%; */
     }
 
     .content_1_f .et_pb_column_1_2:first-child .et_pb_promo {
-        padding-right: 60px !important;
-        padding-top: 50px !important;
-        margin-bottom: 0 !important;
+        /* padding-right: 60px !important; */
+        /* padding-top: 50px !important; */
+        /* margin-bottom: 0 !important; */
     }
 
     .content_1_f .et_pb_column_1_2:first-child {
-        padding-left: 60px !important;
+        /* padding-left: 60px !important; */
     }
 
 }
