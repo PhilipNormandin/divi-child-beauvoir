@@ -78,7 +78,7 @@ blockquote p:first-child {
 }
 .horaire-row .et_pb_column_1_2:first-child,
 .horaire-row .et_pb_column_1_2:last-child {
-  padding-left: 0 !important;
+  /* padding-left: 0 !important; */
 }
 
 /* ajuste couleur de fond des blocs d'horaire */
