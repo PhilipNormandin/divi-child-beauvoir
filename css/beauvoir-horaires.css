@@ -275,7 +275,7 @@ dd + dd {
   /* efface blocs image */
   #horaires-section .horaire-row .et_pb_column.image-droite,
   #horaires-section .horaire-row .et_pb_column.image-gauche {
-    display: none;
+    /* display: none; */
   }
   /* ajuste blocs texte */
   #horaires-section .horaire-row,
