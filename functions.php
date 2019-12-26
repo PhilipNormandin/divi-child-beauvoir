@@ -72,12 +72,6 @@ function beauvoir_enqueue_scripts() {
         wp_enqueue_style( 'beauvoir-events-schedule-layouts', get_stylesheet_directory_uri() .'/css/beauvoir-events-schedule-layouts.css' );
     }
 
-    // page HORAIRES
-    if ( is_page( array( 'horaires', 'schedules', 'orari', 'horaires-test' ) ) ) {
-        // wp_enqueue_style( 'beauvoir-horaires', get_stylesheet_directory_uri() .'/css/beauvoir-horaires.css' );
-        // wp_enqueue_style( 'falkor-content', get_stylesheet_directory_uri() .'/css/my-falkor-content.css' );
-    }
-
     // page NOTRE BLOGUE
     if ( is_page( array( 'notre-blogue', 'our-blog', 'il-nostro-blog' ) ) ) {
         wp_enqueue_style( 'beauvoir-blogue-et-archives', get_stylesheet_directory_uri() .'/css/beauvoir-blogue-et-archives.css' );
