@@ -627,6 +627,36 @@ function beauvoir_custom_excerpt_length( $length ) {
 // add_filter( 'excerpt_length', 'beauvoir_custom_excerpt_length', 999 );
 
 
+/* Admin labels
+------------------------------------------------------------------------*/
+
+
+// custom title place holder
+function beauvoir_title_place_holder( $title , $post ) {
+
+    if ( $post->post_type == 'member' ) {
+        $title = __( 'Name and Surname', 'divi-child-beauvoir' );
+    }
+
+    return $title;
+}
+add_filter('enter_title_here', 'beauvoir_title_place_holder' , 20 , 2 );
+
+
+// Change the meta box title to the pod name
+// from: https://github.com/pods-framework/pods/issues/1057
+//       https://pods.io/forums/topic/more-fields-widget-title-and-labels/
+function beauvoir_pods_meta_title( $title ) {
+
+    if ( get_post_type( get_the_ID() ) == 'member' ) {
+        $title = __( 'Personal data', 'divi-child-beauvoir' );
+    }
+
+	return $title;
+}
+// add_filter( 'pods_meta_default_box_title', 'beauvoir_pods_meta_title' );
+
+
 /* Enable / Disable stuff
 ------------------------------------------------------------------------*/
 
