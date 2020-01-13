@@ -14,14 +14,14 @@ section.person h2 {
 ------------------------------------------------------------------------ */
 
 #page-content {
-    padding-left: 40px;
-    padding-right: 40px;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
 }
 
 #our-team-code-wrapper > .et_pb_code_inner {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 60px 100px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-gap: 60px 100px; */
 }
 
 section.person {
