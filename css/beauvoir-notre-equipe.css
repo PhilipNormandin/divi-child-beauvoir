@@ -5,7 +5,6 @@
 ------------------------------------------------------------------------ */
 
 section.person h2 {
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Lato', sans-serif;
 }
 
@@ -19,9 +18,9 @@ section.person h2 {
 }
 
 #our-team-code-wrapper > .et_pb_code_inner {
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-gap: 60px 100px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px 100px;
 }
 
 section.person {

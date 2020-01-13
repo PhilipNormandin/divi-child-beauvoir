@@ -125,7 +125,7 @@ function beauvoir_enqueue_scripts() {
 
     // page NOTRE ÉQUIPE
     if ( is_page( array( 'notre-equipe', 'our-team', 'il-nostro-team' ) ) ) {
-        wp_enqueue_style( 'beauvoir-equipe', get_stylesheet_directory_uri() .'/css/beauvoir-equipe.css' );
+        wp_enqueue_style( 'beauvoir-notre-equipe', get_stylesheet_directory_uri() .'/css/beauvoir-notre-equipe.css' );
     }
 
     // page d'article
