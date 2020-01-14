@@ -1,17 +1,20 @@
 <?php
 
 
-/* Child theme's Setups
-------------------------------------------------------------------------*/
+/* =========================================
+            Child Theme Settings
+========================================= */
 
 
-/**
- * Load SVG Support file.
- */
+/* SVG Support file
+----------------------- */
+
 require_once( get_stylesheet_directory(). '/includes/class-svg-mime-type.php' );
 
 
-// Load Natalya font from https://fonts.adobe.com/
+/* Natalya font
+----------------------- */
+
 function beauvoir_load_natalya_font() {
 
     if ( is_page( array( 'nous-joindre', 'contact-us', 'contattaci', 'nous-joindre-anglais' ) )  ) {
@@ -40,35 +43,37 @@ function beauvoir_load_natalya_font() {
 add_action( 'wp_head', 'beauvoir_load_natalya_font' );
 
 
-// Enqueue styles and javascript for child theme
-// @ https://digwp.com/2016/01/include-styles-child-theme/
-// @ http://geoffgraham.me/wordpress-load-files-on-specific-pages/
+/* Enqueue Scripts
+----------------------- */
+// https://digwp.com/2016/01/include-styles-child-theme/
+// http://geoffgraham.me/wordpress-load-files-on-specific-pages/
+
 function beauvoir_enqueue_scripts() {
 
-    // enqueue parent styles
+    // Divi styles
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 
-    // enqueue child styles
+    // Beauvoir styles
     wp_enqueue_style( 'child-theme', get_stylesheet_directory_uri() .'/style.css', array('parent-theme') );
 
-    // add Lato font
+    // Lato font
     wp_enqueue_style( 'lato', 'https://fonts.googleapis.com/css?family=Lato:400,700' );
 
-    // page ACCUEIL
-    if ( is_page( array( 'accueil', 'home', 'pagina-iniziale', 'accueil-anglais', 'accueil-italien', 'accueil-test' ) ) ) {
+    // Page d'accueil
+    if ( is_page( array( 'accueil', 'home' ) ) ) {
         wp_enqueue_style( 'beauvoir-accueil', get_stylesheet_directory_uri() .'/css/beauvoir-accueil.css' );
         wp_enqueue_style( 'beauvoir-evenements-liste', get_stylesheet_directory_uri() .'/css/beauvoir-evenements-liste.css' );
         wp_enqueue_style( 'falkor-blurb', get_stylesheet_directory_uri() .'/css/my-falkor-blurb.css' );
     }
 
-    // page ÉVÉNEMENTS
+    // Page ÉVÉNEMENTS
     if ( is_page( array( 'evenements', 'events', 'eventi' ) ) ) {
         wp_enqueue_style( 'beauvoir-evenements-calendrier', get_stylesheet_directory_uri() .'/css/beauvoir-evenements-calendrier.css' );
         wp_enqueue_style( 'beauvoir-evenements-liste', get_stylesheet_directory_uri() .'/css/beauvoir-evenements-liste.css' );
     }
 
-    // pages affichant des événements
-    if ( is_page( array( 'accueil', 'home', 'evenements', 'events', 'accueil-test' ) ) ) {
+    // Pages contenant des événements
+    if ( is_page( array( 'accueil', 'home', 'evenements', 'events' ) ) ) {
         wp_enqueue_style( 'beauvoir-events-schedule-layouts', get_stylesheet_directory_uri() .'/css/beauvoir-events-schedule-layouts.css' );
     }
 
