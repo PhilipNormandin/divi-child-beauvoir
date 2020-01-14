@@ -1,28 +1,14 @@
 /* Divi Child Beauvoir - Page NOTRE ÉQUIPE */
 
 
-/* Réglage des polices
------------------------------------------------------------------------- */
-
 section.person h2 {
     font-family: 'Lato', sans-serif;
 }
-
-
-/* Propriétés globales
------------------------------------------------------------------------- */
-
-#page-content {
-    /* padding-left: 40px; */
-    /* padding-right: 40px; */
-}
-
 #our-team-code-wrapper > .et_pb_code_inner {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 60px 100px;
 }
-
 section.person {
     display: flex;
     flex-direction: column;
@@ -48,17 +34,16 @@ section.person p.position {
     font-size: 18px;
     line-height: 1;
 }
-section.person div.info-content {
-
-}
 section.person div.bio > p {
     font-size: 16px;
     line-height: 1.7;
 }
 
 
-/* Ajustements pour grand écran
------------------------------------------------------------------------- */
+/* =========================================
+         Ajustements Grand Écran
+========================================= */
+
 
 @media only screen and (min-width: 1468px) {
 
@@ -69,8 +54,10 @@ section.person div.bio > p {
 }
 
 
-/* Ajustements pour tablette et petit écran
------------------------------------------------------------------------- */
+/* =========================================
+        Ajustements Petit Écran
+========================================= */
+
 
 @media only screen and (min-width: 981px) and (max-width: 1365px) {
 
@@ -86,8 +73,10 @@ section.person div.bio > p {
 }
 
 
-/* Ajustements pour téléphone et tablette
------------------------------------------------------------------------- */
+/* =========================================
+    Ajustements Écrans Tablette & Mobile
+========================================= */
+
 
 @media only screen and (max-width: 980px) {
 
