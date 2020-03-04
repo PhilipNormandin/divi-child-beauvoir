@@ -41,6 +41,10 @@
 /* Propriétés globales
 ------------------------------------------------------------------------ */
 
+#my-footer {
+z-index: 0 !important;
+}
+
 /* ajuste police */
 #my-footer #links-row h2,
 #my-footer #contact-row h2 {
