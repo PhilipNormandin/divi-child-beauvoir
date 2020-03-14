@@ -88,6 +88,7 @@
 }
 .wcs-modal__inner-side h2 {
     font-size: 36px;
+    line-height: 1.42 !important;
     margin-bottom: 20px !important;
     padding-bottom: 0 !important;
 }
