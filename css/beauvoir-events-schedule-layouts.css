@@ -94,5 +94,5 @@
 }
 .wcs-modal__meta,
 .wcs-modal__meta li {
-    font-size: 22px !important;
+    font-size: unset !important;
 }
