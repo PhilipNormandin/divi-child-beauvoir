@@ -90,11 +90,12 @@
     font-size: 36px;
     line-height: 1.42 !important;
     margin-bottom: 0px !important;
-    padding-bottom: 0px !important;
-} 
+    padding-bottom: 20px !important;
+}
 .wcs-modal__meta,
 .wcs-modal__meta li {
     font-size: 20px !important;
+    margin-bottom: 0 !important;
 }
 .wcs-modal__inner-side {
     /* line-height: 1em !important; */
