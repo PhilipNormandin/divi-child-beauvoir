@@ -92,3 +92,7 @@
     margin-bottom: 20px !important;
     padding-bottom: 0 !important;
 }
+.wcs-modal__meta,
+.wcs-modal__meta li {
+    font-size: 22px !important;
+}
