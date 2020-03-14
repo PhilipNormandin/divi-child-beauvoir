@@ -72,7 +72,7 @@
     opacity: 0.4 !important;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) {
 
     .wcs-timetable--cover .wcs-class__title {
         font-size: 28px !important;
