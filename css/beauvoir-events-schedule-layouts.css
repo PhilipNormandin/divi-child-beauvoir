@@ -128,5 +128,8 @@
     .wcs-modal--large .wcs-modal__meta li {
         font-size: 20px !important;
     }
+    .wcs-modal__content {
+        padding: 30px;
+    }
 
 }
