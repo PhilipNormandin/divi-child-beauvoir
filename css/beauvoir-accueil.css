@@ -17,6 +17,7 @@
 
 /* heures des messes, dates des articles */
 #horaires-accueil_section .heures-des-messes,
+#horaire-des-messes-toggle .et_pb_toggle_content p,
 span.tg-item-date,
 span.tg-cats-holder span.tg-item-term {
     font-family: 'Lato', sans-serif;
