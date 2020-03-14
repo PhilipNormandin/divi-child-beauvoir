@@ -372,7 +372,8 @@ body.admin-bar #header-home-slider .et_pb_slide .et_pb_container {
   font-size: 32px;
   line-height: 36px;
   padding: 0 0 4px 0 !important;
-  left: 12px;
+  /* left: 12px; */
+    left: -10px;
 }
 
 /* espacement autour du module */
@@ -607,7 +608,7 @@ body.admin-bar #header-home-slider .et_pb_slide .et_pb_container {
 
   /* ajuste titre de section CÉLÉBRATIONS EUCHARISTIQUES */
   #horaires-accueil_section .horaires-version-mobile h2 {
-    font-size: 26px;
+    font-size: 24px;
     padding-bottom: 2px !important;
   }
 
