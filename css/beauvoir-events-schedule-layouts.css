@@ -94,7 +94,7 @@
 }
 .wcs-modal__meta,
 .wcs-modal__meta li {
-    /* font-size: 22px !important; */
+    font-size: inherit !important;
 }
 .wcs-modal__inner-side {
     line-height: 1em !important;
