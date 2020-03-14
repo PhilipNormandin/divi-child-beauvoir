@@ -92,21 +92,16 @@
     margin-bottom: 0px !important;
     padding-bottom: 20px !important;
 }
-.wcs-modal__meta,
-.wcs-modal__meta li {
-    /* font-size: 20px !important; */
-    /* margin-bottom: 0 !important; */
-}
-.wcs-modal__meta [class*="ti-"]::before {
-    /* top: 0 !important; */
-}
-.wcs-modal__inner-side {
-    /* line-height: 1em !important; */
-}
 .wcs-modal--large .wcs-modal__meta li {
     font-size: 20px !important;
     display: inline-flex !important;
     align-items: center;
     margin-right: 20px !important;
     padding-left: 1.7em;
+}
+.wcs-modal--large .wcs-modal__meta li span {
+    line-height: inherit !important;
+}
+.wcs-modal__meta [class*="ti-"]::before {
+    top: 0 !important;
 }
