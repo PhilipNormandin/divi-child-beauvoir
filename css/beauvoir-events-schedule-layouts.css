@@ -116,3 +116,14 @@
 .wcs-modal__meta [class*="ti-"]::before {
     top: 0 !important;
 }
+
+@media only screen and (max-width: 767px) {
+
+    .wcs-modal--large .wcs-modal__inner-side {
+        padding: 30px 30px 20px;
+    }
+    .wcs-modal__inner-side h2 {
+        font-size: 30px;
+    }
+
+}
