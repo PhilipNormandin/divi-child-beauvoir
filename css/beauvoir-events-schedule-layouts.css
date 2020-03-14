@@ -107,10 +107,8 @@
     font-size: 20px !important;
     display: inline-flex !important;
     align-items: center;
-    padding-left: 1.7em;
-}
-.wcs-modal--large .wcs-modal__meta li:first-child {
     margin-right: 20px !important;
+    padding-left: 1.7em;
 }
 .wcs-modal--large .wcs-modal__meta li span {
     line-height: inherit !important;
@@ -122,13 +120,13 @@
 @media only screen and (max-width: 767px) {
 
     .wcs-modal--large .wcs-modal__inner-side {
-        padding: 30px 30px 20px;
+        padding: 20px 30px 20px;
     }
     .wcs-modal__inner-side h2 {
         font-size: 30px;
     }
     .wcs-modal--large .wcs-modal__meta li {
-        font-size: 18px !important;
+        font-size: 20px !important;
     }
 
 }
