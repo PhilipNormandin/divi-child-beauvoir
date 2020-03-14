@@ -80,7 +80,7 @@
 
 .wcs-vue-modal .wcs-modal__inner-side h2,
 .wcs-modal__meta {
-    font-family: 'Lato', sans-serif !important;
+    /* font-family: 'Lato', sans-serif !important; */
 }
 .wcs-modal__inner p {
     line-height: 1.5em;
@@ -88,5 +88,6 @@
 }
 .wcs-modal__inner-side h2 {
     font-size: 36px;
-padding-bottom: 0 !important;
+    margin-bottom: 20px !important;
+    padding-bottom: 0 !important;
 }
