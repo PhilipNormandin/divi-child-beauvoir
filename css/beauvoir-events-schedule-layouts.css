@@ -81,6 +81,12 @@
     .wcs-timetable--cover .wcs-class__time {
         font-size: 22px;
     }
+    .wcs-timetable--cover .wcs-class__time-location {
+        margin: 20px 0 30px !important;
+    }
+    .wcs-timetable--cover .wcs-class__content {
+        padding: 30px 20px;
+    }
 
 }
 
