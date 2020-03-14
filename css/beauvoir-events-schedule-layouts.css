@@ -95,7 +95,10 @@
 .wcs-modal__meta,
 .wcs-modal__meta li {
     font-size: 20px !important;
-    margin-bottom: 0 !important;
+    /* margin-bottom: 0 !important; */
+}
+.wcs-modal__meta [class*="ti-"]::before {
+    top: 0 !important;
 }
 .wcs-modal__inner-side {
     /* line-height: 1em !important; */
