@@ -72,6 +72,18 @@
     opacity: 0.4 !important;
 }
 
+@media only screen and (min-width: 768px) {
+
+    .wcs-timetable--cover .wcs-class__title {
+        font-size: 28px !important;
+        line-height: 1.2em;
+    }
+    .wcs-timetable--cover .wcs-class__time {
+        font-size: 22px;
+    }
+
+}
+
 
 /* =========================================
                 Modal Layout
