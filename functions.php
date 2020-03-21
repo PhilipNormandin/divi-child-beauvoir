@@ -539,6 +539,23 @@ function show_our_blog_page_link() {
 add_shortcode( 'our_blog_page_link', 'show_our_blog_page_link' );
 
 
+/**
+ * Create shortcode which get the page URL
+ *
+ * Just add the following shortcode : [refresh_the_page]
+ */
+function get_beauvoir_current_page_URL() {
+
+    $link_url = get_permalink();
+    $link_text = __( 'Refresh the page', 'divi-child-beauvoir' );
+
+    $return_string = '<a href="' . $link_url . '">' . $link_text . '</a>';
+
+    return $return_string;
+}
+add_shortcode( 'refresh_the_page', 'get_beauvoir_current_page_URL' );
+
+
 /* Image size and compression
 ------------------------------------------------------------------------*/
 // https://astucesdivi.com/taille-images-de-divi/
