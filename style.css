@@ -289,6 +289,18 @@ body #et-main-area #main-content #content-area .my-generic-button.et_pb_button:h
 }
 
 
+/* Traduction du "Share This" de Monarch par "Partager"
+------------------------------------------------------------------------ */
+
+.et_social_heading {
+	font-size: 0!important;
+}
+.et_social_heading::before {
+	content: "Partager";
+	font-size: 15px !important;
+}
+
+
 /* Break point pour version grand écran
 ------------------------------------------------------------------------ */
 
