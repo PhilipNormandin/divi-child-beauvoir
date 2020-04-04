@@ -151,8 +151,8 @@ span.tg-cats-holder {
     #articles-accueil_section #articles-accueil-titre_row,
     #articles-accueil_section #articles-accueil-contenu_row,
     #articles-accueil_section #articles-accueil-bouton_row {
-        width: 90% !important;
-        max-width: 640px !important;
+        /* width: 90% !important; */
+        /* max-width: 640px !important; */
     }
 
     /* ajuste titres h2 et h3 */
