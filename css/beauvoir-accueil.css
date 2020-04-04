@@ -12,7 +12,7 @@
 #pages-a-voir_section h2,
 #evenements-accueil_section h3,
 #articles-accueil_section h3 {
-	/* font-family: 'Lato', sans-serif; */ 
+	/* font-family: 'Lato', sans-serif; */
 }
 
 /* heures des messes, dates des articles */
@@ -65,7 +65,7 @@ body #main-content a.my-buttons.home-buttons-go-to:hover {
     font-size: 23px !important;
 }
 #articles-accueil_section h3 {
-    font-size: 25px !important;
+    /* font-size: 25px !important; */
 }
 #evenements-accueil-titre_row h2,
 #evenements-accueil-contenu_row .wcs-timetable--list h3,
