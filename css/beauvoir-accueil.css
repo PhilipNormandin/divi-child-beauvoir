@@ -59,7 +59,7 @@ body #main-content a.my-buttons.home-buttons-go-to:hover {
     font-weight: 600;
 }
 #pages-a-voir_section h2 {
-    font-size: 32px;
+    /* font-size: 32px; */
 }
 #evenements-accueil_section h3 {
     font-size: 23px !important;
