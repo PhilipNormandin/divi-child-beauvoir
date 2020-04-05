@@ -8,7 +8,7 @@
 #page-content h2.tg-item-title,
 #author-box-bio h2 {
     /* font-family: 'Open Sans', sans-serif; */
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
 }
 
 /* dates des articles, catégories */
@@ -39,7 +39,7 @@ span.tg-cats-holder span.tg-item-term {
 #page-content h2.tg-item-title,
 #author-box-bio h2 {
     color: #444;
-    font-size: 25px;
+    /* font-size: 25px; */
     /* letter-spacing: 0.05px !important; */
 }
 #author-box-bio h2 {
