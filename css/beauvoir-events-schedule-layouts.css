@@ -76,6 +76,15 @@
     box-shadow: 0.0em 0.0em 0.5em rgba(0,0,0,0.4) !important;
 }
 
+@media only screen and (min-width: 768px) {
+    .wcs-timetable--cover-position-bottom-center.wcs-timetable--cover-with-image .wcs-class__content {
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
 @media only screen and (max-width: 767px) {
 
     .wcs-timetable--cover .wcs-class__title {
