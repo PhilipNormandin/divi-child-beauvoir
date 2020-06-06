@@ -289,6 +289,8 @@ echo "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
         pll_the_languages();
     }
     add_shortcode( 'polylang_switcher', 'add_polylang_language_switcher' );
+} else {
+    echo "Merdouille!!!!!!!!!";
 }
 
 
