@@ -276,6 +276,24 @@ add_filter( "script_loader_tag", "pixelvars_add_noscript_filter", 10, 3 );
 
 
 /**
+ * Check first if Polylang plugin is actived
+ */
+if ( in_array('Polylang/polylang.php',
+              apply_filters('active_plugins',
+              get_option('active_plugins'))) ) {
+    /**
+    * Create shortcode which add Polylang language switcher
+    *
+    * Just add the following shortcode : [polylang_switcher]
+    */
+    function add_polylang_language_switcher() {
+        pll_the_languages();
+    }
+    add_shortcode( 'polylang_switcher', 'add_polylang_language_switcher' );
+}
+
+
+/**
  * Get the full name of an author
  *
  * @return string
