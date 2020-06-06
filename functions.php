@@ -281,6 +281,7 @@ add_filter( "script_loader_tag", "pixelvars_add_noscript_filter", 10, 3 );
 if ( in_array('Polylang/polylang.php',
               apply_filters('active_plugins',
               get_option('active_plugins'))) ) {
+echo "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW";
     /**
     * Create shortcode which add Polylang language switcher
     *
