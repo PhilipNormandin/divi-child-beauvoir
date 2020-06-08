@@ -283,7 +283,7 @@ function check_plugin_state(){
     echo 'plugin is not active';
    }
 }
-add_action('admin_init', 'check_plugin_state');
+// add_action('admin_init', 'check_plugin_state');
 
 /**
  * Check first if Polylang plugin is actived
@@ -300,7 +300,7 @@ echo "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
     }
     add_shortcode( 'polylang_switcher', 'add_polylang_language_switcher' );
 } else {
-    echo "Merdouille!!!!!!!!!";
+    echo "Merdouille!!!!!!!!!  not active not active not active not active not active not active not active";
 }
 
 
