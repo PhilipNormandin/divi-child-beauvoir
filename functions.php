@@ -275,6 +275,16 @@ add_filter( "script_loader_tag", "pixelvars_add_noscript_filter", 10, 3 );
 ------------------------------------------------------------------------*/
 
 
+
+function check_plugin_state(){
+    if (is_plugin_active('Polylang/polylang.php')){
+     echo 'plugin is active';
+   }else{
+    echo 'plugin is not active';
+   }
+}
+add_action('admin_init', 'check_plugin_state');
+
 /**
  * Check first if Polylang plugin is actived
  */
