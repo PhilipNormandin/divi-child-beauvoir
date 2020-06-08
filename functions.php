@@ -275,16 +275,6 @@ add_filter( "script_loader_tag", "pixelvars_add_noscript_filter", 10, 3 );
 ------------------------------------------------------------------------*/
 
 
-
-function check_plugin_state(){
-    if (is_plugin_active('polylang/polylang.php')){
-     echo 'plugin is active';
-   }else{
-    echo 'plugin is not active';
-   }
-}
-// add_action('admin_init', 'check_plugin_state');
-
 /**
  * Check first if Polylang plugin is actived
  */
@@ -298,7 +288,7 @@ if ( is_plugin_active('polylang/polylang.php') ) {
     * Just add the following shortcode : [polylang_switcher]
     */
     function add_polylang_language_switcher() {
-        pll_the_languages();
+        pll_the_languages(array('hide_if_no_translation'=>1,'hide_current'=>1));
     }
     add_shortcode( 'polylang_switcher', 'add_polylang_language_switcher' );
 }
