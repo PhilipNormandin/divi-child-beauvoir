@@ -277,7 +277,7 @@ add_filter( "script_loader_tag", "pixelvars_add_noscript_filter", 10, 3 );
 
 
 function check_plugin_state(){
-    if (is_plugin_active('Polylang/polylang.php')){
+    if (is_plugin_active('polylang/polylang.php')){
      echo 'plugin is active';
    }else{
     echo 'plugin is not active';
@@ -289,7 +289,9 @@ function check_plugin_state(){
  * Check first if Polylang plugin is actived
  */
 if ( is_plugin_active('polylang/polylang.php') ) {
-echo "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW";
+
+    // echo 'plugin is active';
+
     /**
     * Create shortcode which add Polylang language switcher
     *
@@ -299,8 +301,6 @@ echo "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
         pll_the_languages();
     }
     add_shortcode( 'polylang_switcher', 'add_polylang_language_switcher' );
-} else {
-    echo "Merdouille!!!!!!!!!  not active not active not active not active not active not active not active";
 }
 
 
