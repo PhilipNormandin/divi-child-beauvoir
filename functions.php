@@ -288,7 +288,7 @@ function check_plugin_state(){
 /**
  * Check first if Polylang plugin is actived
  */
-if ( is_plugin_active('Polylang/polylang.php') ) {
+if ( is_plugin_active('polylang/polylang.php') ) {
 echo "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW";
     /**
     * Create shortcode which add Polylang language switcher
