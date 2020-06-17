@@ -253,7 +253,7 @@ function pixelvars_child_enqueue_scripts() {
     }
 
 }
-add_action( "wp_enqueue_scripts", "pixelvars_child_enqueue_scripts" );
+// add_action( "wp_enqueue_scripts", "pixelvars_child_enqueue_scripts" );
 
 
 // add noscript tag, if javascript is disabled on the browser
