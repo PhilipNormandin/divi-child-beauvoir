@@ -197,14 +197,25 @@ add_action( 'after_setup_theme', 'beauvoir_lang_setup' );
 // Load some jQuery code
 function beauvoir_load_some_jquery_code() {
 
+    $search_placeholder = __( 'Search ...', 'divi-child-beauvoir' );
+    ?>
+    <script>
+    jQuery( document ).ready( function( $ ) {
+
+        $( ".search-form-bv input.et_pb_s" ).attr( "placeholder", "<?php echo $search_placeholder; ?>" );
+
+    });
+    </script>
+    <?php
+
     // si c'est la page des résultats de recherche
     if ( is_search() ) {
-        $search_placeholder = __( 'Search again ...', 'divi-child-beauvoir' );
+        $search_again_placeholder = __( 'Search again ...', 'divi-child-beauvoir' );
         ?>
         <script>
         jQuery( document ).ready( function( $ ) {
 
-            $( "#search-form input.et_pb_s" ).attr( "placeholder", "<?php echo $search_placeholder; ?>" );
+            $( "#search-form input.et_pb_s" ).attr( "placeholder", "<?php echo $search_again_placeholder; ?>" );
 
         });
         </script>
