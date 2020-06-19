@@ -215,7 +215,7 @@ function beauvoir_load_some_jquery_code() {
         <script>
         jQuery( document ).ready( function( $ ) {
 
-            $( "#search-form input.et_pb_s" ).attr( "placeholder", "<?php echo $search_again_placeholder; ?>" );
+            $( "#search-again-form-bv input.et_pb_s" ).attr( "placeholder", "<?php echo $search_again_placeholder; ?>" );
 
         });
         </script>
