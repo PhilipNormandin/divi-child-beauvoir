@@ -51,7 +51,7 @@ add_action( 'wp_head', 'beauvoir_load_natalya_font' );
 function beauvoir_enqueue_scripts() {
 
     // Divi styles
-    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+    // wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 
     // Beauvoir styles
     wp_enqueue_style( 'child-theme', get_stylesheet_directory_uri() .'/style.css', array('parent-theme') );
