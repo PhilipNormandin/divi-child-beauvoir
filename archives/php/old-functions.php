@@ -12,6 +12,11 @@ function beauvoir_enqueue_scripts() {
         wp_enqueue_style( 'beauvoir-articles', get_stylesheet_directory_uri() .'/css/beauvoir-articles.css' );
     }
 
+    // page des résultats de recherche
+    if ( is_search() ) {
+        wp_enqueue_style( 'beauvoir-resultats-recherche', get_stylesheet_directory_uri() .'/css/beauvoir-resultats-recherche.css' );
+    }
+
     // En-Tête du site
     wp_enqueue_style( 'beauvoir-header', get_stylesheet_directory_uri() .'/css/beauvoir-header.css' );
     wp_enqueue_style( 'beauvoir-header-mobile', get_stylesheet_directory_uri() .'/css/beauvoir-header-mobile.css' );
