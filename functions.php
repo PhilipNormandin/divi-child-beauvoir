@@ -140,7 +140,7 @@ function beauvoir_enqueue_scripts() {
 
     // page des résultats de recherche
     if ( is_search() ) {
-        wp_enqueue_style( 'beauvoir-resultats-recherche', get_stylesheet_directory_uri() .'/css/beauvoir-resultats-recherche.css' );
+        // wp_enqueue_style( 'beauvoir-resultats-recherche', get_stylesheet_directory_uri() .'/css/beauvoir-resultats-recherche.css' );
     }
 
     // page 404
