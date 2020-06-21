@@ -5,10 +5,6 @@
 }
 
 /* Formulaire de recherche et Loupe */
-#site-header-bv .search-form-bv,
-#site-header-bv .search-form-bv .et_pb_searchform {
-    height: 36px;
-}
 #site-header-bv .search-form-bv {
     border: none;
 }
@@ -16,16 +12,9 @@
     display: flex;
     align-items: center;
 }
-#site-header-bv .search-form-bv input.et_pb_searchsubmit {
-    display: block !important;
-    background: transparent;
-    color: transparent;
-    border: none;
-    width: 55px;
-    z-index: 2;
-}
-#site-header-bv .search-form-bv input.et_pb_s {
-    padding-right: 55px !important;
+#site-header-bv .search-form-bv,
+#site-header-bv .search-form-bv .et_pb_searchform {
+    height: 36px;
 }
 #site-header-bv .search-form-bv .et_pb_searchform::before {
     content: '\55';
@@ -35,7 +24,19 @@
     color: #444;
     z-index: 1;
     right: 0;
-    padding: 8px 20px;
+    padding: 8px 15px;
+}
+#site-header-bv .search-form-bv input.et_pb_s {
+    width: 220px;
+}
+#site-header-bv .search-form-bv input.et_pb_searchsubmit {
+    display: block !important;
+    background: transparent;
+    color: transparent;
+    border: none;
+    z-index: 2;
+    padding: 0 !important;
+    width: 48px;
 }
 
 /* Divers ajustements */
