@@ -225,11 +225,9 @@
         padding: 15px 30px;
         height: auto !important	;
     }
-    .et_mobile_menu .search-form-bv .et_pb_searchform > div {
-        width: 100%;
-    }
+    .et_mobile_menu .search-form-bv .et_pb_searchform > div,
     .et_mobile_menu .search-form-bv input.et_pb_s {
-        width: auto;
+        width: 100% !important;
     }
     .et_mobile_menu .search-form-bv input.et_pb_s {
         border: 2px solid #aaa;
