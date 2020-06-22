@@ -140,7 +140,7 @@ function beauvoir_enqueue_scripts() {
 
     // page 404
     if ( is_404() ) {
-        wp_enqueue_style( 'beauvoir-404', get_stylesheet_directory_uri() .'/css/beauvoir-404.css' );
+        // wp_enqueue_style( 'beauvoir-404', get_stylesheet_directory_uri() .'/css/beauvoir-404.css' );
     }
 
     // Pied de page du site
