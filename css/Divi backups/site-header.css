@@ -22,9 +22,8 @@
     font-family: 'ETModules';
     font-size: 18px;
     color: #444;
+    right: 15px;
     z-index: 1;
-    right: 0;
-    padding: 8px 15px;
 }
 #site-header-bv .search-form-bv input.et_pb_s {
     width: 220px;
@@ -34,9 +33,9 @@
     background: transparent;
     color: transparent;
     border: none;
-    z-index: 2;
     padding: 0 !important;
     width: 48px;
+    z-index: 2;
 }
 
 /* Divers ajustements */
