@@ -313,10 +313,7 @@
 
     /* Disposition des éléments */
     #primary-menu-bv .et_pb_menu_inner_container > .et_pb_menu__logo-wrap a img {
-        max-height: 64px;
-    }
-    #primary-menu-bv .et_mobile_menu {
-
+        max-height: 64px !important;
     }
     #primary-menu-bv .et_mobile_menu li a,
     #primary-menu-bv .et_mobile_menu .search-form-bv {
