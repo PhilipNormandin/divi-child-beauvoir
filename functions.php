@@ -175,7 +175,7 @@ add_action('init', 'disable_cptdivi');
 // https://wordpress.org/support/topic/doubt-about-divi-theme-builder-in-footer-and-polylang/#post-12784499
 add_filter('pll_get_post_types', 'my_pll_get_post_types');
 function my_pll_get_post_types($types) {
-	return array_merge($types, array('et_pb_layout' => 'et_pb_layout'));
+	return array_merge($types, array('et_pb_layout' => 'et_pb_layout', 'show_in_rest' => true,));
 }
 
 
