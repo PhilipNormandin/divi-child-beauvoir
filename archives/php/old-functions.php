@@ -30,6 +30,19 @@ function beauvoir_enqueue_scripts() {
 add_action( 'wp_enqueue_scripts', 'beauvoir_enqueue_scripts' );
 
 
+// Load child textdomain
+function beauvoir_lang_setup() {
+
+    load_child_theme_textdomain( 'divi-child-beauvoir' );
+
+    load_child_theme_textdomain( 'divi-child-beauvoir', get_stylesheet_directory() . '/lang' );
+    load_child_theme_textdomain( 'Divi', get_stylesheet_directory() . '/languages/Divi' );
+    load_child_theme_textdomain( 'et_builder', get_stylesheet_directory() . '/languages/et_builder' );
+
+}
+add_action( 'after_setup_theme', 'beauvoir_lang_setup' );
+
+
 /* Add Loading Spinner
 ------------------------------------------------------------------------*/
 // https://www.pixelvars.com/wordpress-manually-add-loading-spinner-to-your-site-without-using-plugin/

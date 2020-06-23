@@ -171,17 +171,12 @@ function disable_cptdivi()
 add_action('init', 'disable_cptdivi');
 
 
-// Load child textdomain
-function beauvoir_lang_setup() {
-
-    load_child_theme_textdomain( 'divi-child-beauvoir' );
-
-    // load_child_theme_textdomain( 'divi-child-beauvoir', get_stylesheet_directory() . '/lang' );
-    // load_child_theme_textdomain( 'Divi', get_stylesheet_directory() . '/languages/Divi' );
-    // load_child_theme_textdomain( 'et_builder', get_stylesheet_directory() . '/languages/et_builder' );
-
+// Add polylang to Divi Library Window
+// https://wordpress.org/support/topic/doubt-about-divi-theme-builder-in-footer-and-polylang/#post-12784499
+add_filter('pll_get_post_types', 'my_pll_get_post_types');
+function my_pll_get_post_types($types) {
+	return array_merge($types, array('et_pb_layout' => 'et_pb_layout'));
 }
-add_action( 'after_setup_theme', 'beauvoir_lang_setup' );
 
 
 // Load some jQuery code
