@@ -245,6 +245,17 @@ add_shortcode( 'nom_du_site', 'show_site_name' );
 
 
 /**
+ * Create shortcode which add copyright notice
+ *
+ * Just add the following shortcode : [avis_copyright]
+ */
+function show_copyright_notice() {
+    return __( '© All rights reserved', 'divi-child-beauvoir' );
+}
+add_shortcode( 'avis_copyright', 'show_copyright_notice' );
+
+
+/**
  * Get the full name of an author
  *
  * @return string
