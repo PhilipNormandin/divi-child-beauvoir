@@ -47,7 +47,7 @@ rouge - calendrier : #bd322c
 #my-footer #copyright-row,
 #horaires-section .et_pb_column.texte-gauche,
 #horaires-section .et_pb_column.texte-droite {
-    background-color: #004f75 !important;
+    /* background-color: #004f75 !important; */
 }
 
 /* horaire des célébrations (accueil), en-tête de page ... (gris foncé) */
@@ -174,7 +174,7 @@ rouge - calendrier : #bd322c
 body.page-id-225383 #my-footer #copyright-row,
 body.page-id-225395 #my-footer #copyright-row,
 body.page-id-225401 #my-footer #copyright-row {
-    background-color: unset !important;
+    /* background-color: unset !important; */
 }
 #copyright-row {
     margin: 0 !important;
