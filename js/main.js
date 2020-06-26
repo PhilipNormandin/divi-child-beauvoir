@@ -34,15 +34,15 @@ jQuery( document ).ready( function( $ ) {
    si le client veut les utiliser pour déplacer le curseur dans un champ)
 ------------------------------------------------------------------------ */
 
-// jQuery( document ).ready( function( $ ) {
-//
-//     $('input').keydown(function(e){
-//         if(e.keyCode == '37' || e.keyCode == '39'){
-//             e.stopPropagation();
-//         }
-//     });
-//
-// });
+jQuery( document ).ready( function( $ ) {
+
+    $('input').keydown(function(e){
+        if(e.keyCode == '37' || e.keyCode == '39'){
+            e.stopPropagation();
+        }
+    });
+
+});
 
 
 /* Capture la confirmation d'abonnement à l'infolettre (pour ajuster le layout)
