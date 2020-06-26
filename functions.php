@@ -234,6 +234,17 @@ if ( is_plugin_active('polylang/polylang.php') ) {
 
 
 /**
+ * Create shortcode which add the site name
+ *
+ * Just add the following shortcode : [nom_du_site]
+ */
+function show_site_name() {
+    return __( 'Shrine of the Sacred Heart of Beauvoir', 'divi-child-beauvoir' );
+}
+add_shortcode( 'nom_du_site', 'show_site_name' );
+
+
+/**
  * Get the full name of an author
  *
  * @return string
