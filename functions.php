@@ -256,6 +256,17 @@ add_shortcode( 'avis_copyright', 'show_copyright_notice' );
 
 
 /**
+ * Create shortcode which add follow us message
+ *
+ * Just add the following shortcode : [suivez_nous]
+ */
+function show_follow_us_message() {
+    return __( 'Follow us', 'divi-child-beauvoir' );
+}
+add_shortcode( 'suivez_nous', 'show_follow_us_message' );
+
+
+/**
  * Get the full name of an author
  *
  * @return string
