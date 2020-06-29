@@ -1,0 +1,137 @@
+/* =============================
+            Animations
+   ============================= */
+
+#my-footer-menu .sub-menu a {
+  transition: 0.3s;
+}
+#my-footer-menu .sub-menu a:before {
+  content: "E";
+  font-family: ETmodules !important;
+  display: inline-block;
+  width: 0;
+  overflow: hidden;
+  vertical-align: middle;
+  transition: 0.3s;
+}
+#my-footer-menu .sub-menu a:hover:before {
+  width: 20px;
+}
+#copyright-row .lang-item a:hover {
+  text-decoration: underline;
+}
+
+/* ==============================
+      Disposition des éléments
+   ============================== */
+
+#my-footer-menu-row .et_pb_column,
+#my-footer-menu .dsm-menu-container > ul {
+  display: flex;
+}
+#my-footer-menu .service-links {
+  width: 33%;
+}
+#my-footer-menu .quick-links {
+  width: 66%;
+}
+#my-footer-menu .quick-links .sub-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-auto-flow: column;
+}
+#copyright-row ul.dsm-menu {
+  line-height: 1em;
+  padding-bottom: 0px;
+}
+
+/* =============================
+       Formulaire INFOLETTRE
+   ============================= */
+
+#newsletter-form .et_bloom_inline_form {
+  width: 310px;
+}
+#newsletter-form .et_bloom_subscribe_email,
+#newsletter-form .et_bloom_submit_subscription {
+  height: 40px;
+}
+#newsletter-form .et_bloom_form_header h2 {
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  line-height: 2.5em !important;
+  padding-bottom: 7px !important;
+}
+#newsletter-form .et_bloom_button_text,
+#newsletter-form .et_bloom_popup_input input {
+  font-size: 15px;
+  letter-spacing: initial;
+}
+#newsletter-form .et_bloom_popup_input input,
+#newsletter-form .et_bloom_form_content button.et_bloom_submit_subscription .et_bloom_button_text {
+  color: #444;
+}
+/* Bloom Check Mark et Message de remerciement  */
+#newsletter-form .et_bloom_form_header h2.subscribed {
+  display: none;
+}
+#newsletter-form h2.et_bloom_success_message {
+  color: #444 !important;
+  font-size: 20px !important;
+  font-weight: 700;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 16px 32px;
+  width: auto;
+  top: 25px;
+}
+#newsletter-form .et_bloom_success_container.et_bloom_animate_success span.et_bloom_success_checkmark {
+  margin-left: -23px;
+  top: -30px;
+}
+#newsletter-form h2.et_bloom_success_message::after {
+  top: -10px !important;
+  margin-left: -10px !important;
+  border-left: 10px solid transparent !important;
+  border-right: 10px solid transparent !important;
+  border-bottom: 10px solid #fff !important;
+}
+#newsletter-form .et_bloom_form_content button.et_bloom_submit_subscription:hover {
+  background-color: #ebebeb !important;
+}
+#newsletter-form .et_bloom_form_content button.et_bloom_submit_subscription:hover .et_bloom_button_text {
+  color: #333 !important;
+}
+/* Effet loading */
+/* https://icons8.com/preloaders/en/horizontal */
+#newsletter-form .et_bloom_submit_subscription.et_bloom_button_text_loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#newsletter-form .et_bloom_submit_subscription .et_bloom_subscribe_loader {
+  background-image: url("/wp-content/themes/divi-child-beauvoir/images/800.gif") !important;
+  background-repeat: no-repeat !important;
+  margin: 0 !important;
+  opacity: 0.8;
+  position: static;
+  width: 58px;
+  height: 16px;
+}
+#newsletter-form .et_bloom_submit_subscription.et_bloom_button_text_loading .et_bloom_button_text {
+  position: absolute;
+}
+
+/* =============================
+        Divers ajustements
+   ============================= */
+
+#my-footer-menu .menu-item-has-children > a:hover {
+  cursor: inherit;
+}
+#newsletter-form > .et_pb_text_inner > p,
+#newsletter-form > .et_pb_text_inner > div > p,
+#newsletter-form .mce-content-body > p {
+  display: none;
+}
