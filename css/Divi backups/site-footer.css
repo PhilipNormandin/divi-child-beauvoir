@@ -1,6 +1,6 @@
 /* =============================
-            Animations
-   ============================= */
+          Animations
+============================= */
 
 #my-footer-menu .sub-menu a {
   transition: 0.3s;
@@ -17,38 +17,10 @@
 #my-footer-menu .sub-menu a:hover:before {
   width: 20px;
 }
-#copyright-row .lang-item a:hover {
-  text-decoration: underline;
-}
-
-/* ==============================
-      Disposition des éléments
-   ============================== */
-
-#my-footer-menu-row .et_pb_column,
-#my-footer-menu .dsm-menu-container > ul {
-  display: flex;
-}
-#my-footer-menu .service-links {
-  width: 30%;
-}
-#my-footer-menu .quick-links {
-  width: 70%;
-}
-#my-footer-menu .quick-links .sub-menu {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-	grid-auto-flow: column;
-}
-#copyright-row ul.dsm-menu {
-  line-height: 1em;
-  padding-bottom: 0px;
-}
 
 /* =============================
-       Formulaire INFOLETTRE
-   ============================= */
+      Formulaire INFOLETTRE
+============================= */
 
 #newsletter-form .et_bloom_subscribe_email,
 #newsletter-form .et_bloom_submit_subscription {
@@ -69,7 +41,8 @@
 #newsletter-form .et_bloom_form_content button.et_bloom_submit_subscription .et_bloom_button_text {
   color: #444;
 }
-/* Bloom Check Mark et Message de remerciement  */
+/* Bloom Check Mark et Message de remerciement
+---------------------------------------------- */
 #newsletter-form .et_bloom_form_header h2.subscribed {
   display: none;
 }
@@ -100,8 +73,9 @@
 #newsletter-form .et_bloom_form_content button.et_bloom_submit_subscription:hover .et_bloom_button_text {
   color: #333 !important;
 }
-/* Effet loading */
-/* https://icons8.com/preloaders/en/horizontal */
+/* Effet loading
+   https://icons8.com/preloaders/en/horizontal
+---------------------------------------------- */
 #newsletter-form .et_bloom_submit_subscription.et_bloom_button_text_loading {
   display: flex;
   justify-content: center;
@@ -120,8 +94,46 @@
   position: absolute;
 }
 
+/* =========================================
+        Ajustements Écran Desktop
+========================================= */
+
+@media only screen and (min-width: 981px) {
+
+  /* Flex Grid Layouts
+  ---------------------- */
+
+  #my-footer-menu-row .et_pb_column,
+  #my-footer-menu .dsm-menu-container > ul {
+    display: flex;
+    flex-direction: row;
+  }
+  #my-footer-menu .service-links {
+    width: 30%;
+  }
+  #my-footer-menu .quick-links {
+    width: 70%;
+  }
+  #my-footer-menu .quick-links .sub-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	  grid-template-rows: 1fr 1fr 1fr;
+	  grid-auto-flow: column;
+  }
+
+}
+
 @media only screen and (min-width: 981px) and (max-width: 1365px) {
 
+  /* Dimensionnement
+  -------------------- */
+
+  #my-footer-menu .service-links {
+    width: 28% !important;
+  }
+  #my-footer-menu .quick-links {
+    width: 72% !important;
+  }
   #my-footer-menu {
     width: 75% !important;
   }
@@ -131,12 +143,35 @@
 
 }
 
+/* =========================================
+        Ajustements Écran Tablette
+========================================= */
+
+@media only screen and (max-width: 980px) {
+
+  /* Disposition des éléments
+  ----------------------------- */
+
+  #my-footer-menu .service-links,
+  #my-footer-menu .quick-links {
+    text-align: center;
+  }
+
+}
+
 /* =============================
-        Divers ajustements
-   ============================= */
+       Divers ajustements
+============================= */
 
 #my-footer-menu .menu-item-has-children > a:hover {
   cursor: inherit;
+}
+#copyright-row .lang-item a:hover {
+  text-decoration: underline;
+}
+#copyright-row ul.dsm-menu {
+  line-height: 1em;
+  padding-bottom: 0px;
 }
 #newsletter-form > .et_pb_text_inner > p,
 #newsletter-form > .et_pb_text_inner > div > p,
