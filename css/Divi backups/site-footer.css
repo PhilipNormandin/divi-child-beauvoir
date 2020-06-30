@@ -30,10 +30,10 @@
   display: flex;
 }
 #my-footer-menu .service-links {
-  width: 33%;
+  width: 30%;
 }
 #my-footer-menu .quick-links {
-  width: 66%;
+  width: 70%;
 }
 #my-footer-menu .quick-links .sub-menu {
   display: grid;
@@ -50,9 +50,6 @@
        Formulaire INFOLETTRE
    ============================= */
 
-#newsletter-form .et_bloom_inline_form {
-  width: 310px;
-}
 #newsletter-form .et_bloom_subscribe_email,
 #newsletter-form .et_bloom_submit_subscription {
   height: 40px;
@@ -82,13 +79,13 @@
   font-weight: 700;
   margin-left: 0;
   margin-right: 0;
-  padding: 16px 32px;
+  padding: 20px 10%;
   width: auto;
-  top: 25px;
+  top: 22px;
 }
 #newsletter-form .et_bloom_success_container.et_bloom_animate_success span.et_bloom_success_checkmark {
   margin-left: -23px;
-  top: -30px;
+  top: -33px;
 }
 #newsletter-form h2.et_bloom_success_message::after {
   top: -10px !important;
@@ -121,6 +118,17 @@
 }
 #newsletter-form .et_bloom_submit_subscription.et_bloom_button_text_loading .et_bloom_button_text {
   position: absolute;
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1365px) {
+
+  #my-footer-menu {
+    width: 75% !important;
+  }
+  #newsletter-form {
+    width: 25% !important;
+  }
+
 }
 
 /* =============================
