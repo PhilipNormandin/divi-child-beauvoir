@@ -4,7 +4,10 @@
   font-size: 15px !important;
 }
 
-/* Formulaire de recherche et Loupe */
+/* ==============================
+     Formulaire de recherche
+============================== */
+
 #site-header-bv .search-form-bv {
   border: none;
 }
@@ -41,16 +44,9 @@
     padding-right: 48px !important;
 }
 
-/* Divers ajustements */
-#site-header-bv ul {
-  list-style-type: none;
-}
-.menu-item-has-children > a:hover {
-  cursor: pointer;
-}
-.et_pb_menu a:hover {
-  opacity: 1;
-}
+/* ==================================
+         Menu - Grand Écran
+================================== */
 
 @media only screen and (min-width: 1366px) {
 
@@ -69,9 +65,8 @@
   	margin: 0 0 0 30px !important;
 	}
 
-  /* =========================
-       Menu principal / Logo
-     ========================= */
+  /* Menu principal / Logo
+  ------------------------------- */
 
   /* Largeur des sous-menus */
   #primary-menu-bv .et-menu-nav > ul > li > ul,
@@ -123,9 +118,8 @@
     opacity: 1;
   }
 
-  /* ======================================================
-       Menu secondaire / Formulaire de recherche / Langue
-     ====================================================== */
+  /* Menu secondaire / Formulaire de recherche / Langue
+  ----------------------------------------------------- */
 
   /* Disposition des éléments */
   #secondary-links-area .et_pb_column {
@@ -140,6 +134,10 @@
   }
 
 }
+
+/* ==========================================================
+     Menu hamburger - Petit Écran, Tablette et Téléphone
+========================================================== */
 
 @media only screen and (max-width: 1365px) {
 
@@ -292,6 +290,24 @@
 
 }
 
+/* ===============================================
+     Menu hamburger - Petit Écran et Tablette
+=============================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 1365px) {
+
+  /* Masquer-Montrer des éléments */
+  #primary-menu-bv .et_mobile_nav_menu .events-page-link,
+	#primary-menu-bv .et_mobile_nav_menu .schedules-page-link{
+    display: none;
+  }
+
+}
+
+/* =================================
+     Menu hamburger - Téléphone
+================================= */
+
 @media only screen and (max-width: 767px) {
 
   /* Masquer-Montrer des éléments */
@@ -326,17 +342,19 @@
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1365px) {
+/* =============================
+       Divers ajustements
+============================= */
 
-  /* Masquer-Montrer des éléments */
-  #primary-menu-bv .et_mobile_nav_menu .events-page-link,
-	#primary-menu-bv .et_mobile_nav_menu .schedules-page-link{
-    display: none;
-  }
-
+#site-header-bv ul {
+  list-style-type: none;
 }
-
-/* Masque des éléments */
+.menu-item-has-children > a:hover {
+  cursor: pointer;
+}
+.et_pb_menu a:hover {
+  opacity: 1;
+}
 body:not(.logged-in) .langue,
 body.admin-bar .langue {
   display: none !important;
