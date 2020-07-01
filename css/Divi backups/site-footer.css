@@ -125,15 +125,6 @@
 
 @media only screen and (min-width: 981px) and (max-width: 1365px) {
 
-  /* Dimensionnement
-  -------------------- */
-
-  #my-footer-menu .service-links {
-    width: 28% !important;
-  }
-  #my-footer-menu .quick-links {
-    width: 72% !important;
-  }
   #my-footer-menu {
     width: 75% !important;
   }
@@ -149,12 +140,15 @@
 
 @media only screen and (max-width: 980px) {
 
-  /* Disposition des éléments
-  ----------------------------- */
-
   #my-footer-menu .service-links,
   #my-footer-menu .quick-links {
-    text-align: center;
+    margin-bottom: 30px;
+  }
+  #my-footer-menu {
+    margin-bottom: 0 !important;
+  }
+  #my-footer-menu .dsm-menu-container .dsm-menu {
+    padding-bottom: 0 !important;
   }
 
 }
