@@ -218,6 +218,7 @@ body #et-main-area #main-content #content-area .my-generic-button.et_pb_button:h
     background-color: #0077ee;
     font-size: 2.75rem;
     box-shadow: 0 6px 9px rgba(0,0,0,0.3) !important;
+    z-index: 9998;
 }
 .et_pb_scroll_top.et-pb-icon:hover {
     background-color: #1F5DEA;
