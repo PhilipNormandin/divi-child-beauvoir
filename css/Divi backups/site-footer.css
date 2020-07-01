@@ -108,11 +108,16 @@
     display: flex;
     flex-direction: row;
   }
+  #social-media-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
   #my-footer-menu .service-links {
-    width: 30%;
+    width: 33.3%;
   }
   #my-footer-menu .quick-links {
-    width: 70%;
+    width: 66.6%;
   }
   #my-footer-menu .quick-links .sub-menu {
     display: grid;
@@ -149,6 +154,12 @@
   }
   #my-footer-menu .dsm-menu-container .dsm-menu {
     padding-bottom: 0 !important;
+  }
+  #contact-column .et_pb_blurb_container {
+    display: block;
+  }
+  #contact-column .et_pb_main_blurb_image {
+    margin-bottom: 15px;
   }
 
 }
