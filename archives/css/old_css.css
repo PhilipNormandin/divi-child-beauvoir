@@ -26,6 +26,129 @@ bleu microsoft : #0067b8 & #005da6 (hover)
 */
 
 
+/* Réglage des couleurs
+------------------------------------------------------------------------ */
+
+/* horaire des célébrations (accueil), en-tête de page ... (gris foncé) */
+#page-header,
+#horaires-accueil_section,
+#horaire-des-messes-toggle {
+    background-color: #42494f !important;
+}
+
+
+/* En-tête de page
+------------------------------------------------------------------------ */
+
+#page-header h1,
+#post-title h1 {
+    font-weight: 900 !important;
+    letter-spacing: 2px !important;
+    padding-bottom: 0px !important;
+}
+@media only screen and (min-width: 1366px) {
+    #page-header h1,
+    #post-title h1 {
+        font-size: 48px !important;
+        line-height: 1em !important;
+    }
+    #et-main-area #page-header .et_pb_row {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+}
+@media only screen and (min-width: 981px) and (max-width: 1365px) {
+    #page-header h1,
+    #post-title h1 {
+        font-size: 44px !important;
+        line-height: 1.5em !important;
+    }
+    #et-main-area #page-header .et_pb_row {
+        padding-top: 22px !important;
+        padding-bottom: 22px !important;
+    }
+}
+@media only screen and (max-width: 980px) {
+    #page-header h1,
+    #post-title h1 {
+        font-size: 40px !important;
+        line-height: 1.2em !important;
+    }
+    #et-main-area #page-header .et_pb_row {
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+    }
+    #page-header .et_pb_post_title {
+        width: 90% !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #page-header h1,
+    #post-title h1 {
+        font-size: 36px !important;
+        line-height: 1.2em !important;
+    }
+    #et-main-area #page-header .et_pb_row {
+        padding-top: 20px !important;
+        padding-bottom: 18px !important;
+    }
+}
+@media only screen and (max-width: 479px) {
+    #page-header h1,
+    #post-title h1 {
+        font-size: 26px !important;
+        line-height: 1.1em !important;
+    }
+    #et-main-area #page-header .et_pb_row {
+        padding-top: 18px !important;
+        padding-bottom: 18px !important;
+        width: 90%;
+        max-width: unset;
+    }
+}
+
+#page-title {
+    margin-bottom: 0 !important;
+}
+
+
+/* Contenu de page
+------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 768px) {
+
+    #page-content,
+    #events-calendar-section,
+    .et_pb_section.tab-content {
+        min-height: 780px;
+    }
+
+    body.error404 #page-content,
+    body.search #page-content {
+        min-height: 580px !important;
+    }
+
+}
+
+
+/* ajuste contenu lorsque menu est fixe */
+@media only screen and (min-width: 1366px) {
+
+  #main-header.et-fixed-header + #et-main-area {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+  }
+  body.admin-bar #main-header.et-fixed-header + #et-main-area {
+    /* top: calc(200px + 50px); */
+  }
+
+}
+
+
+/* VERY OLD CSS */
+
+
 /* En-tête de chaque page
 ------------------------------------------------------------------------ */
 
