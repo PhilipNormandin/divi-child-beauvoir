@@ -100,9 +100,6 @@
 
 @media only screen and (min-width: 981px) {
 
-  /* Flex Grid Layouts
-  ---------------------- */
-
   #my-footer-menu-row .et_pb_column,
   #my-footer-menu .dsm-menu-container > ul {
     display: flex;
@@ -124,17 +121,6 @@
     grid-template-columns: 1fr 1fr;
 	  grid-template-rows: 1fr 1fr 1fr;
 	  grid-auto-flow: column;
-  }
-
-}
-
-@media only screen and (min-width: 981px) and (max-width: 1365px) {
-
-  #my-footer-menu {
-    width: 75% !important;
-  }
-  #newsletter-form {
-    width: 25% !important;
   }
 
 }
