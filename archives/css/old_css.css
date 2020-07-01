@@ -130,7 +130,6 @@ bleu microsoft : #0067b8 & #005da6 (hover)
 
 }
 
-
 /* ajuste contenu lorsque menu est fixe */
 @media only screen and (min-width: 1366px) {
 
@@ -143,6 +142,23 @@ bleu microsoft : #0067b8 & #005da6 (hover)
     /* top: calc(200px + 50px); */
   }
 
+}
+
+
+/* Bouton générique
+------------------------------------------------------------------------ */
+
+body #et-main-area #main-content #content-area .my-generic-button.et_pb_button {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 1em !important;
+    padding: 14px 40px !important;
+    background: #ffffff !important;
+    border-color: #ddd;
+    color: #444;
+}
+body #et-main-area #main-content #content-area .my-generic-button.et_pb_button:hover {
+    color: #222;
 }
 
 

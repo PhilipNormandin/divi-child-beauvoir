@@ -37,14 +37,13 @@ rouge - calendrier : #bd322c
 }
 
 
-/* Ajustements des boutons
------------------------------------------------------------------------- */
+/* =========================================
+          Ajustements des boutons
+========================================= */
 
-body #main-content .my-buttons,
-.et_pb_scroll_top.et-pb-icon,
-#my-footer #contact-btn,
-.et_bloom .et_bloom_form_content button.et_bloom_submit_subscription,
-body.error404 #homepage-link a {
+/* animations */
+.my-button,
+.et_pb_scroll_top.et-pb-icon {
   -webkit-transition: all 300ms ease !important;
   -moz-transition: all 300ms ease !important;
   -ms-transition: all 300ms ease !important;
@@ -52,17 +51,21 @@ body.error404 #homepage-link a {
 }
 
 /* bouton générique */
-body #et-main-area #main-content #content-area .my-generic-button.et_pb_button {
+.my-button a {
+    color: #444 !important;
     font-size: 18px !important;
     font-weight: 600 !important;
     line-height: 1em !important;
     padding: 14px 40px !important;
     background: #ffffff !important;
-    border-color: #ddd;
-    color: #444;
+    border: #ddd solid 2px;
+    border-radius: 5px;
+    display: inline-block;
 }
-body #et-main-area #main-content #content-area .my-generic-button.et_pb_button:hover {
-    color: #222;
+
+.my-button a:hover {
+    border-color: #555 !important;
+    color: #222 !important;
 }
 
 /* bouton back to top */
@@ -83,35 +86,12 @@ body #et-main-area #main-content #content-area .my-generic-button.et_pb_button:h
         bottom: 50px;
     }
 }
-
 .et_pb_scroll_top::before {
     font-family: "icomoon" !important;
     content: "\e903";
     position: relative;
     top: -1px;
     left: 0.5px;
-}
-
-.my-default-button {
-    text-align: center;
-}
-
-.my-default-button a {
-    color: #444 !important;
-    font-size: 18px !important;
-    font-weight: 600 !important;
-    line-height: 1em !important;
-    padding: 14px 40px !important;
-    background: #ffffff !important;
-    border: #ddd solid 2px;
-    border-radius: 5px;
-    display: inline-block;
-    transition: all 300ms ease !important;
-}
-
-.my-default-button a:hover {
-    border-color: #555 !important;
-    color: #222 !important;
 }
 
 
