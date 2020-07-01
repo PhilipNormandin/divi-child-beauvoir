@@ -212,25 +212,6 @@ add_action( 'wp_head', 'beauvoir_load_some_jquery_code' );
 
 
 /**
- * Check first if Polylang plugin is actived
- */
-if ( is_plugin_active('polylang/polylang.php') ) {
-
-    // echo 'plugin is active';
-
-    /**
-    * Create shortcode which add Polylang language switcher
-    *
-    * Just add the following shortcode : [polylang_switcher]
-    */
-    function add_polylang_language_switcher() {
-        pll_the_languages(array('hide_if_no_translation'=>1,'hide_current'=>1));
-    }
-    add_shortcode( 'polylang_switcher', 'add_polylang_language_switcher' );
-}
-
-
-/**
  * Create shortcode which add the site name
  *
  * Just add the following shortcode : [nom_du_site]

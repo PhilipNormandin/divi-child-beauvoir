@@ -47,6 +47,29 @@ function beauvoir_lang_setup() {
 add_action( 'after_setup_theme', 'beauvoir_lang_setup' );
 
 
+/* Shortcodes
+------------------------------------------------------------------------*/
+
+
+/**
+ * Check first if Polylang plugin is actived
+ */
+if ( is_plugin_active('polylang/polylang.php') ) {
+
+    // echo 'plugin is active';
+
+    /**
+    * Create shortcode which add Polylang language switcher
+    *
+    * Just add the following shortcode : [polylang_switcher]
+    */
+    function add_polylang_language_switcher() {
+        pll_the_languages(array('hide_if_no_translation'=>1,'hide_current'=>1));
+    }
+    add_shortcode( 'polylang_switcher', 'add_polylang_language_switcher' );
+}
+
+
 /* Add Loading Spinner
 ------------------------------------------------------------------------*/
 // https://www.pixelvars.com/wordpress-manually-add-loading-spinner-to-your-site-without-using-plugin/
