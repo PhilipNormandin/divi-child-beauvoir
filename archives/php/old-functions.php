@@ -26,6 +26,10 @@ function beauvoir_enqueue_scripts() {
     wp_enqueue_style( 'beauvoir-header', get_stylesheet_directory_uri() .'/css/beauvoir-header.css' );
     wp_enqueue_style( 'beauvoir-header-mobile', get_stylesheet_directory_uri() .'/css/beauvoir-header-mobile.css' );
 
+    // Pied de page du site
+    wp_enqueue_style( 'falkor-footers', get_stylesheet_directory_uri() .'/css/my-falkor-footers.css' );
+    wp_enqueue_style( 'beauvoir-footer', get_stylesheet_directory_uri() .'/css/beauvoir-footer.css' );
+
 }
 add_action( 'wp_enqueue_scripts', 'beauvoir_enqueue_scripts' );
 
