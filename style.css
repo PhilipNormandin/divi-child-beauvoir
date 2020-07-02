@@ -48,6 +48,9 @@ rouge - calendrier : #bd322c
 		margin-top: 0 !important;
 	}
 }
+.loftloader-wrapper {
+    display: none;
+}
 
 
 /* Page en construction
