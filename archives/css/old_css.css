@@ -181,6 +181,18 @@ body #et-main-area #main-content #content-area .my-generic-button.et_pb_button:h
     width: 60%;
 }
 
+@media only screen and (max-width: 767px) {
+
+  #page-under-construction-section .et_pb_image  {
+    max-width: 80% !important;
+  }
+
+  #page-under-construction-section .et_pb_image img {
+    max-width: 274px !important;
+  }
+
+}
+
 
 /* VERY OLD CSS */
 
