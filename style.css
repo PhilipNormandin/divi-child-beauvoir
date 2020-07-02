@@ -48,9 +48,9 @@ rouge - calendrier : #bd322c
 		margin-top: 0 !important;
 	}
 }
-body.logged-in #loftloader-wrapper,
-body:not(.et-fb) header.et-l--header,
-body:not(.et-fb) #my-footer {
+body.wp-admin #loftloader-wrapper,
+body[class*="library"] header.et-l--header,
+body[class*="library"] #my-footer {
     display: none !important;
 }
 
