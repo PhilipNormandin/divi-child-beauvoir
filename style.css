@@ -28,8 +28,8 @@ rouge - calendrier : #bd322c
 */
 
 
-/* Icons provenant de icomoon
------------------------------------------------------------------------- */
+/* Icons et Polices
+------------------------------------------------ */
 
 @font-face {
     font-family: "icomoon";
@@ -37,30 +37,16 @@ rouge - calendrier : #bd322c
 }
 
 
-/* Réglages Grand Écran
-------------------------------------- */
-
-@media only screen and (min-width: 1366px) {
-
-	.et_builder_inner_content > div:first-child#avis-important {
-		margin-top: 0 !important;
-	}
-
-}
-
 /* Divers ajustements
-------------------------------------- */
+------------------------------------------------ */
 
 .et_mobile_menu {
 	overscroll-behavior: contain;
 }
-
-/* Réglages Petit Écran et Tablette
-------------------------------------- */
-
-@media only screen and (min-width: 981px) and (max-width: 1365px) {
-
-
+@media only screen and (min-width: 1366px) {
+	.et_builder_inner_content > div:first-child#avis-important {
+		margin-top: 0 !important;
+	}
 }
 
 
