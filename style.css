@@ -61,11 +61,11 @@ body[class*="library"] #my-footer {
 /* https://wpmarmite.com/snippet/traduire-share-this-monarch/ */
 
 html:lang(fr) .et_social_heading {
-	font-size: 0!important;
+	/* font-size: 0!important; */
 }
 html:lang(fr) .et_social_heading::before {
-	content: "Partager cet article";
-	font-size: 16px !important;
+	/* content: "Partager cet article"; */
+	/* font-size: 16px !important; */
 }
 
 
