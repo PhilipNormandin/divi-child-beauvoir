@@ -50,9 +50,9 @@ rouge - calendrier : #bd322c
 	}
 }
 body.logged-in #loftloader-wrapper #loader,
-body[class*="library"] header.et-l--header,
+body.et-fb header.et-l--header,
 body[class*="library"] #my-footer {
-    /* display: none !important; */
+    display: none !important;
 }
 
 
