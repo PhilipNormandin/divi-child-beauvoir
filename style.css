@@ -51,7 +51,7 @@ rouge - calendrier : #bd322c
 body.logged-in #loftloader-wrapper,
 body:not(.et-fb) header.et-l--header,
 body:not(.et-fb) #my-footer {
-    display: none;
+    display: none !important;
 }
 
 
