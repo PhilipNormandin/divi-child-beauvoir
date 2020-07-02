@@ -56,23 +56,6 @@ body[class*="library"] #my-footer {
 }
 
 
-/* Page en construction
------------------------------------------------------------------------- */
-
-
-@media only screen and (max-width: 767px) {
-
-  #page-under-construction-section .et_pb_image  {
-    max-width: 80% !important;
-  }
-
-  #page-under-construction-section .et_pb_image img {
-    max-width: 274px !important;
-  }
-
-}
-
-
 /* Traduction du "Share This" de Monarch par "Partager"
 ------------------------------------------------------------------------ */
 /* https://wpmarmite.com/snippet/traduire-share-this-monarch/ */
