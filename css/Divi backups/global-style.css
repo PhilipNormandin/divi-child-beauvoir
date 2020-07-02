@@ -3,7 +3,7 @@
 ========================================= */
 
 /* animations */
-a.et_pb_button.my-button,
+#main-content a.et_pb_button,
 .my-default-button a,
 .et_pb_scroll_top.et-pb-icon {
   	-webkit-transition: all 300ms ease !important;
@@ -13,8 +13,8 @@ a.et_pb_button.my-button,
 }
 
 /* bouton personnalisé */
-a.et_pb_button.my-button,
-a.et_pb_button.my-button:hover {
+#main-content a.et_pb_button,
+#main-content a.et_pb_button:hover {
     font-weight: 600 !important;
     padding: 0.3em 2em !important;
 }
