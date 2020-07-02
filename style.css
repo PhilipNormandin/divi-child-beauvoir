@@ -42,7 +42,7 @@ rouge - calendrier : #bd322c
 ========================================= */
 
 /* animations */
-.my-button a,
+a.my-button,
 .et_pb_scroll_top.et-pb-icon {
   -webkit-transition: all 300ms ease !important;
   -moz-transition: all 300ms ease !important;
@@ -51,7 +51,7 @@ rouge - calendrier : #bd322c
 }
 
 /* bouton générique */
-.my-button a {
+a.my-button {
     color: #444 !important;
     font-size: 18px !important;
     font-weight: 600 !important;
@@ -63,7 +63,7 @@ rouge - calendrier : #bd322c
     display: inline-block;
 }
 
-.my-button a:hover {
+a.my-button:hover {
     border-color: #555 !important;
     color: #222 !important;
 }
