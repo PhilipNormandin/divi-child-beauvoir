@@ -44,7 +44,8 @@ rouge - calendrier : #bd322c
 	overscroll-behavior: contain;
 }
 @media only screen and (min-width: 1366px) {
-	.et_builder_inner_content > div:first-child#avis-important {
+	.et_builder_inner_content > div:first-child#avis-important,
+    #et_pb_root > .et-fb-post-content > div:first-child#avis-important {
 		margin-top: 0 !important;
 	}
 }
