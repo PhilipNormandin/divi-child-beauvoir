@@ -54,6 +54,10 @@ body.et-fb header.et-l--header,
 body.et-fb #my-footer {
     display: none !important;
 }
+.wcs-timetable__container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
 
 
 /* Traduction du "Share This" de Monarch par "Partager"
