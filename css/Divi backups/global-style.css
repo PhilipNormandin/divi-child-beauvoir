@@ -59,16 +59,3 @@
     top: -1px;
     left: 0.5px;
 }
-
-/* =============================
-          Espacements
-============================= */
-
-.et_pb_module.et_pb_text h1,
-.et_pb_module.et_pb_text h2,
-.et_pb_module.et_pb_text h3,
-.et_pb_module.et_pb_text h4,
-.et_pb_module.et_pb_text h5,
-.et_pb_module.et_pb_text h6 {
-    padding-bottom: 3px;
-}
