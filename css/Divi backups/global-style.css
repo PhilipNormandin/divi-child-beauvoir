@@ -64,6 +64,11 @@
           Espacements
 ============================= */
 
-h1, h2, h3, h4, h5, h6 {
-    padding-bottom: 3px !important;
+.et_pb_module.et_pb_text h1,
+.et_pb_module.et_pb_text h2,
+.et_pb_module.et_pb_text h3,
+.et_pb_module.et_pb_text h4,
+.et_pb_module.et_pb_text h5,
+.et_pb_module.et_pb_text h6 {
+    padding-bottom: 3px;
 }
