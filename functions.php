@@ -173,7 +173,7 @@ add_action('init', 'disable_cptdivi');
 function my_pll_get_post_types($types) {
 	return array_merge($types, array('et_pb_layout' => 'et_pb_layout'));
 }
-add_filter('pll_get_post_types', 'my_pll_get_post_types', 10, 2 );
+// add_filter('pll_get_post_types', 'my_pll_get_post_types', 10, 2 );
 
 
 // Load some jQuery code
