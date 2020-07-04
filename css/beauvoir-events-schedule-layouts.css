@@ -85,6 +85,12 @@ body.et-fb .wcs-timetable__container {
 .wcs-timetable--cover .wcs-class__action a {
     box-shadow: 0.0em 0.0em 0.5em rgba(0,0,0,0.4) !important;
 }
+.wcs-timetable--cover.wcs-timetable--cover-overlay-image .wcs-class__image::after {
+    opacity: 0 !important;
+}
+.wcs-timetable--cover.wcs-timetable--cover-overlay-image:hover .wcs-class__image::after {
+    opacity: 0.1 !important;
+}
 
 @media only screen and (min-width: 768px) {
     .wcs-timetable--cover-position-bottom-center.wcs-timetable--cover-with-image .wcs-class__content {
