@@ -78,9 +78,6 @@ body.et-fb .wcs-timetable__container {
 .wcs-timetable__container{
     justify-content: center;
 }
-.wcs-timetable--cover-aspect-169 {
-    /* max-width: 860px; */
-}
 .wcs-timetable--cover .wcs-class__content::before {
     background-color: #000 !important;
     opacity: 0.5 !important;
