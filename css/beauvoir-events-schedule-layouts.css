@@ -92,6 +92,14 @@
         -webkit-transform: translate(-50%, -95%);
         transform: translate(-50%, -95%);
     }
+    body.et-fb .wcs-timetable--cover .wcs-class__content {
+      	color: #fff !important;
+    }
+    body.et-fb .wcs-timetable--cover .wcs-btn--action {
+        background-color: #ffffff;
+        color: rgba( 0,0,0,0.75);
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -110,14 +118,6 @@
         padding: 30px 20px;
     }
 
-}
-
-body.et-fb .wcs-timetable--cover .wcs-class__content {
-  	color: #fff !important;
-}
-body.et-fb .wcs-timetable--cover .wcs-btn--action {
-    background-color: #ffffff;
-    color: rgba( 0,0,0,0.75);
 }
 
 
