@@ -121,8 +121,8 @@ body.et-fb .wcs-timetable--cover .wcs-btn--action {
     background-color: #ffffff;
     color: rgba( 0,0,0,0.75);
 }
-body.et-fb .wcs-timetable--cover .wcs-class__content::before {
-    /* opacity: 0.4 !important; */
+body.et-fb .wcs-timetable__container .wcs-timetable--cover .wcs-class__content::before {
+    min-height: inherit !important;
 }
 
 
