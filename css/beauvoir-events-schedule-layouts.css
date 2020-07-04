@@ -10,6 +10,9 @@
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
+body.et-fb .wcs-timetable__container {
+    min-height: auto !important;
+}
 
 
 /* =========================================
@@ -121,8 +124,8 @@ body.et-fb .wcs-timetable--cover .wcs-btn--action {
     background-color: #ffffff;
     color: rgba( 0,0,0,0.75);
 }
-body.et-fb .wcs-timetable__container .wcs-timetable--cover .wcs-class__content::before {
-    min-height: auto !important;
+body.et-fb .wcs-timetable--cover .wcs-class__content::before {
+    /* opacity: 0.4 !important; */
 }
 
 
