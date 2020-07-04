@@ -54,6 +54,9 @@ body.et-fb header.et-l--header,
 body.et-fb #my-footer {
     display: none !important;
 }
+.dsm_text_divider .dsm-text-divider-wrapper {
+    justify-content: center;
+}
 
 
 /* Traduction du "Share This" de Monarch par "Partager"
