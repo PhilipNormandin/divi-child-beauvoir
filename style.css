@@ -54,9 +54,18 @@ body.et-fb header.et-l--header,
 body.et-fb #my-footer {
     display: none !important;
 }
+
+/* plugin Events Schedule */
 .wcs-timetable__container {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+}
+body.et-fb .wcs-timetable--cover .wcs-class__content {
+  	color: #fff !important;
+}
+body.et-fb .wcs-timetable--cover .wcs-btn--action {
+    background-color: #ffffff;
+    color: rgba( 0,0,0,0.75);
 }
 
 
