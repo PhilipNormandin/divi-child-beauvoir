@@ -49,9 +49,7 @@
 ========================================= */
 
 
-.wcs-timetable--cover .wcs-class__title {
-    font-family: 'Lato', sans-serif;
-}
+.wcs-timetable--cover .wcs-class__title,
 .wcs-timetable--cover .wcs-class__time {
     font-family: 'Lato', sans-serif;
 }
@@ -78,7 +76,7 @@
     justify-content: center;
 }
 .wcs-timetable--cover-aspect-169 {
-    max-width: 860px;
+    /* max-width: 860px; */
 }
 .wcs-timetable--cover .wcs-class__content::before {
     opacity: 0.4 !important;
