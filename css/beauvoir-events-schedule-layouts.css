@@ -1,6 +1,16 @@
 /* Divi Child Beauvoir - Pages ACCUEIL - ÉVÉNEMENTS */
 
 
+/* =========================================
+            Propriétés globales
+========================================= */
+
+
+.wcs-timetable__container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 
 /* =========================================
               Calendar Layout
@@ -40,7 +50,7 @@
 
 
 .wcs-timetable--cover .wcs-class__title {
-    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Lato', sans-serif;
 }
 .wcs-timetable--cover .wcs-class__time {
     font-family: 'Lato', sans-serif;
@@ -102,6 +112,14 @@
         padding: 30px 20px;
     }
 
+}
+
+body.et-fb .wcs-timetable--cover .wcs-class__content {
+  	color: #fff !important;
+}
+body.et-fb .wcs-timetable--cover .wcs-btn--action {
+    background-color: #ffffff;
+    color: rgba( 0,0,0,0.75);
 }
 
 
