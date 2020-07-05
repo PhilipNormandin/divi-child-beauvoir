@@ -131,6 +131,10 @@ ul.wcs-timetable__list li {
     border-color: #525252 !important;
 }
 
+body.et-fb .wcs-timetable--list .wcs-class__time {
+    color: #bd322c !important;
+}
+
 
 /* =========================================
             Cover Layout
