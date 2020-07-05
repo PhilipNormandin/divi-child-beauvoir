@@ -68,8 +68,7 @@ ul.wcs-timetable__list li {
     padding-left: 0 !important;
 }
 .wcs-timetable--list time.wcs-class__time {
-    min-width: 90px;
-    width: auto;
+    min-width: 60px;
 }
 .wcs-timetable--list .wcs-class__meta {
     margin-right: 30px !important;
