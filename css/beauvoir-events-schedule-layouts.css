@@ -39,7 +39,7 @@ body.et-fb .wcs-timetable__container {
     font-size: 26px;
     font-weight: 700;
     color: #444 !important;
-	margin-top: 10px !important;
+    margin-top: 10px !important;
     margin-bottom: 18px !important;
 }
 
@@ -108,18 +108,18 @@ ul.wcs-timetable__list li {
 /* effets hover */
 .wcs-timetable__list .wcs-class::before,
 .wcs-timetable__list .wcs-class:hover::before {
-  opacity: 0 !important;
+    opacity: 0 !important;
 }
 .wcs-timetable--list .wcs-class,
 .wcs-timetable__list .wcs-class .wcs-btn,
 .wcs-timetable__list .wcs-class .wcs-btn::after {
-  -webkit-transition: all 400ms ease !important;
-  -moz-transition: all 400ms ease !important;
-  -ms-transition: all 400ms ease !important;
-  transition: all 400ms ease !important;
+    -webkit-transition: all 400ms ease !important;
+    -moz-transition: all 400ms ease !important;
+    -ms-transition: all 400ms ease !important;
+    transition: all 400ms ease !important;
 }
 .wcs-timetable__list .wcs-class:hover {
-  background-color: #f3f3f3 !important;
+    background-color: #f3f3f3 !important;
 }
 .wcs-timetable__list .wcs-class .wcs-btn:hover {
     color: #111 !important;
