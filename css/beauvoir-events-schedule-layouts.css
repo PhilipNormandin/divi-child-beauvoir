@@ -15,6 +15,7 @@ body.et-fb .wcs-timetable__container {
 }
 .wcs-modal__meta,
 .wcs-class__time-duration {
+    font-size: 20px;
     letter-spacing: 1px;
 }
 .wcs-addons--blink {
