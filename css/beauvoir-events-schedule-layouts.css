@@ -83,7 +83,7 @@ body.et-fb .wcs-timetable__container {
     opacity: 0.5 !important;
 }
 .wcs-timetable--cover .wcs-class__action a {
-    box-shadow: 0.08em 0.08em 0.08em rgba(0,0,0,0.4) !important;
+    box-shadow: 0.00em 0.00em 0.8em rgba(0,0,0,0.4) !important;
 }
 .wcs-timetable--cover.wcs-timetable--cover-overlay-image .wcs-class__image::after {
     opacity: 0 !important;
