@@ -43,6 +43,12 @@ body.et-fb .wcs-timetable__container {
     margin-top: 10px !important;
     margin-bottom: 18px !important;
 }
+/* image dans l'agenda */
+.wcs-timetable--monthly-calendar .wcs-class__image {
+    flex-basis: 20% !important;
+    height: 70px !important;
+    min-width: 90px !important;
+}
 
 
 /* =========================================
