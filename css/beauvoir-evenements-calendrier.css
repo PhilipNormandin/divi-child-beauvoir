@@ -159,12 +159,7 @@
     /* cursor: default; */
 }
 
-/* ajuste dimension image dans l'agenda */
-.wcs-timetable--monthly-calendar .wcs-class__image {
-    flex-basis: 20% !important;
-    height: 90px !important;
-    min-width: 90px !important;
-}
+
 
 /* ajuste espacement dans l'agenda */
 .wcs-timetable--monthly-calendar .wcs-class__image + .wcs-class__inner {
