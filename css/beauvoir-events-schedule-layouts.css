@@ -32,7 +32,8 @@ body.et-fb .wcs-timetable__container {
 .wcs-timetable--monthly-calendar h4.wcs-day__title,
 .wcs-timetable--monthly-calendar .wcs-date,
 .wcs-timetable--monthly-calendar .wcs-day-agenda .wcs-class__time-duration,
-.wcs-timetable--monthly-calendar .wcs-day-agenda h4.wcs-day-agenda__title {
+.wcs-timetable--monthly-calendar .wcs-day-agenda h4.wcs-day-agenda__title,
+.wcs-timetable--monthly-calendar .wcs-day-agenda h3.wcs-class__title {
     font-family: 'Lato', sans-serif !important;
 }
 .wcs-timetable--monthly-calendar .wcs-day-agenda h3.wcs-class__title {
