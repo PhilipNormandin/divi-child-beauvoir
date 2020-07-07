@@ -74,7 +74,7 @@ function beauvoir_enqueue_scripts() {
 
     // Pages contenant des événements
     if ( is_page( array( 'accueil', 'home', 'evenements', 'events' ) ) ) {
-        wp_enqueue_style( 'beauvoir-events-schedule-layouts', get_stylesheet_directory_uri() .'/css/beauvoir-events-schedule-layouts.css' );
+        // wp_enqueue_style( 'beauvoir-events-schedule-layouts', get_stylesheet_directory_uri() .'/css/beauvoir-events-schedule-layouts.css' );
     }
 
     // page NOTRE BLOGUE
