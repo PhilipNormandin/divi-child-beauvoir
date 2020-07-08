@@ -8,18 +8,18 @@
      Formulaire de recherche
 ============================== */
 
-#my-site-header .search-form-bv {
+#my-site-header .my-search-form {
   border: none;
 }
-#my-site-header .search-form-bv .et_pb_searchform {
+#my-site-header .my-search-form .et_pb_searchform {
   display: flex;
 	align-items: center;
 }
-#my-site-header .search-form-bv,
-#my-site-header .search-form-bv .et_pb_searchform {
+#my-site-header .my-search-form,
+#my-site-header .my-search-form .et_pb_searchform {
 	height: 36px;
 }
-#my-site-header .search-form-bv .et_pb_searchform::before {
+#my-site-header .my-search-form .et_pb_searchform::before {
   content: '\55';
   position: absolute;
   font-family: 'ETModules';
@@ -28,10 +28,10 @@
   right: 15px;
   z-index: 1;
 }
-#my-secondary-menu .search-form-bv input.et_pb_s {
+#my-secondary-menu .my-search-form input.et_pb_s {
   width: 220px;
 }
-#my-site-header .search-form-bv input.et_pb_searchsubmit {
+#my-site-header .my-search-form input.et_pb_searchsubmit {
   display: block !important;
   background: transparent;
   color: transparent;
@@ -40,7 +40,7 @@
   width: 48px;
   z-index: 2;
 }
-#my-site-header .search-form-bv input.et_pb_s {
+#my-site-header .my-search-form input.et_pb_s {
     padding-right: 48px !important;
 }
 
@@ -61,7 +61,7 @@
 		padding-right: 15px !important;
   }
   #polylang-switcher,
-  #secondary-links-area .search-form-bv {
+  #secondary-links-area .my-search-form {
   	margin: 0 0 0 30px !important;
 	}
 
@@ -224,15 +224,15 @@
 		position: fixed;
 		overflow-y: scroll;
   }
-  .et_mobile_menu .search-form-bv {
+  .et_mobile_menu .my-search-form {
     padding: 15px 30px;
 		height: auto !important	;
   }
-  .et_mobile_menu .search-form-bv .et_pb_searchform > div,
-  .et_mobile_menu .search-form-bv input.et_pb_s {
+  .et_mobile_menu .my-search-form .et_pb_searchform > div,
+  .et_mobile_menu .my-search-form input.et_pb_s {
     width: 100% !important;
   }
-  .et_mobile_menu .search-form-bv input.et_pb_s {
+  .et_mobile_menu .my-search-form input.et_pb_s {
     border: 2px solid #aaa;
 		border-radius: 6px;
 		padding-left: 20px !important;
@@ -256,7 +256,7 @@
     padding-left: 0;
   }
   #primary-menu-bv .et_mobile_menu li a,
-  #primary-menu-bv .et_mobile_menu .search-form-bv {
+  #primary-menu-bv .et_mobile_menu .my-search-form {
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -338,7 +338,7 @@
     max-height: 64px !important;
   }
   #primary-menu-bv .et_mobile_menu li a,
-  #primary-menu-bv .et_mobile_menu .search-form-bv {
+  #primary-menu-bv .et_mobile_menu .my-search-form {
     margin-left: 2%;
     margin-right: 2%;
   }
