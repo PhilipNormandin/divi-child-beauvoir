@@ -9,13 +9,13 @@
     var mobilePrimaryMenu = document.querySelector('#primary-menu-bv ul.et_mobile_menu');
 
     /* Secondary Menu Links */
-    var eventsPageLink = document.querySelector('#secondary-menu-bv ul.et_mobile_menu > li.events-page-link');
+    var eventsPageLink = document.querySelector('#my-secondary-menu ul.et_mobile_menu > li.events-page-link');
     var eventsPageLinkCloned = eventsPageLink.cloneNode(true);
     tabletSecondaryMenu.append(eventsPageLinkCloned);
-    var schedulesPageLink = document.querySelector('#secondary-menu-bv ul.et_mobile_menu > li.schedules-page-link');
+    var schedulesPageLink = document.querySelector('#my-secondary-menu ul.et_mobile_menu > li.schedules-page-link');
     var schedulesPageLinkCloned = schedulesPageLink.cloneNode(true);
     tabletSecondaryMenu.append(schedulesPageLinkCloned);
-    var secondaryMenuLinks = document.querySelectorAll('#secondary-menu-bv ul.et_mobile_menu > li.menu-item');
+    var secondaryMenuLinks = document.querySelectorAll('#my-secondary-menu ul.et_mobile_menu > li.menu-item');
     for (var i = secondaryMenuLinks.length-1; i >= 0; i--) {
     	mobilePrimaryMenu.prepend(secondaryMenuLinks[i]);
 		}
