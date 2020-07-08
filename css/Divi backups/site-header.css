@@ -1,5 +1,5 @@
 /* Menu principal - sous-menu - liens */
-#site-header-bv #primary-menu-bv li li a {
+#my-site-header #primary-menu-bv li li a {
   color: #555 !important;
   font-size: 15px !important;
 }
@@ -8,18 +8,18 @@
      Formulaire de recherche
 ============================== */
 
-#site-header-bv .search-form-bv {
+#my-site-header .search-form-bv {
   border: none;
 }
-#site-header-bv .search-form-bv .et_pb_searchform {
+#my-site-header .search-form-bv .et_pb_searchform {
   display: flex;
 	align-items: center;
 }
-#site-header-bv .search-form-bv,
-#site-header-bv .search-form-bv .et_pb_searchform {
+#my-site-header .search-form-bv,
+#my-site-header .search-form-bv .et_pb_searchform {
 	height: 36px;
 }
-#site-header-bv .search-form-bv .et_pb_searchform::before {
+#my-site-header .search-form-bv .et_pb_searchform::before {
   content: '\55';
   position: absolute;
   font-family: 'ETModules';
@@ -31,7 +31,7 @@
 #secondary-menu-bv .search-form-bv input.et_pb_s {
   width: 220px;
 }
-#site-header-bv .search-form-bv input.et_pb_searchsubmit {
+#my-site-header .search-form-bv input.et_pb_searchsubmit {
   display: block !important;
   background: transparent;
   color: transparent;
@@ -40,7 +40,7 @@
   width: 48px;
   z-index: 2;
 }
-#site-header-bv .search-form-bv input.et_pb_s {
+#my-site-header .search-form-bv input.et_pb_s {
     padding-right: 48px !important;
 }
 
@@ -112,7 +112,7 @@
     padding: 12px 20px;
     border-bottom: 1px solid #D7DADB;
   }
-  #site-header-bv #primary-menu-bv li li a:hover {
+  #my-site-header #primary-menu-bv li li a:hover {
     color: #333 !important;
     background-color: #ebebeb;
     opacity: 1;
@@ -176,7 +176,7 @@
   }
 
   /* Disposition des éléments - Entête */
-  #site-header-bv #primary-links-area {
+  #my-site-header #primary-links-area {
     max-width: 100%;
     padding: 0 !important;
   }
@@ -271,15 +271,15 @@
   }
 
   /* Divers ajustements */
-  #site-header-bv,
+  #my-site-header,
 	#primary-menu-bv .et_mobile_menu {
   	box-shadow: 0 3px 6px rgba(0,0,0,0.3) !important;
   }
 	#primary-menu-bv .mobile_nav.opened .mobile_menu_bar::before {
     content: '\4d';
 	}
-  #site-header-bv #primary-menu-bv .et_mobile_menu > .menu-item-has-children > a,
-  #site-header-bv #primary-menu-bv .et_mobile_menu > .menu-item-has-children > a:hover{
+  #my-site-header #primary-menu-bv .et_mobile_menu > .menu-item-has-children > a,
+  #my-site-header #primary-menu-bv .et_mobile_menu > .menu-item-has-children > a:hover{
     background-color: #3368AD;
     color: #fff !important;
 	}
@@ -349,7 +349,7 @@
        Divers ajustements
 ============================= */
 
-#site-header-bv ul {
+#my-site-header ul {
   list-style-type: none;
 }
 .menu-item-has-children > a:hover {
