@@ -1,161 +1,161 @@
 <!-- https://www.divicio.us/tutorials/how-to-collapse-divi-menu-module-submenus-and-keep-parent-links-clickable-on-mobile-devices/ -->
 
 <style>
-/* START: Collapse Divi Menu Module Submenus and Keep Parent Items Clickable on Mobile */
+    /* START: Collapse Divi Menu Module Submenus and Keep Parent Items Clickable on Mobile */
+    
+    /* Parent menu item */
+    #my-primary-menu .et_mobile_menu .menu-item-has-children.clickable,
+    #my-primary-menu .et_mobile_menu .menu-item-has-children > a {
+        position: relative;
+    }
+    /* Parent menu item icon */
+    #my-primary-menu .et_mobile_menu .menu-item-has-children:not(.clickable) > a:after,
+    #my-primary-menu .et_mobile_menu .menu-item-has-children.clickable > span.parent_icon:after {
+        font-family: "ETmodules";
+        text-align: center;
+        speak: none;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+        font-size: 26px;
+        font-weight: bolder;
+    }
+    /* Disabled parent menu item icon positioning */
+    #my-primary-menu .et_mobile_menu .menu-item-has-children:not(.clickable) > a:after {
+        position: absolute;
+        top: auto;
+        right: 5%;
+    }
+    /* Clickable parent menu item icon */
+    #my-primary-menu .et_mobile_menu .menu-item-has-children.clickable > span.parent_icon {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        background: rgba(0, 0, 0, 0);
+        border-left: 1px solid #dcdcdc;
+        right: 0;
+        top: 0;
+        z-index: 9;
+    }
+    /* Collapsed submenu parent menu item icon */
+    #my-primary-menu .et_mobile_menu .menu-item-has-children:not(.clickable) > a:after,
+    #my-primary-menu .et_mobile_menu .menu-item-has-children.clickable > span.parent_icon:after {
+        content: "\33";
+    }
+    /* Expanded submenu parent menu item icon */
+    #my-primary-menu .et_mobile_menu .menu-item-has-children:not(.clickable).visible > a:after,
+    #my-primary-menu .et_mobile_menu .menu-item-has-children.clickable.visible > span.parent_icon:after {
+        content: "\32";
+    }
+    /* Hide submenu by default */
+    #my-primary-menu .et_mobile_menu ul.sub-menu,
+    .et-db #et-boc .et-l #my-primary-menu.et_pb_menu .et_mobile_menu > ul.sub-menu,
+    .et-db #et-boc .et-l #my-primary-menu.et_pb_fullwidth_menu .et_mobile_menu > ul.sub-menu {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    /* Show submenu */
+    #my-primary-menu .et_mobile_menu .visible > ul.sub-menu,
+    .et-db #et-boc .et-l #my-primary-menu.et_pb_menu .et_mobile_menu .visible > ul.sub-menu,
+    .et-db #et-boc .et-l #my-primary-menu.et_pb_fullwidth_menu .et_mobile_menu .visible > ul.sub-menu {
+        display: block !important;
+        visibility: visible !important;
+    }
 
-/* Parent menu item */
-#my-primary-menu .et_mobile_menu .menu-item-has-children.clickable,
-#my-primary-menu .et_mobile_menu .menu-item-has-children > a {
-  position: relative;
-}
-/* Parent menu item icon */
-#my-primary-menu .et_mobile_menu .menu-item-has-children:not(.clickable) > a:after,
-#my-primary-menu .et_mobile_menu .menu-item-has-children.clickable > span.parent_icon:after {
-  font-family: "ETmodules";
-  text-align: center;
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  font-size: 26px;
-  font-weight: bolder;
-}
-/* Disabled parent menu item icon positioning */
-#my-primary-menu .et_mobile_menu .menu-item-has-children:not(.clickable) > a:after {
-  position: absolute;
-  top: auto;
-	right: 5%;
-}
-/* Clickable parent menu item icon */
-#my-primary-menu .et_mobile_menu .menu-item-has-children.clickable > span.parent_icon {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
-  align-items: center;
-  position: absolute;
-  width: 46px;
-  height: 46px;
-  background: rgba(0, 0, 0, 0);
-  border-left: 1px solid #dcdcdc;
-  right: 0;
-  top: 0;
-  z-index: 9;
-}
-/* Collapsed submenu parent menu item icon */
-#my-primary-menu .et_mobile_menu .menu-item-has-children:not(.clickable) > a:after,
-#my-primary-menu .et_mobile_menu .menu-item-has-children.clickable > span.parent_icon:after {
-  content: "\33";
-}
-/* Expanded submenu parent menu item icon */
-#my-primary-menu .et_mobile_menu .menu-item-has-children:not(.clickable).visible > a:after,
-#my-primary-menu .et_mobile_menu .menu-item-has-children.clickable.visible > span.parent_icon:after {
-  content: "\32";
-}
-/* Hide submenu by default */
-#my-primary-menu .et_mobile_menu ul.sub-menu,
-.et-db #et-boc .et-l #my-primary-menu.et_pb_menu .et_mobile_menu > ul.sub-menu,
-.et-db #et-boc .et-l #my-primary-menu.et_pb_fullwidth_menu .et_mobile_menu > ul.sub-menu {
-  display: none !important;
-  visibility: hidden !important;
-}
-/* Show submenu */
-#my-primary-menu .et_mobile_menu .visible > ul.sub-menu,
-.et-db #et-boc .et-l #my-primary-menu.et_pb_menu .et_mobile_menu .visible > ul.sub-menu,
-.et-db #et-boc .et-l #my-primary-menu.et_pb_fullwidth_menu .et_mobile_menu .visible > ul.sub-menu {
-  display: block !important;
-  visibility: visible !important;
-}
-
-/* END: Collapse Divi Menu Module Submenus and Keep Parent Items Clickable on Mobile */
+    /* END: Collapse Divi Menu Module Submenus and Keep Parent Items Clickable on Mobile */
 </style>
 
 <script type="text/javascript">
-(function($) {
-    /**
-     * Collapse Divi mobile menu submenus.
-     *
-     * Works for both the Menu and the Fullwidth Menu modules.
-     * The parent item links can be either disabled or clickable.
-     *
-     * @site	https://www.divicio.us/
-     *
-     * @param	bool	parentClickable		Pass true to keep the parent menu item links clickable. Default: false.
-     */
-    function dvcs_collapse_menu_module_submenus_on_mobile(parentClickable = false) {
+    (function($) {
+        /**
+        * Collapse Divi mobile menu submenus.
+        *
+        * Works for both the Menu and the Fullwidth Menu modules.
+        * The parent item links can be either disabled or clickable.
+        *
+        * @site	https://www.divicio.us/
+        *
+        * @param	bool	parentClickable		Pass true to keep the parent menu item links clickable. Default: false.
+        */
+        function dvcs_collapse_menu_module_submenus_on_mobile(parentClickable = false) {
 
-      // Mobile menu
-      let $menu = $('#my-primary-menu .et_mobile_menu');
+            // Mobile menu
+            let $menu = $('#my-primary-menu .et_mobile_menu');
 
-      // Iterate the mobile menu links
-      $menu.find('a').each(function() {
+            // Iterate the mobile menu links
+            $menu.find('a').each(function() {
 
-      // Menu hamburger icon
-      let $menu_icon = $(this).parents('.mobile_nav').find('.mobile_menu_bar');
+                // Menu hamburger icon
+                let $menu_icon = $(this).parents('.mobile_nav').find('.mobile_menu_bar');
 
-      // Remove click event handlers from the link
-      $(this).off('click');
+                // Remove click event handlers from the link
+                $(this).off('click');
 
-      // If the menu item DOESN'T HAVE submenus
-      if( ! $(this).siblings('.sub-menu').length ) {
+                // If the menu item DOESN'T HAVE submenus
+                if( ! $(this).siblings('.sub-menu').length ) {
 
-        // Close the mobile menu on link click
-        $(this).on('click', (e) => $menu_icon.trigger('click'));
+                    // Close the mobile menu on link click
+                    $(this).on('click', (e) => $menu_icon.trigger('click'));
 
-      } else {
+                } else {
 
-        // If parent items links are DISABLED
-        if( ! parentClickable ){
+                    // If parent items links are DISABLED
+                    if( ! parentClickable ){
 
-          // Replace the URL with the # symbol
-          $(this).attr('href', '#');
+                        // Replace the URL with the # symbol
+                        $(this).attr('href', '#');
 
-          // Open/close the submenu on link click
-          $(this).on('click', (e) => toggle_visible(e, $(this).parent()));
+                        // Open/close the submenu on link click
+                        $(this).on('click', (e) => toggle_visible(e, $(this).parent()));
 
-        } else {
+                    } else {
 
-          // Add the "clickable" class to the parent(<li> tag)
-          $(this).parent().addClass('clickable')
-            // Prepend the icon to parent
-            .prepend('<span class="parent_icon"></span>')
-            // Open/close the submenu on icon click
-            .find('.parent_icon').on('click', (e) => toggle_visible(e, $(this).parent()));
+                        // Add the "clickable" class to the parent(<li> tag)
+                        $(this).parent().addClass('clickable')
+                        // Prepend the icon to parent
+                        .prepend('<span class="parent_icon"></span>')
+                        // Open/close the submenu on icon click
+                        .find('.parent_icon').on('click', (e) => toggle_visible(e, $(this).parent()));
 
-          // Link click
-          $(this).on('click', function(e){
-            // Toggle the submenu if the link doesn't have a URL or anchor
-            if ( $(this).attr('href') === '#' ) {
-              toggle_visible(e, $(this).parent());
-            } else {
-              // Close the mobile menu
-              $menu_icon.trigger('click');
+                        // Link click
+                        $(this).on('click', function(e){
+                            // Toggle the submenu if the link doesn't have a URL or anchor
+                            if ( $(this).attr('href') === '#' ) {
+                                toggle_visible(e, $(this).parent());
+                            } else {
+                                // Close the mobile menu
+                                $menu_icon.trigger('click');
+                            }
+                        });
+                    }
+                }
+            });
+
+            /**
+            * Toggles the 'visible' class on passed element.
+            */
+            const toggle_visible = (e, elem) => {
+                e.preventDefault();
+                elem.toggleClass('visible');
             }
-          });
         }
-      }
-    });
 
-    /**
-     * Toggles the 'visible' class on passed element.
-     */
-    const toggle_visible = (e, elem) => {
-      e.preventDefault();
-      elem.toggleClass('visible');
-    }
-   }
+        $(document).ready(function() {
+            /**
+            * Call the function with a delay to allow
+            * the mobile menu(s) be ready first.
+            *
+            * To keep parent links clickable pass true (boolean) as argument.
+            */
+            setTimeout(function() {
+                dvcs_collapse_menu_module_submenus_on_mobile(false);
+            }, 700);
+        });
 
-    $(document).ready(function() {
-    /**
-     * Call the function with a delay to allow
-     * the mobile menu(s) be ready first.
-     *
-     * To keep parent links clickable pass true (boolean) as argument.
-     */
-     setTimeout(function() {
-         dvcs_collapse_menu_module_submenus_on_mobile(false);
-     }, 700);
-   });
-
-})(jQuery);
+    })(jQuery);
 </script>
