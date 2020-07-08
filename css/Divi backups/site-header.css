@@ -132,6 +132,9 @@
 		margin: 0 auto !important;
     float: unset;
   }
+  body.not-translated #polylang-switcher {
+    margin-left: 0 !important;
+  }
 
 }
 
