@@ -4,13 +4,13 @@
 /* START: Collapse Divi Menu Module Submenus and Keep Parent Items Clickable on Mobile */
 
 /* Parent menu item */
-#primary-menu-bv .et_mobile_menu .menu-item-has-children.clickable,
-#primary-menu-bv .et_mobile_menu .menu-item-has-children > a {
+#my-primary-menu .et_mobile_menu .menu-item-has-children.clickable,
+#my-primary-menu .et_mobile_menu .menu-item-has-children > a {
   position: relative;
 }
 /* Parent menu item icon */
-#primary-menu-bv .et_mobile_menu .menu-item-has-children:not(.clickable) > a:after,
-#primary-menu-bv .et_mobile_menu .menu-item-has-children.clickable > span.parent_icon:after {
+#my-primary-menu .et_mobile_menu .menu-item-has-children:not(.clickable) > a:after,
+#my-primary-menu .et_mobile_menu .menu-item-has-children.clickable > span.parent_icon:after {
   font-family: "ETmodules";
   text-align: center;
   speak: none;
@@ -22,13 +22,13 @@
   font-weight: bolder;
 }
 /* Disabled parent menu item icon positioning */
-#primary-menu-bv .et_mobile_menu .menu-item-has-children:not(.clickable) > a:after {
+#my-primary-menu .et_mobile_menu .menu-item-has-children:not(.clickable) > a:after {
   position: absolute;
   top: auto;
 	right: 5%;
 }
 /* Clickable parent menu item icon */
-#primary-menu-bv .et_mobile_menu .menu-item-has-children.clickable > span.parent_icon {
+#my-primary-menu .et_mobile_menu .menu-item-has-children.clickable > span.parent_icon {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
@@ -43,26 +43,26 @@
   z-index: 9;
 }
 /* Collapsed submenu parent menu item icon */
-#primary-menu-bv .et_mobile_menu .menu-item-has-children:not(.clickable) > a:after,
-#primary-menu-bv .et_mobile_menu .menu-item-has-children.clickable > span.parent_icon:after {
+#my-primary-menu .et_mobile_menu .menu-item-has-children:not(.clickable) > a:after,
+#my-primary-menu .et_mobile_menu .menu-item-has-children.clickable > span.parent_icon:after {
   content: "\33";
 }
 /* Expanded submenu parent menu item icon */
-#primary-menu-bv .et_mobile_menu .menu-item-has-children:not(.clickable).visible > a:after,
-#primary-menu-bv .et_mobile_menu .menu-item-has-children.clickable.visible > span.parent_icon:after {
+#my-primary-menu .et_mobile_menu .menu-item-has-children:not(.clickable).visible > a:after,
+#my-primary-menu .et_mobile_menu .menu-item-has-children.clickable.visible > span.parent_icon:after {
   content: "\32";
 }
 /* Hide submenu by default */
-#primary-menu-bv .et_mobile_menu ul.sub-menu,
-.et-db #et-boc .et-l #primary-menu-bv.et_pb_menu .et_mobile_menu > ul.sub-menu,
-.et-db #et-boc .et-l #primary-menu-bv.et_pb_fullwidth_menu .et_mobile_menu > ul.sub-menu {
+#my-primary-menu .et_mobile_menu ul.sub-menu,
+.et-db #et-boc .et-l #my-primary-menu.et_pb_menu .et_mobile_menu > ul.sub-menu,
+.et-db #et-boc .et-l #my-primary-menu.et_pb_fullwidth_menu .et_mobile_menu > ul.sub-menu {
   display: none !important;
   visibility: hidden !important;
 }
 /* Show submenu */
-#primary-menu-bv .et_mobile_menu .visible > ul.sub-menu,
-.et-db #et-boc .et-l #primary-menu-bv.et_pb_menu .et_mobile_menu .visible > ul.sub-menu,
-.et-db #et-boc .et-l #primary-menu-bv.et_pb_fullwidth_menu .et_mobile_menu .visible > ul.sub-menu {
+#my-primary-menu .et_mobile_menu .visible > ul.sub-menu,
+.et-db #et-boc .et-l #my-primary-menu.et_pb_menu .et_mobile_menu .visible > ul.sub-menu,
+.et-db #et-boc .et-l #my-primary-menu.et_pb_fullwidth_menu .et_mobile_menu .visible > ul.sub-menu {
   display: block !important;
   visibility: visible !important;
 }
@@ -85,7 +85,7 @@
     function dvcs_collapse_menu_module_submenus_on_mobile(parentClickable = false) {
 
       // Mobile menu
-      let $menu = $('#primary-menu-bv .et_mobile_menu');
+      let $menu = $('#my-primary-menu .et_mobile_menu');
 
       // Iterate the mobile menu links
       $menu.find('a').each(function() {

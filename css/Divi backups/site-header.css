@@ -1,5 +1,5 @@
 /* Menu principal - sous-menu - liens */
-#my-site-header #primary-menu-bv li li a {
+#my-site-header #my-primary-menu li li a {
   color: #555 !important;
   font-size: 15px !important;
 }
@@ -69,32 +69,32 @@
   ------------------------------- */
 
   /* Largeur des sous-menus */
-  #primary-menu-bv .et-menu-nav > ul > li > ul,
-  #primary-menu-bv .et-menu-nav > ul > li > ul > li,
-  #primary-menu-bv .et-menu-nav > ul > li > ul > li > a {
+  #my-primary-menu .et-menu-nav > ul > li > ul,
+  #my-primary-menu .et-menu-nav > ul > li > ul > li,
+  #my-primary-menu .et-menu-nav > ul > li > ul > li > a {
     width: 290px;
   }
-  #primary-menu-bv .nav li li ul {
+  #my-primary-menu .nav li li ul {
     left: 290px;
   }
-  #primary-menu-bv .nav li li ul > li,
-  #primary-menu-bv .nav li li ul > li > a {
+  #my-primary-menu .nav li li ul > li,
+  #my-primary-menu .nav li li ul > li > a {
     width: inherit;
   }
 
   /* Menu - Liens */
-  #primary-menu-bv nav.et-menu-nav > ul > li > a {
+  #my-primary-menu nav.et-menu-nav > ul > li > a {
     padding-top: 30px !important;
 		padding-bottom: 30px !important;
   }
 
   /* Sous-menu */
-  #primary-menu-bv li ul {
+  #my-primary-menu li ul {
     padding: 0 !important;
     box-shadow: 0 6px 9px rgba(0,0,0,0.3) !important;
     text-align: center !important;
   }
-  #primary-menu-bv .et-menu-nav > ul > li > ul.sub-menu {
+  #my-primary-menu .et-menu-nav > ul > li > ul.sub-menu {
     left: 50% !important;
     right: auto !important;
     transform: translate(-50%, 0) !important;
@@ -102,17 +102,17 @@
   }
 
   /* Sous-menu - Liste */
-  #primary-menu-bv li li {
+  #my-primary-menu li li {
     padding: 0;
   }
 
   /* Sous-menu - Liens */
-  #primary-menu-bv li li a {
+  #my-primary-menu li li a {
     text-transform: none !important;
     padding: 12px 20px;
     border-bottom: 1px solid #D7DADB;
   }
-  #my-site-header #primary-menu-bv li li a:hover {
+  #my-site-header #my-primary-menu li li a:hover {
     color: #333 !important;
     background-color: #ebebeb;
     opacity: 1;
@@ -145,11 +145,11 @@
 @media only screen and (max-width: 1365px) {
 
   /* Masquer-Montrer des éléments */
-	#primary-menu-bv .et_pb_menu__menu,
+	#my-primary-menu .et_pb_menu__menu,
   #secondary-links-area {
     display: none;
 	}
-	#primary-menu-bv .et_mobile_nav_menu {
+	#my-primary-menu .et_mobile_nav_menu {
     display: flex;
     float: none;
     margin: 0 6px;
@@ -162,13 +162,13 @@
     width: 100%;
     z-index: 9999;
   }
-  #primary-menu-bv .et_pb_menu_inner_container {
+  #my-primary-menu .et_pb_menu_inner_container {
     height: 90px;
   }
-   #primary-menu-bv .et_mobile_menu {
+   #my-primary-menu .et_mobile_menu {
 		top: 90px;
   }
-  body.admin-bar #primary-menu-bv .et_mobile_menu {
+  body.admin-bar #my-primary-menu .et_mobile_menu {
     top: calc(90px + 32px);
   }
   #et-main-area {
@@ -180,24 +180,24 @@
     max-width: 100%;
     padding: 0 !important;
   }
-  #primary-menu-bv .et_pb_menu_inner_container {
+  #my-primary-menu .et_pb_menu_inner_container {
     height: 90px;
     display: flex;
     flex-direction: row;
 		align-items: center;
     justify-content: space-between;
   }
-  #primary-menu-bv .et_pb_menu_inner_container .et_pb_menu__logo-wrap {
+  #my-primary-menu .et_pb_menu_inner_container .et_pb_menu__logo-wrap {
     margin-left: 20px;
     padding: 8px 16px;
   }
-  #primary-menu-bv .et_pb_menu_inner_container > .et_pb_menu__logo-wrap a img {
+  #my-primary-menu .et_pb_menu_inner_container > .et_pb_menu__logo-wrap a img {
     max-height: 74px !important;
   }
-  #primary-menu-bv a.mobile_nav {
+  #my-primary-menu a.mobile_nav {
     margin-right: 20px;
   }
-  #primary-menu-bv .et_pb_menu_inner_container .et_pb_menu__wrap {
+  #my-primary-menu .et_pb_menu_inner_container .et_pb_menu__wrap {
     flex: initial !important;
     order: 2;
   }
@@ -214,7 +214,7 @@
 	}
 
   /* Disposition des éléments - Menu */
-  #primary-menu-bv .et_mobile_menu {
+  #my-primary-menu .et_mobile_menu {
     max-width: 600px;
 		left: unset;
 		right: 0;
@@ -237,33 +237,33 @@
 		border-radius: 6px;
 		padding-left: 20px !important;
   }
-  #primary-menu-bv .et_mobile_menu .lang-item-first {
+  #my-primary-menu .et_mobile_menu .lang-item-first {
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  #primary-menu-bv .et_mobile_menu .lang-item > a {
+  #my-primary-menu .et_mobile_menu .lang-item > a {
     border-bottom: none;
   }
-  #primary-menu-bv .et_mobile_menu > .menu-item-has-children > a {
+  #my-primary-menu .et_mobile_menu > .menu-item-has-children > a {
     padding: 16px 30px;
   }
-  #primary-menu-bv .et_mobile_menu > li:not(.menu-item-has-children) a,
-  #primary-menu-bv .et_mobile_menu > .menu-item-has-children .sub-menu a {
+  #my-primary-menu .et_mobile_menu > li:not(.menu-item-has-children) a,
+  #my-primary-menu .et_mobile_menu > .menu-item-has-children .sub-menu a {
     padding: 12px 30px;
   }
-  #primary-menu-bv .et_mobile_menu > .menu-item-has-children .sub-menu {
+  #my-primary-menu .et_mobile_menu > .menu-item-has-children .sub-menu {
     padding-bottom: 0;
     padding-left: 0;
   }
-  #primary-menu-bv .et_mobile_menu li a,
-  #primary-menu-bv .et_mobile_menu .my-search-form {
+  #my-primary-menu .et_mobile_menu li a,
+  #my-primary-menu .et_mobile_menu .my-search-form {
     margin-left: 5%;
     margin-right: 5%;
   }
 
   /* Ajustements police */
-  #primary-menu-bv .et_mobile_menu > li:not(.menu-item-has-children) a,
-  #primary-menu-bv .et_mobile_menu > .menu-item-has-children .sub-menu a {
+  #my-primary-menu .et_mobile_menu > li:not(.menu-item-has-children) a,
+  #my-primary-menu .et_mobile_menu > .menu-item-has-children .sub-menu a {
     font-size: 15px !important;
   }
   .tablet-secondary-menu a {
@@ -272,21 +272,21 @@
 
   /* Divers ajustements */
   #my-site-header,
-	#primary-menu-bv .et_mobile_menu {
+	#my-primary-menu .et_mobile_menu {
   	box-shadow: 0 3px 6px rgba(0,0,0,0.3) !important;
   }
-	#primary-menu-bv .mobile_nav.opened .mobile_menu_bar::before {
+	#my-primary-menu .mobile_nav.opened .mobile_menu_bar::before {
     content: '\4d';
 	}
-  #my-site-header #primary-menu-bv .et_mobile_menu > .menu-item-has-children > a,
-  #my-site-header #primary-menu-bv .et_mobile_menu > .menu-item-has-children > a:hover{
+  #my-site-header #my-primary-menu .et_mobile_menu > .menu-item-has-children > a,
+  #my-site-header #my-primary-menu .et_mobile_menu > .menu-item-has-children > a:hover{
     background-color: #3368AD;
     color: #fff !important;
 	}
-	#primary-menu-bv .et_mobile_menu > .menu-item-has-children {
+	#my-primary-menu .et_mobile_menu > .menu-item-has-children {
   	background-color: #3368AD;
 	}
-  #primary-menu-bv .et_mobile_menu li a:hover {
+  #my-primary-menu .et_mobile_menu li a:hover {
     background-color: unset;
     opacity: 1;
 	}
@@ -300,8 +300,8 @@
 @media only screen and (min-width: 768px) and (max-width: 1365px) {
 
   /* Masquer-Montrer des éléments */
-  #primary-menu-bv .et_mobile_nav_menu .events-page-link,
-	#primary-menu-bv .et_mobile_nav_menu .schedules-page-link{
+  #my-primary-menu .et_mobile_nav_menu .events-page-link,
+	#my-primary-menu .et_mobile_nav_menu .schedules-page-link{
     display: none;
   }
 
@@ -319,14 +319,14 @@
   }
 
   /* Hauteur et Position - Entête et Menu */
-  #primary-menu-bv .et_pb_menu_inner_container {
+  #my-primary-menu .et_pb_menu_inner_container {
     height: 70px;
   }
-  #primary-menu-bv .et_mobile_menu {
+  #my-primary-menu .et_mobile_menu {
     max-width: unset;
 		top: 70px;
   }
-  body.admin-bar #primary-menu-bv .et_mobile_menu {
+  body.admin-bar #my-primary-menu .et_mobile_menu {
     top: calc(70px + 46px);
   }
   #et-main-area {
@@ -334,11 +334,11 @@
   }
 
   /* Disposition des éléments */
-  #primary-menu-bv .et_pb_menu_inner_container > .et_pb_menu__logo-wrap a img {
+  #my-primary-menu .et_pb_menu_inner_container > .et_pb_menu__logo-wrap a img {
     max-height: 64px !important;
   }
-  #primary-menu-bv .et_mobile_menu li a,
-  #primary-menu-bv .et_mobile_menu .my-search-form {
+  #my-primary-menu .et_mobile_menu li a,
+  #my-primary-menu .et_mobile_menu .my-search-form {
     margin-left: 2%;
     margin-right: 2%;
   }
