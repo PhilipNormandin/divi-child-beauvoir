@@ -44,7 +44,7 @@ rouge - calendrier : #bd322c
     padding-bottom: 0 !important;
 }
 #my-page-content {
-    min-height: 60vh;
+    min-height: 56vh;
 }
 .et_mobile_menu {
 	overscroll-behavior: contain;
