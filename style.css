@@ -40,6 +40,9 @@ rouge - calendrier : #bd322c
 /* Divers ajustements
 ------------------------------------------------ */
 
+#main-content {
+    min-height: 70vh;
+}
 .et_mobile_menu {
 	overscroll-behavior: contain;
 }
