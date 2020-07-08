@@ -23,6 +23,10 @@ h3.tg-item-title {
 .et_pb_module.et_pb_text h6 {
     padding-bottom: 3px;
 }
+.tg-grid-slider {
+    height: 100% !important;
+    padding-bottom: 16px !important;
+}
 
 /* =============================
           Pages à voir
