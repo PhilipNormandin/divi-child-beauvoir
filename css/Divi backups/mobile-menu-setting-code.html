@@ -1,0 +1,37 @@
+<script>
+  function ready() {
+
+    var mobilePrimaryMenuContainer = document.querySelector('#primary-menu-bv .et_pb_menu_inner_container');
+    var tabletSecondaryMenu = document.createElement('ul');
+    tabletSecondaryMenu.classList.add('tablet-secondary-menu');
+    mobilePrimaryMenuContainer.append(tabletSecondaryMenu);
+
+    var mobilePrimaryMenu = document.querySelector('#primary-menu-bv ul.et_mobile_menu');
+
+    /* Secondary Menu Links */
+    var eventsPageLink = document.querySelector('#secondary-menu-bv ul.et_mobile_menu > li.events-page-link');
+    var eventsPageLinkCloned = eventsPageLink.cloneNode(true);
+    tabletSecondaryMenu.append(eventsPageLinkCloned);
+    var schedulesPageLink = document.querySelector('#secondary-menu-bv ul.et_mobile_menu > li.schedules-page-link');
+    var schedulesPageLinkCloned = schedulesPageLink.cloneNode(true);
+    tabletSecondaryMenu.append(schedulesPageLinkCloned);
+    var secondaryMenuLinks = document.querySelectorAll('#secondary-menu-bv ul.et_mobile_menu > li.menu-item');
+    for (var i = secondaryMenuLinks.length-1; i >= 0; i--) {
+    	mobilePrimaryMenu.prepend(secondaryMenuLinks[i]);
+		}
+
+    /* Search Form */
+    var searchForm = document.querySelector('.search-form-bv');
+    var searchFormCloned = searchForm.cloneNode(true);
+    mobilePrimaryMenu.prepend(searchFormCloned);
+
+    /* Polylang Links */
+    var polylangLinks = document.querySelectorAll('#polylang-switcher ul.et_mobile_menu > li.menu-item');
+    for (var j = polylangLinks.length-1; j >= 0; j--) {
+    	mobilePrimaryMenu.append(polylangLinks[j]);
+		}
+
+  }
+
+  document.addEventListener("DOMContentLoaded", ready);
+</script>
