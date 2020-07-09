@@ -57,7 +57,8 @@ rouge - calendrier : #bd322c
 body.wp-admin #loftloader-wrapper #loader,
 body.et-fb #loftloader-wrapper #loader,
 body.admin-bar.et-fb header.et-l--header,
-body.admin-bar.et-fb #my-footer {
+body.admin-bar.et-fb #my-footer,
+body.not-translated .polylang-switcher {
     display: none !important;
 }
 .dsm_text_divider .dsm-text-divider-wrapper {
