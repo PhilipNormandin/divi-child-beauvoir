@@ -61,8 +61,8 @@ function beauvoir_enqueue_scripts() {
 
     // Page ÉVÉNEMENTS
     if ( is_page( array( 'evenements', 'events', 'eventi' ) ) ) {
-        wp_enqueue_style( 'beauvoir-evenements-calendrier', get_stylesheet_directory_uri() .'/css/beauvoir-evenements-calendrier.css' );
-        wp_enqueue_style( 'beauvoir-evenements-liste', get_stylesheet_directory_uri() .'/css/beauvoir-evenements-liste.css' );
+        // wp_enqueue_style( 'beauvoir-evenements-calendrier', get_stylesheet_directory_uri() .'/css/beauvoir-evenements-calendrier.css' );
+        // wp_enqueue_style( 'beauvoir-evenements-liste', get_stylesheet_directory_uri() .'/css/beauvoir-evenements-liste.css' );
     }
 
     // Pages contenant des événements
