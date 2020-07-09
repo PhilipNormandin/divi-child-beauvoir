@@ -137,7 +137,7 @@ function beauvoir_enqueue_scripts() {
     wp_enqueue_style( 'beauvoir-animations', get_stylesheet_directory_uri() .'/css/beauvoir-animations.css' );
 
     // JavaScript pour l'ensemble du site
-    // wp_enqueue_script( 'main-script', get_stylesheet_directory_uri() . '/js/main.js', array( 'jquery' ), '', true );
+    wp_enqueue_script( 'main-script', get_stylesheet_directory_uri() . '/js/main.js', array( 'jquery' ), '', true );
 
     // Some data to share with JavaScript
     wp_localize_script(
