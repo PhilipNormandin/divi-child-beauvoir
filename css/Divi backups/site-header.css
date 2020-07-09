@@ -60,7 +60,7 @@
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
-    #polylang-switcher,
+    #secondary-links-area .polylang-switcher,
     #secondary-links-area .my-search-form {
         margin: 0 0 0 30px !important;
     }
@@ -131,9 +131,6 @@
         width: 100%;
         margin: 0 auto !important;
         float: unset;
-    }
-    body.not-translated #polylang-switcher {
-        margin-left: 0 !important;
     }
 
 }
@@ -364,4 +361,7 @@ body.admin-bar .langue {
 }
 #menu-polylang-switcher {
     flex-flow: row nowrap !important;
+}
+body.not-translated .polylang-switcher {
+    display: none !important;
 }
