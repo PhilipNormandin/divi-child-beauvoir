@@ -94,8 +94,36 @@
   position: absolute;
 }
 
+/* =============================
+       Médias sociaux
+============================= */
+
+#my-footer-contact-row .et_social_icons_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#my-footer-contact-row .et_social_icons_container > li {
+  margin: 0 !important;
+}
+
+/* =============================
+           Copyright
+============================= */
+
+#copyright-row .lang-item a:hover {
+  text-decoration: underline;
+}
+#copyright-row ul.dsm-menu {
+  line-height: 1em;
+  padding-bottom: 0px;
+}
+#copyright-row .polylang-switcher .et_pb_module_inner {
+  display: inline-block;
+}
+
 /* =========================================
-        Ajustements Écran Desktop
+          Ajustements Grand Écran
 ========================================= */
 
 @media only screen and (min-width: 981px) {
@@ -156,13 +184,6 @@
 
 #my-footer-menu .menu-item-has-children > a:hover {
   cursor: inherit;
-}
-#copyright-row .lang-item a:hover {
-  text-decoration: underline;
-}
-#copyright-row ul.dsm-menu {
-  line-height: 1em;
-  padding-bottom: 0px;
 }
 #newsletter-form > .et_pb_text_inner > p,
 #newsletter-form > .et_pb_text_inner > div > p,
