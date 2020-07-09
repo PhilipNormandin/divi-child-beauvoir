@@ -158,7 +158,7 @@ function disable_cptdivi()
 {
 	remove_action( 'wp_enqueue_scripts', 'et_divi_replace_stylesheet', 99999998 );
 }
-add_action('init', 'disable_cptdivi');
+// add_action('init', 'disable_cptdivi');
 
 
 // Add polylang to Divi Library Window
