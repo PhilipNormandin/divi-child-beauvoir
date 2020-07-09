@@ -173,5 +173,8 @@ body.et_mobile_device .blurb_11_f .et_pb_blurb .et_pb_blurb_container {
     .sous-titre .dsm-text-divider-header {
         margin: 0 !important;
     }
+    body.home .event-article-blocs.et_pb_code {
+        margin-bottom: 40px !important;
+    }
 
 }
