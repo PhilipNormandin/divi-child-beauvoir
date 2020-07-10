@@ -159,7 +159,6 @@ body.et-fb .wcs-timetable__container {
     }
     /* jour sélectionné */
     .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda .wcs-date.wcs-date--selected span::after {
-        background-color: #BD322C;
         content: '';
         display: block;
         position: absolute;
@@ -176,7 +175,7 @@ body.et-fb .wcs-timetable__container {
         opacity: 1;
         margin-top: 0;
     }
-    .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda:not(.wcs-timetable--highligh-round) .wcs-date--selected::after {
+    .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda .wcs-date--selected::after {
         content: '';
         display: block;
         top: 100%;
