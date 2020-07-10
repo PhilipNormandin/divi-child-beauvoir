@@ -137,7 +137,7 @@ body.et-fb .wcs-timetable__container {
         right: 0;
         bottom: 0;
         left: 0;
-        opacity: 0.05;
+        opacity: 0.075;
         background-color: currentColor;
         z-index: 0;
     }
