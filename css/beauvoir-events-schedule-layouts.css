@@ -144,8 +144,8 @@ body.et-fb .wcs-timetable__container {
         display: none;
     }
 }
-/* ajustements pour les petits écrans
---------------------------------------------- */
+/* ajustements pour les écrans tablette et mobile
+--------------------------------------------------- */
 @media only screen and (max-width: 980px) {
     .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda .wcs-timetable__side-col {
         display: none;
@@ -187,7 +187,13 @@ body.et-fb .wcs-timetable__container {
         position: absolute;
         opacity: 1;
     }
-
+}
+/* ajustements pour les petits écrans
+------------------------------------------ */
+@media only screen and (max-width: 767px) {
+    .wcs-timetable--monthly-calendar h4.wcs-day__title {
+        display: none;
+    }
 }
 
 
