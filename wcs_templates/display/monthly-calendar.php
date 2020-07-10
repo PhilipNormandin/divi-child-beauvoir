@@ -58,7 +58,7 @@
             </template>
 		</div><!-- .wcs-table -->
 	</div>
-	<div v-if="options.mth_cal_agenda_position == 3" class="wcs-timetable__side-col">
+	<div v-if="options.mth_cal_agenda_position != 3" class="wcs-timetable__side-col">
 		<div v-if="selectedDay" class="wcs-day-agenda">
 			<h4 class="wcs-day-agenda__title" v-if="getOption( 'mth_cal_date_format', 'MMMM DD' )">{{selectedDay.date | moment( getOption( 'mth_cal_date_format', 'MMMM DD' ), false) }}</h4>
 			<template v-if="getFilteredCalendarEvents(selectedDay.events).length > 0">
