@@ -154,6 +154,9 @@ body.et-fb .wcs-timetable__container {
     .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda .wcs-timetable__side-col {
         display: none;
     }
+    .wcs-timetable--monthly-calendar .wcs-class__image {
+        flex-basis: 18% !important;
+    }
 }
 
 
