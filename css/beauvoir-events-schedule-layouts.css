@@ -94,7 +94,7 @@ body.et-fb .wcs-timetable__container {
 .wcs-timetable--monthly-calendar .wcs-day-agenda .wcs-class__image {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
 }
-/* ajustements pour les écrans desktop
+/* ajustements écran desktop
 --------------------------------------------- */
 @media only screen and (min-width: 981px) {
     .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda {
@@ -144,8 +144,8 @@ body.et-fb .wcs-timetable__container {
         display: none;
     }
 }
-/* ajustements pour les écrans tablette et mobile
---------------------------------------------------- */
+/* ajustements écran tablette
+-------------------------------------------- */
 @media only screen and (max-width: 980px) {
     .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda .wcs-timetable__side-col {
         display: none;
@@ -188,7 +188,7 @@ body.et-fb .wcs-timetable__container {
         opacity: 1;
     }
 }
-/* ajustements pour les écrans mobile
+/* ajustements écran mobile
 ------------------------------------------- */
 @media only screen and (max-width: 767px) {
 .wcs-timetable--monthly-calendar .wcs-day::before {
@@ -338,8 +338,8 @@ body.et-fb .wcs-timetable--list .wcs-class__time {
 .wcs-timetable--cover.wcs-timetable--cover-overlay-image:hover .wcs-class__image::after {
     opacity: 0.1 !important;
 }
-/* ajustements pour les écrans tablette et desktop
----------------------------------------------------- */
+/* ajustements écrans tablette et desktop
+---------------------------------------------- */
 @media only screen and (min-width: 768px) {
     .wcs-timetable--cover-position-bottom-center.wcs-timetable--cover-with-image .wcs-class__content {
         left: 50%;
@@ -349,7 +349,7 @@ body.et-fb .wcs-timetable--list .wcs-class__time {
     }
 
 }
-/* ajustements pour les écrans mobile
+/* ajustements écran mobile
 ------------------------------------------- */
 @media only screen and (max-width: 767px) {
     .wcs-timetable--cover .wcs-class__title {
@@ -418,7 +418,7 @@ body.et-fb .wcs-timetable--cover .wcs-btn--action {
 .wcs-modal .ti-time::before {
     margin-top: 0 !important;
 }
-/* ajustements pour les écrans mobile
+/* ajustements écran mobile
 ------------------------------------------- */
 @media only screen and (max-width: 767px) {
     .wcs-modal--large .wcs-modal__inner-side {
