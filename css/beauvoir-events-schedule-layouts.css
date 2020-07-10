@@ -98,7 +98,7 @@ body.et-fb .wcs-timetable__container {
 .wcs-timetable--monthly-calendar .wcs-day-agenda .wcs-class__image {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
 }
-/* ajuste l'agenda pour les grands écrans
+/* ajustements pour les grands écrans
 --------------------------------------------- */
 @media only screen and (min-width: 981px) {
     .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda {
@@ -148,7 +148,7 @@ body.et-fb .wcs-timetable__container {
         display: none;
     }
 }
-/* ajuste l'agenda pour les petits écrans
+/* ajustements pour les petits écrans
 --------------------------------------------- */
 @media only screen and (max-width: 980px) {
     .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda .wcs-timetable__side-col {
@@ -157,11 +157,26 @@ body.et-fb .wcs-timetable__container {
     .wcs-timetable--monthly-calendar .wcs-class__image {
         flex-basis: 18% !important;
     }
-}
-/* corrige opacité du triangle pointant vers l'événement */
-.wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda:not(.wcs-timetable--highligh-round) .wcs-date--selected::after {
-    opacity: 1;
-    border-left: 1em solid transparent !important;
+    /* jour sélectionné */
+    .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda .wcs-date.wcs-date--selected span::after {
+        background-color: #BD322C;
+    }
+    .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda:not(.wcs-timetable--highligh-round) .wcs-date--selected::after {
+        content: '';
+        display: block;
+        top: 100%;
+        border-left: 1em solid transparent;
+        border-right: 1em solid transparent;
+        width: 0;
+        height: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        border-top: 20px solid #f00;
+        position: absolute;
+        opacity: 1;
+    }
+
 }
 
 
