@@ -87,9 +87,8 @@ body.et-fb .wcs-timetable__container {
     border: 1px solid #d2d2d2;
 }
 .wcs-timetable--monthly-calendar .wcs-class__image {
-    flex-basis: 20% !important;
-    height: 70px !important;
-    min-width: 90px !important;
+    flex-basis: 22% !important;
+    min-width: 80px !important;
 }
 .wcs-timetable--monthly-calendar .wcs-table-td--full {
     border-left: 1px solid #d2d2d2;
