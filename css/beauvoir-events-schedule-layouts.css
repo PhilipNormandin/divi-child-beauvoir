@@ -97,7 +97,36 @@ body.et-fb .wcs-timetable__container {
 .wcs-timetable--monthly-calendar .wcs-day-agenda .wcs-class__image {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
 }
-
+/* ajuste l'agenda pour les grands écrans
+--------------------------------------------- */
+@media only screen and (min-width: 981px) {
+    .wcs-timetable--monthly-calendar.my-agenda-is-inside-on-mobile {
+        -webkit-flex-direction: row;
+        flex-direction: row;
+    }
+    .wcs-timetable--monthly-calendar.my-agenda-is-inside-on-mobile .wcs-timetable__main-col {
+        -webkit-box-flex: 5;
+        -webkit-flex-grow: 5;
+        flex-grow: 5;
+        -webkit-flex-shrink: 1;
+        flex-shrink: 1;
+        max-width: 100%;
+        margin: 0 15px;
+    }
+    .wcs-timetable--monthly-calendar.my-agenda-is-inside-on-mobile .wcs-timetable__side-col {
+        -webkit-flex-shrink: 0;
+        flex-shrink: 0;
+        -webkit-flex-basis: 24em;
+        flex-basis: 24em;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        flex-grow: 1;
+        -webkit-flex-shrink: 1;
+        flex-shrink: 1;
+        position: relative;
+        margin: 0 15px;
+    }
+}
 
 
 /* =========================================
