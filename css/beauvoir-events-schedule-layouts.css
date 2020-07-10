@@ -299,6 +299,9 @@ ul.wcs-timetable__list li {
         line-height: 1.2em;
         margin-bottom: 10px;
     }
+    .wcs-timetable__list .wcs-class__time-duration {
+        line-height: 1.2em;
+    }
 }
 /* ajustements Divi Builder */
 body.et-fb .wcs-timetable--list .wcs-class__time {
