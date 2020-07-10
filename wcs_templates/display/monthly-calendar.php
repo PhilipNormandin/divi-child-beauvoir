@@ -3,7 +3,7 @@
 /** Template: Display -> Monthly Calendar */
 
 ?>
-<div class="wcs-timetable wcs-timetable--monthly-calendar my-agenda-is-inside-on-mobile" :class="calendarClasses">
+<div class="wcs-timetable wcs-timetable--monthly-calendar" :class="calendarClasses">
 	<div class="wcs-timetable__main-col">
 		<div class="wcs-calendar__header">
 			<div class="wcs-calendar-nav" :class="!loading_process ? 'wcs-modal-call' : ''">
