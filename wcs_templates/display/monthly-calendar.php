@@ -3,7 +3,7 @@
 /** Template: Display -> Monthly Calendar */
 
 ?>
-<div class="wcs-timetable wcs-timetable--monthly-calendar" :class="calendarClasses">
+<div class="wcs-timetable wcs-timetable--monthly-calendar my-agenda-is-inside-on-mobile" :class="calendarClasses">
 	<div class="wcs-timetable__main-col">
 		<div class="wcs-calendar__header">
 			<div class="wcs-calendar-nav" :class="!loading_process ? 'wcs-modal-call' : ''">
@@ -25,7 +25,7 @@
                 <div class="wcs-table-tr wcs-week">
                     <div v-for="day in week" class="wcs-table-td wcs-date" v-show="isWeekday(day)" :class="dayClasses(day)" v-on:click="selectDay(day, $event)"><span>{{ day.date | moment('D', false) }}</span></div>
                 </div>
-                <div v-if="isAgendaInside(week)" class="wcs-table-tr--full my-agenda-is-inside-on-mobile">
+                <div v-if="isAgendaInside(week)" class="wcs-table-tr--full">
                     <div class="wcs-table-td--full">
                         <div v-if="selectedDay" class="wcs-day-agenda">
                             <template  v-if="getFilteredCalendarEvents(selectedDay.events).length > 0">
