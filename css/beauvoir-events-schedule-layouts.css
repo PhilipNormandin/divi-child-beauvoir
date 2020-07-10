@@ -104,6 +104,8 @@ body.et-fb .wcs-timetable__container {
     .wcs-timetable--monthly-calendar.my-agenda-is-inside-on-mobile {
         -webkit-flex-direction: row;
         flex-direction: row;
+        margin: 0 -15px;
+        position: relative;
     }
     .wcs-timetable--monthly-calendar.my-agenda-is-inside-on-mobile .wcs-timetable__main-col {
         -webkit-box-flex: 5;
@@ -138,6 +140,9 @@ body.et-fb .wcs-timetable__container {
         opacity: 0.05;
         background-color: currentColor;
         z-index: 0;
+    }
+    .wcs-timetable--monthly-calendar.my-agenda-is-inside-on-mobile .wcs-day-agenda {
+        padding: 6.5%;
     }
 }
 
