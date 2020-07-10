@@ -1,0 +1,59 @@
+/* =============================
+          Tabulation
+============================= */
+
+#my-calendar .et_pb_tabs_controls::after {
+    border-top: 0 !important;
+}
+#my-calendar.et_pb_tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+#my-calendar.et_pb_tabs .et_pb_all_tabs {
+    flex: 1 1 100%;
+}
+
+/* =========================================
+        Ajustements Écran Tablette
+========================================= */
+
+@media only screen and (max-width: 980px) {
+
+    #my-calendar.et_pb_tabs.view-format::before {
+        font-size: 24px;
+    }
+
+}
+
+/* =========================================
+        Ajustements Écran Mobile
+========================================= */
+
+@media only screen and (max-width: 767px) {
+
+    #my-calendar {
+        flex-direction: column;
+        align-items: unset;
+    }
+    #my-calendar .et_pb_tabs_controls {
+        width: 100%;
+        display: flex !important;
+    }
+    #my-calendar .et_pb_tabs_controls li {
+        display: table !important;
+        width: 50%;
+        border-bottom: none !important;
+    }
+    #my-calendar .et_pb_tabs_controls li a {
+        text-align: center;
+        padding: 4px 0 4px !important;
+    }
+    #my-calendar.et_pb_tabs.view-format::before {
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+}
