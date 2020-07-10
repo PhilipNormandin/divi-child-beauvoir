@@ -38,9 +38,10 @@ body.et-fb .wcs-timetable__container {
     font-family: 'Lato', sans-serif !important;
 }
 .wcs-timetable--monthly-calendar .wcs-day-agenda h3.wcs-class__title {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     color: #444 !important;
+    line-height: 1.2em;
 }
 .wcs-timetable--monthly-calendar .wcs-timetable__main-col h3,
 .wcs-timetable--monthly-calendar .wcs-timetable__main-col h4 {
@@ -119,8 +120,8 @@ body.et-fb .wcs-timetable__container {
     .wcs-timetable--monthly-calendar.my-agenda-is-inside-on-mobile .wcs-timetable__side-col {
         -webkit-flex-shrink: 0;
         flex-shrink: 0;
-        -webkit-flex-basis: 24em;
-        flex-basis: 24em;
+        -webkit-flex-basis: 35%;
+        flex-basis: 35%;
         -webkit-box-flex: 1;
         -webkit-flex-grow: 1;
         flex-grow: 1;
