@@ -288,6 +288,16 @@ ul.wcs-timetable__list li {
 .wcs-timetable__list .wcs-class .wcs-btn:hover::after {
     border-color: #525252 !important;
 }
+/* ajustements écran mobile
+------------------------------------------- */
+@media only screen and (max-width: 767px) {
+    .wcs-timetable--list .wcs-class__meta {
+        margin-right: 20px !important;
+    }
+    .wcs-timetable__list h3.wcs-class__title {
+        margin-bottom: 10px;
+    }
+}
 /* ajustements Divi Builder */
 body.et-fb .wcs-timetable--list .wcs-class__time {
     color: #bd322c !important;
