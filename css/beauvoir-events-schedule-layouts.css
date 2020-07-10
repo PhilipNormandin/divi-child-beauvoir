@@ -215,9 +215,13 @@ body.et-fb .wcs-timetable--monthly-calendar .wcs-class__time-duration span {
 .wcs-timetable__list h3.wcs-class__title {
     color: #444 !important;
     font-weight: 600;
+    line-height: 1.2em;
 }
 .wcs-timetable__list .wcs-class__time .wcs-class__inner-flex {
     font-weight: 700;
+}
+.wcs-timetable__list .wcs-class__time-duration {
+    font-size: 18px;
 }
 /* espacements */
 ul.wcs-timetable__list,
@@ -296,11 +300,7 @@ ul.wcs-timetable__list li {
     }
     .wcs-timetable__list h3.wcs-class__title {
         font-size: 24px;
-        line-height: 1.2em;
         margin-bottom: 10px;
-    }
-    .wcs-timetable__list .wcs-class__time-duration {
-        font-size: 18px;
     }
     .wcs-timetable__list .wcs-class .wcs-class__action {
         margin-top: 5px !important;
