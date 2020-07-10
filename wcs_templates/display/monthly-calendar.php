@@ -25,7 +25,7 @@
                 <div class="wcs-table-tr wcs-week">
                     <div v-for="day in week" class="wcs-table-td wcs-date" v-show="isWeekday(day)" :class="dayClasses(day)" v-on:click="selectDay(day, $event)"><span>{{ day.date | moment('D', false) }}</span></div>
                 </div>
-                <div v-if="isAgendaInside(week)" class="wcs-table-tr--full">
+                <div v-if="isAgendaInside(week)" class="wcs-table-tr--full my-agenda-is-inside-on-mobile">
                     <div class="wcs-table-td--full">
                         <div v-if="selectedDay" class="wcs-day-agenda">
                             <template  v-if="getFilteredCalendarEvents(selectedDay.events).length > 0">
@@ -59,6 +59,35 @@
 		</div><!-- .wcs-table -->
 	</div>
 	<div v-if="options.mth_cal_agenda_position == 3" class="wcs-timetable__side-col">
+		<div v-if="selectedDay" class="wcs-day-agenda">
+			<h4 class="wcs-day-agenda__title" v-if="getOption( 'mth_cal_date_format', 'MMMM DD' )">{{selectedDay.date | moment( getOption( 'mth_cal_date_format', 'MMMM DD' ), false) }}</h4>
+			<template v-if="getFilteredCalendarEvents(selectedDay.events).length > 0">
+			<div v-for="event in getFilteredCalendarEvents(selectedDay.events)" class="wcs-class" :class="event | eventCSS">
+				<div v-if="event.thumbnail" class='wcs-class__image wcs-modal-call' :style='"background-image: url(" + event.thumbnail +")"' v-on:click="openModal( event, options, $event )"></div>
+				<div class="wcs-class__inner">
+					<div class="wcs-class__time-duration">
+						<span v-html="starting_ending(event)"></span>
+						<span v-if="filter_var(options.show_duration)" class='wcs-class__duration wcs-addons--pipe'>{{event.duration}}</span>
+					</div>
+					<h3 class="wcs-class__title wcs-modal-call" :title="event.title" v-html="event.title" v-on:click="openModal( event, options, $event )"></h3>
+					<div class="wcs-class__meta">
+						<template v-if="filter_var(options.show_wcs_room)">{{options.label_wcs_room}}</span>
+							<taxonomy-list :options="options" :tax="'wcs_room'" :event="event" v-on:open-modal="openTaxModal"></taxonomy-list>
+						</template>
+						<template v-if="filter_var(options.show_wcs_instructor)"><span class='wcs-addons--pipe'>{{options.label_wcs_instructor}}</span>
+							<taxonomy-list :options="options" :tax="'wcs_instructor'" :event="event" v-on:open-modal="openTaxModal"></taxonomy-list>
+						</template>
+					</div>
+					<div v-if="filter_var(options.show_excerpt)" class="wcs-class__excerpt" v-html="event.excerpt"></div>
+				</div>
+			</div>
+		</template>
+		<template v-else>
+			<p class="wcs-zero-data">{{options.zero}}</p>
+		</template>
+		</div>
+	</div>
+	<div v-if="options.mth_cal_agenda_position == 3" class="wcs-timetable__side-col my-agenda-is-inside-on-mobile">
 		<div v-if="selectedDay" class="wcs-day-agenda">
 			<h4 class="wcs-day-agenda__title" v-if="getOption( 'mth_cal_date_format', 'MMMM DD' )">{{selectedDay.date | moment( getOption( 'mth_cal_date_format', 'MMMM DD' ), false) }}</h4>
 			<template v-if="getFilteredCalendarEvents(selectedDay.events).length > 0">
