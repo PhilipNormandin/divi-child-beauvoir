@@ -295,6 +295,8 @@ ul.wcs-timetable__list li {
         margin-right: 20px !important;
     }
     .wcs-timetable__list h3.wcs-class__title {
+        font-size: 24px;
+        line-height: 1.2em;
         margin-bottom: 10px;
     }
 }
