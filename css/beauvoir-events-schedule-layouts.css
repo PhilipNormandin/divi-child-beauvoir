@@ -81,7 +81,8 @@ body.et-fb .wcs-timetable__container {
     padding-bottom: 16px;
 }
 /* l'agenda */
-.wcs-timetable--monthly-calendar.wcs-timetable--side-agenda .wcs-timetable__side-col {
+.wcs-timetable--monthly-calendar.wcs-timetable--side-agenda .wcs-timetable__side-col,
+.wcs-timetable--monthly-calendar.my-agenda-is-inside-on-mobile .wcs-timetable__side-col {
     border: 1px solid #d2d2d2;
 }
 .wcs-timetable--monthly-calendar .wcs-class__image {
