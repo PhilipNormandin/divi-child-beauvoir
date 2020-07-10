@@ -160,6 +160,21 @@ body.et-fb .wcs-timetable__container {
     /* jour sélectionné */
     .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda .wcs-date.wcs-date--selected span::after {
         background-color: #BD322C;
+        content: '';
+        display: block;
+        position: absolute;
+        top: -1px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        border-radius: 0;
+        z-index: -1;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+        margin-top: 0;
     }
     .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda:not(.wcs-timetable--highligh-round) .wcs-date--selected::after {
         content: '';
