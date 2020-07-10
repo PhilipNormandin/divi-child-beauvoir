@@ -94,7 +94,7 @@ body.et-fb .wcs-timetable__container {
 .wcs-timetable--monthly-calendar .wcs-day-agenda .wcs-class__image {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
 }
-/* ajustements pour les grands écrans
+/* ajustements pour les écrans desktop
 --------------------------------------------- */
 @media only screen and (min-width: 981px) {
     .wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda {
@@ -188,10 +188,9 @@ body.et-fb .wcs-timetable__container {
         opacity: 1;
     }
 }
-/* ajustements pour les petits écrans
------------------------------------------- */
+/* ajustements pour les écrans mobile
+------------------------------------------- */
 @media only screen and (max-width: 767px) {
-
 .wcs-timetable--monthly-calendar .wcs-day::before {
         display: none;
     }
@@ -334,7 +333,8 @@ body.et-fb .wcs-timetable--list .wcs-class__time {
 .wcs-timetable--cover.wcs-timetable--cover-overlay-image:hover .wcs-class__image::after {
     opacity: 0.1 !important;
 }
-
+/* ajustements pour les écrans tablette et desktop
+---------------------------------------------------- */
 @media only screen and (min-width: 768px) {
     .wcs-timetable--cover-position-bottom-center.wcs-timetable--cover-with-image .wcs-class__content {
         left: 50%;
@@ -344,9 +344,9 @@ body.et-fb .wcs-timetable--list .wcs-class__time {
     }
 
 }
-
+/* ajustements pour les écrans mobile
+------------------------------------------- */
 @media only screen and (max-width: 767px) {
-
     .wcs-timetable--cover .wcs-class__title {
         font-size: 24px !important;
         line-height: 1.2em;
@@ -360,7 +360,6 @@ body.et-fb .wcs-timetable--list .wcs-class__time {
     .wcs-timetable--cover .wcs-class__content {
         padding: 30px 20px;
     }
-
 }
 
 body.et-fb .wcs-timetable--cover .wcs-class__content {
@@ -411,9 +410,12 @@ body.et-fb .wcs-timetable--cover .wcs-btn--action {
     color: #1f5dea !important;
     text-decoration: underline;
 }
-
+.wcs-modal .ti-time::before {
+    margin-top: 0 !important;
+}
+/* ajustements pour les écrans mobile
+------------------------------------------- */
 @media only screen and (max-width: 767px) {
-
     .wcs-modal--large .wcs-modal__inner-side {
         background-color: rgba(0, 0, 0, 0.25);
         padding: 40px 20px 20px;
@@ -430,5 +432,4 @@ body.et-fb .wcs-timetable--cover .wcs-btn--action {
     .wcs-modal__content {
         padding: 30px;
     }
-
 }
