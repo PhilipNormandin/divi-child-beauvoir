@@ -187,7 +187,7 @@ body.et-fb .wcs-timetable__container {
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
-        border-top: 20px solid #BD322C;
+        border-top: 15px solid #BD322C;
         position: absolute;
         opacity: 1;
     }
