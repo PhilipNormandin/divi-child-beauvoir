@@ -144,6 +144,9 @@ body.et-fb .wcs-timetable__container {
     .wcs-timetable--monthly-calendar.my-agenda-is-inside-on-mobile .wcs-day-agenda {
         padding: 6.5% !important;
     }
+    .wcs-timetable--monthly-calendar.my-agenda-is-inside-on-mobile .wcs-table-tr--full {
+        display: none;
+    }
 }
 
 
