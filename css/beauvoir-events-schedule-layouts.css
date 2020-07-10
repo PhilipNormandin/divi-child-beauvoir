@@ -300,7 +300,11 @@ ul.wcs-timetable__list li {
         margin-bottom: 10px;
     }
     .wcs-timetable__list .wcs-class__time-duration {
-        line-height: 1.2em;
+        font-size: 18px;
+    }
+    .wcs-timetable__list .wcs-class .wcs-class__action {
+        margin-top: 5px !important;
+        margin-right: 20px !important;
     }
 }
 /* ajustements Divi Builder */
