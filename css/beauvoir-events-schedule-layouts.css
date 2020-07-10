@@ -158,6 +158,11 @@ body.et-fb .wcs-timetable__container {
         flex-basis: 18% !important;
     }
 }
+/* corrige opacité du triangle pointant vers l'événement */
+.wcs-timetable--monthly-calendar.wcs-timetable--inside-agenda:not(.wcs-timetable--highligh-round) .wcs-date--selected::after {
+    opacity: 1;
+    border-left: 1em solid transparent !important;
+}
 
 
 /* =========================================
