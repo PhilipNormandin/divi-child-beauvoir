@@ -436,6 +436,6 @@ body.et-fb .wcs-timetable--cover .wcs-btn--action {
         margin-bottom: 5px !important;
     }
     .wcs-modal__content {
-        padding: 30px;
+        padding: 30px 1em;
     }
 }
