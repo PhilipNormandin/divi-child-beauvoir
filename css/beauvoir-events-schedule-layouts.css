@@ -195,6 +195,11 @@ body.et-fb .wcs-timetable__container {
         display: none;
     }
 }
+/* ajustements Divi Builder */
+body.et-fb .wcs-timetable--monthly-calendar .wcs-day-agenda__title,
+body.et-fb .wcs-timetable--monthly-calendar .wcs-class__time-duration span {
+    color: #bd322c !important;
+}
 
 
 /* =========================================
@@ -283,7 +288,7 @@ ul.wcs-timetable__list li {
 .wcs-timetable__list .wcs-class .wcs-btn:hover::after {
     border-color: #525252 !important;
 }
-
+/* ajustements Divi Builder */
 body.et-fb .wcs-timetable--list .wcs-class__time {
     color: #bd322c !important;
 }
@@ -361,7 +366,7 @@ body.et-fb .wcs-timetable--list .wcs-class__time {
         padding: 30px 20px;
     }
 }
-
+/* ajustements Divi Builder */
 body.et-fb .wcs-timetable--cover .wcs-class__content {
     color: #fff !important;
 }
