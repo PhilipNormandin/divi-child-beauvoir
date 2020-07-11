@@ -17,7 +17,7 @@ require_once( get_stylesheet_directory(). '/includes/class-svg-mime-type.php' );
 
 function beauvoir_load_natalya_font() {
 
-    if ( is_page( array( 'nous-joindre', 'contact-us', 'contattaci', 'nous-joindre-anglais' ) )  ) {
+    if ( is_page( array( 'nous-joindre', 'contact-us', 'contattaci', 'nous-joindre-anglais', 'contact-rf' ) )  ) {
         ?>
         <link rel="stylesheet" href="https://use.typekit.net/erd1ahk.css">
         <style>
