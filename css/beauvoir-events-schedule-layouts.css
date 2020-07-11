@@ -200,7 +200,7 @@ body.et-fb .wcs-timetable--monthly-calendar .wcs-day-agenda__title,
 body.et-fb .wcs-timetable--monthly-calendar .wcs-class__time-duration span {
     color: #bd322c !important;
 }
-body.et-fb .wcs-timetable--monthly-calendar .wcs-date.wcs-date--selected span::after {
+body.et-fb .wcs-timetable--monthly-calendar .wcs-date.wcs-date--selected span {
     color: #fff;
 }
 
