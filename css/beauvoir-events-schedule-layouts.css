@@ -191,8 +191,8 @@ body.et-fb .wcs-timetable__container {
 /* ajustements écran mobile
 ------------------------------------------- */
 @media only screen and (max-width: 767px) {
-.wcs-timetable--monthly-calendar .wcs-day::before {
-        display: none;
+    .wcs-timetable--monthly-calendar .wcs-day::before {
+        display: none !important;
     }
 }
 /* ajustements Divi Builder */
