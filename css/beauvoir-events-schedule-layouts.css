@@ -297,7 +297,7 @@ ul.wcs-timetable__list li {
 }
 /* ajustements écran mobile
 ------------------------------------------- */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .wcs-timetable--list .wcs-class__meta {
         margin-right: 20px !important;
     }
@@ -313,6 +313,17 @@ ul.wcs-timetable__list li {
 /* ajustements Divi Builder */
 body.et-fb .wcs-timetable--list .wcs-class__time {
     color: #bd322c !important;
+}
+@media only screen and (max-width: 768px) {
+    body.et-fb .wcs-timetable__list .wcs-class__time {
+        margin: 20px 20px 0 !important;
+    }
+    body.et-fb .wcs-timetable__list .wcs-class__meta {
+        margin: 10px 20px !important;
+    }
+    body.et-fb .wcs-timetable__list .wcs-class__action {
+        margin: 5px 20px 20px !important;
+    }
 }
 
 
