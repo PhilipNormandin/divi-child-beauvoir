@@ -40,13 +40,13 @@ jQuery( document ).ready( function( $ ) {
     var thanks_image = myGlobalObject.templateUrl + "/images/bird-1320792_640.png";
     $( document ).ajaxComplete( function( event, xhr, settings ) {
         if ( settings.url.includes("/nous-joindre/") ) {
-            // $( "#nous-joindre-formulaire-column h2" ).attr("style", "opacity:0");
-            $( "#nous-joindre-formulaire-column h2" ).fadeTo("fast", 0);
+            // $( "#formulaire-colonne h2" ).attr("style", "opacity:0");
+            $( "#formulaire-colonne h2" ).fadeTo("fast", 0);
             $( ".et_pb_contact_form_container" ).append( "<img src=" + thanks_image + ">" );
             setTimeout( function() {
-                $( "#nous-joindre-formulaire-column h2" ).text(thank_you_heading);
-                // $( "#nous-joindre-formulaire-column h2" ).attr("style", "opacity:1");
-                $( "#nous-joindre-formulaire-column h2" ).fadeTo("fast", 1);
+                $( "#formulaire-colonne h2" ).text(thank_you_heading);
+                // $( "#formulaire-colonne h2" ).attr("style", "opacity:1");
+                $( "#formulaire-colonne h2" ).fadeTo("fast", 1);
             }, 200);
         }
     });
@@ -141,8 +141,8 @@ jQuery( document ).ready( function( $ ) {
                 // there is no error, the form can be transmitted
                 if (! this_et_contact_error) {
 
-                    // $( "#nous-joindre-formulaire-column h2" ).attr("style", "opacity:0.2");
-                    $( "#nous-joindre-formulaire-column h2" ).fadeTo("fast", 0.2);
+                    // $( "#formulaire-colonne h2" ).attr("style", "opacity:0.2");
+                    $( "#formulaire-colonne h2" ).fadeTo("fast", 0.2);
 
                     setTimeout( function() {
 
