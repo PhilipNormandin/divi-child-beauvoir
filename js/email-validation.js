@@ -83,8 +83,8 @@ jQuery( document ).ready( function( $ ) {
 
     // add image which will appear with thank you message
     var thanks_image = myGlobalObject.templateUrl + "/images/bird-1320792_640.png";
-    var form_width = $("#formulaire-colonne").css("innerWidth");
-    var form_height = $("#formulaire-colonne").css("innerHeight");
+    var form_width = $("#formulaire-colonne").css("outerWidth");
+    var form_height = $("#formulaire-colonne").css("outerHeight");
 
     $( "#my-contact-form" ).ajaxSuccess( function() {
         $("#formulaire-colonne").width(form_width);
