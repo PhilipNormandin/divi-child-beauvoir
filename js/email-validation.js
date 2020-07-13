@@ -46,7 +46,7 @@ jQuery( document ).ready( function( $ ) {
 ========================================= */
 
 
-jQuery( window ).load( function( $ ) {
+jQuery( document ).ready( function( $ ) {
 
     // alert(myGlobalObject.templateUrl);
 
