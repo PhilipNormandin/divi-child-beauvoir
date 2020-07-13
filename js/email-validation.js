@@ -93,6 +93,10 @@ jQuery( document ).ready( function( $ ) {
             $( "#formulaire-colonne h2" ).fadeTo("fast", 1);
         }, 200);
 
+        $( "#my-contact-form" ).ajaxSuccess( function() {
+             alert('Ça marche !!!');
+        });
+
         // if ( settings.url.includes("/nous-joindre/") ) {
         //
         // }
