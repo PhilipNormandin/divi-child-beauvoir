@@ -86,11 +86,11 @@ jQuery( document ).ready( function( $ ) {
     // var form_width = document.getElementById("formulaire-colonne").offsetWidth;;
     // var form_height = document.getElementById("formulaire-colonne").offsetHeight;
 
-    var form_width = $("#formulaire-colonne").css("width");
+    // var form_width = $("#formulaire-colonne").css("width");
     // var form_height = $("#formulaire-colonne").css("height");
 
     $( "#my-contact-form" ).ajaxSuccess( function() {
-        $("#formulaire-colonne").css("width", form_width);
+        // $("#formulaire-colonne").css("width", form_width);
         // $("#formulaire-colonne").css("height", form_height);
         // $( "#formulaire-colonne h2" ).attr("style", "opacity:0");
         $( "#formulaire-colonne h2" ).fadeTo("fast", 0);
