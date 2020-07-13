@@ -84,16 +84,18 @@ jQuery( document ).ready( function( $ ) {
     // add image which will appear with thank you message
     var thanks_image = myGlobalObject.templateUrl + "/images/bird-1320792_640.png";
     $( document ).ajaxComplete( function( event, xhr, settings ) {
-        if ( settings.url.includes("/nous-joindre/") ) {
-            // $( "#formulaire-colonne h2" ).attr("style", "opacity:0");
-            $( "#formulaire-colonne h2" ).fadeTo("fast", 0);
-            $( ".et_pb_contact_form_container" ).append( "<img src=" + thanks_image + ">" );
-            setTimeout( function() {
-                $( "#formulaire-colonne h2" ).text(thank_you_heading);
-                // $( "#formulaire-colonne h2" ).attr("style", "opacity:1");
-                $( "#formulaire-colonne h2" ).fadeTo("fast", 1);
-            }, 200);
-        }
+        // $( "#formulaire-colonne h2" ).attr("style", "opacity:0");
+        $( "#formulaire-colonne h2" ).fadeTo("fast", 0);
+        $( ".et_pb_contact_form_container" ).append( "<img src=" + thanks_image + ">" );
+        setTimeout( function() {
+            $( "#formulaire-colonne h2" ).text(thank_you_heading);
+            // $( "#formulaire-colonne h2" ).attr("style", "opacity:1");
+            $( "#formulaire-colonne h2" ).fadeTo("fast", 1);
+        }, 200);
+
+        // if ( settings.url.includes("/nous-joindre/") ) {
+        //
+        // }
     });
 
     // add span elements which serve to print error messages
