@@ -85,10 +85,6 @@ jQuery( document ).ready( function( $ ) {
     var thanks_image = myGlobalObject.templateUrl + "/images/bird-1320792_640.png";
 
     $( "#my-contact-form" ).ajaxSuccess( function() {
-         alert('Ça marche !!!');
-    });
-
-    $( document ).ajaxComplete( function( event, xhr, settings ) {
         // $( "#formulaire-colonne h2" ).attr("style", "opacity:0");
         $( "#formulaire-colonne h2" ).fadeTo("fast", 0);
         $( ".et_pb_contact_form_container" ).append( "<img src=" + thanks_image + ">" );
@@ -97,6 +93,10 @@ jQuery( document ).ready( function( $ ) {
             // $( "#formulaire-colonne h2" ).attr("style", "opacity:1");
             $( "#formulaire-colonne h2" ).fadeTo("fast", 1);
         }, 200);
+    });
+
+    $( document ).ajaxComplete( function( event, xhr, settings ) {
+
 
 
         // if ( settings.url.includes("/nous-joindre/") ) {
