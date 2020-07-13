@@ -87,8 +87,8 @@ jQuery( document ).ready( function( $ ) {
     var form_height = document.getElementById("formulaire-colonne").offsetHeight;
 
     $( "#my-contact-form" ).ajaxSuccess( function() {
-        $("#formulaire-colonne").width("form_width");
-        $("#formulaire-colonne").height("form_height");
+        $("#formulaire-colonne").width(form_width);
+        $("#formulaire-colonne").height(form_height);
         // $( "#formulaire-colonne h2" ).attr("style", "opacity:0");
         $( "#formulaire-colonne h2" ).fadeTo("fast", 0);
         $( ".et_pb_contact_form_container" ).append( "<img src=" + thanks_image + ">" );
