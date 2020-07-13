@@ -83,12 +83,12 @@ jQuery( document ).ready( function( $ ) {
 
     // add image which will appear with thank you message
     var thanks_image = myGlobalObject.templateUrl + "/images/bird-1320792_640.png";
-    var form_width = document.getElementById("formulaire-colonne").offsetWidth;
-    var form_height = document.getElementById("formulaire-colonne").offsetHeight;
+    var form_width = $("#formulaire-colonne").innerWidth();
+    var form_height = $("#formulaire-colonne").innerHeight();
 
     $( "#my-contact-form" ).ajaxSuccess( function() {
-        $("#formulaire-colonne").outerWidth(form_width);
-        $("#formulaire-colonne").outerHeight(form_height);
+        $("#formulaire-colonne").innerWidth(form_width);
+        $("#formulaire-colonne").innerHeight(form_height);
         // $( "#formulaire-colonne h2" ).attr("style", "opacity:0");
         $( "#formulaire-colonne h2" ).fadeTo("fast", 0);
         $( ".et_pb_contact_form_container" ).append( "<img src=" + thanks_image + ">" );
