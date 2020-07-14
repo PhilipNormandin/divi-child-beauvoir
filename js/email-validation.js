@@ -2,7 +2,7 @@
 
 
 /* =========================================
-        Animation du formulaire
+         Interactivité des champs
 ========================================= */
 
 
@@ -42,13 +42,11 @@ jQuery( document ).ready( function( $ ) {
 
 
 /* =========================================
-         Validation du formulaire
+     Validation et Confirmation d'envoi
 ========================================= */
 
 
 jQuery( document ).ready( function( $ ) {
-
-    // alert(myGlobalObject.templateUrl);
 
     // get the client language
     var my_language = document.documentElement.lang;
@@ -83,15 +81,9 @@ jQuery( document ).ready( function( $ ) {
 
     // add image which will appear with thank you message
     var thanks_image = myGlobalObject.templateUrl + "/images/bird-1320792_640.png";
-    // var form_width = document.getElementById("formulaire-colonne").offsetWidth;;
-    // var form_height = document.getElementById("formulaire-colonne").offsetHeight;
-
-    // var form_width = $("#formulaire-colonne").css("width");
-    // var form_height = $("#formulaire-colonne").css("height");
 
     $( "#my-contact-form" ).ajaxSuccess( function() {
-        // $("#formulaire-colonne").css("width", form_width);
-        // $("#formulaire-colonne").css("height", form_height);
+
         // $( "#formulaire-colonne h2" ).attr("style", "opacity:0");
         $( "#formulaire-colonne h2" ).fadeTo("fast", 0);
         $( ".et_pb_contact_form_container" ).append( "<img src=" + thanks_image + ">" );
@@ -102,20 +94,10 @@ jQuery( document ).ready( function( $ ) {
         }, 200);
     });
 
-    $( document ).ajaxComplete( function( event, xhr, settings ) {
-
-
-
-        // if ( settings.url.includes("/nous-joindre/") ) {
-        //
-        // }
-    });
-
     // add span elements which serve to print error messages
     $( ".et_pb_contact_field_0" ).append( "<span id='name_field' class='my_custom_error_message'></span>" );
     $( ".et_pb_contact_field_1" ).append( "<span id='email_field' class='my_custom_error_message'></span>" );
     $( ".et_pb_contact_field_2" ).append( "<span id='message_field' class='my_custom_error_message'></span>" );
-
 
     // Email Validation
     // Use the regex defined in the HTML5 spec for input[type=email] validation
