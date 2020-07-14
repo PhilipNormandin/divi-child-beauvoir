@@ -74,7 +74,7 @@ function beauvoir_enqueue_scripts() {
         // wp_enqueue_style( 'beauvoir-nous-joindre', get_stylesheet_directory_uri() .'/css/beauvoir-nous-joindre.css' );
         // wp_enqueue_style( 'falkor-contact-forms', get_stylesheet_directory_uri() .'/css/my-falkor-contact-forms.css' );
         // wp_enqueue_script( 'falkor-script-contact-form', get_stylesheet_directory_uri() . '/js/falkor-script-contact-form.js', array( 'jquery' ), '', true );
-        wp_enqueue_script( 'email-validation', get_stylesheet_directory_uri() . '/js/email-validation.js', array( 'jquery' ), '', true );
+        wp_enqueue_script( 'email-validation', get_stylesheet_directory_uri() . '/js/contact-form.js', array( 'jquery' ), '', true );
     }
 
     // pages HISTOIRE DU SANCTUAIRE, CHAPELLE DE PIERRES, MARCHE ÉVANGÉLIQUE ...
