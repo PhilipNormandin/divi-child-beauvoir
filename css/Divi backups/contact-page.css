@@ -13,6 +13,12 @@
            Formulaire
 ============================= */
 
+#formulaire-colonne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  	overflow: hidden;
+}
 .contact_1_falkor .et_pb_column .et_pb_contact_form {
     margin-left: 0 !important;
 }
@@ -118,8 +124,8 @@ p.et_pb_contact_field .input.invalid_email + label.et_pb_contact_form_label {
 }
 /* ajuste message et image de remerciement */
 .et_pb_contact_form_container .et-pb-contact-message {
-    color: #444 !important;
-    padding-bottom: 50px;
+  	line-height: 1.6em;
+    padding-bottom: 40px;
 }
 .et_pb_contact_form_container.email_transmitted[style*="opacity: 1;"] {
     display: flex;
@@ -132,7 +138,8 @@ p.et_pb_contact_field .input.invalid_email + label.et_pb_contact_form_label {
     opacity: 0;
 }
 .et_pb_contact_form_container img {
-    width: 280px;
+    max-width: 480px;
+    width: 80%;
 }
 .et_pb_contact_form_container.email_transmitted[style*="opacity: 1;"] .et-pb-contact-message,
 .et_pb_contact_form_container.email_transmitted[style*="opacity: 1;"] img {
@@ -152,14 +159,15 @@ p.et_pb_contact_field .input.invalid_email + label.et_pb_contact_form_label {
         justify-content: space-between;
     }
     #adresse-colonne {
-        flex-basis: 400px;
+        flex-basis: 380px;
         flex-grow: 0;
         margin-right: 0 !important;
-        width: auto !important;
+        width: auto;
     }
     #formulaire-colonne {
         flex-grow: 1;
-        width: auto !important;
+        height: 460px;
+        width: min-content;
     }
 
 }
@@ -173,9 +181,8 @@ p.et_pb_contact_field .input.invalid_email + label.et_pb_contact_form_label {
     #adresse-colonne .contact-info {
         margin-bottom: 20px !important;
     }
-    #contact-social-media .et_social_icons_container {
-        display: flex;
-        justify-content: center;
+    #formulaire-colonne {
+        height: 450px;
     }
 
 }
@@ -191,6 +198,9 @@ p.et_pb_contact_field .input.invalid_email + label.et_pb_contact_form_label {
         display: flex;
         justify-content: center;
     }
+    .et-pb-contact-message {
+        text-align: center;
+    }
 
 }
 
@@ -198,15 +208,11 @@ p.et_pb_contact_field .input.invalid_email + label.et_pb_contact_form_label {
        Divers ajustements
 ============================= */
 
-#contact-social-media .et_social_icons_container > li {
-    margin-right: 4px !important;
-    margin-bottom: 0 !important;
-}
-#contact-social-media .et_social_icons_container > li:last-child {
-    margin-right: 0 !important;
-}
 .et_pb_contact .et_pb_contact_submit {
     margin-left: inherit !important;
+}
+.et_pb_contact p.et_pb_contact_field {
+    margin-bottom: 20px !important;
 }
 /* ajustements Divi Builder */
 body.et-fb #contact-social-media .mce-content-body > p:first-child {
