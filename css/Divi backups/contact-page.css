@@ -19,6 +19,9 @@
     justify-content: space-between;
   	overflow: hidden;
 }
+.et_pb_contact p.et_pb_contact_field textarea {
+    line-height: 1.4em !important;
+}
 .contact_1_falkor .et_pb_column .et_pb_contact_form {
     margin-left: 0 !important;
 }
