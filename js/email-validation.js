@@ -208,6 +208,7 @@ jQuery( document ).ready( function( $ ) {
 
                         // add class to et_pb_contact_form_container which serve to show success message
                         $( ".et_pb_contact_form_container" ).addClass('email_transmitted');
+                        $( "body" ).addClass('email_transmitted');
 
                     }, 1000);
 
