@@ -43,6 +43,12 @@ function beauvoir_enqueue_scripts() {
         wp_enqueue_style( 'beauvoir-evenements-liste', get_stylesheet_directory_uri() .'/css/beauvoir-evenements-liste.css' );
     }
 
+    // page NOUS JOINDRE
+    if ( is_page( array( 'nous-joindre', 'contact-us', 'contattaci', 'contact-rf' ) ) ) {
+        wp_enqueue_style( 'beauvoir-nous-joindre', get_stylesheet_directory_uri() .'/css/beauvoir-nous-joindre.css' );
+        wp_enqueue_style( 'falkor-contact-forms', get_stylesheet_directory_uri() .'/css/my-falkor-contact-forms.css' );
+        wp_enqueue_script( 'falkor-script-contact-form', get_stylesheet_directory_uri() . '/js/falkor-script-contact-form.js', array( 'jquery' ), '', true );
+
 }
 add_action( 'wp_enqueue_scripts', 'beauvoir_enqueue_scripts' );
 
