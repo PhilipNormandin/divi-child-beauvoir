@@ -13,7 +13,7 @@
            Formulaire
 ============================= */
 
-#formulaire-colonne {
+#contactform-column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -157,17 +157,17 @@ p.et_pb_contact_field .input.invalid_email + label.et_pb_contact_form_label {
 
 @media only screen and (min-width: 981px) {
 
-    #adresse-formulaire {
+    #contactinfo-contactform {
         display: flex;
         justify-content: space-between;
     }
-    #adresse-colonne {
+    #contactinfo-column {
         flex-basis: 380px;
         flex-grow: 0;
         margin-right: 0 !important;
         width: auto;
     }
-    #formulaire-colonne {
+    #contactform-column {
         flex-grow: 1;
         height: 460px;
         width: min-content;
@@ -181,10 +181,10 @@ p.et_pb_contact_field .input.invalid_email + label.et_pb_contact_form_label {
 
 @media only screen and (max-width: 980px) {
 
-    #adresse-colonne .contact-info {
+    #contactinfo-column .contact-info {
         margin-bottom: 20px !important;
     }
-    #formulaire-colonne {
+    #contactform-column {
         height: 450px;
     }
 

@@ -84,13 +84,13 @@ jQuery( document ).ready( function( $ ) {
 
     $( "#my-contact-form" ).ajaxSuccess( function() {
 
-        // $( "#formulaire-colonne h2" ).attr("style", "opacity:0");
-        $( "#formulaire-colonne h2" ).fadeTo("fast", 0);
+        // $( "#contactform-column h2" ).attr("style", "opacity:0");
+        $( "#contactform-column h2" ).fadeTo("fast", 0);
         $( ".et_pb_contact_form_container" ).append( "<img src=" + thanks_image + ">" );
         setTimeout( function() {
-            $( "#formulaire-colonne h2" ).text(thank_you_heading);
-            // $( "#formulaire-colonne h2" ).attr("style", "opacity:1");
-            $( "#formulaire-colonne h2" ).fadeTo("fast", 1);
+            $( "#contactform-column h2" ).text(thank_you_heading);
+            // $( "#contactform-column h2" ).attr("style", "opacity:1");
+            $( "#contactform-column h2" ).fadeTo("fast", 1);
         }, 200);
     });
 
@@ -183,8 +183,8 @@ jQuery( document ).ready( function( $ ) {
                 // there is no error, the form can be transmitted
                 if (! this_et_contact_error) {
 
-                    // $( "#formulaire-colonne h2" ).attr("style", "opacity:0.2");
-                    $( "#formulaire-colonne h2" ).fadeTo("fast", 0.2);
+                    // $( "#contactform-column h2" ).attr("style", "opacity:0.2");
+                    $( "#contactform-column h2" ).fadeTo("fast", 0.2);
 
                     setTimeout( function() {
 
