@@ -34,20 +34,20 @@ jQuery( document ).ready( function( $ ) {
 
 jQuery( document ).ready( function( $ ) {
 
-    $( "#newsletter-form" ).ajaxSuccess( function() {
-        $( "#newsletter-form .et_bloom_form_header h2" ).addClass("subscribed");
-    }
+    // $( "#newsletter-form" ).ajaxSuccess( function() {
+    //     $( "#newsletter-form .et_bloom_form_header h2" ).addClass("subscribed");
+    // }
 
-    // $( document ).ajaxComplete( function( event, xhr, settings ) {
-    //
-    //     // alert(xhr.responseText);
-    //
-    //
-    //
-    //     // if ( xhr.responseText == '{"success":"success"}' ) {
-    //     //     $( "#newsletter-form .et_bloom_form_header h2" ).addClass("subscribed");
-    //     // }
-    // });
+    $( document ).ajaxComplete( function( event, xhr, settings ) {
+
+        // alert(xhr.responseText);
+
+
+
+        if ( xhr.responseText == '{"success":"success"}' ) {
+            $( "#newsletter-form .et_bloom_form_header h2" ).addClass("subscribed");
+        }
+    });
 
     // $("#bulletin-column form").bind('ajax:complete', function() {
     //     $( "#bulletin-column .et_pb_promo_description > h2" ).addClass("subscribed");
