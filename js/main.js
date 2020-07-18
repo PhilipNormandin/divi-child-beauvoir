@@ -43,8 +43,8 @@ jQuery( document ).ready( function( $ ) {
         $( "#newsletter-form .et_bloom_form_header h2" ).addClass("subscribed");
     });
 
-    $( document ).ajaxComplete( function( event, request, settings ) {
-        if ( request.data.action == '{"bloom_subscribe"}' ) {
+    $( document ).ajaxComplete( function( event, xhr, settings ) {
+        if ( xhr.data.action == '{"bloom_subscribe"}' ) {
             alert("Ça marche!!!");
         }
     }
