@@ -43,10 +43,15 @@ jQuery( document ).ready( function( $ ) {
         $( "#newsletter-form .et_bloom_form_header h2" ).addClass("subscribed");
     });
 
-    $( document ).ajaxComplete( function( event, xhr, settings ) {
-        if ( xhr.data.action == "bloom_subscribe" ) {
-            alert("Ça marche!!!");
-        }
+    $( document ).ajaxComplete( function( event, xhr, options ) {
+        options.dataFilter = function( data,datatype ) {
+            if ( data.action == "bloom_subscribe" ) {
+                alert("Ça marche!!!");
+            }
+        };
+        // if ( xhr.data.action == "bloom_subscribe" ) {
+        //     alert("Ça marche!!!");
+        // }
     }
 
     // $( document ).ajaxComplete( function( event, xhr, settings ) {
