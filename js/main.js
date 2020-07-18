@@ -34,7 +34,7 @@ jQuery( document ).ready( function( $ ) {
 
 jQuery( document ).ready( function( $ ) {
 
-    $( "#newsletter-form .et_bloom_submit_subscription" ).ajaxSuccess( function() {
+    $( "#newsletter-form form" ).ajaxSuccess( function() {
         $( "#newsletter-form .et_bloom_form_header h2" ).addClass("subscribed");
     }
 
