@@ -44,7 +44,7 @@ jQuery( document ).ready( function( $ ) {
     });
 
     $( document ).ajaxComplete( function( event, xhr, settings ) {
-        if ( xhr.data.action == '{"bloom_subscribe"}' ) {
+        if ( xhr.data.action == "bloom_subscribe" ) {
             alert("Ça marche!!!");
         }
     }
