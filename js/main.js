@@ -44,7 +44,7 @@ jQuery( document ).ready( function( $ ) {
     });
 
     $( document ).done( function( data, textStatus, xhr ) {
-        if ( data.action == 'bloom_subscribe' ) {
+        if ( data.action == '{"bloom_subscribe"}' ) {
             alert("Ça marche!!!");
         }
     }
