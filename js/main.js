@@ -38,6 +38,10 @@ jQuery( document ).ready( function( $ ) {
     //     $( "#newsletter-form .et_bloom_form_header h2" ).addClass("subscribed");
     // }
 
+    $( "#newsletter-form .et_bloom_success_container" ).on('classChanged', function(){
+        alert("Ça marche!!!");
+    });
+
     $( document ).ajaxComplete( function( event, xhr, settings ) {
 
         // alert(xhr.responseText);
