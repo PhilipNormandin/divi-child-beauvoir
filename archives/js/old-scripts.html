@@ -1,0 +1,143 @@
+<!-- Collapsing Nested Menu Items | Code by Elegant Themes
+https://www.elegantthemes.com/blog/community/divi-mobile-menu-hack-collapsing-nested-sub-menu-items -->
+<!--
+<style type="text/css">
+#main-header .et_mobile_menu .menu-item-has-children > a {
+	background-color: transparent;
+	position: relative;
+}
+#main-header .et_mobile_menu .menu-item-has-children > a:after {
+	font-family: 'ETmodules';
+	text-align: center;
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+}
+#main-header .et_mobile_menu .menu-item-has-children > a:after {
+	font-size: 26px;
+	line-height: 1;
+	content: '\33';
+	top: 20px;
+	right: 0px;
+}
+#main-header .et_mobile_menu .menu-item-has-children.visible > a:after {
+	content: '\32';
+}
+#main-header .et_mobile_menu ul.sub-menu {
+	display: none !important;
+	visibility: hidden !important;
+	transition: all 1.5s ease-in-out;
+}
+#main-header .et_mobile_menu .visible > ul.sub-menu {
+	display: block !important;
+	visibility: visible !important;
+}
+</style>
+
+<script type="text/javascript">
+(function($) {
+
+    function setup_collapsible_submenus() {
+        var $menu = $('#mobile_menu'),
+            top_level_link = '#mobile_menu .menu-item-has-children > a';
+
+        $menu.find('a').each(function() {
+            $(this).off('click');
+
+            if ( $(this).is(top_level_link) ) {
+                $(this).attr('href', '#');
+            }
+
+            if ( ! $(this).siblings('.sub-menu').length ) {
+                $(this).on('click', function(event) {
+                    $(this).parents('.mobile_nav').trigger('click');
+                });
+            } else {
+                $(this).on('click', function(event) {
+                    event.preventDefault();
+                    $(this).parent().toggleClass('visible');
+                });
+            }
+        });
+    }
+
+    $(window).load(function() {
+        setTimeout(function() {
+            setup_collapsible_submenus();
+        }, 700);
+    });
+
+})(jQuery);
+</script>
+-->
+
+<!-- ajoute/retire class nécessaires pour afficher/cacher menu fixe -->
+<!--
+<script>
+jQuery(document).ready(function($){
+	if ($(window).width() > 1365) {
+   		$('#main-header').addClass('animated');
+		$( window ).scroll (function () {
+			if ($( window ).scrollTop() > 800) {
+				$('#main-header').addClass('et-fixed-header');
+				$('#main-header').addClass('fixed-header-in');
+				$('#main-header').removeClass('fixed-header-out');
+			} else if ($( window ).scrollTop() <= 800 && $( window ).scrollTop() > 200) {
+				$('#main-header').removeClass('fixed-header-in');
+				$('#main-header').addClass('fixed-header-out');
+			} else {
+				$('#main-header').removeClass('fixed-header-out');
+				$('#main-header').removeClass('et-fixed-header');
+			}
+		});
+	}
+});
+</script>
+ -->
+
+
+ <!-- https://www.elegantthemes.com/blog/divi-resources/creating-the-advanced-elegant-themes-dropdown-menu-with-divis-theme-builder?utm_source -->
+ <!--
+ <script>
+
+ jQuery(function($){
+ $(document).ready(function(){
+
+ $('#primary-menu-bv .et_mobile_menu .sub-menu').each(function(i){
+
+ i = i + 1;
+
+ var $dropdownMenuItems = $(this).find('#primary-menu-bv .et_mobile_menu .menu-item');
+ var $mainMenuItem = $('.first-level-' + i + '>a');
+ $dropdownMenuItems.wrapAll('<div class="dropdown-menu-container-' + i + '" />');
+ var $dropdownContainer = $('.dropdown-menu-container-' + i);
+ $dropdownContainer.insertAfter($mainMenuItem);
+
+ });
+ var $firstLevel = $('.et_mobile_menu .first-level > a');
+ var $allDropdowns = $('.et_mobile_menu [class*="dropdown-menu-container"]');
+ $firstLevel.off('click').click(function() {
+ $(this).attr('href', '#');
+ var $thisDropdown = $(this).siblings();
+ $thisDropdown.slideToggle();
+ $(this).toggleClass('icon-switch');
+ var dropdownSiblings = $allDropdowns.not($thisDropdown);
+ dropdownSiblings.slideUp();
+ var $thisFirstLevel = $(this);
+ var $firstLevelSiblings = $firstLevel.not($thisFirstLevel);
+ $firstLevelSiblings.removeClass('icon-switch');
+ });
+
+ $(".dropdown-menu-row").css('visibility','hidden');
+
+ $(window).load(function() {
+ $(".dropdown-menu-row").fadeIn(1000);
+ });
+
+ });
+ });
+ </script>
+ -->
