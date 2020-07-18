@@ -29,7 +29,7 @@ jQuery( document ).ready( function( $ ) {
 });
 
 
-/* Capture la confirmation d'abonnement à l'infolettre (pour ajuster le layout)
+/* Détecte confirmation d'abonnement à l'infolettre (ajustements css)
 ------------------------------------------------------------------------ */
 
 jQuery( document ).ready( function( $ ) {
@@ -44,7 +44,7 @@ jQuery( document ).ready( function( $ ) {
 });
 
 
-/* Active/Désactive animation lorsqu'on clique sur un blurb (sommaire dans la page Histoire du Sanctuaire)
+/* Active/Désactive animation - Sommaire (Histoire du Sanctuaire)
 https://www.elegantthemes.com/blog/divi-resources/
 how-to-toggle-divi-transform-properties-on-click-with-jquery
 ------------------------------------------------------------------------ */
