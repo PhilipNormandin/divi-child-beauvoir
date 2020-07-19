@@ -64,11 +64,6 @@ function beauvoir_enqueue_scripts() {
         wp_enqueue_style( 'beauvoir-events-schedule-layouts', get_stylesheet_directory_uri() .'/css/beauvoir-events-schedule-layouts.css' );
     }
 
-    // page NOTRE BLOGUE
-    if ( is_page( array( 'notre-blogue', 'our-blog', 'il-nostro-blog' ) ) ) {
-        wp_enqueue_style( 'beauvoir-blogue-et-archives', get_stylesheet_directory_uri() .'/css/beauvoir-blogue-et-archives.css' );
-    }
-
     // page NOUS JOINDRE
     if ( is_page( array( 'nous-joindre', 'contact-us', 'contattaci', 'contact-rf' ) ) ) {
         wp_enqueue_script( 'email-validation', get_stylesheet_directory_uri() . '/js/contact-form.js', array( 'jquery' ), '', true );

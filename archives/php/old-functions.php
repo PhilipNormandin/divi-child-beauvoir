@@ -48,6 +48,12 @@ function beauvoir_enqueue_scripts() {
         wp_enqueue_style( 'beauvoir-nous-joindre', get_stylesheet_directory_uri() .'/css/beauvoir-nous-joindre.css' );
         wp_enqueue_style( 'falkor-contact-forms', get_stylesheet_directory_uri() .'/css/my-falkor-contact-forms.css' );
         wp_enqueue_script( 'falkor-script-contact-form', get_stylesheet_directory_uri() . '/js/falkor-script-contact-form.js', array( 'jquery' ), '', true );
+    }
+
+    // page NOTRE BLOGUE
+    if ( is_page( array( 'notre-blogue', 'our-blog', 'il-nostro-blog' ) ) ) {
+        wp_enqueue_style( 'beauvoir-blogue-et-archives', get_stylesheet_directory_uri() .'/css/beauvoir-blogue-et-archives.css' );
+    }
 
 }
 add_action( 'wp_enqueue_scripts', 'beauvoir_enqueue_scripts' );

@@ -1,0 +1,40 @@
+/* =============================
+          Polices
+============================= */
+
+h2.tg-item-title,
+span.tg-item-date,
+span.tg-cats-holder span.tg-item-term {
+    font-family: 'Lato', sans-serif;
+}
+.tg-nav-sqr-thick .tg-nav-font,
+.tg-nav-sqr-thick input[type="text"].tg-search {
+    font-size: 16px !important;
+}
+
+/* =============================
+     Ajustement des filtres
+============================= */
+
+#grid-content .tg-grid-wrapper .tg-grid-area-top2 {
+    margin-bottom: 5vh !important;
+}
+#grid-content .tg-grid-wrapper .tg-grid-area-top2 .tg-filter {
+    margin-bottom: 0 !important;
+}
+
+/* =========================================
+        Ajustements Écran Mobile
+========================================= */
+
+@media only screen and (max-width: 767px) {
+
+    h2.tg-item-title {
+        font-size: 23px;
+    }
+    .tg-myriga-h2 .tg-item-date,
+    .tg-myriga-h2 .tg-cats-holder {
+        font-size: 17px !important;
+    }
+    
+}
