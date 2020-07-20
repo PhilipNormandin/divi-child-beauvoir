@@ -16,11 +16,11 @@ span.tg-cats-holder span.tg-item-term {
      Ajustement des filtres
 ============================= */
 
-#grid-content .tg-grid-wrapper .tg-grid-area-top2 {
+#grid-content .tg-grid-area-top2 {
     margin-bottom: 5vh !important;
 }
-#grid-content .tg-grid-wrapper .tg-grid-area-top2 .tg-filter {
-    margin-bottom: 0 !important;
+#grid-content .tg-filter:last-child {
+    margin-right: 0 !important;
 }
 
 /* =========================================
@@ -36,5 +36,8 @@ span.tg-cats-holder span.tg-item-term {
     .tg-myriga-h2 .tg-cats-holder {
         font-size: 17px !important;
     }
-    
+    .tg-myriga-h2 .tg-item-excerpt {
+        font-size: 15px !important;
+    }
+
 }
