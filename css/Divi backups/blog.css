@@ -16,9 +16,6 @@ span.tg-cats-holder span.tg-item-term {
      Ajustement des filtres
 ============================= */
 
-#grid-content .tg-grid-area-top2 {
-    margin-bottom: 5vh !important;
-}
 #grid-content .tg-filter:last-child {
     margin-right: 0 !important;
 }
