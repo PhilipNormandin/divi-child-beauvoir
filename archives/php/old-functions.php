@@ -55,6 +55,11 @@ function beauvoir_enqueue_scripts() {
         wp_enqueue_style( 'beauvoir-blogue-et-archives', get_stylesheet_directory_uri() .'/css/beauvoir-blogue-et-archives.css' );
     }
 
+    // page d'archive
+    if ( is_archive() ) {
+        wp_enqueue_style( 'beauvoir-blogue-et-archives', get_stylesheet_directory_uri() .'/css/beauvoir-blogue-et-archives.css' );
+    }
+
 }
 add_action( 'wp_enqueue_scripts', 'beauvoir_enqueue_scripts' );
 

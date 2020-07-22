@@ -112,12 +112,6 @@ function beauvoir_enqueue_scripts() {
         wp_enqueue_style( 'beauvoir-notre-equipe', get_stylesheet_directory_uri() .'/css/beauvoir-notre-equipe.css' );
     }
 
-    // page d'archive
-    if ( is_archive() ) {
-        wp_enqueue_style( 'beauvoir-blogue-et-archives', get_stylesheet_directory_uri() .'/css/beauvoir-blogue-et-archives.css' );
-    }
-
-
     // Animations
     wp_enqueue_style( 'mes-animations', get_stylesheet_directory_uri() .'/css/my-animate.css' );
     wp_enqueue_style( 'beauvoir-animations', get_stylesheet_directory_uri() .'/css/beauvoir-animations.css' );
