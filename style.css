@@ -37,6 +37,27 @@ rouge - calendrier : #bd322c
 }
 
 
+/* Animations
+------------------------------------------------ */
+
+/* Bouton back to top */
+.et_pb_scroll_top {
+  animation-duration: 0.7s !important;
+}
+.et_pb_scroll_top.et-visible {
+  -webkit-animation: fadeIn 1s 1 cubic-bezier(.77,0,.175,1);
+  -moz-animation: fadeIn 1s 1 cubic-bezier(.77,0,.175,1);
+  -o-animation: fadeIn 1s 1 cubic-bezier(.77,0,.175,1);
+  animation: fadeIn 1s 1 cubic-bezier(.77,0,.175,1);
+}
+.et_pb_scroll_top.et-hidden {
+  -webkit-animation: fadeOut 1s 1 cubic-bezier(.77,0,.175,1);
+  -moz-animation: fadeOut 1s 1 cubic-bezier(.77,0,.175,1);
+  -o-animation: fadeOut 1s 1 cubic-bezier(.77,0,.175,1);
+  animation: fadeOut 1s 1 cubic-bezier(.77,0,.175,1);
+}
+
+
 /* Divers ajustements
 ------------------------------------------------ */
 

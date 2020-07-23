@@ -113,8 +113,8 @@ function beauvoir_enqueue_scripts() {
     }
 
     // Animations
-    wp_enqueue_style( 'mes-animations', get_stylesheet_directory_uri() .'/css/my-animate.css' );
-    wp_enqueue_style( 'beauvoir-animations', get_stylesheet_directory_uri() .'/css/beauvoir-animations.css' );
+    // wp_enqueue_style( 'mes-animations', get_stylesheet_directory_uri() .'/css/my-animate.css' );
+    // wp_enqueue_style( 'beauvoir-animations', get_stylesheet_directory_uri() .'/css/beauvoir-animations.css' );
 
     // JavaScript pour l'ensemble du site
     wp_enqueue_script( 'main-script', get_stylesheet_directory_uri() . '/js/main.js', array( 'jquery' ), '', true );
