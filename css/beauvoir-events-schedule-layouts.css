@@ -343,6 +343,10 @@ body.et-fb .wcs-timetable--list .wcs-class__time {
 }
 .wcs-timetable--cover .wcs-class__time {
     font-size: 22px;
+    display: block;
+}
+.wcs-timetable--cover .wcs-class__time::first-letter {
+    text-transform: capitalize;
 }
 .wcs-timetable--cover .wcs-class__excerpt {
     font-size: 22px;
