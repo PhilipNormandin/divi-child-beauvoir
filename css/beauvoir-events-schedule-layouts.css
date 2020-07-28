@@ -370,10 +370,10 @@ body.et-fb .wcs-timetable--list .wcs-class__time {
     box-shadow: 0.00em 0.00em 0.8em rgba(0,0,0,0.4) !important;
 }
 .wcs-timetable--cover.wcs-timetable--cover-overlay-image .wcs-class__image::after {
-    opacity: 0 !important;
+    /* opacity: 0 !important; */
 }
 .wcs-timetable--cover.wcs-timetable--cover-overlay-image:hover .wcs-class__image::after {
-    opacity: 0.1 !important;
+    /* opacity: 0.1 !important; */
 }
 /* ajustements écrans tablette et desktop
 ---------------------------------------------- */
