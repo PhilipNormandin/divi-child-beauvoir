@@ -432,6 +432,7 @@ body.et-fb .wcs-timetable--cover .wcs-btn--action {
     font-family: 'Lato', sans-serif !important;
     color: #444;
     font-weight: 600;
+    padding-bottom: 22px;
 }
 .wcs-modal__content {
     color: #444 !important;
