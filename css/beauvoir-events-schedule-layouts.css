@@ -432,7 +432,7 @@ body.et-fb .wcs-timetable--cover .wcs-btn--action {
     font-family: 'Lato', sans-serif !important;
     color: #444;
     font-weight: 600;
-    padding-bottom: 22px;
+    padding-bottom: 20px;
 }
 .wcs-modal__content {
     color: #444 !important;
@@ -440,7 +440,7 @@ body.et-fb .wcs-timetable--cover .wcs-btn--action {
 }
 .wcs-modal__inner p {
     line-height: 1.5em;
-    padding-bottom: 22px;
+    padding-bottom: 10px;
 }
 .wcs-modal__inner-side h2 {
     font-size: 36px;
