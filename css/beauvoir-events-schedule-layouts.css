@@ -378,7 +378,8 @@ body.et-fb .wcs-timetable--list .wcs-class__time {
 /* ajustements écrans tablette et desktop
 ---------------------------------------------- */
 @media only screen and (min-width: 768px) {
-    .wcs-timetable--cover-position-bottom-center.wcs-timetable--cover-with-image .wcs-class__content {
+    .wcs-timetable--cover-position-bottom-center.wcs-timetable--cover-with-image .wcs-class__content,
+    body.et-fb .wcs-timetable--cover-position-bottom-center.wcs-timetable--cover-with-image .wcs-class__content {
         left: 50%;
         top: 95%;
         -webkit-transform: translate(-50%, -95%);
