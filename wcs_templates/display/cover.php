@@ -1,6 +1,6 @@
 <?php
 
-/** Template: Display -> Countdown */
+/** Template: Display -> Cover */
 
 ?>
 <div class="wcs-timetable wcs-timetable--cover wcs-class">
