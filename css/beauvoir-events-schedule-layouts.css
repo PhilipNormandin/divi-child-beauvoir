@@ -475,7 +475,7 @@ body.et-fb .wcs-timetable--cover .wcs-btn--action {
 @media only screen and (max-width: 767px) {
     .wcs-modal--large .wcs-modal__inner-side {
         background-color: rgba(0, 0, 0, 0.25);
-        padding: 40px 10px 20px;
+        padding: 40px 15px 20px;
     }
     .wcs-modal--large.wcs-modal--with-image .wcs-modal__side {
         padding-top: 0vh;
@@ -483,6 +483,9 @@ body.et-fb .wcs-timetable--cover .wcs-btn--action {
     .wcs-modal__inner-side h2 {
         font-size: 30px;
         letter-spacing: 1px;
+    }
+    .wcs-modal__content {
+        padding: 30px 15px;
     }
     .wcs-modal__content h3 {
         font-size: 22px;
@@ -493,8 +496,5 @@ body.et-fb .wcs-timetable--cover .wcs-btn--action {
     .wcs-modal--large .wcs-modal__meta li {
         font-size: 20px !important;
         margin-bottom: 5px !important;
-    }
-    .wcs-modal__content {
-        padding: 30px 10px;
     }
 }
