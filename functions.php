@@ -60,7 +60,7 @@ function beauvoir_enqueue_scripts() {
     wp_enqueue_style( 'lato', 'https://fonts.googleapis.com/css?family=Lato:400,700' );
 
     // Pages contenant des événements
-    if ( is_page( array( 'accueil', 'home', 'evenements', 'events' ) ) ) {
+    if ( is_page( array( 'accueil', 'home', 'evenements', 'events', 'event-test' ) ) ) {
         wp_enqueue_style( 'beauvoir-events-schedule-layouts', get_stylesheet_directory_uri() .'/css/beauvoir-events-schedule-layouts.css' );
     }
 
