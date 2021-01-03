@@ -56,17 +56,17 @@ figure {
 ========================================= */
 
 
-.et_pb_text {
+#main-content .et_pb_text {
     font-size: 19px;
     hyphens: auto;
     text-align: justify;
     text-justify: inter-character;
     margin-bottom: 24px !important;
 }
-.et_pb_text:last-child {
+#main-content .et_pb_text:last-child {
     margin-bottom: 0 !important;
 }
-.et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
+#main-content .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
     font-family: 'Lato', Arial, sans-serif;
     font-size: 1.033em;
     font-weight: 600;
@@ -204,7 +204,7 @@ figure {
 ========================================= */
 
 
-.et_pb_row {
+#main-content .et_pb_row {
     width: 95%;
 }
 
@@ -228,10 +228,10 @@ figure {
     /* Paragraphes
     ------------------ */
 
-    .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) {
+    #main-content .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) .et_pb_text:not(.caption) {
         letter-spacing: -0.03em;
     }
-    .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
+    #main-content .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
         /* letter-spacing: initial !important; */
     }
 
@@ -326,10 +326,10 @@ figure {
     /* Paragraphes
     ------------------ */
 
-    .et_pb_text {
+    #main-content .et_pb_text {
         font-size: 17px;
     }
-    .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
+    #main-content .et_pb_row:not(.intro):not(.grid-image-left):not(.grid-image-right) i {
         font-size: 1.066em;
         /* letter-spacing: -0.015em !important; */
     }
