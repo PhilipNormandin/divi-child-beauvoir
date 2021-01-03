@@ -17,7 +17,7 @@ section.person {
     max-width: 320px;
 }
 section.person img {
-    /* border-radius: 40px; */
+    border-radius: 140px;
 }
 section.person div.info-wrapper {
     text-align: center;
