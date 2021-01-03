@@ -18,6 +18,7 @@ section.person {
 }
 section.person img {
     border-radius: 40px;
+    box-shadow: 0px 12px 14px -6px rgba(0,0,0,0.3);
 }
 section.person div.info-wrapper {
     text-align: center;
