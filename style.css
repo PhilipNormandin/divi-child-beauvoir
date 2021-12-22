@@ -80,7 +80,7 @@ body.et-fb #loftloader-wrapper #loader,
 body.admin-bar.et-fb header.et-l--header,
 body.admin-bar.et-fb #my-footer,
 body.not-translated .polylang-switcher {
-    display: none !important;
+    /* display: none !important; */
 }
 body.admin-bar.et-fb footer {
     margin-top: 100px;
