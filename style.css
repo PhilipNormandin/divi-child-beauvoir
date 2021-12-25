@@ -5,7 +5,7 @@ Description:    Divi Child Theme
 Author:         Philippe Normandin
 Author URI:     http://www.philippenormandin.com
 Template:       Divi
-Version:        4.5.3
+Version:        4.5.1
 Text Domain:    divi-child-beauvoir
 Domain Path:    /lang
 GitHub Theme URI: https://github.com/PhilipNormandin/divi-child-beauvoir
@@ -25,15 +25,6 @@ bleu pale - bouton back to top : #0077ee & #1F5DEA (hover)
 gris foncé - titres : #444
 rouge - logo : #BF0404
 rouge - calendrier : #bd322c
-
-TESTING
-TESTING
-TESTING
-TESTING
-TESTING
-TESTING
-
-
 
 */
 
@@ -72,7 +63,7 @@ TESTING
 ------------------------------------------------ */
 
 #my-page-header h1 {
-    padding-bottom: 20px !important;
+    padding-bottom: 0 !important;
 }
 #my-page-content {
     min-height: 56vh;
