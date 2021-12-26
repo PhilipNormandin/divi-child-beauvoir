@@ -1,6 +1,5 @@
 <script>
-
-    function reorderMobileMenu() {
+    function ready() {
 
         var mobilePrimaryMenuContainer = document.querySelector('#my-primary-menu .et_pb_menu_inner_container');
         var tabletSecondaryMenu = document.createElement('ul');
@@ -34,10 +33,5 @@
 
     }
 
-    document.onreadystatechange = function () {
-        if (document.readyState == "complete") {
-            reorderMobileMenu();
-        }
-    }
-
+    document.addEventListener("DOMContentLoaded", ready);
 </script>
