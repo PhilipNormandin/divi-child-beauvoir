@@ -620,7 +620,7 @@ function beauvoir_pods_meta_title( $title ) {
 /* Enable / Disable stuff
 ------------------------------------------------------------------------*/
 
-
+/*
 function enable_gutenberg_please( $args, $post_type ) {
 
 	if ( 'class' === $post_type ) {
@@ -649,6 +649,6 @@ function show_tax_in_gutenberg_please() {
 
 }
 add_action( 'init', 'show_tax_in_gutenberg_please', 30 );
-
+*/
 
 ?>
