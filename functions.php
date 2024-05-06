@@ -7,6 +7,7 @@
 
 
 /* SVG Support file
+TEST
 ----------------------- */
 
 require_once( get_stylesheet_directory(). '/includes/class-svg-mime-type.php' );
